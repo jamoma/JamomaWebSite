@@ -164,7 +164,7 @@ a:hover {
 	opacity: 1;
 }
 
-#sidebar .section{
+#sidebar .section {
 	letter-spacing: 2px;
 	margin-bottom: 5px;
 	opacity: 1;
@@ -172,7 +172,7 @@ a:hover {
 	text-decoration: none;
 }
 
-#sidebar .subsection, #sidebar .acitem{
+#sidebar .subsection, #sidebar .acitem {
 	border-left: 1px solid #d5d5d5;
 	margin-left: 5px;
 	margin-bottom: 20px;
@@ -180,8 +180,6 @@ a:hover {
 	margin-top: 10px;
 	line-height: 17px;
 }
-
-/* My Comment */
 
 /* @end */
 
