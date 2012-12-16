@@ -98,10 +98,54 @@ a:hover {
 }
 
 #main h1 {
-	font-size: 40px;
-	font-weight: normal;
-	line-height: 40px;
-	letter-spacing: -1px;
+	font-size: 24px;
+	font-weight:100;
+	padding-top: 1em;
+	margin: 0;
+}
+
+
+#main h2 {
+	font-size: 18px;
+	font-weight:200;
+	color: #555;
+	border-bottom: 1px solid #bebebe;
+	
+
+}
+
+#main h3 {
+	color: #888;
+	border-bottom: 1px solid #333;
+	font-size: 18px;
+	font-weight:100;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#main h4{
+	color: #333;
+	font-size: 14px;
+	font-weight: 100;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dadada;
+	clear: left;
+}
+
+#main h5 {
+	
+}
+
+#main h6 {
+	font-size: 12px;
+	font-weight:100;
+	line-height: 1.2;
+	margin-right: 2%;
+	margin-left: 2%;
 }
 
 #main p {
@@ -111,7 +155,11 @@ a:hover {
 }
 
 #main ul, #main ol {
-	margin: 20px;
+	margin-top:0;
+	padding-top:0;
+	list-style-position: inside;
+	list-style-image: none;
+	padding-left: 10px;
 }
 
 #main li {
@@ -121,6 +169,31 @@ a:hover {
 
 #main ul li {
 	list-style-type: square;
+}
+
+
+
+#main table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2%;
+	font-size: 14px;
+}
+
+#main td {
+	padding-right: 10px;
+	font-size: 12px; 
+	vertical-align: top;
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: none;
+	padding-bottom: 10px;
+}
+
+#main tr {
+	left: 0;
+	padding-left: 1px;
+	margin-left: 1px;
 }
 
 /* @end */
