@@ -65,7 +65,29 @@ a:hover{
 
 /* @group Header */
 
+#header{
+	width: 142px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	position: fixed;
+	background: rgba(214,58,17,0) url(images/background.png) no-repeat;
+}
 
+.logo{
+	padding: 0;
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: 25px;
+	background-color: rgba(254,255,254,0);
+	background-image: none;
+	left: 25px;
+	color: rgba(254,255,254,0);
+}
 
 /* @end */
 
@@ -161,7 +183,24 @@ a:hover{
 
 /* @group Footer */
 
+#footer{
+	font-size: 10px;
+	color: #333;
+	width: 100%;
+	padding-bottom: 0px;
+	padding: 0px;
+	margin: 0px 0;
+}
 
+#footer p{
+	padding: 2px;
+	margin: 2px 0 0;
+	clear: both;
+	display: block;
+	position: relative;
+	top: 40px;
+	width: 100%;
+}
 
 /* @end */
 
