@@ -22,40 +22,37 @@
 		*/
 
 /* @end */
-	
-
 
 /* @group General styles */
 
 /* This section is for general and global styles */
 
 * {
-  margin: 0;
-  padding: 0;
-
-  font: small Verdana, "Lucida Grande", Lucida, sans-serif;
-  text-transform: none;
-  word-spacing: 2px;
-  color: #424242;
+	margin: 0;
+	padding: 0;
+	font: small Verdana, "Lucida Grande", Lucida, sans-serif;
+	text-transform: none;
+	word-spacing: 2px;
+	color: #424242;
 }
 
 body {
-  background: #fffeff;
+	background: #fffeff;
 }
 
 a {
-  color: #9E005D;
-  text-decoration: none;
+	color: #9E005D;
+	text-decoration: none;
 }
 
 a:link,
 a:visited {
+	
 }
 
-a:hover{
+a:hover {
 	text-decoration: underline;
 }
-
 
 /* @end */
 
@@ -65,7 +62,7 @@ a:hover{
 
 /* @group Header */
 
-#header{
+#header {
 	width: 142px;
 	height: 150px;
 	margin: 0;
@@ -77,7 +74,7 @@ a:hover{
 	background: rgba(214,58,17,0) url(images/background.png) no-repeat;
 }
 
-.logo{
+.logo {
 	padding: 0;
 	position: absolute;
 	width: 120px;
@@ -94,96 +91,103 @@ a:hover{
 /* @group Main content */
 
 #main {
-  position: absolute;
-
-  top: 40px;
-  left: 280px;
-
-  width: 500px;
+	position: absolute;
+	top: 40px;
+	left: 280px;
+	width: 500px;
 }
 
 #main h1 {
-  font-size: 40px;
-  font-weight: normal;
-
-  line-height: 40px;
-
-  letter-spacing: -1px;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 40px;
+	letter-spacing: -1px;
 }
 
 #main p {
-  margin: 20px 0;
-  
-  font-size: 15px;
-  
-  line-height: 20px;
+	margin: 20px 0;
+	font-size: 15px;
+	line-height: 20px;
 }
 
 #main ul, #main ol {
-  margin: 20px;
+	margin: 20px;
 }
 
 #main li {
-  font-size: 15px;
-  
-  line-height: 20px;
+	font-size: 15px;
+	line-height: 20px;
 }
 
 #main ul li {
-  list-style-type: square;
+	list-style-type: square;
 }
-
-
 
 /* @end */
 
 /* @group Side bar */
 
 #sidebar {
-  position: absolute;
-
-  top: 40px;
-  left: 20px;
-  width: 200px;
-
-  padding: 20px 20px 0 0;
-
-  border-right: 1px solid #ccc;
-
-  text-align: right;
+	position: fixed;
+	margin-top: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	top: 0;
+	left: 0;
+	width: 140px;
+	height: 100%;
+	padding-left: 0;
+	border-right: 1px solid #ccc;
+	text-align: right;
+	border-right: 1px solid #d5d5d5;
+	/*background: #f4f4f4 none no-repeat fixed 0 0;*/
 }
 
 #sidebar h2 {
-  text-transform: uppercase;
-
-  font-size: 13px;
-
-  color: #333;
-
-  letter-spacing: 1px;
-
-  line-height: 20px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #333;
+	letter-spacing: 1px;
+	line-height: 20px;
 }
 
 #sidebar ul {
-  list-style-type: none;
-
-  margin: 20px 0;
+	list-style-type: none;
+	margin-top: 180px;
+	padding-left: 20px;
 }
 
 #sidebar li {
-  font-size: 14px;
-
-  line-height: 20px;
+	list-style-image: none;
+	letter-spacing: 0px;
+	margin-bottom: 2px;
+	opacity: 1;
 }
 
+#sidebar .section{
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	opacity: 1;
+	color: #9E005D;
+	text-decoration: none;
+}
 
+#sidebar .subsection, #sidebar .acitem{
+	border-left: 1px solid #d5d5d5;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	margin-top: 10px;
+	line-height: 17px;
+}
+
+/* My Comment */
 
 /* @end */
 
 /* @group Footer */
 
-#footer{
+#footer {
 	font-size: 10px;
 	color: #333;
 	width: 100%;
@@ -192,7 +196,7 @@ a:hover{
 	margin: 0px 0;
 }
 
-#footer p{
+#footer p {
 	padding: 2px;
 	margin: 2px 0 0;
 	clear: both;
@@ -204,8 +208,6 @@ a:hover{
 
 /* @end */
 
-
-
 /* @end */
 
 /* @group Page specifics */
@@ -214,16 +216,10 @@ a:hover{
 
 /* @group Blog */
 
-
-
 /* @end */
 
 /* @group Tutorials */
 
-
-
 /* @end */
-
-
 
 /* @end */
