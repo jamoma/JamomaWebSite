@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <title>Jamoma - <%= @item[:title] %></title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
 
@@ -13,13 +13,12 @@
   
   <body>
 	  <header id="header">
-		  <a href="http://jamoma.org/"><img alt="Jamoma logo" src="images/jamoma-main.png" class="logo"/></a>
+		  <a href="/"><img alt="Jamoma logo" src="/images/jamoma-main.png" class="logo"/></a>
 	  </header>
 	  
 	  <section id="main">
 		  <%= yield %>
-		  
-	    	<footer id="footer">
+		  <footer id="footer">
 	  		<p>Jamoma and jamoma.org is copyright © 2003-2012 by the contributing authors. The software, documentation, and other distributed materials are licensed under the terms of the <a href="http://www.opensource.org/licenses/bsd-license.php">New BSD License</a>. More information is available from the Free Software Foundation. Contact: <a href="mailto:jamoma@jamoma.org">jamoma@jamoma.org</a></p>
 	  		<p>This site is generously hosted by <a href="http://www.bek.no">BEK</a>.</p>
 	  	</footer>
