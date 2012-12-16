@@ -1,3 +1,34 @@
+/* @group About
+ */
+
+/* This style sheet is made and edited in CSSEdit:
+	http://macrabbit.com/cssedit/
+	*/
+
+/* CSS Systems:
+	The stylesheet is based on the philosophy of CSS Systems 
+	- a top-down approach to architecting a site's CSS as proposed by Natalie Downe:
+	http://natbat.net/2008/Sep/28/css-systems/
+	http://www.slideshare.net/nataliedowne/css-systems-presentation
+	*/
+
+/* Rule blocks are loosely ordered by specificity:
+	- elements are grouped by the type of tag 
+		(for example Lists, links, blockquotes)
+	- classes are grouped by the affect 
+		(for example Notifications, pagination, content modules)
+	- ID’s	are grouped by the individual page component they affect 
+		(for example the Header, toolbar, nav)
+		*/
+
+/* @end */
+	
+
+
+/* @group General styles */
+
+/* This section is for general and global styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +52,22 @@ a:visited {
 a:hover {
   color: #f90;
 }
+
+
+
+/* @end */
+
+/* @group Page structure */
+
+/* This section is for tags relating to the various sections of the pages, organised by structure/semantics */
+
+/* @group Header */
+
+
+
+/* @end */
+
+/* @group Main content */
 
 #main {
   position: absolute;
@@ -62,6 +109,12 @@ a:hover {
   list-style-type: square;
 }
 
+
+
+/* @end */
+
+/* @group Side bar */
+
 #sidebar {
   position: absolute;
 
@@ -99,3 +152,37 @@ a:hover {
 
   line-height: 20px;
 }
+
+
+
+/* @end */
+
+/* @group Footer */
+
+
+
+/* @end */
+
+
+
+/* @end */
+
+/* @group Page specifics */
+
+/* This section is for css specific to a certain type of pages, e.g. blog or tutorials */
+
+/* @group Blog */
+
+
+
+/* @end */
+
+/* @group Tutorials */
+
+
+
+/* @end */
+
+
+
+/* @end */
