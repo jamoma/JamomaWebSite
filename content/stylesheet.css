@@ -33,26 +33,28 @@
   margin: 0;
   padding: 0;
 
-  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+  font: small Verdana, "Lucida Grande", Lucida, sans-serif;
+  text-transform: none;
+  word-spacing: 2px;
+  color: #424242;
 }
 
 body {
-  background: #fff;
+  background: #fffeff;
 }
 
 a {
+  color: #9E005D;
   text-decoration: none;
 }
 
 a:link,
 a:visited {
-  color: #f30;
 }
 
-a:hover {
-  color: #f90;
+a:hover{
+	text-decoration: underline;
 }
-
 
 
 /* @end */
