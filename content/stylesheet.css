@@ -195,6 +195,17 @@ a:hover {
 	margin-left: 1px;
 }
 
+#column {
+	column-count: 2;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	moz-column-gap: 20px;
+	column-gap: 20px;
+	-moz-column-rule: 1px solid #ddccb5;
+	-webkitcolumn-rule: 1px solid #ddccb5;
+	column-rule: 1px solid #ddccb5;
+}
+
 /* @end */
 
 /* @group Footer */
