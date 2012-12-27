@@ -3,3 +3,5 @@ Jamoma Web site
 This is currently in development, and not yet implemented at www.jamoma.org
 
 This new web site is developed using "nanoc":http://nanoc.stoneship.org/
+
+The blog section of the web site is based on code from nanoc_blog by vipulnsward: https://github.com/vipulnsward/nanoc-blog
