@@ -35,6 +35,8 @@ end
 
 compile '/' do
   filter :erb
+  filter :redcloth
+  filter :argh
   layout 'default'
   filter :typogruby
 end
@@ -136,7 +138,10 @@ compile '*' do
     # don’t filter binary items
   else
     filter :erb
+    filter :redcloth
+    filter :argh
     layout 'default'
+    filter :typogruby
   end
 end
 
