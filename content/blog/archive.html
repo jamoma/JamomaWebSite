@@ -1,0 +1,17 @@
+---
+title: Archive
+h1: What I have said
+---
+
+<div class="home">&lArr; <a href="/">Return home</a></div>
+ <br/>
+<h1><%= @item[:h1] %></h1>
+
+<ul class="arch">
+    <% sorted_articles.each do |article| %>
+    <li>
+        <span><%= article.attributes[:created_at] %> &middot; </span>
+        <a href="<%= relative_path_to(article) %>"><%= article.attributes[:title] %></a>
+    </li>
+    <% end %>
+</ul>
