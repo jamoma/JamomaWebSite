@@ -58,6 +58,11 @@ data_sources:
     # it will become “/about.html/” instead.
     allow_periods_in_identifiers: false
 
+title: "Jamoma"
+base_url: "http://localhost:3000"
+author_name: "Jamoma developers"
+author_uri: "http://www.jamoma.org"
+
 # Configuration for the “watch” command, which watches a site for changes and
 # recompiles if necessary.
 watcher:

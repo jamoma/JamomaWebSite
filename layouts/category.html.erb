@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= @item[:title] %></title>
+  <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="alternate icon" type="image/png" href="/sword.png"/>
+  <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+</head>
+<body>
+<div id="main">
+  <div id="home">&lArr; <a href="/">Return home</a></div>
+
+  <h1 class="top"><%= @item[:h1] %></h1>
+
+  <% if @item[:posts].length > 0 %>
+      <ul class="archive">
+        <% @item[:posts].each do |p| %>
+            <li>
+              <span><%= p.attributes[:created_at] %> &middot; </span>
+              <a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
+            </li>
+        <% end %>
+      </ul>
+
+  <% end %>
+
+  <!--p>Tags: <%= tags_for(@item) %></p-->
+</div>
+<div id="sidebar">
+
+  <a href = "/">
+    <img src = "/image/sword.svg" height = "95" width = "95" class = "avatar" alt="sward" title="hath a sward"></img>
+  </a>
+  <br/>
+  <h2><a href = "/">Vipul A M</a></h2>
+  <h3>
+    <a class = "twitter" href = "https://twitter.com/vipulnsward">twitter</a>
+    <a class = "github" href = "https://github.com/vipulnsward">github</a>
+  </h3>
+  <ul>
+    <li><a href="/blog/archive/">blog</a></li>
+    <li><a href="/about/">say hello</a></li>
+  </ul>
+
+</div>
+</body>
+</html>

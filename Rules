@@ -16,15 +16,29 @@
 compile '/stylesheet/' do
   # don’t filter or layout
 end
+#!/usr/bin/env ruby
 
-compile '*' do
-  if item.binary?
-    # don’t filter binary items
-  else
-    filter :redcloth
-    layout 'default'
-  end
+# A few helpful tips about the Rules file:
+#
+# * The order of rules is important: for each item, only the first
+# matching rule is applied.
+#
+# * Item identifiers start and end with a slash (e.g. “/about/”
+# for the file “content/about.html”). To select all children,
+# grandchildren, … of an item, use the pattern “/about/*/”;
+# “/about/*” will also select the parent, because “*” matches
+# zero or more characters.
+
+preprocess do
+  create_category_pages
 end
+
+compile '/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
 
 route '/stylesheet/' do
   '/style.css'
@@ -40,4 +54,103 @@ route '*' do
   end
 end
 
-layout '*', :erb
+route '/' do
+  '/index.html'
+end
+
+compile '/static/*/' do
+end
+
+route '/static/*/' do
+  item.identifier[7..-2]
+end
+
+compile '/about/' do
+  filter :erb
+  filter :redcloth
+  filter :argh
+  layout 'default'
+  filter :typogruby
+end
+
+route '/about/' do
+  '/about.html'
+end
+
+route '/blog/' do
+  '/blog.html'
+end
+
+compile '/blog/archive/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
+route '/blog/archive/' do
+  '/blog/archive.html'
+end
+
+compile 'blog/feed' do
+  filter :erb
+end
+
+route 'blog/feed' do
+  '/blog/feed.xml'
+end
+
+compile '/categories/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
+route '/categories/' do
+  '/categories.html'
+end
+
+compile '/categories/*/' do
+  filter :erb
+  layout 'category'
+  filter :typogruby
+end
+
+route '/categories/*/' do
+  item.identifier.chop + '/index.html'
+end
+
+compile %r{^/blog/201[0-9]{1}-[0-9]{2}-[0-9]{2}} do
+  filter :redcloth
+  filter :argh
+  layout 'post'
+  filter :typogruby
+end
+
+route %r{^/blog/201[0-9]{1}-[0-9]{2}-[0-9]{2}} do
+  blog_route(item)
+end
+
+
+compile '*' do
+  if item.binary?
+    # don’t filter binary items
+  else
+    filter :erb
+    layout 'default'
+  end
+end
+
+compile '/css/normalize/' do
+  filter :rainpress
+end
+
+compile '/css/*/' do
+  filter :sass, :syntax => :scss
+  filter :rainpress
+end
+
+route '/css/*/' do
+  item.identifier.chop + '.css'
+end
+
+layout '/*/', :erb
