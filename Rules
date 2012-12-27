@@ -46,6 +46,10 @@ route '/stylesheet/' do
   '/style.css'
 end
 
+route "/robots/" do
+  "/robots.txt"
+end
+
 route "/404/" do
   "/404.html"
 end

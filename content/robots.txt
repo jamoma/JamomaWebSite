@@ -1,0 +1,2 @@
+# robots.txt generated at www.invision-graphics.com/robotstxt_generator.html
+# We don't enforce any resrictions
