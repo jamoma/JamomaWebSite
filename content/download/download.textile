@@ -1,0 +1,43 @@
+h2. Download the Jamoma distributon
+
+Please report bugs on the <a href="https://lists.sourceforge.net/lists/listinfo/jamoma-users">Jamoma users-list</a>, <a href="http://n2.nabble.com/Jamoma-Users-f3066308.html">forum</a> or the <a href="http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1">bug-tracker</a>.
+
+h3. Cutting Edge
+
+* Mac: <a href="download/Jamoma-0.5.6-b7.dmg" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/Jamoma-0.5.6-b7.dmg']);">Version 0.5.6 beta 7</a> (24 April 2012). This version requires OSX 10.6 or newer, as well as Max 5.1.9 or newer.
+* Windows: <a href="download/Jamoma-0.5.6-b1.zip" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/Jamoma-0.5.6-b1.zip']);">Version 0.5.6 beta 1</a> (9 November 2011) and <a href="download/JamomaDependencies-0.5.6-b1.msi" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/JamomaDependencies-0.5.6-b1.msi']);">3rd party externals</a>.  This version requires Max 5.1.9 or newer. 
+
+
+h3. Stable
+
+* Mac: <a href="download/Jamoma-0.5.4-rc1.dmg" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/Jamoma-0.5.4-rc1.dmg']);">Version 0.5.4</a> (4 October 2011), requires Max 5.1.9.
+* Windows: <a href="download/Jamoma-0.5.3-b1.zip" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/Jamoma-0.5.3-b1.zip']);">Version 0.5.3 Beta 1</a> (11 June 2011), requires Max 5.1.8.
+				
+h3. Older versions
+
+* Mac: <a href="download/Jamoma-0.5.3-b3.dmg" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/Jamoma-0.5.3-b3.dmg']);">Version 0.5.3 beta 3</a> (18 July 2011), requires Max 5.1.8. This is the last version supporting Mac OS 10.5, intel-only.
+* Windows: <a href="download/Jamoma-0.5.0.zip" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/Jamoma-0.5.0.zip']);">Version 0.5.0</a> (11 November 2009), requires Max 5.1.4.
+
+h2. Download the Jamoma UserLib
+
+The UserLib is a collection of user-created modules, examples, and content for Jamoma.
+No guarantees are made regarding the suitability, safety, or quality of the content of the UserLib.	
+
+Want to become a UserLib contributor? <a href="https://raw.github.com/Nilson/JamomaUserLibSupport/master/README">read this</a>.				
+
+* Version 2011-12-19:
+** <a href="http://jamoma.org/download/JamomaUserLib-Max5-2011-12-19.dmg" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/JamomaUserLib-Max5-2011-12-19']);">for OSX and Max5</a>
+** <a href="http://jamoma.org/download/JamomaUserLib-Max6-2011-12-19.dmg" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/JamomaUserLib-Max6-2011-12-19']);">for OSX and Max6</a>
+** <a href="http://jamoma.org/download/JamomaUserLib-2011-12-19-Windows.zip" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/JamomaUserLib-2011-12-19-Windows']);">for Windows </a>
+* Version 2011-07-18: <a href="http://jamoma.org/download/JamomaUserLib-2011-07-18.dmg" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/JamomaUserLib-2011-07-18.dmg']);">for OSX and Max5 </a>
+* Version 2011-02-04: <a href="http://jamoma.org/download/JamomaUserLib-2011-02-04.dmg" onMouseUp="javascript: _gaq.push(['_trackPageview', 'download/JamomaUserLib-2011-02-04.dmg']);">for OSX and Max5</a>
+
+
+h2. How to support Jamoma?
+
+Jamoma can be downloaded free of charge. Financial support is appreciated via <a href="http://pledgie.com/campaigns/5615">pledgie donation</a>.  If you are a programmer and want to join the <a href="http://jamoma.org/team.html">Jamoma team</a>, contact us at <a href="mailto:jamoma@jamoma.org">jamoma@jamoma.org</a>.
+
+p=. <a href='http://www.pledgie.com/campaigns/5615'><img alt='Click here to lend your support to: Jamoma and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/5615.png?skin_name=chrome' border='0' /></a>						
+
+
+<script type="text/javascript" src="http://www.ohloh.net/p/27434/widgets/project_thin_badge.js"></script>					
