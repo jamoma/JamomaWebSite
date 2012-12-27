@@ -12,68 +12,11 @@
   </head>
   
   <body>
-	  <header id="header">
-		  <a href="/"><img alt="Jamoma logo" src="/images/jamoma-main.png" class="logo"/></a>
-	  </header>
-	  
+	  <%= render 'header' %>
 	  <section id="main">
 		  <%= yield %>
-		  <footer id="footer">
-	  		<p>Jamoma and jamoma.org is copyright © 2003-2012 by the contributing authors. The software, documentation, and other distributed materials are licensed under the terms of the <a href="http://www.opensource.org/licenses/bsd-license.php">New BSD License</a>. More information is available from the Free Software Foundation. Contact: <a href="mailto:jamoma@jamoma.org">jamoma@jamoma.org</a></p>
-	  		<p>This site is generously hosted by <a href="http://www.bek.no">BEK</a>.</p>
-	  	</footer>
-		
-	  </section> <!-- id="main" -->
-	  
-	  <section id="sidebar">
-		  <nav>
-  			<ul>
-  				<li>
-  					<a href="#" class="section">About</a>
-  					<ul class="acitem">
-  						<li><a class="subsectionItem" href="team.html">Team</a></li>
-  						<li><a class="subsectionItem" href="support.html">Support</a></li>
-  						<li><a class="subsectionItem" href="papers.html">Papers</a></li>
-  					</ul>
-  				</li>
-  				<br/>
-  				<li>
-  					<a href="#" class="section">Overview</a>
-  					<ul class="acitem">
-  						<li><a class="subsectionItem" href="modular.html">Modular</a></li>
-  						<!-- <li><a class="subsectionItem" href="framework.html">Jamoma framework</a></li> -->
-  					</ul>
-  				</li>
-  				<li>
-  					<a href="#" class="section">Community</a>
-  					<ul class="acitem">
-  						<li><a class="subsectionItem" href="http://groupware.bek.no/groups/jamoma/blog/">Blog</a><br/></li>
-  						<li><a class="subsectionItem" href="forum.html">Forum</a><br/></li>
-  						<li><a class="subsectionItem" href="https://twitter.com/jamomaproject/">Twitter</a><br/></li>
-  						<li><a class="subsectionItem" href="http://groupware.bek.no/groups/jamoma/wiki/c05cb/Documentation_and_tutorials.html">Tutorials</a><br/></li>
-  						<li><a class="subsectionItem" href="http://vimeo.com/channels/jamoma">Vimeo</a><br/></li>
-  					</ul>
-  				</li>
-  				<li>
-  					<a href="#" class="section">Development</a>
-  					<ul class="acitem">
-  						<li><a class="subsectionItem" href="http://redmine.jamoma.org/">Redmine</a><br/></li>
-  						<li><a class="subsectionItem" href="http://github.com/tap/Jamoma">Repository</a><br/></li>
-  						<li><a class="subsectionItem" href="http://redmine.jamoma.org/projects/jamoma/issues">Bug tracker</a><br/></li>
-  						<li><a class="subsectionItem" href="404.html">API Documentation</a><br/></li>
-  					</ul>
-  				</li>
-  				<br/>
-  				<li>
-  					<a href="#" class="section">Download</a>
-  					<ul class="acitem">
-  						<li><a class="subsectionItem" href="download.html">Installer</a><br/></li>
-  						<li><a class="subsectionItem" href="sources.html">Sources</a><br/></li>
-  					</ul>
-  				</li>
-  			</ul>	
-		  </nav>
-    </section>	<!-- id="sidebar" -->
-	
+		  <%= render 'footer' %>
+	  </section> <!-- id="main" -->  
+	  <%= render 'sidebar' %>
   </body>
 </html>
