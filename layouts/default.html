@@ -1,16 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-    <title>Jamoma - <%= @item[:title] %></title>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
-  </head>
-  
+  <%= render 'head' %>
   <body>
 	  <%= render 'header' %>
 	  <section id="main">
@@ -18,5 +8,6 @@
 		  <%= render 'footer' %>
 	  </section> <!-- id="main" -->  
 	  <%= render 'sidebar' %>
+	  <%= render 'google_analytics' %>
   </body>
 </html>
