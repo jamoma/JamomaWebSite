@@ -1,65 +1,53 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="utf-8">
-    <title><%= @item[:title] %></title>
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <title>Jamoma - <%= @item[:title] %></title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-    <link rel="alternate icon" type="image/png" href="/sword.png"/>
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
-</head>
-<body>
-<div id="main">
-    <div id="home">&lArr; <a href="/">Return home</a></div>
 
-    <h1 class="top"><%= @item[:h1] %></h1>
-    <% puts @item.inspect%>
-    <% if !@item[:posts].nil? %>
-    <ul class="archive">
-        <% @item[:posts].each do |p| %>
-        <li>
-            <span><%= p.attributes[:created_at] %> &middot; </span>
-            <a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
-        </li>
-        <% end %>
-    </ul>
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+  </head>
+  
+  <body>
+	  <%= render 'header' %>
+	  <section id="main">
+		  
+	      <h1 class="top"><%= @item[:h1] %></h1>
+	      <% puts @item.inspect%>
+	      <% if !@item[:posts].nil? %>
+	      <ul class="archive">
+	          <% @item[:posts].each do |p| %>
+	          <li>
+	              <span><%= p.attributes[:created_at] %> &middot; </span>
+	              <a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
+	          </li>
+	          <% end %>
+	      </ul>
 
-    <% end %>
-    <%= yield %>
+	      <% end %>
+	      <%= yield %>
 
 
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'vipulam'; // required: replace example with your forum shortname
+	      <div id="disqus_thread"></div>
+	      <script type="text/javascript">
+	          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	          var disqus_shortname = 'vipulam'; // required: replace example with your forum shortname
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-</div>
-<div id="sidebar">
-
-    <a href = "/">
-        <img src = "/image/sword.svg" height = "95" width = "95" class = "avatar" alt="sward" title="hath a sward"></img>
-    </a>
-    <br/>
-    <h2><a href = "/">Vipul A M</a></h2>
-    <h3>
-        <a class = "twitter" href = "https://twitter.com/vipulnsward">twitter</a>
-        <a class = "github" href = "https://github.com/vipulnsward">github</a>
-    </h3>
-    <ul>
-        <li><a href="/archive/">blog</a></li>
-        <li><a href="/about/">say hello</a></li>
-    </ul>
-
-</div>
-</body>
+	          /* * * DON'T EDIT BELOW THIS LINE * * */
+	          (function() {
+	              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	          })();
+	      </script>
+	      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		  
+		  <%= render 'footer' %>
+	  </section> <!-- id="main" -->  
+	  <%= render 'sidebar' %>
+  </body>
 </html>
