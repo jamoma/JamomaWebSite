@@ -1,0 +1,19 @@
+--- 
+title: Forums and mailing lists
+---
+
+
+<div id="nabble_content">
+				
+Discussions related to Jamoma can be accessed as forums and mailing lists. You can add post via the forum or by sending an email to the list. Please note that you have to be "subscribed":http://sourceforge.net/mail/?group_id=78108 to the mailing list(s) for posting.
+
+For direct inquiries regarding collaborations or workshops, contact us "off-list":mailto:jamoma@jamoma.org.
+
+*<a href="http://sourceforge.net/mail/?group_id=78108">Subscribe to Jamoma mailing lists here.</a>*
+			
+<div id="nabble_embed">
+	<a id="nabblelink" href="http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/">Jamoma Forums/Mailing lists</a>
+	<script src="http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/embed/f3076123"></script>
+</div> 	<!-- id=id="nabble_embed" -->
+
+</div>		<!-- nabble_content -->

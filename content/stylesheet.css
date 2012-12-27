@@ -290,6 +290,19 @@ a:hover {
 
 /* @end */
 
+
+
+/* @group Nabble */
+
+#main_nabble{
+	position: absolute;
+	top: 40px;
+	left: 280px;
+	width: 750px;
+}
+
+/* @end */
+
 /* @group Tutorials */
 
 /* @end */

@@ -115,6 +115,14 @@ compile '/categories/' do
   filter :typogruby
 end
 
+compile '/forum/' do
+  filter :redcloth
+  filter :argh
+  layout 'forum'
+  filter :typogruby
+  
+end
+
 route '/categories/' do
   '/categories.html'
 end
