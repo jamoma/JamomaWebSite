@@ -1,0 +1,24 @@
+h1. Core developers
+
+In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors to our code repository, Jamoma is what it is through:
+
+*(team) "Tim Place":http://74objects.com
+*(team) "Trond Lossius":http://www.trondlossius.no/bio
+*(team) "Nils Peters":http://nilspeters.info/research"
+*(team) Théo De La Hogue
+*(team) "Pascal Baltazar":http://www.zkrx.org/content/view/12/27/lang,en/
+*(team) "Alexander Refsum Jensenius":http://www.arj.no/bio/
+*(team) Dave Watson
+*(team) "Nathan Wolek":http://www.nathanwolek.com/about/
+*(team) Julien Rabin
+*(team) "Adrian Gierakowski":http://www.audibledata.com/About.html
+
+h2. Additional contributions
+
+Ideas, advices, code, tutorials, modules for the UserLib, etc. In alphabetical order:
+
+Matthew Aidekman, Charles Bascou, Jeremy Bernstein, Jamie Bullock, Nicolas Carriere, Mathieu Chamagne, Nicolas Deflache, Ricardo del Pozo, Henrik Frisk, Thomas Grill, Tristan Matthews, Kristian Nymoen, Marlon Schumacher, Diemo Schwarz, Thorolf Thuestad
+
+h2. How to join?
+
+If you are a programmer and want to join the Jamoma team, post to the <a href="http://jamoma.org/forum.html">development newslist</a> or contact us <a href="mailto:jamoma@jamoma.org">off-list</a>.
