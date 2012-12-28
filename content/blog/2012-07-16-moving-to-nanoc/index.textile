@@ -1,0 +1,22 @@
+---
+title: Moving to Nanoc
+kind: article
+h1: My brand new top heading
+created_at: 2012-07-16
+categories:
+- nanoc
+- demo
+
+---
+
+I have moved on to using nanoc.
+
+<a class="fancybox" href="nanoc-screenshot.png" data-fancybox-group="overview" title="Nanoc screenshot">
+<img alt="Illustrative screen capture" class="myCell" class="myCell" src="nanoc-screenshot_thumb.png"/>
+</a>
+
+p=. _Nano screenshot_
+
+Above is an example of how to add an image to a blog post.
+
+
