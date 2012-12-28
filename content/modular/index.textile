@@ -1,128 +1,125 @@
 
 notextile. <!-- 
-html comment 
+TODO: @Julien: I'm thinking that it might be better to use columns rather than divs for the following?
 -->
 
-h2. Jamoma Modular overview
+h1. Jamoma Modular overview
 
-p.(summaryTextBlock) Develop and use patches in the Max environment
+Develop and use patches in the Max environment
 
 
-<div class="myRow">
 
-h4. Patch-in-a-box
+<div id="column">
+
+<div class="keepInOneColumn">
+
+h2. Patch-in-a-box
 
 <a href="patchinabox.png" rel="lightbox[modular]" title="Jamoma overview">
 <img alt="illustrative screen capture" class="myCell" class="myCell" src="patchinabox_thumb.png"/>
 </a>
 
-p(myCell). Jamoma Modular comes with a growing number of modules dedicated to data, audio or video processing. Whether it is for an Art installation, audio production, VJing or theater, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting modules available right out of the box.
+Jamoma Modular comes with a growing number of modules dedicated to data, audio or video processing. Whether it is for an Art installation, audio production, VJing or theater, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting modules available right out of the box.
 
----
+</div> <!-- class="keepInOneColumn" -->
 
-<div class="myRow">
+<div class="keepInOneColumn">	
 
-h4. OSC communication
+h2. OSC communication
 
-p(myCell). Communication within and between Jamoma modules is based on the OSC protocol. As such, it also offers the possibility to communicate with other OSC-compatible softwares such as Pure Data, Reaktor, Isadora, EyesWeb or the Virage sequencer to name a few. Of course, controlling modules with Midi devices is also possible using the dedicated conversion and mapping modules.
-
-<div class="myCell">
+Communication within and between Jamoma modules is based on the OSC protocol. As such, it also offers the possibility to communicate with other OSC-compatible softwares such as Pure Data, Reaktor, Isadora, EyesWeb or the Virage sequencer to name a few. Of course, controlling modules with Midi devices is also possible using the dedicated conversion and mapping modules.
 	
 <a href="oscnetwork.png" rel="lightbox[modular]" title="OSC network">
 <img alt="illustrative screen capture" class="myCell" src="oscnetwork_thumb.png"/>
 </a>
 
-</div>
+</div> <!-- class="keepInOneColumn" -->
 
----
+</div> <!-- id="columns"-->
 
-</div>
 
-<div class="myRow">
 
-h4. Made for performance
+<div id="column">
+
+<div class="keepInOneColumn">
+
+h2. Made for performance
 
 <a href="cuescript.png" rel="lightbox[modular]" title="Performance ready">
 <img alt="illustrative screen capture" class="myCell" class="myCell" src="cuescript_thumb.png"/>
 </a>
 
-p(myCell). Together with its development, Jamoma Modular has been used in various arts projects and comes with modules optimized for performance.  Store each module’s parameter value or any message needed in presets file and recall cues using the different transition options.
+Together with its development, Jamoma Modular has been used in various arts projects and comes with modules optimized for performance.  Store each module’s parameter value or any message needed in presets file and recall cues using the different transition options.
 
----
+</div> <!-- class="keepInOneColumn" -->
 
-</div>
+<div class="keepInOneColumn">	
 
-<div class="myRow">
+h2. Extensive component library
 
-h4. Extensive component library
+p. Whether you want to develop your own module or interacting with pre-existing ones, Jamoma offers an extensive collection of components implemented as Max externals, abstractions or Javascript code. Be it processing audio signals, communication between various modules or mapping data, these will be useful to deal with simple repetitive tasks as well as more complex situations.
 
-p(myCell). Whether you want to develop your own module or interacting with pre-existing ones, Jamoma offers an extensive collection of components implemented as Max externals, abstractions or Javascript code. Be it processing audio signals, communication between various modules or mapping data, these will be useful to deal with simple repetitive tasks as well as more complex situations.
-
-<div class="myCell">
 <a href="components.png" rel="lightbox[modular]" title="Jamoma components">
 <img alt="illustrative screen capture" class="myCell" src="components_thumb.png"/>
 </a>
 
-</div>
+</div> <!-- class="keepInOneColumn" -->
 
----
+</div> <!-- id="columns"-->
 
-</div>
 
-<div class="myRow">
 
-h4. Standardized GUI
+
+<div id="column">
+
+<div class="keepInOneColumn">	
+
+h2. Standardized GUI
 
 <a href="custogui.png" rel="lightbox[modular]" title="Customizable GUI">
 <img alt="illustrative screen capture" class="myCell" class="myCell" src="custogui_thumb.png"/>
 </a>
 
-p(myCell). Built-in modules are based on a generic GUI implemented as an external. This brings to your modules a convenient and consistent access to presets management, help patch and reference page, as well as basic parameters control such as gain, bypass or preview by the mean of optional widgets. In addition, colour schemes are fully customizable using built-in objects’ colour themes or Max 5 standard object inspector.
+Built-in modules are based on a generic GUI implemented as an external. This brings to your modules a convenient and consistent access to presets management, help patch and reference page, as well as basic parameters control such as gain, bypass or preview by the mean of optional widgets. In addition, colour schemes are fully customizable using built-in objects’ colour themes or Max 5 standard object inspector.
 
----
+</div> <!-- class="keepInOneColumn" -->
 
-</div>
+<div class="keepInOneColumn">	
 
-<div class="myRow">
+h2. Time is precious
 
-h4. Time is precious
+We know you would spend your time making art and music rather than patching, debugging and documenting your work. Thus, Jamoma Modular offers a number of patch templates, shortcuts and tools to create and defines parameters that will come handy during the whole development process. Finally, Jamoma framework embed a full system to automagically create consistent module documentation.
 
-p(myCell). We know you would spend your time making art and music rather than patching, debugging and documenting your work. Thus, Jamoma Modular offers a number of patch templates, shortcuts and tools to create and defines parameters that will come handy during the whole development process. Finally, Jamoma framework embed a full system to automagically create consistent module documentation.
-
-<div class="myCell">
 <a href="timesavers.png" rel="lightbox[modular]" title="Time savers">
 <img alt="illustrative screen capture" class="myCell" src="timesavers_thumb.png"/>
 </a>
-</div>
-
----
-
-<div class="myCell">
 	
 <a href="clippings.png" rel="lightbox[modular]" title="Time savers">
 <img alt="illustrative screen capture" class="myCell" src="clippings_thumb.png"/>
 </a>
 
-</div>
+Using Max 5's file browser features, Jamoma include some clippings for all of its modules. Just drag a patch from the file browser or use Max contextual menu to drop a module and start patching.
 
-p(myCell). Using Max 5's file browser features, Jamoma include some clippings for all of its modules. Just drag a patch from the file browser or use Max contextual menu to drop a module and start patching.
+</div> <!-- class="keepInOneColumn" -->
+
+</div> <!-- id="columns"-->
 
 
----
 
-</div>
 
-<div class="myRow">
+<div id="column">
 
-h4. Still want more?
+<div class="keepInOneColumn">	
 
-p(myCell). Can not find the module you need ? Stuck in development of your patch? Do not forget that Jamoma is community-driven. A number of users are already sharing their creations ready to be downloaded, advices and experiences. Join them on the user forum and help us continuously improving Jamoma based on your experience.
+h2. Still want more?
 
-<div class="myCell">
+Can not find the module you need ? Stuck in development of your patch? Do not forget that Jamoma is community-driven. A number of users are already sharing their creations ready to be downloaded, advices and experiences. Join them on the user forum and help us continuously improving Jamoma based on your experience.
+
 <a href="more.png" rel="lightbox[modular]" title="User library">
 <img alt="illustrative screen capture" class="myCell" class="myCell" src="more_thumb.png"/>
 </a>
 
-</div>
+</div> <!-- class="keepInOneColumn" -->
 
----
+</div> <!-- id="columns"-->
+

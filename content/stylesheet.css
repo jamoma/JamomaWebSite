@@ -54,6 +54,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+.keepInOneColumn {
+	display: inline-block;
+    width: 100%;
+}
+
 /* @end */
 
 /* @group Page structure */
@@ -289,8 +294,6 @@ a:hover {
 /* @group Blog */
 
 /* @end */
-
-
 
 /* @group Nabble */
 
