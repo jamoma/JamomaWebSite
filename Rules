@@ -41,9 +41,14 @@ compile '/' do
   filter :typogruby
 end
 
+route '/css/stylesheet/' do
+  '/css/style.css'
+end
 
-route '/stylesheet/' do
-  '/style.css'
+compile '/css/*/' do
+    # compress CSS :)
+    #filter :less
+    filter :rainpress
 end
 
 route "/robots/" do
