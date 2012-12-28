@@ -2,39 +2,6 @@
 title: Home
 ---
 
-h1. A First Level Header
-
-h2. A Second Level Header
-
-Now is the time for all good men to come to the aid of their country. This is just a regular paragraph.
-
-The quick brown fox jumped over the lazy dog's back.
-
-h3. Header 3
-
-bq.  This is a blockquote.
-
-bq.  This is the second paragraph in the blockquote.
-
-h3. List examples
-
-h4. Unordered list
-
-* One
-* Two
-** Option A
-** Option B
-* Three
-
-h4. Ordered list
-
-# One
-# Two
-## Option A
-## Option B
-# Three
-
-
 <img src="images/jamoma-logo-01.png" class="title" alt="Jamoma logo"/>
 <p>Jamoma is a <a href="http://jamoma.org/forum.html">community</a>-based project, dedicated to the development of several toolsets and frameworks for artistic creation through digital means. 
 The project is led by an international <a href="http://jamoma.org/team.html">team</a> of academic researchers, artists and developers, and supported by several <a href="http://jamoma.org/support.html">institutions</a></p>
