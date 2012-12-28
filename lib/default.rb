@@ -24,3 +24,17 @@ def item_title(item)
   item.attributes[:title] || "(No title - man, that's odd)"
 end
 
+#############################################################
+#
+# Workaround preventing lots of hacking in order for 
+# route and compile to work properly with fancyBox filenames
+#
+#############################################################
+def copyFancyBox  
+  puts " "
+  puts "  Copying fancyBox "
+  puts " "
+  `cp -r "fancyBox" "output/fancyBox"`
+end
+
+copyFancyBox
