@@ -1,7 +1,30 @@
-Jamoma Web site
+h1. Jamoma Web site
 
-This is currently in development, and not yet implemented at www.jamoma.org
+This is still in development, and not yet implemented at www.jamoma.org
 
-This new web site is developed using "nanoc":http://nanoc.stoneship.org/
+
+h2. Credits:
+
+
+
+h3. nanoc:
+
+This web site is developed using "nanoc":http://nanoc.stoneship.org/
+
+
+
+h3. nanoc-blog:
 
 The blog section of the web site is based on code from nanoc_blog by vipulnsward: https://github.com/vipulnsward/nanoc-blog
+
+
+
+h3. fancyBox
+
+"fancyBox":http://fancyapps.com/fancybox/ is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize:
+
+fancyBox is licensed under a "Creative Commons Attribution-NonCommercial 3.0 license"http://creativecommons.org/licenses/by-nc/3.0/. 
+You are *free* to use fancyBox for your personal or non-profit website projects. 
+You can get the author's permission to use fancyBox for commercial websites by paying a "fee":http://fancyapps.com/store/.
+
+The latest source code is available on "GitHub":https://github.com/fancyapps/fancyBox.
