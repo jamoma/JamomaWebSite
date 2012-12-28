@@ -1,0 +1,40 @@
+h2. Active supports
+
+The development of Jamoma is currently supported by:
+
+* "BEK - Bergen Center for Electronic Arts":http://bek.no/
+* "Hordaland County Council - Kulturelt utviklingsprogram (KUP)":http://www.hordaland.no/Hordaland-fylkeskommune/Kultur/Kulturelt-utviklingsprogram-KUP/
+* "Arts Council Norway":http://kulturradet.no/
+* "Electrotap":http://electrotap.com/
+* "GMEA - Centre National de création Musicale d'Albi-Tarn":http://www.gmea.net/
+* "74 Objects":http://74objects.com/
+* "USA-Norway Fulbright Foundation":http://www.fulbright.no/
+
+h2. Past supports
+
+Jamoma has received support from:
+
+<div id="column">
+
+*(keepInOneColumn) "Bergen National Academy of the Arts":http://www.khib.no/ through the "The Norwegian Artistic Research Fellowship Programme":http://www.kunststipendiat.no/en
+*(keepInOneColumn) "interactive Media Art Laboratory Brussels (iMAL)":http://www.imal.org/
+*(keepInOneColumn) "Canada Council for the Arts (CCA)":http://www.canadacouncil.ca/
+*(keepInOneColumn) "Natural Sciences and Engineering Research Council of Canada (NSERC)":http://www.nserc-crsng.gc.ca/
+*(keepInOneColumn) "COST Action on Gesture Controlled Audio Systems (ConGAS)":http://www.cost287.org/
+*(keepInOneColumn) "Norwegian Academy of Music":http://www.nmh.no/
+*(keepInOneColumn) "COST Action on Sonic Interaction Design (SID)":http://www.cost-sid.org/
+*(keepInOneColumn) "Norwegian Research Council":http://www.forskningsradet.no/
+*(keepInOneColumn) "didascalie.net":http://didascalie.net/
+*(keepInOneColumn) "The Municipality of Bergen":http://www.bergen.kommune.no/
+*(keepInOneColumn) The French National Agency for Research through the "Virage":http://www.virage-platform.org/ research platform
+*(keepInOneColumn) "University of Oslo":http://www.fourms.uio.no/
+
+</div> <!-- id="columns"-->
+
+h2. How to support Jamoma?
+
+Want to support Jamoma development or host a workshop? Feel free to mailto:jamoma@jamoma.org">contact</a> the team for more information.  If you are a programmer and want to join the Jamoma team mailto:jamoma@jamoma.org">contact</a> us too.
+
+Financial support is also appreciated via "pledgie donation":http://pledgie.com/campaigns/5615
+
+p=. "!http://www.pledgie.com/campaigns/5615.png?skin_name=chrome(Make a donation at www.pledgie.com)!":http://www.pledgie.com/campaigns/5615
