@@ -2,8 +2,6 @@
 title: Forums and mailing lists
 ---
 
-h1. <%= @item[:title] %>
-
 <div id="nabble_content">
 				
 Discussions related to Jamoma can be accessed as forums and mailing lists. You can add post via the forum or by sending an email to the list. Please note that you have to be "subscribed":http://sourceforge.net/mail/?group_id=78108 to the mailing list(s) for posting.

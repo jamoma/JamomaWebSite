@@ -4,6 +4,7 @@
   <body>
 	  <%= render 'header' %>
 	  <section id="main">
+		  <h1 class="top"><%= @item[:title] %></h1>
 		  <%= yield %>
 		  <%= render 'footer' %>
 	  </section> <!-- id="main" -->  

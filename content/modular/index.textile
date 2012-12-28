@@ -2,8 +2,6 @@
 title: Jamoma Modular
 ---
 
-h1. <%= @item[:title] %>
-
 Develop and use patches in the Max environment
 
 <div id="column">

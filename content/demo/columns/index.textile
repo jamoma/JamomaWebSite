@@ -1,5 +1,5 @@
 --- 
-title: Lorem Ipsum
+title: Columns demo
 ---
 
 h1. Lorem Ipsum
