@@ -1,4 +1,8 @@
-h2. Download the Jamoma distributon
+--- 
+title: Download Jamoma
+---
+
+h1. <%= @item[:title] %>
 
 Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":http://n2.nabble.com/Jamoma-Users-f3066308.html or the "bug-tracker":http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1.
 

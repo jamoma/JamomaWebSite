@@ -1,13 +1,10 @@
+--- 
+title: Jamoma Modular
+---
 
-notextile. <!-- 
-TODO: @Julien: I'm thinking that it might be better to use columns rather than divs for the following?
--->
-
-h1. Jamoma Modular overview
+h1. <%= @item[:title] %>
 
 Develop and use patches in the Max environment
-
-
 
 <div id="column">
 

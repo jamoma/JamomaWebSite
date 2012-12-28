@@ -2,6 +2,7 @@
 title: Forums and mailing lists
 ---
 
+h1. <%= @item[:title] %>
 
 <div id="nabble_content">
 				

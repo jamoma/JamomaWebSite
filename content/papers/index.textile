@@ -1,4 +1,8 @@
-h1. Papers
+--- 
+title: Publications
+---
+
+h1. <%= @item[:title] %>
 
 * N. Peters, T. Lossius &amp; T. Place (2012): "An Automated Testing Suite for Computer Music Environments.":smc2012-testing.pdf Proceedings of the 9th Sound and Music Computing Conference, 12-14 July 2012, Copenhagen. Nominated for Best Paper Award. ["poster":SMC2012-JamomaTestingPoster.pdf] 
 * A. R. Jensenius (2012): "Motion-sound Interaction Using Sonification based on Motiongrams.":http://www.thinkmind.org/download.php?articleid=achi_2012_7_20_20060 In Proc. of the International Conference on Advances in Computer-Human Interactions (ACHI 2012), p. 170 - 175, Valencia. Winner of Best Paper Award. ["videos":http://www.arj.no/2012/02/03/sonification/] 

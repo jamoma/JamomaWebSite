@@ -1,3 +1,9 @@
+--- 
+title: Jamoma development is supported by
+---
+
+h1. <%= @item[:title] %>
+
 h2. Active supports
 
 The development of Jamoma is currently supported by:
