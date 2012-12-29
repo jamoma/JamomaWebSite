@@ -11,8 +11,8 @@ categories:
 
 I have moved on to using nanoc.
 
-<a class="fancybox" href="nanoc-screenshot.png" data-fancybox-group="overview" title="Nanoc screenshot">
-<img alt="Illustrative screen capture" class="myCell" class="myCell" src="nanoc-screenshot_thumb.png"/>
+<a class="fancybox" href="images/nanoc-screenshot.png" data-fancybox-group="overview" title="Nanoc screenshot">
+<img alt="Illustrative screen capture" class="myCell" class="myCell" src="images/nanoc-screenshot_thumb.png"/>
 </a>
 
 p=. _Nano screenshot_
