@@ -1,0 +1,27 @@
+---
+layout: post
+title:  Quiet is distinguished - by Ricardo del Pozo
+kind: article
+created_at: 2011-10-04
+location: Bergen, Norway
+author: Trond Lossius
+h1: Quiet is distinguished - by Ricardo del Pozo
+categories:
+- installation
+- sound art
+- ricardo del pozo
+---
+
+<a class="fancybox" href="images/ricardo.png" data-fancybox-group="fancybox" title="Quiet is distinguished">
+<img alt="Quiet is distinguished" class="myCell" class="myCell" src="images/ricardo.png"/>
+</a>
+
+The installation “Quit is distinguished” by Ricardo del Pozo will be shown at Union Scene in Drammen in Multisal 2 the 2nd and 3rd of October. Here's more "from his blog":http://www.rdpozo.no/rdp/news/Entries/2011/8/7_Quiet_is_distinguished.html:
+
+bq.  This is a completely new sound piece for 16 speakers, and I’m am really exited to be able to present it in such a nice space. I will post more on this subject soon.
+
+bq. About my work in general:
+
+bq. Through digital real-time processes and spatialization techniques Ricardo’s work aims at addressing the formal aspects of sound and video and their inherent properties as artistic value.
+
+bq. Ricardo’s work explores the borderline between installations and electro acoustic music, existing somewhere in between categories. The work deals with formal questions concerning the sound and the moving image and how the relationship between them creates virtual, physical and mental space. The installation you’ll see at the open studio is a work in progress where Ricardo has been exploring algorithmic composition for both video and audio, and in what way these generative systems, to an extent, dissolve the perception of time.
