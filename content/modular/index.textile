@@ -10,8 +10,8 @@ Develop and use patches in the Max environment
 
 h2. Patch-in-a-box
 
-<a class="fancybox" href="patchinabox.png" data-fancybox-group="overview" title="Jamoma overview">
-<img alt="illustrative screen capture" class="myCell" class="myCell" src="patchinabox_thumb.png"/>
+<a class="fancybox" href="images/patchinabox.png" data-fancybox-group="overview" title="Jamoma overview">
+<img alt="illustrative screen capture" class="myCell" class="myCell" src="images/patchinabox_thumb.png"/>
 </a>
 
 Jamoma Modular comes with a growing number of modules dedicated to data, audio or video processing. Whether it is for an Art installation, audio production, VJing or theater, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting modules available right out of the box.
@@ -24,8 +24,8 @@ h2. OSC communication
 
 Communication within and between Jamoma modules is based on the OSC protocol. As such, it also offers the possibility to communicate with other OSC-compatible softwares such as Pure Data, Reaktor, Isadora, EyesWeb or the Virage sequencer to name a few. Of course, controlling modules with Midi devices is also possible using the dedicated conversion and mapping modules.
 
-<a class="fancybox" href="oscnetwork.png" data-fancybox-group="osc_network" title="OSC network">
-<img alt="illustrative screen capture" class="myCell" src="oscnetwork_thumb.png"/>
+<a class="fancybox" href="images/oscnetwork.png" data-fancybox-group="osc_network" title="OSC network">
+<img alt="illustrative screen capture" class="myCell" src="images/oscnetwork_thumb.png"/>
 </a>
 
 </div> <!-- class="keepInOneColumn" -->
@@ -40,8 +40,8 @@ Communication within and between Jamoma modules is based on the OSC protocol. As
 
 h2. Made for performance
 
-<a class="fancybox" href="cuescript.png" data-fancybox-group="cuescript" title="Performance ready">
-<img alt="illustrative screen capture" class="myCell" class="myCell" src="cuescript_thumb.png"/>
+<a class="fancybox" href="images/cuescript.png" data-fancybox-group="cuescript" title="Performance ready">
+<img alt="illustrative screen capture" class="myCell" class="myCell" src="images/cuescript_thumb.png"/>
 </a>
 
 Together with its development, Jamoma Modular has been used in various arts projects and comes with modules optimized for performance.  Store each module’s parameter value or any message needed in presets file and recall cues using the different transition options.
@@ -54,8 +54,8 @@ h2. Extensive component library
 
 p. Whether you want to develop your own module or interacting with pre-existing ones, Jamoma offers an extensive collection of components implemented as Max externals, abstractions or Javascript code. Be it processing audio signals, communication between various modules or mapping data, these will be useful to deal with simple repetitive tasks as well as more complex situations.
 
-<a class="fancybox" href="components.png" data-fancybox-group="components" title="Jamoma components">
-<img alt="illustrative screen capture" class="myCell" src="components_thumb.png"/>
+<a class="fancybox" href="images/components.png" data-fancybox-group="components" title="Jamoma components">
+<img alt="illustrative screen capture" class="myCell" src="images/components_thumb.png"/>
 </a>
 
 </div> <!-- class="keepInOneColumn" -->
@@ -71,8 +71,8 @@ p. Whether you want to develop your own module or interacting with pre-existing 
 
 h2. Standardized GUI
 
-<a class="fancybox" href="custogui.png" data-fancybox-group="custom_gui" title="Customizable GUI">
-<img alt="illustrative screen capture" class="myCell" class="myCell" src="custogui_thumb.png"/>
+<a class="fancybox" href="images/custogui.png" data-fancybox-group="custom_gui" title="Customizable GUI">
+<img alt="illustrative screen capture" class="myCell" class="myCell" src="images/custogui_thumb.png"/>
 </a>
 
 Built-in modules are based on a generic GUI implemented as an external. This brings to your modules a convenient and consistent access to presets management, help patch and reference page, as well as basic parameters control such as gain, bypass or preview by the mean of optional widgets. In addition, colour schemes are fully customizable using built-in objects’ colour themes or Max 5 standard object inspector.
@@ -85,12 +85,12 @@ h2. Time is precious
 
 We know you would spend your time making art and music rather than patching, debugging and documenting your work. Thus, Jamoma Modular offers a number of patch templates, shortcuts and tools to create and defines parameters that will come handy during the whole development process. Finally, Jamoma framework embed a full system to automagically create consistent module documentation.
 
-<a class="fancybox" href="timesavers.png" data-fancybox-group="timesavers" title="Time savers">
-<img alt="illustrative screen capture" class="myCell" src="timesavers_thumb.png"/>
+<a class="fancybox" href="images/timesavers.png" data-fancybox-group="timesavers" title="Time savers">
+<img alt="illustrative screen capture" class="myCell" src="images/timesavers_thumb.png"/>
 </a>
 	
-<a class="fancybox" href="clippings.png" data-fancybox-group="timesavers" title="Time savers">
-<img alt="illustrative screen capture" class="myCell" src="clippings_thumb.png"/>
+<a class="fancybox" href="images/clippings.png" data-fancybox-group="timesavers" title="Time savers">
+<img alt="illustrative screen capture" class="myCell" src="images/clippings_thumb.png"/>
 </a>
 
 Using Max 5's file browser features, Jamoma include some clippings for all of its modules. Just drag a patch from the file browser or use Max contextual menu to drop a module and start patching.
@@ -110,8 +110,8 @@ h2. Still want more?
 
 Can not find the module you need? Stuck in development of your patch? Do not forget that Jamoma is community-driven. A number of users are already sharing their creations ready to be downloaded, advices and experiences. Join them on the user forum and help us continuously improving Jamoma based on your experience.
 
-<a class="fancybox" href="more.png" data-fancybox-group="more" title="Community">
-<img alt="illustrative screen capture" class="myCell" class="myCell" src="more_thumb.png"/>
+<a class="fancybox" href="images/more.png" data-fancybox-group="more" title="Community">
+<img alt="illustrative screen capture" class="myCell" class="myCell" src="images/more_thumb.png"/>
 </a>
 
 </div> <!-- class="keepInOneColumn" -->
