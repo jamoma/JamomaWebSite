@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Jamoma 0.5.4.rc1
+kind: article
+created_at: 2011-10-04
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma 0.5.4.rc1
+categories:
+- installer
+- download
+- osx lion
+---
+Jamoma 0.5.4.rc1 (release candidate 1) has been "uploaded":http://www.jamoma.org/download.html. All issues related to OSX Lion are believed to be solved. There are no major changes as compared to the previous beta 2 release. Still, please give it a try. If we do not hear any complaints, this will be released as 0.5.4 the coming weekend.
