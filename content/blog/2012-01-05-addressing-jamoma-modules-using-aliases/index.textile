@@ -1,0 +1,21 @@
+---
+layout: post
+title:  Addressing Jamoma modules using aliases
+kind: article
+created_at: 2012-01-05
+location: Bergen, Norway
+author: Trond Lossius
+h1: Addressing Jamoma modules using aliases
+categories:
+- alias
+- osc
+- cuescript
+---
+
+<iframe src="http://player.vimeo.com/video/34630592" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/34630592">Jamoma Module Aliases</a> from <a href="http://vimeo.com/lossius">Trond Lossius</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+While we're on the screencast bandwagon, here's a video illustrating a new feature that has been implemented this week: The ability to use aliases for the names of Jamoma modules. The main purpose of this is to be able to change the names of modules dynamically so that the names reflect the content that it is currently being used for. Hopefully this will help making cue scripts more content-related and easier to read, edit and work on.
+
+The feature will be available in the next installed, and I hope to get the time to make one the coming weekend.
+
+If you have questions or comments, please get in touch with us at one of the mailing lists.

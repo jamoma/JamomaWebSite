@@ -1,0 +1,25 @@
+---
+layout: post
+title:  TextMate bundle for cue scripts
+kind: article
+created_at: 2011-12-31
+location: Bergen, Norway
+author: Trond Lossius
+h1: TextMate bundle for cue scripts
+categories:
+- textmate
+- cuescript
+- osc
+---
+
+<a class="fancybox" href="images/textmate-bundle.png" data-fancybox-group="textmatebundle" title="TextMate bundle">
+<img alt="TextMate bundle" class="myCell" class="myCell" src="images/textmate-bundle-thumb.png"/>
+</a>
+
+Everyone that has been doing a bit of coding, know that syntax highlighting is extremely useful. In order to simplify manual editing of Jamoma cue scripts, I've just added a OSC "TextMate":http://macromates.com/ bundle to the "Documentation":https://github.com/jamoma/JamomaDoc repository.
+
+If you want to start using it straight away, you can download it here:
+
+Download the "OSC for Jamoma TextMate bundle":attachments/OSC-for-Jamoma.tmbundle.zip
+
+*UPDATE:* The TextMate bundle is now included with Jamoma installers for Mac
