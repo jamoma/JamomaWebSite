@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Jamoma 0.5.4.b2
 categories:
-- installater
+- installer
 - download
 - plugtastic
 ---
