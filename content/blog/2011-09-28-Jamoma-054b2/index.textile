@@ -1,0 +1,46 @@
+---
+layout: post
+title:  Jamoma 0.5.4.b2
+kind: article
+created_at: 2011-09-28
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma 0.5.4.b2
+categories:
+- installater
+- download
+- plugtastic
+---
+A "new installer":http://www.jamoma.org/download.html is now available, with the changes and fixes reported and done in the last few weeks. Most importantly the four Plugtastic externals have been renamed. If you installed the previous beta, please remove the previous versions of these files manually:
+
+* plug.in≈.mxo
+* plug.in≈.maxhelp
+* plug.out≈.mxo
+* plug.out≈.maxhelp
+* plug.parameter\#.mxo
+* plug.parameter\#.maxhelp
+* plug.loader (found in /Max 5/Cycling '74/max-startup)
+
+Also please check the Patches/extras and Patches/clippings folders for stray Plugtastic files.
+
+Plugtastic is not currently fully operationally, and attempts to build Audio Unit plugins will cause Max to crash. We are currently working on this.
+
+### Change log since 0.5.4b1:
+
+* Various bug fixes i dataspaces (used by jcom.parameter and
+jcom.dataspace):
+** No longer crash if requesting a non-existing dataspace
+** @dataspace time: Fixed convertions to and from sample rate
+* jcom.filter~ fixed
+* jcom.parameter: @ramp/function now defaults to linear
+* jcom.parameter: @ramp/function can now be set at instantiation
+* jmod.gl.edgeblend%: Fixed an issue in help patch
+* jcom.parameter.array: Fixed error messages in help patch
+* jcom.dbap: src_weights now work in 1D and 3D, not just 2D
+* Plugtastic:
+** plug.in≈ renamed to jcom.plug.in≈
+** plug.out≈ renamed to jcom.plug.out≈
+** plug.loader renamed to jcom.plug.loader
+** plug.parameter# renamed to jcom.plug.parameter#
+
+
