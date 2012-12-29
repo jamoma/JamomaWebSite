@@ -4,6 +4,7 @@ title:  New Usability Features
 kind: article
 created_at: 2012-04-27
 location: Albi, France
+author: Julien Rabin
 h1: New Usability Features
 categories:
 - usability

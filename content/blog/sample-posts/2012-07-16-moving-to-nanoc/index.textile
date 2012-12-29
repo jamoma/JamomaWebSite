@@ -2,6 +2,7 @@
 title: Moving to Nanoc
 kind: article
 h1: My brand new top heading
+author: Ghost Writer
 created_at: 2012-07-16
 categories:
 - nanoc
