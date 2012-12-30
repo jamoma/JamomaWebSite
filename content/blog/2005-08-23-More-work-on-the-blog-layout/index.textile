@@ -13,11 +13,6 @@ categories:
 ---
 
 
-I've continued work on the layout of the blog. It's a fairly labourous
-work, but I believe most of it is done now. It seems to be a problem
-about posting comments at the moment, but that's the only remaining
-issue that i know of. If you discover anything else, please mail me
-(lossius at bek dot no).
+I've continued work on the layout of the blog. It's a fairly labourous work, but I believe most of it is done now. It seems to be a problem about posting comments at the moment, but that's the only remaining issue that i know of. If you discover anything else, please mail me (lossius at bek dot no).
 
-The commenting problem seems to be related to plone issues that are
-still to be resolved, and the reason why the WIKI is down at the moment.
+The commenting problem seems to be related to plone issues that are still to be resolved, and the reason why the WIKI is down at the moment.
