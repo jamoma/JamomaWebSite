@@ -1,0 +1,38 @@
+---
+layout: post
+title: New Mac and PC release
+kind: article
+created_at: 2011-06-11
+location: Albi, France
+author: Julien Rabin
+h1: New Mac and PC release
+categories:
+- installer
+- download
+- mac
+- windows
+- jamoma 0.5.3
+---
+
+h2. New beta release : Jamoma Modular 0.5.3b is out
+
+A new version of Jamoma was just "uploaded":http://jamoma.org/download.html. Alongside with the usual optimizations, bug fixes and all, Jamoma 0.5.3 brings some great news: for the "first time in a year":/groups/jamoma/weblog/aa50a/Jamoma_Modular_051_RC8_available_to_download.html, Jamoma installer is available *both* on Mac and Windows!
+
+If you did "follow":http://twitter.com/#!/jamomadev the recent activities on the "forum":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/the-state-of-the-windows-build-project-tp6432453p6432453.html or on "Github":https://github.com/jamoma/Jamoma/commit/835c00061e4661bb022591ec5a62502b1403b487, something has certainly not escaped of your attention: a lot of work has been put on the Windows version of Jamoma. Indeed, Adrian Gierakowski "that we mentioned here before":/groups/jamoma/weblog/31d47/Spotlight_new_modules_coming_to_UserLib.html spent a lot of time working on the Windows versions of the frameworks and externals and fixing the installer amongst other things. Without a doubt, Adrian deserve a huge “thank you” for all the work he is doing!
+
+No matter how nice this news is, just like with any beta version, this one comes with a grain of salt. At the time of this writing, the following externals are known to crash under Windows:
+
+* jcom.fft≈ 
+* jcom.dac≈ 
+* jcom.adc≈ 
+* jcom.split≈ 
+* jcom.graphics
+
+Also worth noting that jcom.net.receive and jcom.net.send are currently broken.
+
+It may take some time before these problems are fixed but we hope it will not last for long. If you want to give a hand at working on this, you are more than welcome to join the Jamoma community of developers.
+
+In any case, be sure to head over the "download":http://jamoma.org/download page and grab the installer:
+
+* For Mac: Jamoma-0.5.3-b2.dmg 
+* For Windows: Jamoma-0.5.3-b1.zip
