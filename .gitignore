@@ -1,4 +1,6 @@
 tmp/*
 output/*
 crash.log
-blogTransfer
+blogTransfer/*/page.html
+blogTransfer/*/page.plist
+blogTransfer/*/revisions.db
