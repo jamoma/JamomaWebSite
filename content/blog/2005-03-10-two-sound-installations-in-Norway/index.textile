@@ -1,4 +1,17 @@
-*First posted 10/03/2005 01:15:48.*\
+---
+layout: post
+title: Two sound installations in Norway
+kind: article
+created_at: 2005-03-10
+location: Bergen, Norway
+author: Trond Lossius
+h1: Two sound installations in Norway
+categories:
+- art
+- announce
+- installation
+- Trond Lossius
+---
 
 Trond Lossius is currently exhibiting two sound installations, both
 depending on the Jamoma library.
@@ -11,7 +24,7 @@ Design](http://www.nationalmuseum.no/) in Oslo. The exhibition is open
 to October 16. The next two years the exhibition will be touring various
 galleries around Norway.
 
-Generator.x focuses on how artists and designers create their works
+*"Generator.x"* focuses on how artists and designers create their works
 through programming. The source code is an aesthetic tool, in the same
 way that canvas and brushes were the tools of previous generations of
 artists. The artists create generative processes where shapes and images

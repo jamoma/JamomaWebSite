@@ -1,7 +1,0 @@
-*First posted 07/04/2005 10:48:50.*\
-
-[Last
-month](http://www.electrotap.com/blog/entries/archive-062005.shtml) Tim
-Place described the development towards
-[Jade](http://www.electrotap.com/jade/) in a series of posts at his
-[blog](http://www.electrotap.com/blog/).

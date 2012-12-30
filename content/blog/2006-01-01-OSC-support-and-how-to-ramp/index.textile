@@ -1,4 +1,15 @@
-*First posted 01/01/2006 02:19:36.*\
+---
+layout: post
+title: Under consideration: OSC-support and how to ramp
+kind: article
+created_at: 2006-01-01
+location: Bergen, Norway
+author: Trond Lossius
+h1: Under consideration: OSC-support and how to ramp
+categories:
+- OSC
+- specifications
+---
 
 Some notes on current discussions for further enhancements/changes to
 the core of Jamoma:
