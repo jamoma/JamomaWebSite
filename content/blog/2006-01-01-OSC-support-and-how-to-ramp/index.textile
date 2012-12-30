@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Under consideration: OSC-support and how to ramp
+title: Under consideration - OSC-support and how to ramp
 kind: article
 created_at: 2006-01-01
 location: Bergen, Norway
 author: Trond Lossius
-h1: Under consideration: OSC-support and how to ramp
+h1: Under consideration - OSC-support and how to ramp
 categories:
 - OSC
 - specifications
