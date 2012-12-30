@@ -12,15 +12,10 @@ categories:
 - trond lossius
 ---
 
-Tracker is a dance and music performance touring schools in the region
-of Oppland, Norway. The project investigates various ways of interaction
-between three artists, using live technology to create new possibilities
-of communication, by means of amplifeing and treating the sound of
-recorders, and the [Diem Digital Dance](http://www.diem.dk) sensor
-system. Jamoma is used extensively for the live processing.
+Tracker is a dance and music performance touring schools in the region of Oppland, Norway. The project investigates various ways of interaction between three artists, using live technology to create new possibilities of communication, by means of amplifeing and treating the sound of recorders, and the "Diem Digital Dance":http://www.diem.dk sensor system. Jamoma is used extensively for the live processing.
 
--   Frode Thorsen - recorders
--   Gitte Bastiansen - dance with sensors
--   Trond Lossius - live sound processing
+* Frode Thorsen - recorders
+* Gitte Bastiansen - dance with sensors
+* Trond Lossius - live sound processing
 
 Tracker will be touring Oppland 6-16 February 2006.
