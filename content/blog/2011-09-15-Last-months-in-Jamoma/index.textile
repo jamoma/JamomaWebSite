@@ -1,0 +1,50 @@
+---
+layout: post
+title:  Last months in Jamoma
+kind: article
+created_at: 2011-09-15
+location: Berkeley, CA, USA
+author: Nils Peters
+h1: Last months in Jamoma
+categories:
+- last month
+- installer
+- plugtastic
+- osx 10.5
+- osx 10.7
+- cnmat
+- prezi presentation
+- didascalie
+- workshop
+- sound installation
+- contact
+---
+While we hope you all enjoy a nice summer, we thought you will also enjoy to hear some news from Jamoma.
+
+h2. New in Jamoma
+
+Since the last post from our “Last months” series dating back to "May":/groups/jamoma/weblog/5aa61/Last_months_in_Jamoma.html, a number of "things happened":http://redmine.jamoma.org/projects/jamoma/issues. The full list of changes being not the funniest thing to read, you can see these changes in action using the "installer of Jamoma 0.5.3":http://jamoma.org/download.html available both for Mac AND PC. Also worth noting that a new UserLib installer was released on the 18th of July. Please visit Jamoma "download":http://jamoma.org/download.html page to give it a go.
+
+Another great news you may have missed is a new development project within Jamoma: "Plugtastic":https://github.com/jamoma/Plugtastic. As previously mentioned, Plugtastic allows the "building of Jamoma-based patches as plugins":http://74objects.com/plugtastic/ (AudioUnit at the moment). Initially developed by "74objects":http://www.74objects.com/, Timothy Place not only decided to "open source Plugtastic but also offered to include it in the main Jamoma distribution":http://twitter.com/#!/74Objects/statuses/93781617906159616. We are thankful for all the efforts Tim put in Plugtastic and we hope it will get a fair interest and feedback from Jamoma community.
+
+h2. Platform support
+
+"As previously announced":/groups/jamoma/weblog/33c2f/Support_of_Mac_OS_105_roadmap.html, with the release of Mac OS 10.7, Jamoma has to drop support of OS 10.5. As a consequence, Jamoma 0.5.4 and above will require Snow Leopard. Of course, Jamoma 0.5.3 will remain available for users who have to work under 10.5.
+
+Concerning Mac OS 10.7 support, "Trond Lossius":http://www.trondlossius.no/ spent some time testing how good Jamoma works on Lion. However, "a few problems":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/Jamoma-and-Lion-tp6625547p6631432.html remain at the time of this writing. If you already did the update to Lion, please get in touch with us to share your experience or help.
+
+h2. Public appearance
+
+Nils Peters did a presentation of Jamoma during the "CNMAT Max/MSP summer school 2011":http://cnmat.berkeley.edu/event/2011/07/18/cnmat_summer_2011_workshops_max_msp_jitter. In case you could not make it to this summer course edition, you can have fun going thru the Prezi presentation Nils did.
+
+<iframe src="http://prezi.com/embed/9bp2dye-_sy6/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=no&amp;autohide_ctrls=0" width="500" height="400" frameBorder="0"></iframe>
+
+Thanks to "Renaud Rubiano":http://renaudrubiano.com/ 's invitation, Théo De La Hogue and Julien Rabin participated to a workshop hosted by "didascalie.net":http://didascalie.net/tiki-index.php, in Paris. While the workshop "was not strictly dedicated to Jamoma":http://didascalie.net/tiki-index.php?page=env-presentation, a nice amount of tests and practice was done on Jamoma 0.6 in particular regarding its features for interoperability. Without a doubt, you will soon read more information about this on Jamoma blog. Stay tuned.
+
+Regarding the artistic side, Jamoma has been used in "Trond Lossius’":http://www.trondlossius.no/ latest multi-channel installation at Hâkon’s hall in Bergen. If you planed to visit Bergen from now onto mid-september, be sure to go and hear this installation in such a beautiful "place":http://www.bymuseet.no/?vis=78&spr=en.
+
+h2. New contact address
+
+As a conclusion note, while it is usually advised to share your feedbacks or feature requests with the whole Jamoma community thru the "forum":http://jamoma.org/forum.html page, you can now also reach the "core Jamoma team":http://jamoma.org/team.html at "this address":mailto:jamoma@jamoma.org. This may be useful if you want to get in touch to offer hosting of a workshop, offer support or get involved in whatever way you would like to discuss off-list.
+
+We hope you all have a nice summer. Thanks for your support.
