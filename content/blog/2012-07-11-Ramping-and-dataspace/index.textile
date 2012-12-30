@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Ramping and dataspace
+kind: article
+created_at: 2012-07-11
+location: Bergen, Norway
+author: Trond Lossius
+h1: Ramping and dataspace
+categories:
+- dataspace
+- ramping
+---
+<iframe src="http://player.vimeo.com/video/45603843?title=0&amp;byline=0&amp;portrait=0" height="655" frameborder="0" width="425"></iframe>
+
+Here's a sneak peek of the newest feature added to Jamoma: Support for dataspaces.
+
+In this example the parameter myPos is used to keep track of the position of a point in space. The parameter is using the position dataspace. By default position will be described using Cartesian coordinates (xyz), but spherical coordinates (add) can be used as an alternative way of describing position.
+
+When ramping, the ramp will happen according to the dataspace used to describe the target value. This way the point can move along straight lines as well as e.g. perform spiraling movements.
