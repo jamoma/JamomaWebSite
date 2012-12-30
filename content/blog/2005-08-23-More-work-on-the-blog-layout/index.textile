@@ -1,4 +1,17 @@
-*First posted 08/23/2005 02:48:40.*\
+---
+layout: post
+title: More work on the blog layout
+kind: article
+created_at: 2005-08-23
+location: Bergen, Norway
+author: Trond Lossius
+h1: More work on the blog layout
+categories:
+- website
+- blog
+- layout
+---
+
 
 I've continued work on the layout of the blog. It's a fairly labourous
 work, but I believe most of it is done now. It seems to be a problem

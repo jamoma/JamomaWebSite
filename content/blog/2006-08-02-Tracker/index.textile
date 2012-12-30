@@ -1,4 +1,16 @@
-*First posted 02/08/2006 06:16:56.*\
+---
+layout: post
+title: Tracker
+kind: article
+created_at: 2006-08-02
+location: Bergen, Norway
+author: Trond Lossius
+h1: Tracker
+categories:
+- announce
+- performance
+- trond lossius
+---
 
 Tracker is a dance and music performance touring schools in the region
 of Oppland, Norway. The project investigates various ways of interaction

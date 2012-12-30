@@ -1,0 +1,15 @@
+---
+layout: post
+title: Before there was Jade
+kind: article
+created_at: 2005-04-07
+location: Bergen, Norway
+author: Trond Lossius
+h1: Before there was Jade
+categories:
+- Jade
+- archive
+---
+
+[Last
+month](http://www.electrotap.com/blog/entries/archive-062005.shtml) Tim Place described the development towards [Jade](http://www.electrotap.com/jade/) in a series of posts at his [blog](http://www.electrotap.com/blog/).
