@@ -1,0 +1,10 @@
+*This was first posted 05/04/2008 08:47:47.*\
+
+Jamoma 0.4.6. was uploaded a few days ago. It's mainly a maintenance
+release, and offers quite a few bug fixes as compared to 0.4.5.
+
+Change log can be found [here](http://www.jamoma.org/wiki/ChangeLog).
+
+This might be the last Max 4.6 compatible release of Jamoma. Current
+development is now geared towards providing Max 5 compatibility, and we
+hope to have that ready sometime the comming summer.

@@ -1,0 +1,10 @@
+Today saw some further work on the TextMate bundle discussed
+[yesterday](/groups/jamoma/weblog/21170/TextMate_bundle_for_cue_scripts.html),
+and an updated zip file will be posted shortly to the blog post from
+yesterday. I've also made a screen cast demoing it, and uploaded to
+Vimeo.
+
+While at it, I created a Jamoma channel at Vimeo. I hope this will be
+useful for instruction videos as well as videos showcasing Jamoma in
+use. Please subscribe to the channel, and if you have videos relating to
+Jamoma, feel free to add them to the channel.

@@ -1,0 +1,20 @@
+*First posted 01/30/2006 10:24:32.*\
+
+It has been decided that we are going to move Jamoma to use the
+OpenSoundControl protocol for communication between and within modules.
+At current the CVS is in a bit of a mess as it is undergoing the
+transition. If there are any "bleeding edgers" out there, here's a
+detailed techy note on what have been accomplished so far (this list
+will be updated as the transition progress):
+
+-   New external: **jmod.oscroute** - routing of OSC messages.
+-   Changes to **jmod.pass** external
+-   Updated the core of Jamoma (components, etc.)
+-   All audio modules except **jmod.output\~.mod** are now ported and
+    should work properly (including algorithms, presets, help files amd
+    html documentation):
+-   All control modules are updated. **jmod.cuelist** might undergo
+    further changes.
+-   All video modules are now ported.
+
+**Last update**: February 19.

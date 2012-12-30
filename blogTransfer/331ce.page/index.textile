@@ -1,0 +1,9 @@
+*First posted 10/03/2005 12:51:37.*\
+
+The first pre-release of Jamoma (version 0.2 alpha 1) is now available
+for download form the front page. We have not yet made proper
+installers, but installing should be as easy as downloading the Mac OSX
+or Windows XP version, unpack and copy or move to the Cycling'74 folder.
+
+In addition you might want to look for the jmod.meter\~ external and
+copy that to the max-startup folder.

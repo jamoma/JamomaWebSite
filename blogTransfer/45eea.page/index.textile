@@ -1,0 +1,5 @@
+*This was first posted on 10/05/2006 09:52:05.*
+
+The paper on Jamoma for the upcoming International Computer Music
+Conference is now available for download from the [front
+page](http://www.jamoma.org).

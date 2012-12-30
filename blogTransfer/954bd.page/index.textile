@@ -1,0 +1,7 @@
+*First posted on 04/14/2006 09:11:48.*
+
+We didn't have time to properly finish up a real release of version
+0.3.0 before Easter, so I've posted a second preview version of Jamoma
+0.3.0 to the website. This is from a snapshot taken earlier today. It
+should be quite good. We will be trying to wrap up the 0.3.0 release
+over the next couple of weeks.

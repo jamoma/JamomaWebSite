@@ -1,0 +1,41 @@
+*First posted on 08/10/2006 10:35:41 as a cross-post from the
+[Electrotap blog](http://electrotap.net/blog/show/306).*
+
+For the last few years I’ve been trying to figure out a good way to make
+modules in Max that have flexible channel configurations (mono, stereo,
+quad, etc.).
+
+At present in Jamoma (and Jade for that matter) a separate module is
+needed for every different channel configuration. [Trond found an
+interesting alternative](http://electrotap.net/blog/show/108) that I
+think he used in Jamoma’s ambisonic modules.
+
+As a tangent I had also been thinking about making our own externals for
+remote communication of signals in a module, similar to how Jamoma’s
+remote communication for control data works. Then we wouldn’t
+neccessarily be tethered to inlets and outlets, which could be handy.
+
+It dawned on me this morning that we could also use this signal
+sending/receiving mechanism to define the number of channels that are
+coming into or going out of a module. By using this new mechanism the
+module would know what channel configuration to use.
+
+Some random thoughts on making it work:
+
+-   When the object is instantiated, flag these special objects (we’ll
+    call them jmod.send\~ and jmod.receive\~ for lack of inventive names
+    at the moment) to be last in the dsp chain compilation.
+-   When the dsp chain is compiled there is a count of how many channels
+    are connected to the inputs and outputs of the module. This count is
+    then used to determine the channel configuration.
+-   Perhaps in poly each voice could represent a channel. The number of
+    channels would be set by the aforementioned mechanism. We would use
+    the voice number that was being executed in poly to route the audio
+    to the correct outlet of the poly\~ (in fact, maybe we could do this
+    part now?)
+-   voila, we have flexible channel configurations that are updated any
+    time the signal chain is compiled (i.e. the dsp is turned on).
+
+This seems do-able to me. I’ll need to keep brainstorming on it though,
+because I want to keep the inlets and outlets in the module too. So
+we’ll have to deal with that…

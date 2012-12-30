@@ -1,0 +1,16 @@
+*First posted 02/23/2006 10:31:21.*\
+
+[UBC Max/MSP/Jitter
+Toolbox](http://www.opusonemusic.net/muset/toolbox.html) is a modular
+approach to a standardised way of developing modules in MaxMSP somewhat
+resembling Jamoma. The UBC Max/MSP/Jitter Toolbox is a collection of
+modules for creating and processing audio in Max/MSP and manipulating
+video and 3D graphics using Jitter. Alexander has briefly tested it, and
+have posted [some
+screenshots](http://www.arj.no/blog/2006/02/22/ubc-maxmspjitter-toolbox/)
+from one of the example patches.
+
+UBC Max/MSP/Jitter Toolbox is developed by among others Keith Hamel, Bob
+Pritchard, and Nancy Nisbet.
+
+*By way of [Alexander's blog](http://www.arj.no/blog).*

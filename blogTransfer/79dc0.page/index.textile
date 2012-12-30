@@ -1,0 +1,20 @@
+For the past 10 years the Granular Toolkit (GTK) by Nathan Wolek has
+been a welcome and much used extension to MaxMSP for granular synthesis
+and processing.
+
+[Nathan Wolek has just
+announced](http://www.lowkeydigitalstudio.com/2011/08/gtk-10-years/)
+that in order to ensure future usability as well as enable the code to
+be used in other hosting environments, he has decided to end development
+of GTK in its current form, and instead reimplement as new granular
+components in Jamoma.
+
+The source code for the externals in GTK will be open-surced under a BSD
+license, so that it remains possible to maintain the current code for
+projects that depends on it.
+
+This is exciting news for Jamoma, and will certainly boost the feature
+sets and useability of the DSP and AudioGraph libraries. With the recent
+open-sourcing and inclusion of Plugtastic (wrapping AudioGraph externals
+into Audio Unit plugins), it also opens up exciting possibilities for
+creating granulation plugins in the future.

@@ -1,0 +1,10 @@
+*First posted 08/08/2005 03:47:33.*
+
+I'm currently in the middle of updating the web pages, so that
+jamoma.org can have its own look and feel instead of inheriting the look
+of the BEK intranet. There's a few issues about integration of Zope and
+Plone still to be sorted out, and consequencially the WIKI is not
+loading properly at the moment. I've posted a temporary copy of the wiki
+[here](http://www.bek.no/Members/lossius/jamoma_wiki). The copy will be
+removed once everything works properly again, hopefully by the end of
+the week

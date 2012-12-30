@@ -1,0 +1,7 @@
+[jamoma.org](http://www.jamoma.org) is now up and running. The site is
+hosted by [BEK](http://www.bek.no). The site might look dull at the
+moment, mainly inheriting standard intranet layout solutions from BEK,
+but hopefully this will gradually be customized. The BEK servers offers
+a number of powerful services for us to take advantage of, including
+plone, zope, various streaming possibilities, blog, wiki, CVS, mailing
+lists, tracker, chat, etc. etc.

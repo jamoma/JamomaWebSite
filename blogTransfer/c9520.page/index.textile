@@ -1,0 +1,34 @@
+*This was first posted on 11/22/2006 12:54:00.*
+
+Earlier today Tim posted a status report on the new core to the
+jamoma-devel list. It is duplicated here, with some updates according to
+commits done today:
+
+*I thought I should summarize where I currently believe us to be on the
+development of the new core for the 0.4 release...*
+
+*First off, I think that most of the stability problems and significant
+bugs have been ironed out, and the system largely works. All existing
+control modules should be working - if not, the patches should be able
+to be adjusted to make them work.*
+
+*There is one part of the system that needs a bit more work, which is
+the signal input/output.*
+
+-   *Jitter modules don't work at all with the new system*
+-   *I have no idea how the ambisonics modules work, so I haven't really
+    messed with them - and I don't know if they will or do work or not.*
+-   *I also need to clean-up the messages for managing poly\~ and fold
+    them into the jmod.in\~ object. This isn't relevant for all modules,
+    but for modules with flexible channel configurations (such as
+    jmod.degrade\~).*
+
+*Whether accurate or not, my perception is that the documentation for
+the new core is a disaster and needs some serious love.*
+
+*To chart a course forward... once things have been cleared up on the
+i/o part of the modules then we will need to develop a plan for
+transitioning the trunk to the new core. Changes from the old core and
+new will need to be merged and we can start working on the 0.4 release.
+The sooner changes get merged from the old core into the new core (which
+is mostly in modules), the easier this transition will be.*

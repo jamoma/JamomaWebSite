@@ -1,0 +1,69 @@
+\
+[http://www.jamoma.org](http://www.jamoma.org)\
+\
+Jamoma is an open-source project for structured programming in
+Max/MSP/Jitter and is based on modular principles that allow the reuse
+of functionalities where all parameters remain customizable to specific
+needs.\
+\
+Jamoma is in development for more than five years and is used for
+teaching and research within science and the arts.\
+It has provided a performance framework for composition, audio/visual
+performances, theater and installation gallery settings. It has been
+also used for scientific research in the fields of psychoacoustics,
+music perception and cognition, machine learning, human computer
+interaction and medical research.\
+\
+Features include:\
+\
+ \* A large and peer-reviewed library of modules for audio and video
+processing, sensor integration, cue management, mapping, and exchange of
+data with other environments\
+ \* Extensive set of abstractions that facilitates everyday work with
+Max/MSP\
+ \* Specialized sets of modules for work on spatial sound rendering,
+including support for advanced spatialization techniques such as
+Ambisonics, DBAP, ViMiC and VBAP\
+ \* Modules for work on music-related movement analysis\
+ \* Powerful underlying control structures that handle communication
+across modules\
+ \* Strong emphasis on interoperability\
+ \* Native OSC support, thus making it easy to access and manipulate
+processes via external devices and interfaces\
+ \* Comprehensive documentation through maxhelp-files, reference pages
+and growing number of online tutorials\
+ \* Easily extendable and customizable\
+\
+Jamoma 0.5 was a major effort. Originally it was envisioned as a port
+from Max 4 to Max 5. However, we did a lot more than that, and
+significantly overhauled major portions of Jamoma to dramatically
+improve performance, stability (particularly on Windows), and ease of
+use. We have also improved the documentation, distribution, and
+organization of Jamoma.\
+\
+Here are some resources to get started with Jamoma 0.5:\
+\
+
+-   [Free Download](http://www.jamoma.org/download.html)
+-   [Jamoma 0.5
+    Tutorials](http://groupware.bek.no/groups/jamoma/wiki/c05cb/Documentation_and_tutorials.html)
+-   [Mailing lists and forums for users and
+    developers](http://www.jamoma.org/forums.html)
+-   [Papers on research concerning or related to
+    Jamoma](http://www.jamoma.org/papers.html)
+
+\
+Requirements: Jamoma 0.5 requires Max 5.0.8, and works on OSX 10.4 or
+later (Intel) and Windows XP or later\
+\
+Jamoma is licensed as GNU LGPL. Jamoma is an open source development
+initiative with more than 20 contributors. \
+\
+Development is supported by BEK - Bergen Center for Electronic Arts,
+CIRMMT - the Centre for Interdisciplinary Research in Music Media and
+Technology, McGill University, Electrotap, GMEA - Centre National de
+Creation Musicale d'Albi-Tarn and University of Oslo with additional
+financial support, a wide range of institutions and funding bodies.
+Further details can be found [here](http://www.jamoma.org/support.html).
+\
+

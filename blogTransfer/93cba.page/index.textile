@@ -1,0 +1,5 @@
+*First posted 07/14/2005 09:51:30.*\
+
+Today I've added a tutorial on how to create a simple control module to
+the CVS. In the future I hope to be able to add similar tutorials for
+audio and video modules.

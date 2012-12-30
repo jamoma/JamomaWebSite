@@ -1,0 +1,11 @@
+Over the past spring we have done major under-the-hood changes to how
+C++ projects are maintained in Jamoma. Instead of needing to maintain
+parallel Xcode and Visual Studio projects (and potential additional
+projects for iOS and Linux), we now maintin project using simple YAML
+text files.\
+\
+Tim has just posted on how this is done [on his
+blog](http://74objects.com/2012/07/25/inventing-a-new-project-format/).
+It is well worth a read, for Jamoma developers as well as others that
+might be looking for a simple cross-platform project maintenance
+solution.

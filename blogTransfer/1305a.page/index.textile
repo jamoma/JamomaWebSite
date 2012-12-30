@@ -1,0 +1,12 @@
+Diemo Schwarz made a nice little tool that generates default templates
+for the touchOSC app for iPad automatically from the parameter
+declaration of a Jamoma module. How cool is that?\
+\
+\
+
+Read more and download for free at [Diemo's
+page](http://diemo.free.fr/wp/?p=326).
+
+\
+\
+![](/groups/jamoma/weblog/1305a/images/__thumbs__/001cc.png)

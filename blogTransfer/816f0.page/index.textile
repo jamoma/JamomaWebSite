@@ -1,0 +1,4 @@
+*First posted 10/19/2005 09:06:28.*
+
+Tim has uploaded version 0.2.1 today, and announced that Jamoma is
+available to the Max mailing list.

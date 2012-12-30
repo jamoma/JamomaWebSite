@@ -1,0 +1,50 @@
+Would there be a better way to inaugurate the first 2011 blog post than
+wishing you all a happy new year, full of exciting and successful
+creative projects ?
+
+We at Jamoma feel 2010 was a pretty nice year of work. As you certainly
+noticed by following our -quasi- monthly blog post series, a lot of
+stuff has been going on: some significant developments has been
+happening on the Jamoma Audio Graph and Jamoma Graph allowing [some
+great applications](http://74objects.com/plugtastic/), various
+maintenance [releases](http://jamoma.org/download.html) of Jamoma
+Modular fixing bugs and bringing improvements, version 0.6 getting
+closer, more [publications](http://jamoma.org/papers.html) and nice [art
+projects](http://redmine.jamoma.org/projects/jamoma/wiki/Art_Projects_Using_Jamoma).
+We are also very happy to see more people such as [Ricardo del
+Pozo](http://www.rdpozo.no/) or [Navid
+Navab](http://navidnavab.net/software.html) sharing their work on Jamoma
+modules in the UserLib. Feel welcome to join them!
+
+A new beta version of Jamoma Modular for Mac has just been released. Be
+sure to head to [Jamoma download page](http://jamoma.org/download.html)
+to give a look at the recent changes.
+
+### Next month in Jamoma
+
+Now enough looked back at 2010. What is next? Thanks to
+[BEK](http://bek.no) ’s invitation, the whole Jamoma team will meet in
+Bergen from January 31th to February 6th for a special developer
+workshop. This week promises to be a very productive one and we hope to
+see some nice stuff coming out of it. Workshops like this one are very
+important for Jamoma development and we are really thankful to have this
+support from BEK and other organizations involved such as
+[didascalie.net](http://didascalie.net/tiki-index.php), [fourMs
+lab](http://www.fourms.uio.no/) from [the University of
+Oslo](http://www.uio.no), [Galamus](http://www.galamus-software.fr/),
+[GMEA](http://www.gmea.net) and [Ircam](http://www.ircam.fr/).
+
+The first version of the schedule has been published on the
+[forum](http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/Schedule-for-upcoming-development-workshop-at-BEK-tp5912227p5912227.html).
+The workshop aims at fixing some issues, bringing some new features and
+enhance a number of areas. It will also be the occasion for the team to
+review our roadmap and discuss the future of Jamoma with attention.
+
+While the list of participants for this workshop is already booked,
+interested users are more than welcome to get in touch with developers
+through the [mailing lists/forum](http://jamoma.org/forum.html) to
+submit feature requests and issues you would like us to consider for
+future developments. More than anything, Jamoma is community driven and
+we certainly value users’ feedback.
+
+Thanks for your continuous support. Best,

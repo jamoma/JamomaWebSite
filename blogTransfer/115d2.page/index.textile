@@ -1,0 +1,9 @@
+Release candidate 10 for Jamoma 0.5 is now available for download. Mac
+only so far, but hopefully the Windows installer will be up later today.
+Enjoy, and please [report any
+problems](http://redmine.jamoma.org/projects/modular/issues) you might
+find.\
+\
+With this version we have officially dropped support for PPC processors
+on Mac.\
+

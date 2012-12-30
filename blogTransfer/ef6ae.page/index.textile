@@ -1,0 +1,84 @@
+*First posted 01/01/2006 02:19:36.*\
+
+Some notes on current discussions for further enhancements/changes to
+the core of Jamoma:
+
+[Alexander Refsum Jensenius](http://www.arj.no/wordpress/) has suggested
+that Jamoma syntax should align to [Open Sound
+Control](http://www.opensoundcontrol.org).
+
+Based on experience from various projects last autumn, I'm feeling a
+need for some modifications and additions to how Jamoma is dealing with
+ramps. One of the problem is that ramps takes a lot of CPU. In one
+project I had to do changes instantaneously instead of by ramping simply
+because the ramps caused audio processing to stutter. Also when working
+on video/Jitter, it might make more sense to implement ramps in other
+ways that by the Max **line** object.
+
+For this reason, if we can find a way of implementing it, I have
+suggested that we try to enhance the current implementation so that
+ramps can be performed in a number of different ways:
+
+-   same way as line, timesteps should be setable
+-   same way as bline. Number of bangs required should be setable
+-   same way as my custom object
+-   same way as qline
+-   in the audio domain, same way as line\~
+
+If this is done in one or more custom externals, I believe that it could
+also be worthwhile to expand what kind of curves could be used for the
+ramp the same way as for my external that is attached.
+
+One final addition that I forgot to mention at the jamoma-devel list is
+the ability to set what clock is used for ramping in Jamoma, so that it
+can be used for non-realtime rendering of video and audio.
+
+Supposing that we are to implement open-sound-control syntax, here is a
+rough proposition for osc namespace for parameter/message subspace named
+param\_name. I'm assuming that the parameter is of type msg\_int or
+msg\_float :
+
+*Change parameter:*
+
+/param\_name [ int, float ] - instant change\
+ /param\_name [ list of two ints or floats ] - ramping to new value\
+ /param\_name [ list of multiple of 2 ints and floats ] - sequence of
+ramps, same way as for line\~
+
+*Describing type:*
+
+/param\_name/type
+
+*Describing range:*
+
+/param\_name/clip/range - [ list of two numbers ]\
+ /param\_name/clip/mode - [ none, low, high, both ]
+
+*Filter repetitions*
+
+/param\_name/repetitions
+
+*Describing ramp:*
+
+/param\_name/ramp/mode - [ none, signal, clock, nsteps (same as bline),
+systime (my approach), qelem ]\
+ /param\_name/ramp/curve - [ const, linear, cosine, tanh, exp\_conv,
+exp\_div, gauss, log(?) ]\
+ /param\_name/ramp/loop - [ boolean ]
+
+/param\_name/ramp [ stop, pause, resume ] - for controlling ramp
+
+...we also need a syntax for setting timesteps for /mode clock and
+number of steps for /mode nsteps
+
+*Controlling the clock employed:*
+
+/param\_name/clock
+
+*Documentation:*
+
+/param\_name/doc [ string ]
+
+Nothing is decided yet. It is all under consideration *if* and *how* to
+do it. I'll try to add comments to this post as decisions are being made
+and new suggestions are raised.

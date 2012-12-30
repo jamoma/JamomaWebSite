@@ -1,0 +1,33 @@
+Workshop on Sound Spatialization in Jamoma\
+Wednesday, March 31 at the Matrabox\
+Concordia University, Montreal, CA\
+1515 Sainte-Catherine West, room EV 4.502\
+\
+12.15-1pm Nils Peters presents an overview of spatialization techniques\
+\
+1-1.30pm Navid Navab discusses control issues and tools\
+2-6.30pm workshop on jamoma and spatialization\
+\
+Jamoma is an open-source project for structured programming in MaxMSP
+and Jitter (www.jamoma.org).\
+\
+Jamoma is based on modular principles that allow the reuse of
+functionalities whereas all parameters remain customizable to specific \
+artistic needs. We will install jamoma during the workshop. Participants
+are asked to bring a laptop (mac preferred) with Max5 installed and
+audio files for experimentation. If interested, please send a short
+description of what you wish to do in the workshop to
+nils.peters@mcgill.ca‎\
+\
+This event is free and open to the public.\
+\
+Nils Peters is a PhD researcher in Music Technology at McGill University
+and affiliated with the Centre for Interdisciplinary Research in Music
+Media and Technology (CIRMMT). His work focuses on the perception and
+modeling of spatialized sounds. He studied electrical and audio
+engineering at the University for Music and Dramatic Arts and the
+University of Technology (Graz, Austria). He has worked as an audio
+engineer in the fields of recording, post-production and live
+electronics in Germany, Austria, France, and Canada. He is also a
+co-developer of Jamoma, an open-source project that facilitates
+art-based research and performance practice within Cycling'74's MaxMSP.

@@ -1,0 +1,6 @@
+*This was first posted on 02/26/2007 08:33:40.*
+
+In case anyone is interested/motivated, here is the terminal command to
+backup the Jamoma SVN repository:
+
+    rsync -av jamoma.svn.sourceforge.net::svn/jamoma/* jamoma-backup

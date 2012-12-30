@@ -1,0 +1,20 @@
+*First posted 04/06/2006 11:53:36.*\
+
+Last week was the Teatrix workshop host by BEK, as previously mentioned
+in this blog. We used Jamoma extensively in the workshop, and also took
+the opporunity to a bit of development on it. The following pictures are
+from the theater at USF Verftet where the Teatrix workshop was held.
+
+![](/groups/jamoma/weblog/be8bb/images/3951e.jpg "teatrix_img_1.jpg")
+
+Alexander and I working on the new mappings and network modules
+
+![](/groups/jamoma/weblog/be8bb/images/369f5.jpg "teatrix_img_2.jpg")
+
+Trond trying to make sense of all the things that Alexander and I broke
+as we worked on the Jamoma core.
+
+![](images/df4d6.jpg "teatrix_img_3.jpg")
+
+Time for relaxing, discussion, and eating in the cafe overlooking the
+harbor at USF Verftet.

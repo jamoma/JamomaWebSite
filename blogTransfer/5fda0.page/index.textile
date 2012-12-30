@@ -1,0 +1,6 @@
+*First posted 08/14/2005 09:47:57.*\
+
+I'm in the middle of changing the default layout for CoreBlog into a
+customized layout for the Jamoma project. The good thing about it is
+that I'm learning a bit about [Zope](http://www.zope.org) that might
+come in handy later on.

@@ -1,0 +1,17 @@
+In case you missed [Timothy Place’s message on Jamoma Development
+forum](http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/The-march-of-progress-according-to-Apple-dropping-support-for-OS-0-5-td6328282.html),
+we would like to draw your attention on a particular point concerning
+the support of Mac OS 10.5.
+
+Apple has released Xcode 4. The fact is that you cannot build Jamoma
+with Xcode 4 unless we drop OS 10.5 support. For now, we are continuing
+to build with Xcode 3, but… Apple has announced that OS 10.7 will ship
+in the next couple of months. Xcode 4 will be needed to compile on 10.7.
+
+Given these conditions, the least painful path forward for collective
+Jamoma development is to drop support for OS 10.5 at the time when OS
+10.7 is released. That is this summer, and coincides with our plans for
+Jamoma 0.6. If that sounds like a major problem for you, please let us
+hear about it. Or to quote the [oblique
+strategies](http://www.rtqe.net/ObliqueStrategies/OSintro.html) : “Voice
+your suspicions”.

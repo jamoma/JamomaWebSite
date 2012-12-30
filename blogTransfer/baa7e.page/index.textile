@@ -1,0 +1,20 @@
+*This was first posted on 11/30/2006 02:19:57.*[\
+](http://001.vade.info/)
+
+[v001](http://001.vade.info/) is a simple and elegant framework for
+building modular and reusable performance patches for Max/MSP and Jitter
+
+The lowest level patches in v.001 are abstractions that encapsulate the
+funcionality of the most commonly used Max/MSP GUI objects (and
+associated helper patches), rolled into one easy to use bpatcher system
+of GUI widgets that can be redefined dynamically in performance.
+
+The higher level v.001 framework integrates the functionality to even
+higher levels of abstraction and ease of use.
+
+v.001 also includes an open source realtime video performance
+application written in Max/MSP and Jitter, using the v.001 framework and
+modules (not yet available).
+
+v001 is developed by Anton Marini (aka Vade) and licensed as Creative
+Common Attribution-NonCommercial-ShareAlike 2.5.
