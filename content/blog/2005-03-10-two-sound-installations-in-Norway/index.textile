@@ -15,10 +15,10 @@ categories:
 
 Trond Lossius is currently exhibiting two sound installations, both depending on the Jamoma library.
 
-*"Music as process, music as weather"* is a sound installation exhibited as part of the [Generator.x](http://www.generatorx.no) exhibition, curated by Marius Watz. The exhibition opened September 23 2005 at [The National Museum of Art, Architecture and Design](http://www.nationalmuseum.no/) in Oslo. The exhibition is open to October 16. The next two years the exhibition will be touring various galleries around Norway.
+*"Music as process, music as weather"* is a sound installation exhibited as part of the "Generator.x":http://www.generatorx.no) exhibition, curated by Marius Watz. The exhibition opened September 23 2005 at "The National Museum of Art, Architecture and Design":http://www.nationalmuseum.no/ in Oslo. The exhibition is open to October 16. The next two years the exhibition will be touring various galleries around Norway.
 
 *"Generator.x"* focuses on how artists and designers create their works through programming. The source code is an aesthetic tool, in the same way that canvas and brushes were the tools of previous generations of artists. The artists create generative processes where shapes and images are produced by systems described in code.
 
-For his work Trond Lossius use data from climate models developed at [Bjerknes Center for Climate Research](http://www.bjerknes.uib.no/). Daily prognosis of the weather in Bergen for the period 2046-2065 is used to run the installation. In addition to Jamoma, the installation technically also use [FTM and MnM](http://recherche.ircam.fr/equipes/temps-reel/ftm/index.html) extensively.
+For his work Trond Lossius use data from climate models developed at "Bjerknes Center for Climate Research":http://www.bjerknes.uib.no/. Daily prognosis of the weather in Bergen for the period 2046-2065 is used to run the installation. In addition to Jamoma, the installation technically also use "FTM and MnM":http://recherche.ircam.fr/equipes/temps-reel/ftm/index.html extensively.
 
-September 30 the installation [*"White-out"*](http://www.usf.no/index.php?ID=program&ID2=Vis&arrID=2544) opened at USF Visningsrommet in Bergen. This is a collaboration between Trond Lossius and the video artist [Kurt Ralske](http://retnull.com), and combines video, digital stills and sound.
+September 30 the installation "White-out":http://www.usf.no/index.php?ID=program&ID2=Vis&arrID=2544 opened at USF Visningsrommet in Bergen. This is a collaboration between Trond Lossius and the video artist "Kurt Ralske":http://retnull.com, and combines video, digital stills and sound.
