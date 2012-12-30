@@ -1,0 +1,38 @@
+---
+layout: post
+title: Last months in Jamoma
+kind: article
+created_at: 2011-05-13
+location: Berkeley, CA, USA
+author: Nils Peters
+h1: Last months in Jamoma
+categories:
+- workshop
+- matrix
+- dataspace
+- network
+- unit testing
+- paper
+- windowslib
+- spatlib
+---
+
+It has been a while since no update was posted on this blog. However, while things are quiet on the surface does not mean nothing is going on. As a matter of facts, since everyone came back from the nice and productive "workshop":http://www.facebook.com/media/set/?set=a.196129060402663.56901.124254017590168 we had at BEK in Bergen, a number of things have been worked on.
+
+First thing first, we would like to cheerfully thanks again everyone at "BEK":http://www.bek.no for hosting Jamoma workshop and every organization that made this possible : "didascalie.net":http://didascalie.net/tiki-index.php, "fourMs lab":http://www.fourms.uio.no/ from "the University of Oslo":http://www.uio.no, "Galamus":http://www.galamus-software.fr/, "GMEA":http://www.gmea.net and "Ircam":http://www.ircam.fr/. These friendly and productive times mean a lot for the work getting done on Jamoma and "for the work to come":http://redmine.jamoma.org/attachments/download/116/Roadmap.pdf.
+
+h2. Recent developments
+
+Jamoma saw some initial support for working with matrices. This will allow amongst other things to write objects for Jitter. Thanks to "Timothy Place":http://www.74objects.com/!
+
+Since the efforts initiated during the workshop, the trajectoryLib got more work done beside some new additions to the dataspaceLib. Thanks to Nils Peters’ efforts, it now offers “orientation” dataspace (euler / quaternion / axis/angle) and “speed” dataspace (mph / km/h, etc.). On a related subject, "Trond Lossius":http://www.trondlossius.no/ started working on new library that has been discussed for quite some time : "spatLib":https://github.com/jamoma/JamomaDSP/tree/51e895a1f84bf94e2ac6c9aa746d339f96e7d623/extensions/SpatLib.
+
+The previously code-named deviceManager received a amount of work by Théo De La Hogue. The now called Network Device Manager allows remote control of Jamoma applications or Max/MSP patches within the Jamoma network. Stay tuned for soon to come demo!
+
+Jamoma also received a nice contribution from "Nathan Wolek":http://www.nathanwolek.com/. The "WindowFunctionLib has been expanded":https://github.com/jamoma/JamomaDSP/commits/master?author=nwolek and will surely be a basis for more great stuff in the future. Thanks Nathan and welcome !
+
+Finally, beside all these improvements or features additions, it is worth noting that a lot of attention and work has been done on Unit Testing. This should really help release fully tested and stable Jamoma versions. Of course, you are still more than welcome to report any bug that may have escaped from our attention on Jamoma "forum":http://jamoma.org/forum.html.
+
+h2. Publication
+
+The paper written by Théo De La Hogue, Laurent Garnier and Julien Rabin entitled “Jamoma Modular: a C++ library for the development of modular applications for creation” got accepted for the french conference "Journées d’Informatique Musicale":http://jim2011.univ-st-etienne.fr/ that will be held at the University Jean Monnet in Saint Etienne, France.
