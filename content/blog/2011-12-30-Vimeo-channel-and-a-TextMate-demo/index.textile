@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Vimeo channel and a TextMate demo
+kind: article
+created_at: 2011-12-30
+location: Bergen, Norway
+author: Trond Lossius
+h1: Vimeo channel and a TextMate demo
+categories:
+- vimeo
+- textmate
+- screen cast
+- cuescript
+---
+<iframe src="http://player.vimeo.com/video/34349947?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="640" frameborder="0" height="360"></iframe>
+
+Today saw some further work on the TextMate bundle discussed "yesterday":/groups/jamoma/weblog/21170/TextMate_bundle_for_cue_scripts.html, and an updated zip file will be posted shortly to the blog post from yesterday. I've also made a screen cast demoing it, and uploaded to Vimeo.
+
+While at it, I created a Jamoma channel at Vimeo. I hope this will be useful for instruction videos as well as videos showcasing Jamoma in use. Please subscribe to the channel, and if you have videos relating to Jamoma, feel free to add them to the channel.
