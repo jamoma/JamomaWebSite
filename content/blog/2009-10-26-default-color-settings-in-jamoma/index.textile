@@ -1,0 +1,33 @@
+---
+layout: post
+title: Default color settings in Jamoma
+kind: article
+created_at: 2009-10-26
+location: Montreal, Canada
+author: Nils Peters
+h1: Default color settings in Jamoma
+categories:
+- color scheme
+- object defaults
+- modules
+---
+If you have installed Jamoma for the first time and you were so excited that you were beginning to use Jamoma without reading the "getting started" section in the ReadMe.rtf, then you have probably seen this kind of dark color scheme. 
+
+p=. !images/dark-module.png!
+
+%{color:red}This is not the way Jamoma modules should look like.%
+
+In order to let Max5 know about our custom made interface objects (e.g. jcom.ui), you have to to the following: 
+
+# Please go to Options->Object Defaults.
+# Click on the lower left corner on the file symbol @load settings@
+# Choose one of the color schemes starting with @Jamoma@, e.g. @JamomaMax@.
+
+Then Jamoma will show up like this:
+
+p=. !images/good-looking-module.png!
+
+For everyday work with Jamoma, I personally like the JamomaGraphite color scheme. But for a performance situation, where you want a darker background, you should check out JamomaNoir or JamomaKulerQuietCry.
+
+
+
