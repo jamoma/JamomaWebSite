@@ -1,5 +1,0 @@
-You can now stay up to date with various Jamoma activities by following
-us on Twitter. We are waiting for your tweets !
-\
-[![Follow jamomaproject on
-Twitter](http://twitter-badges.s3.amazonaws.com/follow_us-b.png)](http://www.twitter.com/jamomaproject)
