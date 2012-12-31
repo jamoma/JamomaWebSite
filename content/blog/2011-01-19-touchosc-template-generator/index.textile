@@ -1,0 +1,22 @@
+---
+layout: post
+title:  TouchOSC template generator
+kind: article
+created_at: 2011-01-19
+location: Berkeley, CA, USA
+author: Nils Peters
+h1: TouchOSC template generator
+categories:
+- touch osc
+- osc
+- ipad
+- diemo schwarz
+---
+
+<a class="fancybox" href="images/touchosc.png" data-fancybox-group="fancybox" title="Jamoma and Touch OSC">
+<img alt="Jamoma and Touch OSC" class="myCell" class="myCell" src="images/touchosc-thumb.png"/>
+</a>
+
+Diemo Schwarz made a nice little tool that generates default templates for the "Touch OSC app":http://hexler.net/software/touchosc for iPad automatically from the parameter declaration of a Jamoma module. How cool is that?
+
+Read more and download for free at "Diemo's page":http://diemo.free.fr/wp/?p=326.
