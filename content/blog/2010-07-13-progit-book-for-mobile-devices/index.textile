@@ -1,0 +1,20 @@
+---
+layout: post
+title:  ProGit book for mobile devices
+kind: article
+created_at: 2010-07-30
+location: Bergen, Norway
+author: Trond Lossius
+h1: ProGit book for mobile devices
+categories:
+- git
+---
+
+ProGit, the eminent introduction to and reference on GIT, is now available for "iPad":http://progit.org/2010/05/17/progit-for-the-ipad.html and
+"Kindle":http://progit.org/2010/06/06/pro-git-on-kindle.html.
+
+p=. !http://img.skitch.com/20100517-bn9jr7ax9k13ef2697srtjndyk.png!
+
+
+p=. !{width: 100%}http://img.skitch.com/20100517-jq3qnwr4w2xs27q8bnwpbay24k.png!
+
