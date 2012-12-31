@@ -1,0 +1,17 @@
+---
+layout: post
+title:  New Jamoma web site on rails
+kind: article
+created_at: 2010-05-08
+location: Albi, France
+author: Julien Rabin
+h1: New Jamoma web site on rails
+categories:
+- web site
+---
+
+People used to visit these pages will notice that a number of cosmetic changes occurred on Jamoma site. As a matter of fact, together with working on the next incremental Jamoma update, the team is working hard at making a full refresh of the site.
+
+Do not be fooled by the visible tip of the iceberg though: a lot of changes are going under the hood. We recently started building a new web site as a Rail application. For those who are not familiar with Ruby on Rails, this means amongst other things that we should be able to maintain and update the site more easily as well as implemented some nice feature. We aim at bringing a better vision of Jamoma current state, evolution and plans for the future. We also hope this will make easier for users to share there experience and valuable feedback.
+
+We hope you will enjoy the forthcoming changes. Moreover, if you have been wishing for a particular feature on the site but never dare to ask us, feel free to contact us. The time never been that right to raise your voice!
