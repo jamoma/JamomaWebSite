@@ -1,0 +1,26 @@
+---
+layout: post
+title: Last Month in Jamoma - January 2010
+kind: article
+created_at: 2010-02-02
+location: Montreal, Canada
+author: Nils Peters
+h1: Last Month in Jamoma - January 2010
+categories:
+- fft
+- ios
+- multicore
+- minuit
+- osc
+- copperlan
+- cuescript
+---
+Traditionally, January seems to be one of the most active months for Jamoma development. This year was no exception. Here are some highlights:
+
+* Jamoma Foundation project extended to allow compiling for the iPhone/iPod/iPad.
+* Jamoma DSP expanded through the addition of a new FFT Lib extension for spectral processing, based on the "Ooura library":http://www.kurims.kyoto-u.ac.jp/~ooura/.
+* Jamoma DSP's Filter Lib optimization and clean-up work
+* Jamoma Multicore was largely re-written to address limitations of the internal architecture as it had previously existed.
+* Ruby language binding fleshed out and made to work doing live-coding DSP with Jamoma Multicore.
+* Jamoma Modular saw a continuation of work on the NodeLib (for managing tree structures of modules, parameters, etc.). The Virage DeviceManager (a daemon that loads plug-ins) has now been integrated through a new Max external called jcom.deviceManager. This allows communication with Minuit, OSC, CopperLan and potentially more protocols by building dedicated plugins.
+* Many other things have also been going. Not all of them can be listed, but some include: A UserLib module wrapping ol.autotalent~ (automatic pitch correction for MSP); jmod.cueManager/jcom.cuemanager improvements (cue moving, autofollow and comments features); website improvement; and new modules for motion capture retrieval and processing, including selecting models for marker placement and biomechanics, and GDIF implementation.
