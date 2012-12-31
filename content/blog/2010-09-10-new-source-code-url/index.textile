@@ -1,0 +1,15 @@
+---
+layout: post
+title:  New source code URL
+kind: article
+created_at: 2010-09-10
+location: Berkeley, CA, USA
+author: Nils Peters
+h1: New source code URL
+categories:
+- git
+- github
+---
+To facilitate maintenance of Jamoma's source code, Jamoma has now its own residence at github. Please change your bookmarks from "http://github.com/tap":http://github.com/tap to "http://github.com/jamoma":http://github.com/jamoma.
+
+"Here is a good thread":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/Github-Admin-for-Jamoma-tp5515923p5515923.html from the jamoma devel-list which explains some details.
