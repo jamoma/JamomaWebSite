@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Jamoma on identi.ca
+kind: article
+created_at: 2010-07-23
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma on identi.ca
+categories:
+- identica
+---
+If you just can't get enough of social networking, Andreas Tolf Tolfsen has setup a "Jamoma group":http://identi.ca/group/jamoma/members at identi.ca.
