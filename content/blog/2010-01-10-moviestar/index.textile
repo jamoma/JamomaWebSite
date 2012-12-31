@@ -1,0 +1,23 @@
+---
+layout: post
+title: Moviestar
+kind: article
+created_at: 2010-02-02
+location: Bergen, Norway
+author: Trond Lossius
+h1: Moviestar
+categories:
+- art installation
+---
+p=. <div class="wiki_entry"> 
+ <object width="500" height="281"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8193884&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"><embed src="http://vimeo.com/moogaloop.swf?clip_id=8193884&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" allowscriptaccess="always" height="281" width="500" allowfullscreen="true" type="application/x-shockwave-flash"> </embed></param></param></param></object> 
+
+"Moviestar":http://moviestar.marieke.nu/ is an interactive installation by Marieke Verbiesen & Neeltje Sprengers.
+
+The installation moulds old and new media together in order to create a reallife moving filmset. Classic 16mm film, animation, robotics, sound and motion-tracking are used to simulate a real life film set where visitors play the main role.
+
+A miniature robotic film set forms the background for the movie, while interactive animations come are activated once a visitor enters the film set.
+
+In front of a green screen on the other side of the space, the visitors movements are tracked in real time, both sound and image respond their movements. Projected into a world that consists of monsters, UFO´s and other slightly surreal events, visitors can control animations by by moving in front of the camera. Jamoma, "cv.jit":http://www.iamas.ac.jp/~jovan02/cv/ and "FTM":http://ftm.ircam.fr were used for live video analysis, processing and control.
+
+Moviestar was presented at Filmhuis Den Haag September - October 2009.
