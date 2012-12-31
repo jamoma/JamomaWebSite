@@ -1,0 +1,28 @@
+---
+layout: post
+title:  Jamoma controlling Web Service
+kind: article
+created_at: 2010-08-22
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma controlling Web Service
+categories:
+- web service
+- comppnent
+- fantastick
+- iphone
+- ipad
+---
+
+<a class="fancybox" href="images/webservice.png" data-fancybox-group="fancybox" title="Controlling Web Servive from Jamoma">
+<img alt="Controlling Web Servive from Jamoma" class="myCell" class="myCell" src="images/webservice-thumb.png"/>
+</a>
+
+
+Today saw a new functionality added to Jamoma. The *jcom.webservice* component enables controlling and monitoring Web Sharing, the service enabling the computer to function as a web server, from within Max and Jamoma.
+
+It does so by internally calling an AppleScript that behind the scene opens the Sharing control panel, get the setting for Web Sharing, and change it if required.
+
+One potential use is with the "Fantastick":http://www.pinktwins.com/fantastick/ app for iPhone and iPad. The app enables images to be downloaded from the web and used to build multitouch user interfaces, communicating with Max over the network.
+
+An obvious challenge when depending on web downloads for a performance interface is the possibility of web access being unavailable in a performance situation. If the images instead are hosted from the computer running Max, they will be remain available, provided that a local wifi network can be set up, and Web Sharing is enabled on the Max computer.
