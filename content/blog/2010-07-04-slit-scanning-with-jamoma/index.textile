@@ -1,0 +1,22 @@
+---
+layout: post
+title:  Slit-scanning with Jamoma
+kind: article
+created_at: 2010-07-04
+location: Albi, France
+author: Julien Rabin
+h1: Slit-scanning with Jamoma
+categories:
+- slitscan
+- video
+---
+Today "Alexander":http://www.arj.no added a great feature to the jmod.motiongram% module providing a nice option both for creative and analysis use.
+
+Watch the movie to see how easy it is to do slit-scanning with Jamoma now.
+
+p=. <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/qPR21-FPGuM&amp;hl=en_US&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/qPR21-FPGuM&amp;hl=en_US&amp;fs=1" allowscriptaccess="always" height="385" width="480" allowfullscreen="true" type="application/x-shockwave-flash"> </embed></param></param></param></object></div> 
+ <div><br class="" /></div>
+ 
+This feature will be available in the next Jamoma Modular update. You can also see the "commit":http://github.com/tap/JamomaModular/commit/c470edf782b020906e70a7462acaa888192b4438 on Github and clone
+Jamoma Modular repository.
+
