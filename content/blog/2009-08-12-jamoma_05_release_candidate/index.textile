@@ -1,0 +1,33 @@
+---
+layout: post
+title: Jamoma 0.5 Release Candidate
+kind: article
+created_at: 2009-08-12
+location: Montreal, Canada
+author: Nils Peters
+h1: Jamoma 0.5 Release Candidate
+categories:
+- jamoma 0.5
+- installer
+- download
+---
+After more than a year of hard work and 17 previous beta versions, we
+are finally on the home stretch of releasing Jamoma 0.5 .
+
+p=. "!images/modular.png!":http://redmine.jamoma.org/account/register
+
+We're glad to announce Jamoma 0.5 Release Candidate 1, which is available "online":http://www.jamoma.org/download.html.
+
+Jamoma 0.5 is a major rewrite for Max 5, and also contains numerous improvements and new features.
+
+The Jamoma developers have been working hard lately to improve Jamoma, and to fix as many bugs as possible. However, some bugs may still have survived our testings, and we would appreciate your help to catch and report them before we announce the final release.
+
+We have set up a new project development site, and we would appreciate your registration under:
+
+"http://redmine.jamoma.org/account/register":http://redmine.jamoma.org/account/register
+
+It's a good place to keep in touch with the Jamoma developers and to report bugs and feature requests, so everybody's welcome !
+
+The most important changes have been listed in the "ChangeLog":http://redmine.jamoma.org/wiki/modular/Change_Log, and there is also a "guideline":http://redmine.jamoma.org/wiki/modular/Jamoma_05 to port your modules from Jamoma 0.4 to 0.5. Though, even if you have been using the 0.5 betas, you'll need to change a few things, which are copied at the end of the guideline page.
+
+We hope you'll enjoy Jamoma 0.5, and we hope to get some valuable feedback.
