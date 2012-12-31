@@ -1,0 +1,23 @@
+---
+layout: post
+title: A new mapper for Jamoma
+kind: article
+created_at: 2009-09-28
+location: Montreal, Canada
+author: Nils Peters
+h1: A new mapper for Jamoma
+categories:
+- mapping
+- dot mapper
+---
+"Joseph Malloch":http://www.music.mcgill.ca/~mallochj/ recently created a new mapping module based on his "DOT Mapper":http://www.idmil.org/software/mappingtools.
+
+p=. <object width="400" height="250"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=6789877&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1"><embed src="http://vimeo.com/moogaloop.swf?clip_id=6789877&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" allowscriptaccess="always" height="250" width="400" allowfullscreen="true" type="application/x-shockwave-flash"><a href="http://vimeo.com/moogaloop.swf?clip_id=6789877&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" class="zgnrsjbqdoovqwpuhybx pqblliejjydgsazyqywn" title="Click here to block this object with Adblock Plus"></a><a href="http://vimeo.com/moogaloop.swf?clip_id=6789877&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" class="zgnrsjbqdoovqwpuhybx"></a> </embed></param></param></param></object> 
+
+p=. <a href="http://vimeo.com/6789877">Demo: DOT Mapper + Jamoma</a> from <a href="http://vimeo.com/malloch">Joseph Malloch</a> on <a href="http://vimeo.com">Vimeo</a>.
+
+_The DOT mapper is a network-based peer-to-peer mapping network and associated GUI, built for digital musical instrument mapping in the IDMIL at McGill University.__
+
+In addition to Jamoma's jmod.mapper, jmod.mapperContinuous and jmod.mapperDiscrete this module offers an alternative way of creating mappings.
+
+Beside other cool things, Joe's module can create mappings within Jamoma, but also to environments outside the Jamoma world.
