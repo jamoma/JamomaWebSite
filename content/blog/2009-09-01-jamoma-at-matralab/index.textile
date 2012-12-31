@@ -1,0 +1,23 @@
+---
+layout: post
+title: Jamoma @ Matralab
+kind: article
+created_at: 2009-09-01
+location: Montreal, Canada
+author: Nils Peters
+h1: Jamoma @ Matralab
+categories:
+- matralab
+- workshop
+- presentation
+- virage
+---
+<a class="fancybox" href="images/pascal.jpg" data-fancybox-group="pascal" title="Pascal show Jamoma and the Virage Sequencer">
+<img alt="Pascal show Jamoma and the Virage Sequencer" class="myCell" class="myCell" src="images/pascal-thumb.jpg"/>
+</a>
+
+<a class="fancybox" href="images/matralab.jpg" data-fancybox-group="matralab" title="In the Matralab">
+<img alt="In the Matralab" class="myCell" class="myCell" src="images/matralab-thumb.jpg"/>
+</a>
+
+During the Jamoma development workshop last week, the development team got invited to the "Matralab":http://matralab.hexagram.ca/ at Concordia University in Montréal directed by "Sandeep Bhagwati":http://matralab.hexagram.ca/matrapeople/sandeep-bhagwati who holds the Canada Research Chair for Inter-X Art. In his work, Sandeep explores the artistic world between composed, predetermined structures and free improvisation. An approach which he calls "comprovisation". We discussed how Jamoma together with the "Virage":http://www.plateforme-virage.org/ sequencer could be used for comprovisation. We also listened to some spatialization work by "Navid Navab":http://matralab.hexagram.ca/matrapeople/navid-navab which was carried out with the help of Jamoma. It is always exciting to see (and hear) how Jamoma get used.
