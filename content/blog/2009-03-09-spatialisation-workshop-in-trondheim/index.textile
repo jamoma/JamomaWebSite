@@ -1,0 +1,15 @@
+---
+layout: post
+title: Spatialisation workshop in Trondheim
+kind: article
+created_at: 2009-03-09
+location: Bergen, Norway
+author: Trond Lossius
+h1: Spatialisation workshop in Trondheim
+categories:
+- spatialisation
+- workshop
+---
+Last week I did a lecture and worksop for the Musikkteknologi students at NTNU in Trondheim. Wednesday I did a presentation of artistic work and discussed experience and reflection on them. Thursday I did two 4-hour workshops providing an introduction to spatialisation.
+
+For the workshop Jamoma was used for rapid prototyping, and we found time to look into, test and listen to VBAP, ambisonics and DBAP. Unfortunately no time for ViMiC or the HoloSpat bridge.
