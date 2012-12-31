@@ -1,0 +1,23 @@
+---
+layout: post
+title: Spotlight - New modules coming to UserLib
+kind: article
+created_at: 2011-01-27
+location: Albi, France
+author: Julien Rabin
+h1: Spotlight - New modules coming to UserLib
+categories:
+- ftm
+- gabor
+- granulation
+- ag.granular.suite
+- adrian gierakowski
+---
+Some time ago, Adrian Gierakowski "shared a nice patch":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/mixing-presets-tp5563868p5668098.html showing use of a new jcom.hub feature to mix between presets.
+
+Today, Adrian just "posted a message on the Jamoma User forum":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/collection-of-jamoma-modules-for-granular-sound-processing-written-using-FTM-Gabor-tp5954121p5954121.html to annouce some of his modules are now public. This "ag.granular.suite" collection contains a number of "FTM/Gabor":http://ftm.ircam.fr/index.php/Main_Page -based modules for granulation processes and control. Be sure to watch Adrian's video inserted below to have an overview of the nice features his modules have.
+
+p=. <iframe src="http://player.vimeo.com/video/19109771" width="400" frameborder="0" height="250"></iframe>
+<a href="http://vimeo.com/19109771">ag.granular.suite tutorial 01 - overview</a> from <a href="http://vimeo.com/user5819275">Adrian Gierakowski</a> on <a href="http://vimeo.com">Vimeo</a>.
+
+It is really nice to know about people's use of Jamoma. If you would like to have some of your modules available in the User Library or featured on this blog, please get in touch with us thru the "forum":http://jamoma.org/forum.html.
