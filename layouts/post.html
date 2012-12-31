@@ -1,33 +1,42 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-  <%= render 'head' %>
+	<%= render 'head' %>
   
-  <body>
-	  <%= render 'header' %>
-	  <section id="main">
+	<body>
+		<%= render 'header' %>
+		<section id="main">
 		  
-	      <h1 class="top"><%= @item[:h1] %></h1>
-		  <p class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></p>
-	      <% puts @item.inspect%>
-	      <% if !@item[:posts].nil? %>
-	      <ul class="archive">
-	          <% @item[:posts].each do |p| %>
-	          <li>
-	              <span><%= p.attributes[:created_at] %> &middot; </span>
-	              <a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
-	          </li>
-	          <% end %>
-	      </ul>
+			<h1 class="top"><%= @item[:h1] %></h1>
+			<p class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></p>
+		  
+		  	<% if !@item[:categories].nil? %>
+		 	 	<% @item[:categories].each do |category| %>
+		  			<ul class="categories">
+			  	  	  <li class="category"><a href="/categories/<%= category %>"><%= category %></a></li>
+		  			</ul>
+		  	  	<% end %>
+			<% end %>
+			  
+			<% puts @item.inspect%>
+			<% if !@item[:posts].nil? %>
+			<ul class="archive">
+				<% @item[:posts].each do |p| %>
+					<li>
+						<span><%= p.attributes[:created_at] %> &middot; </span>
+						<a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
+					</li>
+				<% end %>
+	      	</ul>
 
-	      <% end %>
-	      <%= yield %>
+	      	<% end %>
+	      	<%= yield %>
 		  
-		  <%= render 'disqus_thread' %>
+		  	<%= render 'disqus_thread' %>
 		  
-		  <%= render 'footer' %>
-	  </section> <!-- id="main" -->  
-	  <%= render 'sidebar' %>
-	  <%= render 'google_analytics' %>
-  </body>
+		  	<%= render 'footer' %>
+	  	</section> <!-- id="main" -->  
+	  	<%= render 'sidebar' %>
+	  	<%= render 'google_analytics' %>
+  	</body>
 </html>
