@@ -1,0 +1,24 @@
+---
+layout: post
+title: Last Month in Jamoma - December 2009
+kind: article
+created_at: 2010-01-10
+location: Bergen, Norway
+author: Trond Lossius
+h1: Last Month in Jamoma - December 2009
+categories:
+- window function
+- vimic
+- nodelib
+- publications
+- ruby
+---
+There are always lots of things going on with Jamoma development, thanks to the growing community of people contributing. These developments are available through the "source code repository":http://github.com/tap/Jamoma - these should also make it into future installers and releases. Here are a few highlights from the last month:
+
+* A new window-function library has been introduced as a DSP extension
+* Expansion of the Ruby language bindings, including a Ruby on Rails example app using the Window Function Lib
+* A lot of contributors spent the last month working on some Jamoma-related publications for upcoming conferences and journals
+* The jcom.vimic~ external was made public in the DSP project
+* Bug fixes and improvements for the upcoming Jamoma 0.5.1 release
+* Continued work on the Jamoma NodeLib, which provides an OSC addressing system for objects in the Jamoma Platform.
+
