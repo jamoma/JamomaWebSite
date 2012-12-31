@@ -8,6 +8,7 @@
 	  <section id="main">
 		  
 	      <h1 class="top"><%= @item[:h1] %></h1>
+		  <p class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></p>
 	      <% puts @item.inspect%>
 	      <% if !@item[:posts].nil? %>
 	      <ul class="archive">
