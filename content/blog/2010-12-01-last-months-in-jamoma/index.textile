@@ -1,0 +1,83 @@
+---
+layout: post
+title:  Last months in Jamoma
+kind: article
+created_at: 2010-12-01
+location: Albi, France
+author: Julien Rabin
+h1: Last months in Jamoma
+categories:
+- installer
+- sonification
+- motiongram
+- qualisys
+- documentation
+- userlibs
+- soundhack
+- musicspace
+- audio graph
+- plugtastic
+- art installation
+- spatdif
+- aes
+---
+As always, the last couple of months saw a nice amount of work getting done. In case you did not have the chance to follow this closely, here are some highlights.
+
+h2. Releases
+
+On the visible tip of the iceberg, a new beta of "Jamoma Modular 0.5.2":http://jamoma.org/download/Jamoma-0.5.2-b2.dmg for Mac was released on the 10th of November. Beside some "bug fixes":http://redmine.jamoma.org/issues/624, Jamoma Modular was added some nice stuff.
+
+h3. New modules
+
+In addition to a new component called "jcom.autoexpose%":https://github.com/jamoma/JamomaModular/commit/060b1bd8a73a171b4a7d4a8cbf1c744a167fed3b, "Alexander Refsum Jensenius":http://www.arj.no/ brought "jmod.sonifyer~":https://github.com/jamoma/JamomaModular/commit/c7c8bfcd7926d8e74b1d94b4a89670b9c8b34651 dedicated – you guess it – to the sonification of motiongram. Read more on "Alexander’s blog post":http://www.arj.no/2010/11/09/sonification-of-motiongrams/ or watch his nice screencast included below.
+
+p=. <object width="480" height="293"><param name="movie" value="http://www.youtube.com/v/zz5SCP5ZkcU&amp;hl=en_US&amp;feature=player_embedded&amp;version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/zz5SCP5ZkcU&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" allowscriptaccess="always" height="293" width="480" allowfullscreen="true" type="application/x-shockwave-flash"> </embed></param></param></param></object>
+
+Jamoma Modular now also has a "new module":https://github.com/jamoma/JamomaModular/commit/8f9a97692cb735fece9770ccbf071b4467b41ff0 allowing communication with the "Qualisys motion capture system":http://www.qualisys.com, thanks to "Kristian Nymoen":http://folk.uio.no/krisny/.
+
+h3. New features
+
+An exciting feature has been added to jcom.hub. Thanks to "Diemo Schwarz":http://diemo.concatenative.net/, that you probably know as the author of the great "CataRT software":http://imtr.ircam.fr/imtr/CataRT, jcom.hub now offers the possibility to interpolate between various presets.
+
+Speaking of jcom.hub’s built-in features, one can now export modules’ documentation as LaTeX formatted files. The documentation creation is fully backward compatible and options are defined as arguments to /documentation/generate message as detailed below:
+
+
+* documentation/generate —> opens save dialog to generate html file
+* documentation/generate html —> opens save dialog to generate html file
+* documentation/generate foo —> opens save dialog to generate html file
+* documentation/generate tex —> opens save dialog to generate tex file
+* documentation/generate html filename —> will generate html file with the name ‘filename’
+* documentation/generate tex filename —> will generate tex file with the name ‘filename’
+
+h3. User Library
+
+The UserLib welcomes "Ricardo Del Pozo":http://www.rdpozo.no who shares some useful and "elegant":http://www.rdpozo.no/rdp/news/Entries/2010/10/21_New_updated_rdp.modules.html modules. No doubt some of you will enjoy Ricardo’s audio and video modules resulting from his efforts to implement "HC Gilje’s Video Projection Tools in Jamoma":http://www.rdpozo.no/rdp/news/Entries/2010/8/26_VPT_development_for_Jamoma.html.
+
+Thanks to Julien Rabin and Nils Peters’s combined efforts, the UserLib has a handy package of modules wrapped around Soundhack externals. If you have been enjoying Tom Erbe’s now famous "FX plugins":http://soundhack.com/shapers.php, chances are that you will also like his Max externals. Please direct your browser to "Soundhack.com":http://www.soundhack.com/externs.php and download this nice set of externals to start enjoying the modules.
+
+Finally, Nils Peters also started working on a "Jamoma bridge":https://github.com/Nilson/Jamoma.MusicSpace to MusicSpace developed by François Pachet’s team at Sony CSL lab in Paris. Be sure to visit its "dedicated page":http://www.csl.sony.fr/~pachet/MusicSpace/ to learn more about this interesting project and its implementation for Max/MSP.
+
+And a one more thing: best of all, the UserLib now has an independent installer that you can get at the usual "Jamoma download page":http://jamoma.org/download.html.
+
+h2. Jamoma Audio graph
+
+
+74objects recently offered a sneak peek of his upcoming product Plugtastic. As previously mentioned, Plugtastic which is currently in development uses features of Jamoma Audio Graph implementation for MaxMSP. Be sure to watch the sneak peek below from 74objects’ Youtube channel.
+
+p=. <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/8TQ_f1wmq0U?fs=1&amp;hl=fr_FR"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/8TQ_f1wmq0U?fs=1&amp;hl=fr_FR" allowscriptaccess="always" height="385" width="480" allowfullscreen="true" type="application/x-shockwave-flash"> </embed></param></param></param></object>
+
+We are really happy to see developments using some of the Jamoma framework possibilities and we hope to hear from yours.
+
+On the artistic side, "Trond Lossius":http://www.trondlossius.no/ collaborated with Jon Arne Mogstad and Jeremy Welsh for the installation named "PLEASE NOTE AFTER IMAGE":http://trondlossius.no/works/36-lmw-please-note-after-image-2010 which is "currently being exhibited at the Bergen Art Museum":http://www.kunstmuseene.no/?side=kalender&art=682&enhet=kunstmuseum&sp=1.
+
+p=. !images/pleasenote.png!
+
+Based on processed B-format recordings, the sound is generated in realtime using Jamoma Modular + Jamoma Audio Graph, output thru an array of 16 loudspeakers and has been playing without interruption since the 29th of October. As we move toward more developments, it is really nice to see that Jamoma Audio Graph is not only useful for creation, but also mature and stable. Keep an eye on "Trond’s website":http://trondlossius.no/articles to read more details about it soon.
+
+h2. Public appearance
+
+At the beginning of the month, "Timothy Place":http://www.74objects.com/ was invited to give "some lectures for the Digital Arts Program of the Stetson University":http://www2.stetson.edu/diga/2010/10/timothy-place-lecture-111/.
+
+Jamoma also had an appearance at the "last AES convention in San Francisco":http://www.aes.org/events/129/ in Nils’ "SpatDIF":http://www.spatdif.org/ presentation at the workshop on “Standards for Multichannel Audio Distribution":http://www.aes.org/events/129/workshops/?ID=2471.
+
+As always, thanks to all of you for your support. We look forward to hear from you on "Jamoma forums":http://jamoma.org/forum.html and other "social":http://twitter.com/jamomaproject "places":http://www.facebook.com/pages/Jamoma/124254017590168.
