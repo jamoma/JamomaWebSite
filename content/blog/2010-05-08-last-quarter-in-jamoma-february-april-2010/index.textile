@@ -1,0 +1,63 @@
+---
+layout: post
+title:  Last Quarter in Jamoma - February - April 2010
+kind: article
+created_at: 2010-05-08
+location: Montreal, Canada
+author: Nils Peters
+h1: Last Quarter in Jamoma - February - April 2010
+categories:
+- publications
+- audio graph
+- node lib
+- workshop
+- performance
+- web site
+---
+It's been some time since the last status update from the Jamoma development. The reason for this lack of news is that we were all just very busy. See below:
+
+h2. Publications:
+
+We wrote and submitted conference papers on some new parts of the Jamoma framework structure to the "ICMC":http://icmc2010.org/ and "DAFx":http://www.dafx.de/ conference. While waiting for the DAFx review, we are very glad to announce Tim's presentation entitled "A Flexible and Dynamic C++ Framework and Library for Digital Audio Signal Processing" at the ICMC at Wednesday June 2nd!
+
+Also, Pascal Baltazar will present a paper at the ICMC on a project which uses Jamoma: ``Virage : Designing an Interactive Intermedia Sequencer from Users Requirements and Theoretical Background''.
+
+Further, Jamoma developers Pascal Baltazar and Théo de la Hogue from the Virage team submitted a request for comments to the Open Sound Control developer at CNMAT for "a query system using OSC":http://opensoundcontrol.org/publication/minuit-propositions-query-system-over-osc.
+
+h2. Jamoma Audio Graph:
+
+The framework, formally know as Jamoma Multicore, was extended and refined during the last months. The essential idea is to allow flexible and dynamic multichannel audio connections within Max/MSP without having to draw zillions of patch-cords between objects. By using this approach, we are also able to do ``Live patching'' in Max/MSP, meaning that you can change patch cord connection without MSP audio dropouts. It already works quite stable and we have started to test drive and combining it with the spatialization modules in the Jamoma Modular framework - check out the git branch "http://github.com/tap/JamomaModular/tree/0.6-nodelib-and-multicore":http://github.com/tap/JamomaModular/tree/0.6-nodelib-and-multicore. Feedback is welcome! We also have a working version of Jamoma Audio Graph for the environments PureData and Ruby.
+
+h2. NodeLib:
+
+The implementation of the proposal of the NIME08 and ICMC08 papers made huge improvements through recent work by Théo and Tim. Check out the branch "http://github.com/tap/JamomaModular/tree/0.6-nodelib-and-multicore":http://github.com/tap/JamomaModular/tree/0.6-nodelib-and-multicore and enjoy testing OSC wildcards and other things. Feedback is also highly appreciated!
+
+h2. Workshops:
+
+* Pascal Baltazar gave a Jamoma workshop at the Tunis Multimedia school ("ISAMM":http://www.isa2m.rnu.tn/)
+* Trond spatialisation workshop at NTNU in Trondheim
+* Nils Peters and Trond Lossius gave a "sound spatialization workshop":http://www.khib.no/khib/Kalender/Undervisning-09-10/Workshop-Sound-in-Space in Bergen with emphasis on ViMiC
+* Nils gave a "one-day Jamoma workshop at the Matralab":http://matralab.hexagram.ca/arts-in-one-world-453.htm, Concordia University, Montreal. The workshop focused on sound spatialization and jamoma module development.
+
+
+h2. Performances:
+
+* "FIAT LUX":http://groupware.bek.no/groups/jamoma/weblog/21c10/Jamoma_goes_fashion.html, Oslo Fashion week
+* Sonic Tea Diffusion in Four Channels, Laura Emelianoff, Nuit Blanche Montreal
+* "Le courage":http://www.gmea.net/activite/creation/2009_2010/jlPallandre.htm: interactive multichannel sound performance by "Jean-Léon Pallandre":http://www.gmea.net/artists/bios/jPallandre.htm
+* "Daisy Cutter":http://lazampa.net/daisy%20cutter/daisy.html : Dance show, by La Zampa Company , sound design and management : Valérie Leroux
+* Unruhige Räume by "HBBP":http://hbbp.wordpress.com/about/: live spatial electroacoustic music by Bjørnar Habbestad and Pascal Baltazar, with Benjamin Maumus
+* "Nouvelle Mémoire":http://www.gmea.net/activite/diffusion/routes/2009_2010/lutherie.htm#memoire : Electroacoustic composition/performance by Thierry Besche
+* "Echo Room":http://www.k-danse.net/echoroom : Dance show by K. Danse Co. (Jean-Marc Matos), interactive design by Théo de la Hogue (GMEA)
+
+A list of performances that uses Jamoma can be found
+"here":http://redmine.jamoma.org/projects/jamoma/wiki/Art_Projects_Using_Jamoma.
+Let us know if your performance is missing.
+
+h2. New Web Design:
+
+"www.jamoma.org":http://www.jamoma.org got a new web design. Thanks to Julien Rabin for all the work. See his "blog post about the redesign.":http://groupware.bek.no/groups/jamoma/weblog/5dce3/New_Jamoma_web_site_on_rails.html
+
+h2. Outlook to Jamoma 0.5.1:
+
+It's been more than 6 months after the Jamoma 0.5 release and we have already improved many tiny things that would justify a release of Jamoma 0.5.1. Unfortunately, we are currently lacking a stable development machine running Windows 7 which makes it impossible for us to compile and test Jamoma for Windows. We hope to be able to purchase a license within the next few months and start working on the release. To speed up this process, you can either join the development team as a (windows) programmer, or you can join this "Pledgie donation campaign":http://www.pledgie.com/campaigns/5615 which brings the Windows license a little bit closer.
