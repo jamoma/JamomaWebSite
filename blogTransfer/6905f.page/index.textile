@@ -1,4 +1,0 @@
-An introduction to writing DSP code with Jamoma DSP is at
-[http://blog.74objects.com/2009/12/03/writing-dsp-objects/](http://blog.74objects.com/2009/12/03/writing-dsp-objects/)
-. For people curious about the structure of the C++ code underlying
-Jamoma this is a good place to start.
