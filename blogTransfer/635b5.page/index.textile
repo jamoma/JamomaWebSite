@@ -1,5 +1,0 @@
-*First posted on 04/25/2006 08:55:04*.[\
-](http://moodplug.com/antikeyframe/)
-
-[AntiKeyframe](http://moodplug.com/antikeyframe/) is a freeware
-VJ-application created in Max/Msp/Jitter for manipulating DV video live.

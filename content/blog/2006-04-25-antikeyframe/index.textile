@@ -1,0 +1,14 @@
+---
+layout: post
+title: AntiKeyframe
+kind: article
+created_at: 2006-04-25
+location: Bergen, Norway
+author: Trond Lossius
+h1: AntiKeyframe
+categories:
+- antikeyframe
+- vj
+---
+
+"AntiKeyframe":http://moodplug.com/antikeyframe/ is a freeware VJ-application created in Max/Msp/Jitter for manipulating DV video live.
