@@ -1,6 +1,0 @@
-*First posted on 04/20/2006 06:49:33.*\
-
-I have added a chat channel to this web page. This can be used for
-online collaborative debugging, random noise, etc. Join in at
-
-[www.jamoma.org/chat/chat](http://www.jamoma.org/chat/chat)

@@ -1,0 +1,14 @@
+---
+layout: post
+title: dbv
+kind: article
+created_at: 2006-04-20
+location: Bergen, Norway
+author: Trond Lossius
+h1: dbv
+categories:
+- dbv
+- software
+---
+
+"dbv":http://dbv.gabocoy.com/archives/cat_about.php is software for doing output by the real time movie. It can customize to input for video, interface, effects, about all module in dbv program. All of modules are played by plug and play . And it can make a video system for realtime without limites by the application. The language for development is Max/MSP/jitter base. Now dbv have two version "dbv1.0" and "dbv-static" dbv-static is opensouce software.
