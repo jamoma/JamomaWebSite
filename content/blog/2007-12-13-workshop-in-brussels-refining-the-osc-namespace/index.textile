@@ -1,0 +1,79 @@
+---
+layout: post
+title: Workshop in Brussels - Refining the OSC namespace
+kind: article
+created_at: 2007-12-13
+location: Bergen, Norway
+author: Trond Lossius
+h1: Workshop in Brussels - Refining the OSC namespace
+categories:
+- osc
+- namespace
+- imal
+- workshop
+- 
+---
+*This was first posted 12/13/2007 04:46:14.*
+
+This week we are having a Jamoma developer conference in Brussels, generously hosted by "IMAL":http://www.imal.org/. Alexander ("1":http://www.arj.no/2007/12/10/jamoma-workshop-in-brussels/, "2":http://www.arj.no/2007/12/11/coordinate-systems/, "3":http://www.arj.no/2007/12/11/mapping-and-conditioning/) has been writing some blog posts on ongoing discussions and work.
+
+Today we have been discussing and reviewing the OSC namespace. As the functionalities implemented in parameters are growing more complex, it is an ongoing process reviewing and structuring the resulting OSC namespace. It is not only a question of moving towards syntax specific to Jamoma, but also trying to understand the underlying mechanisms and problems that maker us move in the directions we do. By searching for more general underlying principles we might be able to make more informed choices for Jamoma, but the discussions can also be presented and reviewed in a more general context, and we are currently considering writing a paper for e.g. NIME on the topic.
+
+The discussions seems to be suggesting a partly standardization or organization of OSC namespaces, approached through the specific problems, issues and needs we run into along the way. Currently there are at least three areas of work that hint in this direction: (1) The tree-like structuring that is typically in the form of @/computer/module/parameter@, (2) the introduction of classes inside modules, such as the /limiter, /saturation and /record classes in the jmod.output~ module, and (3) the namespace for accessing the attributes of each parameter.
+
+The following OSC message has served as a "worst case" scenario for the discussion:
+
+<pre>
+/degrade~.1/audio/channel.left/gain:ramp/drive/parameter.get
+</pre>
+
+Having discussed different ways of designing a message like this one, we seem to have agreed that the meaning of the different separating signs used need to be precisely defined:
+
+* @.@ (dot): Used to indicate instances of a specific class.
+* @/@ (slash): Used to indicate branching according to the OSC specification.
+* @:@ (colon): Colon is used to split the total OSC message into two parts. The first part is describing where you want to go. The second part describe what you want to access there.
+
+The separation is a result of the functionalities implemented as part of jcom.parameter and jcom.message (ramping, clipping, unit conversion, etc.). These functionalities are commonly available to all parameters. While the part before the colon describe what parameter to access, the section after the colon provides access to the various functionalities available for each parameter, and represents a standardized namespace. Dave introduced the analogy to how URLs are generally designed. The first part of the url (www.jamoma.org) describes what server to access, while the next part (/wiki/workshops) describes what to access on the server.
+
+Below is an attempt at structuring the namespace inside the paramers. This is very much a work in progress.
+
+<pre>
+Message                                               Category       Description
+
+- [ ] /module/parameter
+    - [ ] General for the module
+        - [ ] :namespace/dump
+        - [ ] :dump/values
+    - [ ] value stuff                                                These ones are not fixed.
+        - [ ] :value/get                              value          get the value of the parameter
+        - [ ] :value                                  value          set the value (why would you want to do it this way?)
+        - [ ] :value/range                            range
+        - [ ] :value/range/get                        range
+        - [ ] :value/range/clipmode                   range
+        - [ ] :value/range/clipmode/get               range
+        - [ ] :value/step/inc                         value          Increase by one step
+        - [ ] :value/step/dec                         value          Decrease by one step
+        - [ ] :value/step/size                        value          Set the step size
+        - [ ] :value/step/size/get                    value          Get the step size
+        - [ ] :value/unit
+        - [ ] :value/type                             type
+        - [ ] :value/type/get                         type
+    - [ ] Conditioning
+        - [ ] :repetitions                            repetitions
+        - [ ] :repetitions/get                        repetitions
+    - [ ] ramp stuff - including drive and function
+        - [ ] :ramp/drive                             ramp/drive     Select what mechanism is driving the ramp
+        - [ ] :ramp/drive/get                         ramp/drive
+        - [ ] :ramp/drive/parameter                   ramp/drive     Pass additional parameters to the driving mechanism
+        - [ ] :ramp/drive/parameter/get               ramp/drive
+        - [ ] :ramp/function                          ramp/drive     Select what mapping function to use for the ramp
+        - [ ] :ramp/function/get                      ramp/function
+        - [ ] :ramp/function/parameter                ramp/function  Pass additional parameters to the function
+        - [ ] :ramp/function/parameter/get            ramp/function
+        - [ ] :ramp/function/parameter/names/dump     ramp/function  Get the name of all parameters for the currently used function
+        - [ ] :ramp/function/parameter width          ramp/function  This is an example (valid for the tanh function)
+        - [ ] :ramp/function/parameter/get width      ramp/function  This is an example (valid for the tanh function)
+    - [ ] ui
+        - [ ] :ui/freeze                              ui
+        - [ ] :ui/freeze/get                          ui
+</pre>
