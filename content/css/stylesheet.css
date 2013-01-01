@@ -1,31 +1,4 @@
-/* @group About
- */
-
-/* This style sheet is made and edited in CSSEdit:
-	http://macrabbit.com/cssedit/
-	*/
-
-/* CSS Systems:
-	The stylesheet is based on the philosophy of CSS Systems 
-	- a top-down approach to architecting a site's CSS as proposed by Natalie Downe:
-	http://natbat.net/2008/Sep/28/css-systems/
-	http://www.slideshare.net/nataliedowne/css-systems-presentation
-	*/
-
-/* Rule blocks are loosely ordered by specificity:
-	- elements are grouped by the type of tag 
-		(for example Lists, links, blockquotes)
-	- classes are grouped by the affect 
-		(for example Notifications, pagination, content modules)
-	- ID’s	are grouped by the individual page component they affect 
-		(for example the Header, toolbar, nav)
-		*/
-
-/* @end */
-
-/* @group General styles */
-
-/* This section is for general and global styles */
+/* @override http://localhost:3000/css/style.css */
 
 * {
 	margin: 0;
@@ -99,7 +72,7 @@ a:hover {
 	position: absolute;
 	top: 40px;
 	left: 280px;
-	width: 500px;
+	width: 700px;
 }
 
 #main h1, #main_nabble h1 {
@@ -158,6 +131,15 @@ a:hover {
 	font-size: 15px;
 	line-height: 20px;
 }
+#main pre{
+		margin: 20px 0;
+		background-color: #393938;
+		-moz-box-shadow: 0 0 5px #4a4a4a;
+		-webkit-box-shadow: 0 0 5px #4a4a4a;
+		box-shadow: 0 0 5px #4a4a4a;
+		color: #ffffff;
+		padding: 10px;
+	}
 
 #main ul, #main ol {
 	margin-top:0;
