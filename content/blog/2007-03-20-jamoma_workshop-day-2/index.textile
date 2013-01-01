@@ -1,0 +1,35 @@
+---
+layout: post
+title: Jamoma workshop - Day 2
+kind: article
+created_at: 2007-03-20
+location: Albi, France
+author: Trond Lossius
+h1: Jamoma workshop - Day 2
+categories:
+- workshop
+- bug tracker
+- gmea
+- z
+- cicm
+- installason
+- kitty
+- irin
+---
+Time before lunch was spent on general development, exploring the environment, helping everyone setting up svn so that they can get updates from the repository, etc. Also several bugs were recognized, some of which were fixed. We have started using the Sourceforge bug tracker again for "bug reports":http://sourceforge.net/tracker/?group_id=78108&atid=552170.
+
+First presentation after lunch is Pascal Baltazar, presenting his performance environment *Z*.
+
+Z seems more customized to his own artistic use than Jamoma, but have some really interesting implementations for spatialisation, with each module having effect sends to two different reverbs, as well as a dynamic system for amplitude panning to four selectable speakers. Speaking for myself (Trond) I believe that the spatialisation was a strongly integrated part of his performance last Saturday.
+
+Z also have a very well developed system for mapping. This Pascal has ported to Jamoma, although it remains to be updated for the new core of version 0.4.
+
+Next Antonio de Sousa Dias did a general presentation of "CICM - Centre de researche Informatique et Création Musicale":http://cicm.mshparisnord.org/. He then went on to present an number of environments developed at CICM.
+
+InstallaSon is a system for interactive audiovisual installations, containing an editor and a manager.
+
+KITTy is a package for external patches communication management in Max/MSP. One of the ideas of KITTy, Kit d’Interfacage Tout Terrain, is to remember the state of the environment immediately before it closed. KITTy was presented at "ICMC2005":http://www.icmc2005.org/index.php?selectedPage=119.
+
+He then went on to demonstrate [IRIN by Carlos Caires. IRIN is specifically made for work on microsound. IRIN will be presented in an "upcoming":http://homepage.oniduo.pt/carlos.caires/sw/sw@carloscaires_eng.html "CMJ":http://mitpress2.mit.edu/e-journals/Computer-Music-Journal/ paper.
+
+In his presentation yesterday Tim Place quoted Manovich's claim that new media are interfaces to databases. Antonio took a twist on this by stating that for him, "a musical work would be the result of an interface to a database".
