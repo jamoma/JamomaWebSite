@@ -5,7 +5,7 @@ kind: article
 created_at: 2007-03-12
 location: Bergen, Norway
 author: Trond Lossius
-h1: Jamoma workshop - Day 1
+h1: Jamoma workshop in Paris
 categories:
 - workshop
 - paris

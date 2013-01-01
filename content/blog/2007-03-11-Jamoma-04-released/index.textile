@@ -1,0 +1,18 @@
+---
+layout: post
+title: Jamoma 0.4 released
+kind: article
+created_at: 2007-03-11
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma 0.4 released
+categories:
+- installer
+- download
+---
+
+Jamoma 0.4 has now been released! This is a major update to Jamoma that includes a rewrite of the entire core architecture. All of the core functionalities are now coded in C, making this version faster, more flexible, clearer and easier-to-use.
+
+There is a caveat though: 0.4 is not backwards compatible. Modules written using older versions of Jamoma (versions 0.3.x) will need to be adapted for 0.4. It isn’t hard to do, but it does need to be done. The number of breakages and backwards compatibility problems should begin to slow dramatically at this point, so massive breaks on this scale should not occur again in the foreseeable future.
+
+Information on how to update modules to the new core can be found "here":http://www.jamoma.org/wiki/UpdatingToNewCore.
