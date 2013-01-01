@@ -11,7 +11,6 @@ categories:
 - nime
 - namespace
 ---
-*First posted on 06/10/2006 02:10:28*\
 
 An impromptu OSC developers' meeting was held on June 8 2006 at NIME. Matt Wright has put a summary online "here":http://www.opensoundcontrol.org/group_book/developers/nime06meeting. Quite a few of the topics discussed seem relevant to current discussions and consideration within the development of Jamoma, e.g. the discussion of "standardized address spaces and schemas":http://www.opensoundcontrol.org/schemas. The possiblility of forming working groups to address various topics was also discussed.
 
