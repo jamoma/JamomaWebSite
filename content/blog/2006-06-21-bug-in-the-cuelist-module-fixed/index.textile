@@ -1,0 +1,14 @@
+---
+layout: post
+title: Bug in the cuelist module fixed
+kind: article
+created_at: 2006-06-21
+location: Bergen, Norway
+author: Trond Lossius
+h1: Bug in the cuelist module fixed
+categories:
+- cue script
+---
+For a while we have had occational problems with Max crashes when triggering cues in the Jamoma cuelist module. We have finally managed to track down and solve the problem. If you use this module, it is highly recommended that you download and install an updated version of the Max *regexp* external that can be found "here":http://www.cycling74.com/twiki/bin/view/IncrementalDownloads.
+
+Thanks to Jeremy Bernstein for looking into this!
