@@ -1,0 +1,15 @@
+---
+layout: post
+title: Jamoma workshop - Day 1
+kind: article
+created_at: 2007-03-19
+location: Albi, France
+author: Trond Lossius
+h1: Jamoma workshop - Day 1
+categories:
+- workshop
+- gmea
+---
+"GMEA":http://www.gmea.net is holding a 4 day workshop on Jamoma, set up by Pascal Baltazar. We'll try to blog what happens as it happens.
+
+The first day of the workshop starts of with a presentation by Tim Place, discussing general philosophy of Jamoma, how it has evolved, and the modular structure of layers of complexity, from the C++ layer used for externals, including the ttblue framework, via components, algorithms, modules to a not existing top layer providing a framwork hosting Jamoma modules.
