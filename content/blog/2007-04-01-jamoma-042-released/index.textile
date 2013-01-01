@@ -1,0 +1,41 @@
+---
+layout: post
+title: Jamoma 0.4.2 Released
+kind: article
+created_at: 2007-04-01
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma 0.4.2 Released
+categories:
+- installer
+- download
+---
+New Modules:
+* jmod.blur%: spatial blurring
+
+New Components:
+* jcom.char2float%: convert a matrix from char to float32, keeping planecount and dimensions
+* jcom.float2char%: convert a matrix from float32 to char, keeping planecount and dimensions
+* jcom.spray%: distribute a video matrix to multiple (8) windows on bang
+
+Core Bug Fixes:
+* fixed problems with jcom.send and jcom.receive binding getting corrupted
+* fixed problems on Windows with many crashes (caused by receiver list corruption in jcom.receive)
+* fixed file reading (including presets) on Windows -* this was crashing and failing to read files
+* fixed crashes on Windows caused by RampUnits being set in some parameters
+* fixed incorrect offset of the ambisonic panel in half-widt modules
+* Ramping now works again when changing gain parameters using dB.
+
+Module Bug Fixes:
+* jmod.file_browser: fixing problems with various file types 
+* fixed init problems in jmod.mouse
+* mapper.mod: fixed bug where the algorithm would not be created in the mapping if the ui of the module was used to create it
+* updates to jmod.equalizer~ and jmod.multidelay~ to bring them up to date with the new core. (jmod.equalizer~ is still not ready for use though)
+* jmod.limiter~ and jmod.saturation~ now directly use an  external for their algorithms
+* added /preamp and /mode parameters to jmod.saturation
+
+Other Improvements:
+* miscellaneous cleanup and fixes throughout
+* help patch updates
+* overview updated 
+
