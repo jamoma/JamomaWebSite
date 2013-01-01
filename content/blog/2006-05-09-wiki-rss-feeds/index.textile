@@ -1,0 +1,21 @@
+---
+layout: post
+title: Wiki RSS feeds
+kind: article
+created_at: 2006-05-09
+location: Bergen, Norway
+author: Trond Lossius
+h1: Wiki RSS feeds
+categories:
+- wiki
+- rss
+- feed
+---
+
+
+We now have feeds monitoring changes to the Jamoma wiki:
+
+* "Last 10 changes":http://www.jamoma.org/wiki/FrontPage/changes_rss    .
+* "New pages created":http://www.jamoma.org/wiki/FrontPage/pages_rss
+    
+

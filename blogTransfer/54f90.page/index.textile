@@ -1,9 +1,0 @@
-*First posted on 05/09/2006 09:54:17.*\
-
-We now have feeds monitoring changes to the Jamoma wiki:
-
--   [http://www.jamoma.org/wiki/FrontPage/changes\_rss](http://www.jamoma.org/wiki/FrontPage/changes_rss)\
-    Last 10 changes.
--   [http://www.jamoma.org/wiki/FrontPage/pages\_rss](http://www.jamoma.org/wiki/FrontPage/pages_rss)\
-    New pages created.
-
