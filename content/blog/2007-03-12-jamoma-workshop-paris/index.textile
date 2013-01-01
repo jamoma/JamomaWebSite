@@ -1,0 +1,70 @@
+---
+layout: post
+title: Jamoma workshop in Paris
+kind: article
+created_at: 2007-03-12
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma workshop - Day 1
+categories:
+- workshop
+- paris
+- ars longa
+---
+
+Jamoma introductory workshop in Paris : March 23rd, Ars Longa
+
+The Jamoma collective will hold an introductory workshop on the Jamoma framework for the French Max community. This workshop will take place at the Ars Longa gallery in Paris, on March the 23rd, from 10AM to 6PM, and will be free. Participants are encouraged to bring their own laptops with Max installed, and to help us prepare for their presence by sending a mail to info AT seeusoon DOT net
+
+This workshop has been made possible by the kind welcoming "Ars Longa gallery":http://www.seeusoon.net/, and by the invitation of the Jamoma collective to France by the "GMEA":http://www.gmea.net/ and "Incidents Mémorables":http://www.incidentsmemorables.org/.
+
+Schedule of the workshop :
+
+10:00 - Introduction, philosophy, history, guiding principles, etc.
+11:00 - How to install and use Jamoma
+12:00 - The core of Jamoma : analyzing a Jamoma module
+01:00 - Lunch !
+02:00 - How to make a module... hands-on session
+03:30 - Namespace and mapping
+04:00 - Using Jamoma for gesture analyzis
+04:30 - Case Study: Jamoma in use
+05:00 - Looking into the future, Q&A, suggestions?
+
+The presentation will be led by the core Jamoma team :
+* Pascal Baltazar
+* Alexander Refsum Jensenius
+* Trond Lossius
+* Tim Place
+* Dave Watson
+
+We look forward to seeing you there!
+
+----
+
+Atelier de présentation de Jamoma : 23 mars 10h-18h
+
+Le collectif Jamoma proposera le 23 mars à la communauté Max/MSP/Jitter parisienne, ainsi qu'aux artistes intéressés par l'écriture interactive sonore et visuelle, un atelier de présentation du protocole qu'il développe :
+
+Jamoma est un projet international et open source de développement d'une structure permettant l'échange et la réutilisation de « patches » (blocs de programmations) réalisés en Max/MSP/Jitter.
+
+Les avantages d'un tel système sont, entre autres : De permettre à des artistes peu férus de programmation de profiter des ressources offertes par les systèmes tels que Max/MSP/Jitter, sans avoir à passer par un apprentissage long et laborieux de ce logiciel : en réutilisant un certain nombre de briques déjà existantes, ou en les adaptant à leurs usages. De permettre la mutualisation du travail de développement, en en regroupant la partie générique, pour permettre aux artistes et programmeurs de se concentrer d'avantage sur la programmation spécifique et sur les aspects expressifs que techniques. De faciliter l'inter-opérabilité avec d'autres systèmes, notamment grâce à l'implémentation native et transparente pour l'utilisateur du protocole OSC.
+
+Programme de la journée :
+
+10:00 - Introduction, philosophy, history, guiding principles, etc.
+11:00 - How to install and use Jamoma
+12:00 - The core of Jamoma : analyzing a Jamoma module
+01:00 - Lunch !
+02:00 - How to make a module... hands-on session
+03:30 - Namespace and mapping 
+04:00 - Using Jamoma for gesture analyzis 
+04:30 - Case Study: Jamoma in use 
+05:00 - Looking into the future, Q&A, suggestions?
+
+La présentation sera menée par toute l'équipe de Jamoma : Tim A. Place, Trond Lossius, Alexander R. Jensenius, Pascal Baltazar, Dave Watson.
+
+L'atelier se déroulera en langue anglaise, de 10h à 18h, et sera gratuit.
+
+Les participants sont invités à amener leurs ordinateurs portables, dans la mesure du possible, et à signaler leur présence par mail à info@seeusoon.net.
+
+Cet atelier a été rendu possible grâce à l'accueil par la galerie Ars Longa, et à l'occasion de l'invitation en France du collectif par le GMEA (centre de création musicale d'Albi-Tarn ) et Incidents Mémorables (Compagnie et centre de ressources numérique et spectacle vivant).
