@@ -1,0 +1,28 @@
+---
+layout: post
+title: Progress towards to version 0.4
+kind: article
+created_at: 2006-10-03
+location: Bergen, Norway
+author: Trond Lossius
+h1: Progress towards to version 0.4
+categories:
+- development
+- jamoma 0.4
+---
+
+_The really big Jamoma development project lately has been the transition to v.0.4, with all core functionalities ported from abstractions to externals. The work has mainly been carried out by Tim. The above is from a mail to the jamoma-devel mailing list today:_
+
+Hey everyone,
+
+We have hit a milestone today... The jmod.parameter and jmod.message externals, I believe, are now finished. Thanks to Jeremy for some generous assistance with it. As some of you know, the missing puzzle piece was the integration with pattr. That is now in place.
+
+If you want to try it out, do a checkout of the experimental branch from SVN. If you are on a Mac, then you need to unzip the built externals (which are all up to date).
+
+In addition to our externals, there is an additional file (pattr-bundle) which is used by jmod.parameter for the pattr integration. If this file is not in your searchpath, then pattr integration will not be available (though all other aspects of jmod.parameter will still work).
+
+I now believe the biggest issue in the experimental branch is ironing out the jmod.in/jmod.out objects - particularly for the video modules. Apart from the video modules, things should mostly work.
+
+Please let me know if you find any problems.
+
+Tim
