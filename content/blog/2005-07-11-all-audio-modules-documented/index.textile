@@ -1,0 +1,15 @@
+---
+layout: post
+title: All audio modules documented
+kind: article
+created_at: 2005-07-11
+location: Bergen, Norway
+author: Trond Lossius
+h1: All audio modules documented
+categories:
+- release
+- audio modules
+- documentation
+---
+
+Help files for the remaining audio modules planned for the v.0.2 release was added today. This was done the lazy way, by simply refering to their stereo sibblings. Apart from being less work, it also saves us from having to deal with keeping mono and stereo versions of the help files syncronized in the future.

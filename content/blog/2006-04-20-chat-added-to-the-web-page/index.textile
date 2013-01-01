@@ -1,0 +1,16 @@
+---
+layout: post
+title: Chat added to the web page
+kind: article
+created_at: 2006-04-20
+location: Bergen, Norway
+author: Trond Lossius
+h1: Chat added to the web page
+categories:
+- chat
+- website
+---
+
+I have added a chat channel to this web page. This can be used for online collaborative debugging, random noise, etc. Join in at
+
+"www.jamoma.org/chat/chat":http://www.jamoma.org/chat/chat
