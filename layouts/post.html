@@ -8,7 +8,7 @@
 		<section id="main">
 		  
 			<h1 class="top"><%= @item[:h1] %></h1>
-			<p class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></p>
+			<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
 		  
 		  	<% if !@item[:categories].nil? %>
 				<ul class="categories">
