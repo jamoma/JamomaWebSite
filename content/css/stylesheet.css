@@ -96,7 +96,7 @@ a:hover {
 	border-bottom: 1px solid #bebebe;
 	padding-top: 1em;
 	padding-left: 0;
-	margin-left: 0;
+	margin: 0;
 }
 
 #main h3 {
@@ -112,9 +112,6 @@ a:hover {
 	color: #333;
 	font-size: 14px;
 	font-weight: 100;
-	margin-right: 2%;
-	margin-left: 2%;
-	margin-bottom: 0px;
 	border-bottom: 1px solid #dadada;
 	clear: left;
 }
@@ -127,8 +124,6 @@ a:hover {
 	font-size: 12px;
 	font-weight:100;
 	line-height: 1.2;
-	margin-right: 2%;
-	margin-left: 2%;
 }
 
 #main p {
