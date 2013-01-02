@@ -8,7 +8,7 @@ In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors 
 
 *(team) "Tim Place":http://74objects.com
 *(team) "Trond Lossius":http://www.trondlossius.no/bio
-*(team) "Nils Peters":http://nilspeters.info/research"
+*(team) "Nils Peters":http://nilspeters.info/research
 *(team) Théo De La Hogue
 *(team) "Pascal Baltazar":http://www.zkrx.org/content/view/12/27/lang,en/
 *(team) "Alexander Refsum Jensenius":http://www.arj.no/bio/
