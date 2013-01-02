@@ -6,16 +6,16 @@ h2. Core developers
 
 In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors to our code repository, Jamoma is what it is through the efforts of:
 
-*(team) "Tim Place":http://74objects.com
-*(team) "Trond Lossius":http://www.trondlossius.no/bio
-*(team) "Nils Peters":http://nilspeters.info/research
-*(team) Théo De La Hogue
-*(team) "Pascal Baltazar":http://www.zkrx.org/content/view/12/27/lang,en/
-*(team) "Alexander Refsum Jensenius":http://www.arj.no/bio/
-*(team) Dave Watson
-*(team) "Nathan Wolek":http://www.nathanwolek.com/about/
-*(team) Julien Rabin
-*(team) "Adrian Gierakowski":http://www.audibledata.com/About.html
+* "Tim Place":http://74objects.com
+* "Trond Lossius":http://www.trondlossius.no/bio
+* "Nils Peters":http://nilspeters.info/research
+* Théo De La Hogue
+* "Pascal Baltazar":http://www.zkrx.org/content/view/12/27/lang,en/
+* "Alexander Refsum Jensenius":http://www.arj.no/bio/
+* Dave Watson
+* "Nathan Wolek":http://www.nathanwolek.com/about/
+* Julien Rabin
+* "Adrian Gierakowski":http://www.audibledata.com/About.html
 
 h2. Additional contributions
 
