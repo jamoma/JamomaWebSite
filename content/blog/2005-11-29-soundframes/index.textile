@@ -1,0 +1,16 @@
+---
+layout: post
+title: Soundframes
+kind: article
+created_at: 2005-11-29
+location: Bergen, Norway
+author: Trond Lossius
+h1: Soundframes
+categories:
+- Alessandro Fogar
+- Soundframes
+- performance
+---
+
+
+December 1st "Alessandro Fogar":http://www.fogar.it/ will perform "Soundframes":http://www.fogar.it/Soundframes.htm in Trieste, istituto Nordio, Soundframes, a work using Jamoma.

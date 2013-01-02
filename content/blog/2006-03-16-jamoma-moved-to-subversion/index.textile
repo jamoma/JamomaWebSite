@@ -1,0 +1,16 @@
+---
+layout: post
+title: Jamoma moved to Subversion
+kind: article
+created_at: 2006-03-16
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma moved to Subversion
+categories:
+- subversion
+- cvs
+---
+
+Tim yesterday moved the Jamoma repository from CVS to "Subversion":http://subversion.tigris.org/. We have updated the "Jamoma wiki":http://groupware.bek.no/groups/jamoma/wiki/ to reflect the current changes.
+
+One of many advantages of using Subversion is that you can now get (checkout) Jamoma from the repository with no username/password required.

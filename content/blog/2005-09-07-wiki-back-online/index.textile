@@ -1,0 +1,17 @@
+---
+layout: post
+title: WIKI is back online
+kind: article
+created_at: 2005-09-07
+location: Bergen, Norway
+author: Trond Lossius
+h1: WIKI is back online
+categories:
+- website
+- wiki
+- script
+---
+
+I've managed to get the wiki back online. This also implies that other Jamoma developers (= Tim for the time being) again can access and edit the jamoma.org site.
+
+The blog still have the default BEK wiki layout, and should be customized somewhat, but this was an important step in the right direction.

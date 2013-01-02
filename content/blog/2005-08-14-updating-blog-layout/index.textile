@@ -1,0 +1,15 @@
+---
+layout: post
+title: Updating blog layout
+kind: article
+created_at: 2005-08-14
+location: Bergen, Norway
+author: Trond Lossius
+h1: Updating blog layout
+categories:
+- blog
+- website
+- layout
+---
+
+I'm in the middle of changing the default layout for CoreBlog into a customized layout for the Jamoma project. The good thing about it is that I'm learning a bit about "Zope":http://www.zope.org that might come in handy later on.
