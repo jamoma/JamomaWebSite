@@ -1,0 +1,15 @@
+---
+layout: post
+title: Updating web pages
+kind: article
+created_at: 2005-08-08
+location: Bergen, Norway
+author: Trond Lossius
+h1: Updating web pages
+categories:
+- website
+- update
+- wiki
+---
+
+I'm currently in the middle of updating the web pages, so that jamoma.org can have its own look and feel instead of inheriting the look of the BEK intranet. There's a few issues about integration of Zope and Plone still to be sorted out, and consequencially the WIKI is not loading properly at the moment. I've posted a temporary copy of the wiki "here":http://www.bek.no/Members/lossius/jamoma_wiki. The copy will be removed once everything works properly again, hopefully by the end of the week
