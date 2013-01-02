@@ -1,6 +1,9 @@
 	  <section id="sidebar">
-		  <nav>
-  			<ul>
+		<script type="text/javascript">
+		jQuery.fn.initMenu=function(){return this.each(function(){$(this).get(0),$(".acitem",this).hide(),$("li.expand > .acitem",this).show(),$("li.expand > .acitem",this).prev().addClass("active"),$("li a",this).click(function(a){a.stopImmediatePropagation();var b=$(this).next(),c=this.parentNode.parentNode;return $(c).hasClass("noaccordion")?(void 0===b[0]&&(window.location.href=this.href),$(b).slideToggle("normal",function(){$(this).is(":visible")?$(this).prev().addClass("active"):$(this).prev().removeClass("active")}),!1):b.hasClass("acitem")&&b.is(":visible")?$(c).hasClass("collapsible")?($(".acitem:visible",c).first().slideUp("normal",function(){$(this).prev().removeClass("active")}),!1):!1:b.hasClass("acitem")&&!b.is(":visible")?($(".acitem:visible",c).first().slideUp("normal",function(){$(this).prev().removeClass("active")}),b.slideDown("normal",function(){$(this).prev().addClass("active")}),!1):void 0})})},$(document).ready(function(){$(".menu").initMenu()});
+		</script>
+		  <nav class="menubar">
+  			<ul class="menu">
   				<li>
   					<a href="#" class="section">Overview</a>
   					<ul class="acitem">
