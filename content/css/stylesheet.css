@@ -37,6 +37,14 @@ a:hover {
 	
 }
 
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
 /* @end */
 
 /* @group Page structure */
@@ -128,7 +136,7 @@ a:hover {
 
 #main p {
 	margin: 20px 0;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 20px;
 }
 #main pre{
@@ -213,6 +221,10 @@ a:hover {
 	display: block;
 	position: relative;
 	width: 100%;
+	font-size: 10px;
+}
+
+#footer a {
 	font-size: 10px;
 }
 
