@@ -1,0 +1,17 @@
+---
+layout: post
+title: Physis by Asbjørn Schaatun
+kind: article
+created_at: 2006-04-06
+location: Bergen, Norway
+author: Trond Lossius
+h1: Physis by Asbjørn Schaatun
+categories:
+- Asbjørn Scaatun
+- project
+- notam
+
+---
+
+
+"NoTAM":http://www.notaom02.no are currently "in the process":http://www.integralive.org/development/development-blog/development-update of implementing the composition Physis by Asbjørn Scaatun as part of the "Integra":http://www.integralive.org) project. It is implemented in Max/MSP, partly using Jamoma.
