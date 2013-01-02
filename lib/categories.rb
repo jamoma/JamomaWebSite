@@ -12,7 +12,7 @@ module Categories
   # +kind+ is +article+
   #
   # Returns an array of strings with the name of categories on those posts.
-  def all_categories(posts=articles)
+  def all_categories(posts=sorted_articles)
     cats = []
     posts.each do |article|
       next if article[:categories].nil?
@@ -41,7 +41,7 @@ module Categories
   #
   # By default all articles are checked. Pass in an array to limit the
   # search to a subset of articles.
-  def articles_with_category(category, posts=articles)
+  def articles_with_category(category, posts=sorted_articles)
     posts.select { |article| has_category?(category, article) }
   end
   memoize :articles_with_category
@@ -54,7 +54,7 @@ module Categories
   #
   # By default all articles are checked. Pass in an array to limit the
   # search to a subset of articles.
-  def articles_by_category(posts=articles)
+  def articles_by_category(posts=sorted_articles)
     cats = []
     all_categories.each do |cat|
       cats << [cat, articles_with_category(cat)]
