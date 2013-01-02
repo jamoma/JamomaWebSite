@@ -4,7 +4,7 @@ title: The development team
 
 h2. Core developers
 
-In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors to our code repository, Jamoma is what it is through:
+In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors to our code repository, Jamoma is what it is through the efforts of:
 
 *(team) "Tim Place":http://74objects.com
 *(team) "Trond Lossius":http://www.trondlossius.no/bio
@@ -25,4 +25,4 @@ Matthew Aidekman, Charles Bascou, Jeremy Bernstein, Jamie Bullock, Nicolas Carri
 
 h2. How to join?
 
-If you are a programmer and want to join the Jamoma team, post to the <a href="http://jamoma.org/forum.html">development newslist</a> or contact us <a href="mailto:jamoma@jamoma.org">off-list</a>.
+If you are a programmer and want to join the Jamoma team, please get in touch with us at the <a href="http://jamoma.org/forum.html">development mailing list</a> or contact us directly <a href="mailto:jamoma@jamoma.org">off-list</a>.
