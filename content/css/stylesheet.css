@@ -173,6 +173,12 @@ em {
 	line-height: 20px;
 }
 
+#main blockquote p {
+	margin-right: 50px;
+	margin-left: 50px;
+	color: #797979;
+}
+
 #main pre{
 		margin: 20px 0;
 		background-color: #393938;
