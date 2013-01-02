@@ -1,0 +1,21 @@
+---
+layout: post
+title: Teatrix workshop
+kind: article
+created_at: 2006-03-30
+location: Bergen, Norway
+author: Trond Lossius
+h1: Teatrix workshop
+categories:
+- workshop
+- teatrix
+---
+
+This week me, Tim and Alexander are taking part in the "Teatrix":http://www.bek.no/events/teatrix_ws workshop hosted by "BEK":http://www.bek.no at Scene USF, Bergen. A log from the workshop can be found "here":http://www.bek.no/int/Members/teatrix. We use the oportunity to further development of Jamoma, with a bunch of new modules, additions and changes to the core, etc. being done. Below is a list of new modules:
+
+* jmod.echo~.mod - stereo echo effect.
+* jmod.mappings.mod - manage parameter mappings for jamoma modules. 
+* jmod.oscnet.mod - send and receive OpenSoundControl on a network port. 
+* jmod.hi.mod - for using human interface devices. * jmod.ambi.decode~ - ambisonic decoding. Based on the externals by "jasch/ICST":http://www.icst.net/.
+
+This post will be updated as we go along.

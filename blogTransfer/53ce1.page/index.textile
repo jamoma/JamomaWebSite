@@ -1,9 +1,0 @@
-*First posted 03/16/2006 08:47:24.*\
-
-Tim yesterday moved the Jamoma repository from CVS to
-[Subversion](http://subversion.tigris.org/). We have updated the [Jamoma
-wiki](../wiki) to reflect the current changes.
-
-One of many advantages of using Subversion is that you can now get
-(checkout) Jamoma from the repository with no username/password
-required.
