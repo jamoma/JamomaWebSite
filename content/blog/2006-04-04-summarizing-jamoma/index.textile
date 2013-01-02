@@ -1,0 +1,41 @@
+---
+layout: post
+title: Summarizing Jamoma
+kind: article
+created_at: 2006-04-04
+location: Bergen, Norway
+author: Trond Lossius
+h1: Summarizing Jamoma
+categories:
+- recommendation
+- goals
+- structure
+- Integra
+- uses
+- project
+---
+
+
+This is an excerpt from an email by Trond on the Jamoma dev list a month or two ago. I keep coming back to it as I think it summarizes the current state of Jamoma quite well...
+
+In general concerning the use of jamoma, I believe that others will be able to use it at one or more of these three levels:
+
+# Adopting the recommendation but not necessarily the implementation. This could be the case e.g. if the integra project decides on using the recommendation, but leaving it free if technical solutions are developed in MaxMSP, Pd, SuperCollider, Csound or other languages (or if they decide to create their own implementation).
+
+# Adopting the recommendation and the implementation, but not necessarily the modules.This could be the case for artists that do not want to use standard modules or the kind of modules Jamoma offers, but still wants to adopt their own patches to the structure so that they can benefit from the parameter handling etc.
+
+# Users that make use of the modules.
+
+What modules are included only really matter for the last group. For the rest they might function as examples/tutorials but nothing more. I still believe it is useful to develop a potential much larger number of modules than is currently the case. me and Tim decided to keep the number of modules down for a while, as we were continuously changing and improving on the core of Jamoma, so that modules had to be altered all the time.
+
+I believe that we are now getting closer to a fixed structure, so that future changes can be done without having to alter the way modules are created again and again. There are two potential changes I envisage that might influence current modules so that they have to be updated:
+
+* implementation of a component that can be used to auto-document output from the modules. Some modules, like the motiontracker module you have committed, return messages that are not already defined as messages or parameters. These are currently not being documented in the html. It's on the todo-list to change this, and I have some ideas about how to go along, but it's still to be done.
+
+* reviewing and possibly reconsider if parameter changes and updates to the modules are also to be returned from the left outlet. This is in many ways a leftover from Jade that we might want to think about once more at some stage.
+
+Apart from that I believe that as we start introducing new modules, we shouldn't be to whimsical about it. It is better to concentrate on some tasks, so that there's a certain consistency and logic in what modules are included. We've discussed this quite a bit in the past, and based on that I believe that further development for the next few should happen along these axes:
+
+Some core functions: a vst wrapper, a matrix, a file player, a synth module that can function as a template for other synth modules, etc. Common effects: chorus, delay, etc. Ambisonics modules. Gesture patches.
+
+IMO one of the strengths of the development so far of Jamoma is that development has not only happened according to some abstract idea about what might be useful, but it has been driven by real life artistic and research needs, and put to test continuously along the way in a variety of situations.
