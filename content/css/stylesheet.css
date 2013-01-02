@@ -82,10 +82,17 @@ em {
 /* @group Main content */
 
 #main {
-	position: absolute;
-	top: 40px;
-	left: 280px;
-	width: 700px;
+	padding-left: 0px;
+  	top: 0px;
+  	position: absolute;
+  	margin-top: 0px;
+  	margin-right: 0px;
+  	margin-bottom: 0px;
+  	margin-left: 0px;
+  	width: inherit;
+  	height: 100%;
+  	right: 150px;
+  	left: 200px;
 }
 
 #main h1, #main_nabble h1 {
@@ -139,6 +146,7 @@ em {
 	font-size: 12px;
 	line-height: 20px;
 }
+
 #main pre{
 		margin: 20px 0;
 		background-color: #393938;
@@ -172,13 +180,20 @@ em {
 #main table {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 2%;
+	margin-left: 0%;
+	margin-right: 0%;
 	font-size: 14px;
-	width: 80%;
+}
+
+#main tr {
+	left: 0;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-right: 10px;
 }
 
 #main td {
-	padding-right: 10px;
+	padding-right: 0px;
 	font-size: 12px; 
 	vertical-align: top;
 	list-style-type: none;
@@ -187,10 +202,8 @@ em {
 	padding-bottom: 10px;
 }
 
-#main tr {
-	left: 0;
-	padding-left: 1px;
-	margin-left: 1px;
+#main td:nth-child(even) {
+	border-color: #ff2741;
 }
 
 #column {
@@ -283,6 +296,28 @@ em {
 
 /* @group Page specifics */
 
+/* @group Front */
+
+.title
+{
+  left: 60px;
+  width: 600px;
+  height: 90px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d5d5d5;
+  margin-top: 35px;
+}
+
+.JamomaUmbrellaLogo
+{
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+
+/* @end */
+
 /* This section is for css specific to a certain type of pages, e.g. blog or tutorials */
 
 /* @group Blog */
@@ -327,6 +362,12 @@ em {
 	top: 40px;
 	left: 280px;
 	width: 750px;
+}
+
+#main_nabble p {
+	margin: 20px 0;
+	font-size: 12px;
+	line-height: 20px;
 }
 
 /* @end */
