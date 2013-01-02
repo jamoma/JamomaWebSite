@@ -1,4 +1,30 @@
-/* @group General styles */
+/* @group About
+ */
+
+/* This style sheet is made and edited in CSSEdit:
+	http://macrabbit.com/cssedit/
+	These days the program is known by a new name: espresso
+	http://macrabbit.com/espresso/
+	*/
+
+/* CSS Systems:
+	The stylesheet is based on the philosophy of CSS Systems 
+	- a top-down approach to architecting a site's CSS as proposed by Natalie Downe:
+	http://natbat.net/2008/Sep/28/css-systems/
+	http://www.slideshare.net/nataliedowne/css-systems-presentation
+	*/
+
+/* Rule blocks are loosely ordered by specificity:
+	- elements are grouped by the type of tag 
+		(for example Lists, links, blockquotes)
+	- classes are grouped by the affect 
+		(for example Notifications, pagination, content modules)
+	- ID’s	are grouped by the individual page component they affect 
+		(for example the Header, toolbar, nav)
+		*/
+
+/* @end */
+
 /* @override http://localhost:3000/css/style.css */
 
 * {
