@@ -1,0 +1,13 @@
+---
+layout: post
+title: Jamoma 0.3.0 Preview 2
+kind: article
+created_at: 2006-04-14
+location: Bergen, Norway
+author: Trond Lossius
+h1: Jamoma 0.3.0 Preview 2
+categories:
+- release
+---
+
+We didn't have time to properly finish up a real release of version 0.3.0 before Easter, so I've posted a second preview version of Jamoma 0.3.0 to the website. This is from a snapshot taken earlier today. It should be quite good. We will be trying to wrap up the 0.3.0 release over the next couple of weeks.
