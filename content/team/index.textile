@@ -19,10 +19,20 @@ In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors 
 
 h2. Additional contributions
 
-Ideas, advices, code, tutorials, modules for the UserLib, etc. In alphabetical order:
+We are greatful to everyone that have contributed with additional ideas, advices, code, tutorials, modules for the UserLib, etc. In alphabetical order:
 
-Matthew Aidekman, Charles Bascou, Jeremy Bernstein, Jamie Bullock, Nicolas Carriere, Mathieu Chamagne, Nicolas Deflache, Ricardo del Pozo, Henrik Frisk, Thomas Grill, Tristan Matthews, Kristian Nymoen, Marlon Schumacher, Diemo Schwarz, Thorolf Thuestad
+Matthew Aidekman, Charles Bascou, Casey Basichis, Jeremy Bernstein, Jamie Bullock, Nicolas Carriere, Mathieu Chamagne, Jean-Michel Couturier, Nicolas Deflache, Ricardo del Pozo, Henrik Frisk, Thomas Grill, John Hudak, Tristan Matthews, João Menezes, Kristian Nymoen, Jan Schacher, Marlon Schumacher, Diemo Schwarz, Thorolf Thuestad
 
-h2. How to join?
+h2. How to contribute?
 
-If you are a programmer and want to join the Jamoma team, please get in touch with us at the <a href="http://jamoma.org/forum.html">development mailing list</a> or contact us directly <a href="mailto:jamoma@jamoma.org">off-list</a>.
+If you are a programmer and want to join the Jamoma team, please get in touch with us at the <a href="http://jamoma.org/forum.html">development mailing list</a> or contact us directly <a href="mailto:jamoma@jamoma.org">off-list</a>. At current we are particularly interested in getting in touch with anyone willing to contribute towards the following development efforts: 
+
+* Building Jamoma for Windows
+* DSP and AudioGraph development
+* True MVC ("model-view-controller":http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) separation for Jamoma 0.6. In particular we will appreciate assistance with porting existing modules and components
+* Documentation:
+** Tutorials for Jamoma Modular
+** Doxygen documentation of Jamoma Core. This is a great way to get to know the C++ frameworks
+* Adapting Jamoma Core for use with iOS and OpenFrameworks
+
+And of course, if you have other ideas and suggestions, we are all ears.
