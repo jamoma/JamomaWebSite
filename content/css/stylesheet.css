@@ -291,6 +291,13 @@ a:hover {
 	font-size: 10px;
 	padding: 0px 7px;
 }
+.cloud a {
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 0px 7px;
+	line-height: 25px;
+	white-space: nowrap;
+}
 
 .dateAuthor {
 	text-align: right;
