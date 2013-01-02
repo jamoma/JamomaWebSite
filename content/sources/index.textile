@@ -12,11 +12,4 @@ We are using GIT for versioning control. A number of GUI clients are available, 
 
 A crash course on using GIT for Jamoma can be found "here":http://redmine.jamoma.org/projects/jamoma/wiki/Working_with_GIT. For an in-depth introduction to using Git with the Terminal, we recomment the book _Pro Git_ by Scott Chacon, available "online and as a free download":http://git-scm.com/book.
 
-h2. How to support Jamoma?
-
-Jamoma can be downloaded free of charge. Financial support is appreciated via "pledgie donation":http://pledgie.com/campaigns/5615. 
-If you are a programmer and want to join the "Jamoma team":http://jamoma.org/team.html, contact us at "jamoma&#64;jamoma.org":mailto:jamoma@jamoma.org.
-
-p=. <a href='http://www.pledgie.com/campaigns/5615'><img alt='Click here to lend your support to: Jamoma and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/5615.png?skin_name=chrome' border='0' /></a>						
-
-p=. <script type="text/javascript" src="http://www.ohloh.net/p/27434/widgets/project_thin_badge.js"></script>	
+<%= render 'support' %>

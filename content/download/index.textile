@@ -36,12 +36,4 @@ Want to become a UserLib contributor? <a href="https://raw.github.com/Nilson/Jam
 * Version 2011-02-04:
 ** "Jamoma User Libraries for OSX and Max 5":JamomaUserLib-2011-02-04-Mac-Max5
 
-
-h2. How to support Jamoma?
-
-Jamoma can be downloaded free of charge. Financial support is appreciated via "pledgie donation":http://pledgie.com/campaigns/5615.  If you are a programmer and want to join the "Jamoma team"http://jamoma.org/team.html, contact us at "jamoma@jamoma.org":mailto:jamoma@jamoma.org.
-
-p=. <a href='http://www.pledgie.com/campaigns/5615'><img alt='Click here to lend your support to: Jamoma and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/5615.png?skin_name=chrome' border='0' /></a>						
-
-
-p=. <script type="text/javascript" src="http://www.ohloh.net/p/27434/widgets/project_thin_badge.js"></script>					
+<%= render 'support' %>
