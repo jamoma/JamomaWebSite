@@ -11,11 +11,11 @@
 			<p class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></p>
 		  
 		  	<% if !@item[:categories].nil? %>
-		 	 	<% @item[:categories].each do |category| %>
-		  			<ul class="categories">
+				<ul class="categories">
+		 	 		<% @item[:categories].sort.each do |category| %>
 			  	  	  <li class="category"><a href="/categories/<%= category %>"><%= category %></a></li>
-		  			</ul>
-		  	  	<% end %>
+		  	  		<% end %>
+				</ul>
 			<% end %>
 			  
 			<% puts @item.inspect%>
