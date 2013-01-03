@@ -1,0 +1,9 @@
+--- 
+title: Projects
+---
+
+Eventually this page will contain examples of artistic projects and research showcasing how Jamoma might be used "in the real world".
+
+p=. !{width:40%}images/work-in-progress.svg!
+
+Please "contact us":mailto:jamoma@jamoma.org if you use Jamoma and would like us to showcase your projects.
