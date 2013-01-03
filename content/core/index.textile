@@ -1,0 +1,17 @@
+--- 
+title: Jamoma Core
+---
+
+Jamoma Core provides a set of layered C++ frameworks and extensions that creates an object model and then specializes that object model for advanced purposes such as audio and graphics.
+
+p=. !images/jamoma-frameworks.png!
+
+* *Foundation* : Runtime and API implementing a light-weight, dynamically bound, reflective object-oriented architecture layer on top of C++.
+* *DSP* : A C++ framework for audio processing objects. Jamoma DSP is further documented in Place:2010.
+* *Graph* : A coding layer for the creation of dynamic asynchronous graph topographies.
+* *Audio Graph* : A coding layer for the creation of dynamic audio graph topographies. AudioGraph is further documented in Place2010:AudioGraph.
+* *Modular* : A modular framework for patching in Max.
+
+Jamoma Core can be used with a wide range of hosting environments. So far development has mainly been geared towards the use with Cycling'74 Max, but example code exists illustrating how Core can be used with other real-time environments such as Pd (PureData), AudioUnit plugins and iOS.
+
+For future development we hope to expand this further and also provide examples of how to use Jamoma Core with e.g. Csound, SuperCollider, OpenFramework and for VST plugins.
