@@ -113,7 +113,7 @@ end
 
 # By default, nanoc use the page name as folder name and add an index.html page (as in first case). Here, unless the page is named "index.something" we keep the page name.
 
-route '/documentation/*/' do
+route '/tutorials/*/' do
   case item[:extension]
     when 'css'
       item.identifier.chop + '.' + item[:extension]
