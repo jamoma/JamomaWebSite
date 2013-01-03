@@ -19,7 +19,7 @@ Open the advanced features panels by clicking on jmod.cueManager top-right corne
 
 This panel lists all modules in the patch. Modules included in the current cue are displayed in red. Modules excluded from the current cue are displayed in grey. Excluding a module from the list means that the module's parameters values will be ignored from the next cue. Just click on a module in the list to include or exclude it from the next cue.
 
-bq. To select a serie of module, just click on the first, then last module while holding the %(kbd)shift% key.
+bq.  To select a serie of module, just click on the first, then last module while holding the %(kbd)shift% key.
 
 For this tutorial, we will unselect jmod.cueManager (named %(samp)myCues%) and jmod.output~ (named %(samp)myAudioOut%), assuming we want their settings to stay static for all the project. Thus, next time we save a cue, all jcom.parameter values for all modules but these two will be saved in the cue.
 
