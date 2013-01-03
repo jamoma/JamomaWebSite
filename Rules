@@ -103,11 +103,11 @@ end
 #     when 'jpg'
 #       # nothing
 #     when 'textile'
-#       filter :addref
+#       #filter :addref
 #       filter :pretextile
 #       filter :redcloth, :erb
 #       layout 'default'
-#       filter :relativize_paths, :type => :html
+#       #filter :relativize_paths, :type => :html
 #     end
 # end
 
@@ -262,6 +262,7 @@ compile '*' do
     # don’t filter binary items
   else
     filter :erb
+    filter :pretextile
     filter :redcloth
     filter :argh
     layout 'default'
