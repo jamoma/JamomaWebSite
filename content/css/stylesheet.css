@@ -249,6 +249,7 @@ em {
 
 .keepInOneColumn{
 	width: 90%;
+	display: inline-block;
 }
 
 .keepInOneColumn p{
