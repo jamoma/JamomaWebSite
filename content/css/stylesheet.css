@@ -57,8 +57,14 @@ a:hover {
 
 
 .caps {
-	font-weight: bold;
-	font-size: 100%;	
+	font-weight: normal;
+	font-size: 100%;
+	font-style: normal;
+	text-decoration: none;
+}
+a .caps{
+	color: #9E005D;
+	
 }
 
 strong {
