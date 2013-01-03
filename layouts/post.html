@@ -7,30 +7,35 @@
 		<%= render 'header' %>
 		<section id="main">
 		  
-			<h1 class="top"><%= @item[:h1] %></h1>
-			<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
-		  
-		  	<% if !@item[:categories].nil? %>
-				<ul class="categories">
-		 	 		<% @item[:categories].sort.each do |category| %>
-			  	  	  <li class="category"><a href="/categories/<%= category %>"><%= category %></a></li>
-		  	  		<% end %>
-				</ul>
-			<% end %>
-			  
+		  	<!-- Collect posts to category for the category pages -->
 			<% puts @item.inspect%>
 			<% if !@item[:posts].nil? %>
-			<ul class="archive">
-				<% @item[:posts].each do |p| %>
-					<li>
-						<span><%= p.attributes[:created_at] %> &middot; </span>
-						<a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
-					</li>
-				<% end %>
-	      	</ul>
-
+				<ul class="archive">
+					<% @item[:posts].each do |p| %>
+						<li>
+							<span><%= p.attributes[:created_at] %> &middot; </span>
+							<a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
+						</li>
+					<% end %>
+	      		</ul>
 	      	<% end %>
-	      	<%= yield %>
+			
+			<!-- Display the content of the blog post -->
+			<% post=@item %>
+			<div class="blogPostContent">
+				<h1 class="top"><%= @item[:h1] %></h1>
+				<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
+		  
+		  		<% if !@item[:categories].nil? %>
+					<ul class="categories">
+		 	 			<% @item[:categories].sort.each do |category| %>
+			  	  	  		<li class="category"><a href="/categories/<%= category %>"><%= category %></a></li>
+		  	  			<% end %>
+					</ul>
+				<% end %>
+			
+	      		<%= yield %>
+			</div>	<!-- class="blogPostContent" -->
 		  
 		  	<%= render 'disqus_thread' %>
 		  
