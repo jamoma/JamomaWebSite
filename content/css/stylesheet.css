@@ -54,10 +54,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.keepInOneColumn {
-	display: inline-block;
-    width: 100%;
-}
+
 
 .caps {
 	font-weight: bold;
@@ -248,6 +245,17 @@ em {
 	-moz-column-rule: 1px solid #ddccb5;
 	-webkitcolumn-rule: 1px solid #ddccb5;
 	column-rule: 1px solid #ddccb5;
+}
+
+.keepInOneColumn{
+	width: 90%;
+}
+
+.keepInOneColumn p{
+	width: 50%;
+	clear: none;
+	float: left;
+	text-align: justify;
 }
 
 /* @end */
