@@ -5,21 +5,12 @@ h1: Blog Archive
 
 <h1><%= @item[:h1] %></h1>
 
-<table>
 	<% sorted_articles.each do |article| %>
-	<tr>
-		<td>
-			<span><%= article.attributes[:created_at] %></span>
-		</td>
-		<td>
-			<a href="<%= relative_path_to(article) %>"><%= article.attributes[:title] %></a>
-		</td>
-		<td>
-			<a href="<%= relative_path_to(article) %>#disqus_thread"><%= article.attributes[:title] %></a>
-		</td>
-	</tr>
+		<div class="postPreview">
+			<p><a href="<%= relative_path_to(article) %>"><%= article.attributes[:title] %></a></p>
+			<p><span class="date"><%= article.attributes[:created_at] %></span></p>
+	</div>
 	<% end %>
-</table>
 
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
