@@ -89,38 +89,6 @@ compile "/demo/fancyBox/iframe/" do
 end
 
 ##############################################################################
-# Blog stuff
-##############################################################################
-
-route '/blog/' do
-  '/blog.html'
-end
-
-compile '/blog/archive/' do
-  filter :erb
-  layout 'default'
-  filter :typogruby
-end
-
-compile 'blog/feed' do
-  filter :erb
-end
-
-route 'blog/feed' do
-  '/blog/feed.xml'
-end
-
-route '/blog/archive/' do
-  '/blog/archive.html'
-end
-
-compile '/categories/' do
-  filter :erb
-  layout 'default'
-  filter :typogruby
-end
-
-##############################################################################
 # Documentation rendering
 ##############################################################################
 
@@ -179,6 +147,39 @@ route '*' do
     item.identifier + 'index.html'
   end
 end
+
+##############################################################################
+# Blog stuff
+##############################################################################
+
+route '/blog/' do
+  '/blog.html'
+end
+
+compile '/blog/archive/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
+compile 'blog/feed' do
+  filter :erb
+end
+
+route 'blog/feed' do
+  '/blog/feed.xml'
+end
+
+route '/blog/archive/' do
+  '/blog/archive.html'
+end
+
+compile '/categories/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
 
 ##############################################################################
 # Front page
