@@ -46,6 +46,7 @@ body {
 a {
 	color: #9E005D;
 	text-decoration: none;
+	font-size: inherit;
 }
 
 a:link,
@@ -188,7 +189,7 @@ em {
 
 #main p {
 	margin: 20px 0;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 20px;
 }
 
@@ -419,7 +420,7 @@ em {
 
 .dateAuthor {
 	text-align: left;
-	font-size: 12px;
+	font-size: 14px;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	color: #90908d;
