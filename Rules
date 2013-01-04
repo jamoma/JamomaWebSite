@@ -201,18 +201,6 @@ route '/static/*/' do
 end
 
 ##############################################################################
-# Forum: TODO: remove this?
-##############################################################################
-
-compile '/forum/' do
-  filter :redcloth
-  filter :argh
-  layout 'forum'
-  filter :typogruby
-  
-end
-
-##############################################################################
 # More blog stuff - vategories and single posts
 # Might be used with tutorials as well as blog
 ##############################################################################
