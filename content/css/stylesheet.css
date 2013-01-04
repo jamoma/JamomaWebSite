@@ -78,7 +78,6 @@ strong {
 em {
 	font-style: italic;
 }
-
 /* @end */
 
 /* @group Page structure */
@@ -369,28 +368,6 @@ em {
 
 /* @group Page specifics */
 
-/* @group Front */
-
-.title
-{
-  left: 60px;
-  width: 600px;
-  height: 90px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #d5d5d5;
-  margin-top: 35px;
-}
-
-.JamomaUmbrellaLogo
-{
-  text-align: center;
-  width: 150px;
-  height: 150px;
-}
-
-/* @end */
-
 /* This section is for css specific to a certain type of pages, e.g. blog or tutorials */
 
 /* @group Blog */
@@ -470,6 +447,50 @@ font: 3em "Corsiva Hebrew";
 	border-bottom: 1px solid #aeaeae;
 	height: 1em;
 }
+/* @end */
+
+/* @group Front */
+
+.title
+{
+  left: 60px;
+  width: 600px;
+  height: 90px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d5d5d5;
+  margin-top: 35px;
+}
+
+.JamomaUmbrellaLogo
+{
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+
+/* @end */
+
+/* @group Modular */
+
+
+
+.modularGreatStuff {
+	overflow: hidden;
+}
+
+.imageInlineLeft {
+	float: left;
+	display: inline;
+	margin: 0 15px 5px 0;
+}
+
+.imageInlineRight {
+	float: right;
+	display: inline;
+	margin: 0 0 5px 15px;
+}
+
 /* @end */
 
 /* @group Tutorials */
