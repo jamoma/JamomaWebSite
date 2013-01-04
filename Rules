@@ -89,6 +89,38 @@ compile "/demo/fancyBox/iframe/" do
 end
 
 ##############################################################################
+# Blog stuff
+##############################################################################
+
+route '/blog/' do
+  '/blog.html'
+end
+
+compile '/blog/archive/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
+compile 'blog/feed' do
+  filter :erb
+end
+
+route 'blog/feed' do
+  '/blog/feed.xml'
+end
+
+route '/blog/archive/' do
+  '/blog/archive.html'
+end
+
+compile '/categories/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
+##############################################################################
 # Documentation rendering
 ##############################################################################
 
@@ -168,39 +200,6 @@ route '/static/*/' do
 end
 
 ##############################################################################
-# Blog stuff
-##############################################################################
-
-route '/blog/' do
-  '/blog.html'
-end
-
-compile '/blog/archive/' do
-  filter :erb
-  layout 'default'
-  filter :typogruby
-end
-
-route '/blog/archive/' do
-  '/blog/archive.html'
-end
-
-compile 'blog/feed' do
-  filter :erb
-end
-
-route 'blog/feed' do
-  '/blog/feed.xml'
-end
-
-compile '/categories/' do
-  filter :erb
-  layout 'default'
-  filter :typogruby
-end
-
-
-##############################################################################
 # Forum: TODO: remove this?
 ##############################################################################
 
@@ -213,7 +212,7 @@ compile '/forum/' do
 end
 
 ##############################################################################
-# Categories
+# More blog stuff - vategories and single posts
 # Might be used with tutorials as well as blog
 ##############################################################################
 
@@ -230,11 +229,6 @@ end
 route '/categories/*/' do
   item.identifier.chop + '/index.html'
 end
-
-
-##############################################################################
-# TODO: Could the following be grouped with the rest of blog stuff?
-##############################################################################
 
 compile %r{^/blog/20[0-9]{2}-[0-9]{2}-[0-9]{2}} do
   if item.binary?
@@ -256,6 +250,9 @@ route %r{^/blog/20[0-9]{2}-[0-9]{2}-[0-9]{2}} do
   end
 end
 
+##############################################################################
+# General
+##############################################################################
 
 compile '*' do
   if item.binary?
