@@ -395,6 +395,14 @@ em {
 	padding-bottom: 1em;
 }
 
+.post {
+	border: 1px solid #e6e6e6;
+	border-radius: 15px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 /* @end */
 
 /* @group Nabble */
