@@ -25,7 +25,7 @@
 
 /* @end */
 
-/* @override http://localhost:3000/css/style.css */
+
 
 * {
 	margin: 0;
@@ -419,6 +419,7 @@ em {
 	border-width: 1px;
 	border-color: #e6e6e6;
 	width: 80%;
+	text-align: justify;
 }
 
 .post:hover{
