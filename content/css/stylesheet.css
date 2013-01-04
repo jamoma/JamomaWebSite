@@ -470,23 +470,6 @@ font: 3em "Corsiva Hebrew";
 }
 /* @end */
 
-/* @group Nabble */
-
-#main_nabble{
-	position: absolute;
-	top: 40px;
-	left: 280px;
-	width: 750px;
-}
-
-#main_nabble p {
-	margin: 20px 0;
-	font-size: 12px;
-	line-height: 20px;
-}
-
-/* @end */
-
 /* @group Tutorials */
 
 span.seq, figurePointer{
