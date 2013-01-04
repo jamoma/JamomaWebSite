@@ -350,12 +350,13 @@ em {
 }
 
 #sidebar .subsection, #sidebar .acitem {
-	border-left: 1px solid #d5d5d5;
-	margin-left: 5px;
-	margin-bottom: 20px;
+	/*border-left: 1px solid #d5d5d5;*/
 	padding-left: 15px;
-	margin-top: 10px;
 	line-height: 17px;
+	margin: 10px 5px 20px;
+	/* Maybe we want to remove the right line and set a 0 right-padding?*/
+	border-right: 1px solid #eaeae9;
+	padding-right: 15px;
 }
 
 .subsectionItem{
