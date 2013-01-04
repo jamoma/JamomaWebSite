@@ -128,6 +128,21 @@ em {
 }
 
 
+#main h1 a, #main_nabble h1 a {
+	font-size: 24px;
+	font-weight:100;
+	padding-top: 1em;
+	margin: 0;
+	padding-left: 0;
+	color: #9E005D;
+	text-decoration: none;
+}
+
+#main h1 a:hover, #main_nabble h1 a:hover {
+	text-decoration: underline;
+}
+
+
 #main h2 {
 	font-size: 18px;
 	font-weight:200;
