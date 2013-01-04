@@ -119,7 +119,7 @@ em {
   	margin-right: 0px;
   	margin-bottom: 0px;
   	margin-left: 0px;
-  	width: inherit;
+  	width: 720px;
   	height: 100%;
   	right: 150px;
   	left: 200px;
@@ -131,6 +131,21 @@ em {
 	padding-top: 1em;
 	margin: 0;
 	padding-left: 0;
+}
+
+
+#main h1 a, #main_nabble h1 a {
+	font-size: 24px;
+	font-weight:100;
+	padding-top: 1em;
+	margin: 0;
+	padding-left: 0;
+	color: #9E005D;
+	text-decoration: none;
+}
+
+#main h1 a:hover, #main_nabble h1 a:hover {
+	text-decoration: underline;
 }
 
 
@@ -399,6 +414,14 @@ em {
 	font-size: 12px;
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+.post {
+	border: 1px solid #e6e6e6;
+	border-radius: 15px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 /* @end */

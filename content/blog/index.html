@@ -5,10 +5,35 @@ h1: Blog
 
 <% sorted_articles[0..4].each do |post| %>
   <div class='post'>
-    <h1><%= link_to post[:title], post.path %></h1>
-    <aside>Posted at: <%= post[:created_at] %></aside>
+	<h1><a href="<%= relative_path_to(post) %>"><%= post[:title] %></a></h1>
+  	<div class="dateAuthor"><%= post[:created_at] %> by <%= post[:author] %></div>
+		  
+  	<% if !post[:categories].nil? %>
+  		<ul class="categories">
+   			<% post[:categories].sort.each do |category| %>
+    	  	  		<li class="category"><a href="/categories/<%= category %>"><%= category %></a></li>
+    			<% end %>
+  		</ul>
+  	<% end %>
+    
     <article>
       <%= post.compiled_content %>
     </article>
+	
+	<div class="comments"><a href="<%= relative_path_to(post) %>#disqus_thread"><%= post.attributes[:title] %></a></div>
   </div>
+  
 <% end %>
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'jamoma'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+  </script>
