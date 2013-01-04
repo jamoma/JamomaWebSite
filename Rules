@@ -50,6 +50,7 @@ route '/css/stylesheet/' do
   '/css/style.css'
 end
 
+# TODO: Is this duplicating stuff that comes at the end of this file?
 compile '/css/*/' do
     # compress CSS :)
     #filter :less
@@ -89,7 +90,7 @@ compile "/demo/fancyBox/iframe/" do
 end
 
 ##############################################################################
-# Documentation rendering
+# Tutorials rendering
 ##############################################################################
 
 # compile '/documentation/*/' do
@@ -132,7 +133,19 @@ route '/tutorials/*/' do
     end 
 end
 
+##############################################################################
+# Feed
+#
+# @details: This needs to come before the general roule or we get messed up
+##############################################################################
 
+compile '/blog/feed/' do
+  filter :erb
+end
+
+route '/blog/feed/' do
+  '/blog/feed.xml'
+end
 
 ##############################################################################
 # General roule
@@ -147,39 +160,6 @@ route '*' do
     item.identifier + 'index.html'
   end
 end
-
-##############################################################################
-# Blog stuff
-##############################################################################
-
-route '/blog/' do
-  '/blog.html'
-end
-
-compile '/blog/archive/' do
-  filter :erb
-  layout 'default'
-  filter :typogruby
-end
-
-compile 'blog/feed' do
-  filter :erb
-end
-
-route 'blog/feed' do
-  '/blog/feed.xml'
-end
-
-route '/blog/archive/' do
-  '/blog/archive.html'
-end
-
-compile '/categories/' do
-  filter :erb
-  layout 'default'
-  filter :typogruby
-end
-
 
 ##############################################################################
 # Front page
@@ -201,9 +181,18 @@ route '/static/*/' do
 end
 
 ##############################################################################
-# More blog stuff - vategories and single posts
-# Might be used with tutorials as well as blog
+# Blog
 ##############################################################################
+
+compile '/blog/archive/' do
+  filter :erb
+  layout 'default'
+  filter :typogruby
+end
+
+route '/blog/archive/' do
+  '/blog/archive.html'
+end
 
 route '/categories/' do
   '/categories.html'
