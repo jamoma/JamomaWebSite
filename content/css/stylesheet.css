@@ -118,7 +118,7 @@ em {
 #main {
 	top: 0px;
   	position: absolute;
-	width: 720px;
+	width: 580px;
   	height: 100%;
   	right: 150px;
   	left: 320px;
@@ -302,7 +302,7 @@ em {
 }
 
 #footer a {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 /* @end */
@@ -417,7 +417,6 @@ em {
 	#margin-bottom: 100px;
 	border-width: 1px;
 	border-color: #e6e6e6;
-	width: 80%;
 	text-align: justify;
 }
 
