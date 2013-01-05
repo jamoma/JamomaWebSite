@@ -4,13 +4,8 @@ title: Jamoma Core
 
 Jamoma Core provides a set of layered C++ frameworks and extensions that creates an object model and then specializes that object model for advanced purposes such as audio and graphics.
 
-<%= @item.identifier %>
+<%= fancyImage @item, "images/jamoma-frameworks.png", "images/jamoma-frameworks.png", "Jamoma Frameworks" %>
 
-<%= fancyImage(@item) %>
-
-Did you get that?
-
-p=. !images/jamoma-frameworks.png!
 
 * *Foundation* : Runtime and API implementing a light-weight, dynamically bound, reflective object-oriented architecture layer on top of C++.
 * *DSP* : A C++ framework for audio processing objects. Jamoma DSP is further documented in Place:2010.
