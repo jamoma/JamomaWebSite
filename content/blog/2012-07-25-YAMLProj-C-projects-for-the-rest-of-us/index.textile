@@ -15,9 +15,7 @@ categories:
 - visual studio
 ---
 
-<a class="fancybox" href="images/yaml.png" data-fancybox-group="fancybox" title="YAML project format">
-<img alt="YAML project format" class="myCell" class="myCell" src="images/yaml-thumb.png"/>
-</a>
+p=. <%= fancyImage @item, "images/yaml.png", "images/yaml-thumb.png", "YAML project format" %>
 
 Over the past spring we have done major under-the-hood changes to how C++ projects are maintained in Jamoma. Instead of needing to maintain parallel Xcode and Visual Studio projects (and potential additional projects for iOS and Linux), we now maintin project using simple YAML text files.
 

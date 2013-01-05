@@ -13,9 +13,7 @@ categories:
 - diemo schwarz
 ---
 
-<a class="fancybox" href="images/touchosc.png" data-fancybox-group="fancybox" title="Jamoma and Touch OSC">
-<img alt="Jamoma and Touch OSC" class="myCell" class="myCell" src="images/touchosc-thumb.png"/>
-</a>
+P=. <%= fancyImage @item, "images/touchosc.png", "images/touchosc-thumb.png", "Jamoma and Touch OSC" %>
 
 Diemo Schwarz made a nice little tool that generates default templates for the "Touch OSC app":http://hexler.net/software/touchosc for iPad automatically from the parameter declaration of a Jamoma module. How cool is that?
 

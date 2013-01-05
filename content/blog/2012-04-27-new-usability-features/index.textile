@@ -27,17 +27,13 @@ Sometimes it is really hard to remember all the Jamoma externals and its attribu
 
 For allowing faster development of Jamoma modules, we started to implement autocompletion. At the moment, it works for the most frequently used externals. We will add this features for all externals in the next updates.
 
-<a class="fancybox" href="images/autocompletion.png" data-fancybox-group="autocompletion" title="Autocompletion">
-<img alt="Autocompletion" class="myCell" class="myCell" src="images/autocompletion-thumb.png"/>
-</a>
+p=. <%= fancyImage @item, "images/autocompletion.png", "images/autocompletion-thumb.png", "Autocompletion", "autocomplete" %>
 
 h2. 2. Gain and Mix widget
 
 Have you ever been confused which of the dials in a jamoma module is a gain dial and which dial is for dry/wet mixing? When you now click on either one of them, the menu will display the name of the dial and it's current value:
 
-<a class="fancybox" href="images/widget.png" data-fancybox-group="widget" title="Widget assistance">
-<img alt="Widget assistance" class="myCell" class="myCell" src="images/widget.png"/>
-</a>
+p=. <%= fancyImage @item, "images/widget.png", "images/widget.png", "Widget assistance", "widget-assistance" %>
 
 h2. 3. Tooltips
 
@@ -47,14 +43,10 @@ Yes, you can take a look into the reference page, but that is not always conveni
 
 We now take advantage of Max6's toolbar. When you hover with the mouse over a GUI element, its description will be displayed at the bottom of the patcher:
 
-<a class="fancybox" href="images/tooltip.png" data-fancybox-group="tooltip" title="Tooltip">
-<img alt="Tooltip" class="myCell" class="myCell" src="images/tooltip-thumb.png"/>
-</a>
+p=. <%= fancyImage @item, "images/tooltip.png", "images/tooltip-thumb.png", "Tooltip", "tooltip" %>
 
 The cool thing is that this also works for your existing private modules. Moreover, adding tooltips to existing modules doesn't requiere any extra work.
 
 How is that possible? We now added some code to jcom.parameter and jcom.message. When a module is initialized, the @description message of jcom.parameter or jcom.message will automatically be used to tag a connected GUI element. See the inside of *jmod.degrade\~*
 
-<a class="fancybox" href="images/documentation-attribute.png" data-fancybox-group="documentationAttribute" title="@documentation attribute">
-<img alt="@documentation attribute" class="myCell" class="myCell" src="images/documentation-attribute-thumb.png"/>
-</a>
+p=. <%= fancyImage @item, "images/documentation-attribute.png", "images/documentation-attribute-thumb.png", "@documentation attribute", "documentation-attribute" %>

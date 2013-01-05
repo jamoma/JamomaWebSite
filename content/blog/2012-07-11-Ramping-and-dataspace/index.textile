@@ -10,7 +10,7 @@ categories:
 - dataspace
 - ramping
 ---
-<iframe src="http://player.vimeo.com/video/45603843?title=0&amp;byline=0&amp;portrait=0" height="655" frameborder="0" width="425"></iframe>
+p=. <iframe src="http://player.vimeo.com/video/45603843?title=0&amp;byline=0&amp;portrait=0" height="655" frameborder="0" width="425"></iframe>
 
 Here's a sneak peek of the newest feature added to Jamoma: Support for dataspaces.
 

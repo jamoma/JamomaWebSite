@@ -13,7 +13,7 @@ categories:
 
 h2. New Jamoma release!
 
-!images/jamoma052.png!
+P=. <% fancyImage @item, "images/jamoma052.png", "images/jamoma052.png", "Jamoma 0.5.2" %>
 
 We are happy to announce that Jamoma Modular 0.5.2 for Mac is now released. Please visit "Jamoma download page":http://jamoma.org/download to grab a copy of the installer. A lot of work has been done since the last release (dating back to "June 2010":/groups/jamoma/weblog/aa50a/Jamoma_Modular_051_RC8_available_to_download.html): "new":https://github.com/jamoma/JamomaModular/commit/c2471ebeb67c5ed505377bd4f43302983ae535e0 "features":https://github.com/jamoma/JamomaModular/commit/7019ff1bada4a93bf53b123346ca88cc9a776f8b, "bug":https://github.com/jamoma/JamomaModular/commit/658f10bd72bb1a3ed335f27f34f07eb16bcab5c4 "fixes":https://github.com/jamoma/JamomaModular/commit/f298983df19366c40df4c97c1124c8ef86fec37d from a list too long to be "detailed here":https://github.com/jamoma/JamomaModular/tree/0.5.2.rc1. We hope you enjoy this new step.
 

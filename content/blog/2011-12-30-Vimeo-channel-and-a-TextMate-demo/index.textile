@@ -12,7 +12,7 @@ categories:
 - screen cast
 - cuescript
 ---
-<iframe src="http://player.vimeo.com/video/34349947?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="640" frameborder="0" height="360"></iframe>
+p=. <iframe src="http://player.vimeo.com/video/34349947?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="480" frameborder="0" height="270"></iframe>
 
 Today saw some further work on the TextMate bundle discussed "yesterday":/groups/jamoma/weblog/21170/TextMate_bundle_for_cue_scripts.html, and an updated zip file will be posted shortly to the blog post from yesterday. I've also made a screen cast demoing it, and uploaded to Vimeo.
 

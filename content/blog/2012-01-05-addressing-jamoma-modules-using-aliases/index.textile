@@ -12,7 +12,8 @@ categories:
 - cuescript
 ---
 
-<iframe src="http://player.vimeo.com/video/34630592" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/34630592">Jamoma Module Aliases</a> from <a href="http://vimeo.com/lossius">Trond Lossius</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+p=. <iframe src="http://player.vimeo.com/video/34630592" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<a href="http://vimeo.com/34630592">Jamoma Module Aliases</a> from <a href="http://vimeo.com/lossius">Trond Lossius</a> on <a href="http://vimeo.com">Vimeo</a>.
 
 While we're on the screencast bandwagon, here's a video illustrating a new feature that has been implemented this week: The ability to use aliases for the names of Jamoma modules. The main purpose of this is to be able to change the names of modules dynamically so that the names reflect the content that it is currently being used for. Hopefully this will help making cue scripts more content-related and easier to read, edit and work on.
 

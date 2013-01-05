@@ -12,9 +12,7 @@ categories:
 - osc
 ---
 
-<a class="fancybox" href="images/textmate-bundle.png" data-fancybox-group="textmatebundle" title="TextMate bundle">
-<img alt="TextMate bundle" class="myCell" class="myCell" src="images/textmate-bundle-thumb.png"/>
-</a>
+p=. <%= fancyImage @item, "images/textmate-bundle.png", "images/textmate-bundle-thumb.png", "TextMate bundle", "textmate-bundle" %>
 
 Everyone that has been doing a bit of coding, know that syntax highlighting is extremely useful. In order to simplify manual editing of Jamoma cue scripts, I've just added a OSC "TextMate":http://macromates.com/ bundle to the "Documentation":https://github.com/jamoma/JamomaDoc repository.
 
