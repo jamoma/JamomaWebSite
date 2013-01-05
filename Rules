@@ -212,6 +212,8 @@ compile %r{^/blog/20[0-9]{2}-[0-9]{2}-[0-9]{2}} do
   if item.binary?
     #nothing
   else
+    filter :erb
+    filter :pretextile
     filter :redcloth
     filter :argh
     layout 'post'
