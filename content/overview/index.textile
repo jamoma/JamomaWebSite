@@ -4,6 +4,6 @@ title: Overview of Jamoma
 
 h2. What is Jamoma?
 
-!images/42.jpg!
+<%= fancyImage @item, "images/42.jpg", "images/42.jpg", "What is Jamoma", "what" %>
 
 The answer will be further elaborated in the near future....
