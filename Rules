@@ -184,6 +184,11 @@ end
 # Blog
 ##############################################################################
 
+compile '/blog/' do
+  filter :erb
+  layout 'default'
+end
+
 compile '/blog/archive/' do
   filter :erb
   layout 'default'
