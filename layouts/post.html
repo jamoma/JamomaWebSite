@@ -22,7 +22,7 @@
 			
 			<!-- Display the content of the blog post -->
 			<% post=@item %>
-			<div class="blogPostContent">
+			<div class="post">
 				<h1 class="top"><%= @item[:h1] %></h1>
 				<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
 		  
@@ -33,9 +33,11 @@
 		  	  			<% end %>
 					</ul>
 				<% end %>
-			
-	      		<%= yield %>
-			</div>	<!-- class="blogPostContent" -->
+				
+				<article>
+	      			<%= yield %>
+				</article>
+			</div>	<!-- class="post" -->
 		  
 		  	<%= render 'disqus_thread' %>
 		  
