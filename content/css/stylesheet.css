@@ -190,11 +190,12 @@ em {
 	margin: 20px 0;
 	font-size: 14px;
 	line-height: 20px;
+	text-align: justify;
 }
 
 #main blockquote p {
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 30px;
+	margin-left: 30px;
 	color: #797979;
 }
 
@@ -220,12 +221,11 @@ em {
 #main li {	
 	font-size: 14px;
 	font-weight:100;
-	margin-top: 0;
-	margin-left: 0;
-	margin-bottom: 6px;
 	list-style-position: outside;
 	list-style-image: url(/images/bullet.png);
 	clear: none;
+	text-align: justify;
+	margin: 0 30px 12px 10px;
 }
 
 #main table {
@@ -417,7 +417,6 @@ em {
 	#margin-bottom: 100px;
 	border-width: 1px;
 	border-color: #e6e6e6;
-	text-align: justify;
 }
 
 /*.post:hover{
