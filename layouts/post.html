@@ -27,11 +27,11 @@
 				<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
 		  
 		  		<% if !@item[:categories].nil? %>
-					<ul class="categories">
+					<div class="categories">
 		 	 			<% @item[:categories].sort.each do |category| %>
-			  	  	  		<li class="category"><a href="/categories/<%= category %>"><%= category %></a></li>
+			  	  	  		<p class="category"><a href="/categories/<%= category %>"><%= category %></a></p>
 		  	  			<% end %>
-					</ul>
+					</div>
 				<% end %>
 				
 				<article>

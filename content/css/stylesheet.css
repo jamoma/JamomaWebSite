@@ -1,4 +1,4 @@
-/* @override 
+/* @override
 	http://localhost:3000/css/style.css */
 
 /* @group About
@@ -374,20 +374,25 @@ em {
 /* @group Blog */
 
 .categories {
-	margin-right: 0;
 	padding-right: 0;
 	padding-left: 0;
 	list-style-type: none;
-	display: inline;
-	margin-left: -27px;
+	display: block;
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 20px;
+	text-align: justify;
 }
 
 .category {
-	display: inline;
-	background-color: #eee;
-	border-radius: 5px;
+	border-radius: 8px;
 	font-size: 10px;
-	padding: 1px 7px;
+	margin: 0;
+	background-color: #efefef;
+	display: inline;
+	padding: 0 10px 0.1em;
 }
 
 .cloud{
@@ -396,10 +401,12 @@ em {
 
 .cloud a {
 	background-color: #efefef;
-	border-radius: 5px;
-	padding: 0px 7px;
+	border-radius: 8px;
 	line-height: 25px;
 	white-space: nowrap;
+	margin: 0;
+	display: inline;
+	padding: 0 0.5em;
 }
 
 .dateAuthor {
