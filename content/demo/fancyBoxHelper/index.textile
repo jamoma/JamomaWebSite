@@ -1,0 +1,83 @@
+--- 
+title: fancyBox Demo
+---
+
+h2. About the fancyImage method
+
+This is a demonstration of @fancyImage@, a Ruby helper that we've written (in /lib/fancyImageHelper.rb) in order to simplify the use of images on this site. The helper serves two purposes:
+
+# Make it eassier to use fancyBoxes than having to type/copy three lines of html code
+# Ensure that images show up on blog posts as well as in the blog index (ref "redmine issue #"http://redmine.jamoma.org/issues/1281). The helper ensures that absolute paths are used in the image references.
+
+This web page is not intended as a general introduction to fancyBox, that can be found "here":http://fancyapps.com/fancybox/. Rather the emphasis is on the use of the helper method for this specific site. and this page mostly makes sense when seen in connection with the textile source file used to render it. 
+
+In the textile source for the following examples, paranthesis have been ommitted in the method calls. Based on hard experience, the paranthesis was a continuous invitation to syntax errors that would cause the compiling of this page to fail.
+
+h3. Arguments
+
+The @fancyImage@ method takes six arguments:
+
+# @item
+# Relative path to large image to display in fancyBox
+# Relative path to thumb image (defaults to large image)
+# Caption - Used as alt tag and as caption in fancyBox (defaults to relative path to large image)
+# Context - Used to control what images you might scroll between in one lightbox
+# Effect - Customization of the fancyBox display
+
+
+
+h3. Examples of how to call the method
+
+h4. Two arguments
+
+Note how large images is also used for thumb:
+
+<%= fancyImage @item, "1_b.jpg" %>
+
+h4. Three arguments
+
+Note how caption and alt are simply the relative path to image:
+
+<%= fancyImage @item, "2_b.jpg", "2_s.jpg" %>
+
+h4. Four arguments
+
+Now we are able to set caption as well:
+
+<%= fancyImage @item, "3_b.jpg", "3_s.jpg", "Lorem ipsum dolor sit amet" %>
+
+h4. Five arguments
+
+By setting the context, this will not show up in the same fancyBox context as the rest
+
+<%= fancyImage @item, "rose.jpg", "rose-thumb.jpg", "Lorem ipsum dolor sit amet", "flowers" %>
+
+h4. Six arguments
+
+Now we might alter the effect as well:
+
+<%= fancyImage @item, "rose.jpg", "rose-thumb.jpg", "Lorem ipsum dolor sit amet", "effect-demo", "effect-c" %>
+
+
+
+h2. Adaptations of fancyBox examples
+
+Below are some adaptations illustrating how to get the same result as in the regular "fancyBox demo":/demo/fancyBox:
+
+h3. Simple image gallery
+
+<%= fancyImage @item, "1_b.jpg", "1_s.jpg", "Lorem ipsum dolor sit amet", "simple" %>
+<%= fancyImage @item, "2_b.jpg", "2_s.jpg", "Etiam quis mi eu elit temp", "simple" %>
+<%= fancyImage @item, "3_b.jpg", "3_s.jpg", "Cras neque mi, semper leon", "simple" %>
+<%= fancyImage @item, "4_b.jpg", "4_s.jpg", "Sed vel sapien vel sem uno", "simple" %>
+
+
+h3. Different effects
+
+<%= fancyImage @item, "1_b.jpg", "1_s.jpg", "Lorem ipsum dolor sit amet", "context-a", "effect-a" %>
+
+<%= fancyImage @item, "1_b.jpg", "1_s.jpg", "Lorem ipsum dolor sit amet", "context-b", "effect-b" %>
+
+<%= fancyImage @item, "1_b.jpg", "1_s.jpg", "Lorem ipsum dolor sit amet", "context-c", "effect-c" %>
+
+<%= fancyImage @item, "1_b.jpg", "1_s.jpg", "Lorem ipsum dolor sit amet", "context-d", "effect-d" %>
