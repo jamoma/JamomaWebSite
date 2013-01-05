@@ -7,16 +7,52 @@ h1: Blog
   <div class='post'>
 	<h1><a href="<%= relative_path_to(post) %>"><%= post[:title] %></a></h1>
   	<div class="dateAuthor"><%= post[:created_at] %> by <%= post[:author] %></div>
-	
+	<script type="text/javascript">
+	/*
+	The code below listing categories works, but it is ugly and problematic for a number of reasons:
+
+	1) 	The combination of erb and textile compilation makes it excessively sensitive to spaces, tabs and line shift.
+	 	Be really careful about altering any of the below, as it might have unforseen consequences to the layout.
+
+	2)	The code isn't dry: Categories are listed in a way that ought to look the same at three places in this blog:
+
+		- single posts (controlled by /layout/post.html)
+	 	- This index that display most recent posts (controlled by this file)
+	 	- Categories page, controlled by /content/categories.html
+
+	 	The best would be if the same code could be used all three places, ensuring the same html formatting
+	 	in a DRY way. However I haven't so far found a way of making a partial that could do so and that it
+	 	is possible to pass an item to.
+
+	3)	The resulting html code also depends on a quirk in html rendering that cause a difference between
+
+	 	<p class="category"><a href="/categories/build">build</a></p>
+	 	<p class="category"><a href="/categories/compile">compile</a></p>
+	 	<p class="category"><a href="/categories/cross-platform">cross-platform</a></p>
+
+	 	and
+
+	 	<p class="category"><a href="/categories/build">build</a></p><p class="category"><a href="/categories/compile">compile</a></p><p class="category"><a href="/categories/cross-platform">cross-platform</a></p>
+
+		The first of these will leave a space between the tags, while the second one will render them glued together.
+
+	And just to prove the point: It turned out to be impsosible to add this comment in html using <!-- --> tags
+	without it affecting layout in unforseen ways, so I had to resort to this JavaScript comment instead.
+	And just to make sure: If you add an empty line before or after this script, that will ruin the layout as well.
+
+	Duh!
+	*/
+	</script>
+
 	<% if !post[:categories].nil? %>
 		<div class="categories">
 			<% post[:categories].sort.each do |category| %>
-			<%= "<p class=\"category\"><a href=\"/categories/" + category + "\">" + category + "</a></p>" %>
+p(category). <%= "<a href=\"/categories/" + category + "\">" + category + "</a>" %>
 			<% end %>
+
 		</div>
 	<% end %>
 	
-    
     <article>
       <%= post.compiled_content %>
     </article>
