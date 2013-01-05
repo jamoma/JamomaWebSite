@@ -6,36 +6,15 @@
   <body>
 	  <%= render 'header' %>
 	  <section id="main">
-		  
 		  <% if @item[:posts].length > 0 %>
-			  <table>
-				<% @item[:posts].each do |p| %>
-			  	<tr>
-			  		<td>
-			  			<span><%= p.attributes[:created_at] %></span>
-			  		</td>
-			  		<td>
-			  			<a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
-			  		</td>
-			  		<td>
-			  			<a href="<%= relative_path_to(p) %>#disqus_thread"><%= p.attributes[:title] %></a>
-			  		</td>
-			  	</tr>
-			  	<% end %>
-			  </table>
-			  
-			  <script type="text/javascript">
-			    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-			    var disqus_shortname = 'jamoma'; // required: replace example with your forum shortname
-
-			    /* * * DON'T EDIT BELOW THIS LINE * * */
-			    (function () {
-			        var s = document.createElement('script'); s.async = true;
-			        s.type = 'text/javascript';
-			        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-			        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-			    }());
-			    </script>
+		  <h1 class="top">Browse the blog by category</h1>
+			<h1><%= @item[:title] %> category</h1>
+			<% @item[:posts].each do |p| %>
+			<div class="postPreview">
+				<p><a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a></p>
+				<p><span class="date"><%= p.attributes[:created_at] %></span></p>
+			</div>
+			<% end %>
 		  <% end %>
 		  
 		  <!--p>Tags: <%= tags_for(@item) %></p-->
