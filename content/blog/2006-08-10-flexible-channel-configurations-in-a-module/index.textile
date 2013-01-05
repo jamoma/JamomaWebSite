@@ -7,12 +7,12 @@ location: Bergen, Norway
 author: Tim Place
 h1: Flexible channel configurations in a module
 categories:
-- channel configuration
+- channel-configuration
 - mono
 - stereo
 - multicable
 - multichannel
-- jamoma 0.4
+- Jamoma-0.4
 ---
 For the last few years I’ve been trying to figure out a good way to make modules in Max that have flexible channel configurations (mono, stereo, quad, etc.).
 

@@ -8,7 +8,7 @@ author: Trond Lossius
 h1: Teatrix workshop
 categories:
 - workshop
-- teatrix
+- Teatrix
 ---
 
 This week me, Tim and Alexander are taking part in the "Teatrix":http://www.bek.no/events/teatrix_ws workshop hosted by "BEK":http://www.bek.no at Scene USF, Bergen. A log from the workshop can be found "here":http://www.bek.no/int/Members/teatrix. We use the oportunity to further development of Jamoma, with a bunch of new modules, additions and changes to the core, etc. being done. Below is a list of new modules:

@@ -9,10 +9,10 @@ h1: Last summer in Jamoma
 categories:
 - license
 - libraries
-- audio graph
-- node lib
+- audio-graph
+- NodeLib
 - publications
-- artistic projects
+- artistic-projects
 ---
 
 While various activities were slowing down during summer break, we not only took the chance to enjoy the sunny weather outside (and we hope you did as well), but also spent more time on Jamoma development.

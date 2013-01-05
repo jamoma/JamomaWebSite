@@ -8,11 +8,11 @@ author: Nils Peters
 h1: Last Quarter in Jamoma - February - April 2010
 categories:
 - publications
-- audio graph
-- node lib
+- audio-graph
+- NodeLib
 - workshop
 - performance
-- web site
+- website
 ---
 It's been some time since the last status update from the Jamoma development. The reason for this lack of news is that we were all just very busy. See below:
 

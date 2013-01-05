@@ -8,11 +8,11 @@ author: Pascal Baltazar
 h1: AFIM workgroup meeting
 categories:
 - framework
-- eve
+- EVE
 - mapping
-- integra
-- audio matrix
-- hosting environment
+- Integra
+- audio-matrix
+- hosting-environment
 - spatialisation
 - sensors
 ---

@@ -8,8 +8,8 @@ author: Trond Lossius
 h1: Jamoma goes fashion
 categories:
 - fashion
-- video projection
-- vpt
+- video-projection-tool
+- VPT
 ---
 FIAT LUX was a collaboration between Josefin Johansson, Daniel Sørensen and "Ricardo del Pozo":http://www.rdpozo.no for Oslo Fashion Week, dressing models through the use of video projections, and receiving "rave reviews":http://oslofashionweek.com/blog/fiat-lux-mindblowing-performance/:
 

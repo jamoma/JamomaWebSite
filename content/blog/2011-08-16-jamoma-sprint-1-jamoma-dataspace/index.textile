@@ -9,7 +9,7 @@ h1: Jamoma sprint #1: Jamoma Dataspace
 categories:
 - sprint
 - dataspace
-- unit tests
+- unit-tests
 ---
 For a while we have been airing the idea of doing development sprints: Focused efforts over a limited period of time targeting specific goals for Jamoma.
 

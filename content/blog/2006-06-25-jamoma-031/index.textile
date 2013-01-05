@@ -9,7 +9,7 @@ h1: Jamoma 0.3.1
 categories:
 - installer
 - download
-- jamoma 0.3.1
+- Jamoma-0.3.1
 ---
 Jamoma v.0.3.1 has been uploaded. This version includes universal binaries of all externals, compatible with the public beta universal binary version of Max (Max .4.6). Also included is a number of new modules for work on ambisonics are added, several new video modules, etc.
 

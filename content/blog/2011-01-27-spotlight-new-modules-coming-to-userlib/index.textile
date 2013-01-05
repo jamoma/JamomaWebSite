@@ -7,11 +7,11 @@ location: Albi, France
 author: Julien Rabin
 h1: Spotlight - New modules coming to UserLib
 categories:
-- ftm
-- gabor
+- FTM
+- Gabor
 - granulation
 - ag.granular.suite
-- adrian gierakowski
+- Adrian-Gierakowski
 ---
 Some time ago, Adrian Gierakowski "shared a nice patch":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/mixing-presets-tp5563868p5668098.html showing use of a new jcom.hub feature to mix between presets.
 

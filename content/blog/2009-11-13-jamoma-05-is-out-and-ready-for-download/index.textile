@@ -9,8 +9,8 @@ h1: Jamoma 0.5 is out and ready for download!
 categories:
 - download
 - installer
-- jamoma 0.5
-- max 5
+- Jamoma-0.5
+- Max-5
 ---
 "http://www.jamoma.org":http://www.jamoma.org
 

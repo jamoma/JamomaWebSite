@@ -7,10 +7,10 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Papers at upcomming conferences
 categories:
-- papers
+- publications
 - namespace
-- osc
-- spatdif
+- OSC
+- SpatDIF
 ---
 Yesterday we were notified that a paper on "Jamoma":http://www.jamoma.org was accepted for "ICMC 2008":http://www.google.no/url?sa=t&ct=res&cd=1&url=http%3A%2F%2Fwww.icmc2008.net%2F&ei=lEYlSKHnH5SWwAH2xqyMCg&usg=AFQjCNFiLd9mkoNXmx7f_QBb3UegfY4Lwg&sig2=R1RYu0qIhN7WxYz8WQrYLg. We will also have a paper on the OSC namespace used for Jamoma presented at "NIME 2008":http://www.google.no/url?sa=t&ct=res&cd=1&url=http%3A%2F%2Fnime2008.casapaganini.org%2F&ei=qUYlSOWxO4bgwgHx5oGJCg&usg=AFQjCNHyRunYOO8aMwuaRLeOMVmsysgRiQ&sig2=oo83KyqQlah5V9VFN-Gcfg.
 

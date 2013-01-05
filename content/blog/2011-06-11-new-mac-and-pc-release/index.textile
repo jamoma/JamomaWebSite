@@ -9,9 +9,9 @@ h1: New Mac and PC release
 categories:
 - installer
 - download
-- mac
-- windows
-- jamoma 0.5.3
+- Mac
+- Windows
+- Jamoma-0.5.3
 ---
 
 h2. New beta release : Jamoma Modular 0.5.3b is out

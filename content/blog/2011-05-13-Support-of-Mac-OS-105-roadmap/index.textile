@@ -7,9 +7,9 @@ location: Albi, France
 author: Julien Rabin
 h1: Support of Mac OS 10.5 roadmap
 categories:
-- xcode
-- osx 10.5
-- osx 10.7
+- Xcode
+- OSX-10.5
+- OSX-10.7
 ---
 
 In case you missed "Timothy Place’s message on Jamoma Development forum":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/The-march-of-progress-according-to-Apple-dropping-support-for-OS-0-5-td6328282.html, we would like to draw your attention on a particular point concerning the support of Mac OS 10.5.

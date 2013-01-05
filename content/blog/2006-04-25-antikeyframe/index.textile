@@ -7,8 +7,8 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: AntiKeyframe
 categories:
-- antikeyframe
-- vj
+- AntiKeyframe
+- VJ
 ---
 
 "AntiKeyframe":http://moodplug.com/antikeyframe/ is a freeware VJ-application created in Max/Msp/Jitter for manipulating DV video live.

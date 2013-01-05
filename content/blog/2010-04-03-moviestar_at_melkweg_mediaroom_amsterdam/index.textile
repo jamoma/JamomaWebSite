@@ -7,7 +7,9 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Moviestar at Melkweg Mediaroom Amsterdam
 categories:
-- art installation
+- art-installation
+- Marieke-Verbiesen
+- Neeltje-Sprengers
 ---
 
 "Moviestar":http://moviestar.marieke.nu/ is an interactive installation by Marieke Verbiesen & Neeltje Sprengers. The installation moulds old and new media together in order to create a reallife moving filmset. Classic 16mm film, animation, robotics, sound and motiontracking are used to simulate a real life filmset where visitors play the mainrole.

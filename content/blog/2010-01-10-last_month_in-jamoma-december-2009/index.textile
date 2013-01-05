@@ -7,11 +7,11 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Last Month in Jamoma - December 2009
 categories:
-- window function
-- vimic
-- nodelib
+- window-function
+- ViMiC
+- NodeLib
 - publications
-- ruby
+- Ruby
 ---
 There are always lots of things going on with Jamoma development, thanks to the growing community of people contributing. These developments are available through the "source code repository":http://github.com/tap/Jamoma - these should also make it into future installers and releases. Here are a few highlights from the last month:
 

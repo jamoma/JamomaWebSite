@@ -10,7 +10,7 @@ categories:
 - framework
 - toolbox
 - environment
-- Leafcutter John
+- Leafcutter-John
 ---
 
 There seems to be several similar initiatives to Jamoma happening at the moment. The "UBC Max/MSP/Jitter Toolbox":http://www.opusonemusic.net/muset/toolbox.html blogged here a few days ago is one of them. Yesterday I discovered another: "Framework":http://www.leafcutter.33-rpm.net/Downloadframework.htm by Leafcutter John. Framework is aimed at effect processing of stereo audio signals. This is how he describes it:

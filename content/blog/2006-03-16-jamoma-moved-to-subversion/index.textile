@@ -7,8 +7,8 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Jamoma moved to Subversion
 categories:
-- subversion
-- cvs
+- Subversion
+- CVS
 ---
 
 Tim yesterday moved the Jamoma repository from CVS to "Subversion":http://subversion.tigris.org/. We have updated the "Jamoma wiki":http://groupware.bek.no/groups/jamoma/wiki/ to reflect the current changes.

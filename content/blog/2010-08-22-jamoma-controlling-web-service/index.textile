@@ -7,11 +7,11 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Jamoma controlling Web Service
 categories:
-- web service
-- comppnent
-- fantastick
-- iphone
-- ipad
+- webservice
+- component
+- Fantastick
+- iPhone
+- iPad
 ---
 
 <a class="fancybox" href="images/webservice.png" data-fancybox-group="fancybox" title="Controlling Web Servive from Jamoma">

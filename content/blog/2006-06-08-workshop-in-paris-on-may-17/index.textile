@@ -10,7 +10,7 @@ categories:
 - workshop
 - mapping
 - namespace
-- specification
+- specifications
 ---
 
 I came back from two weeks vacation yesterday. Prior to that I only had one day in Bergen after returning from a very exciting week-long trip to Paris. I still have not had the time to write much about that trip.

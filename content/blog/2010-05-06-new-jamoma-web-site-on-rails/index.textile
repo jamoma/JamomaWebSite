@@ -7,7 +7,7 @@ location: Albi, France
 author: Julien Rabin
 h1: New Jamoma web site on rails
 categories:
-- web site
+- website
 ---
 
 People used to visit these pages will notice that a number of cosmetic changes occurred on Jamoma site. As a matter of fact, together with working on the next incremental Jamoma update, the team is working hard at making a full refresh of the site.

@@ -8,7 +8,7 @@ author: Trond Lossius
 h1: Irin
 categories:
 - Irin
-- Carlos Caires
+- Carlos-Caires
 ---
 
 Irin is online again after a hiatus (available at "http://www.carloscaires.com/":http://www.carloscaires.com/). I saw a demo given by Horracio Vaggione at the June in Buffalo festival a couple of years ago. What I remember most about it is that it seemed to have a really good timeline interface. Horracio spoke extremely highly of the environment in serveral conversations I had with him.

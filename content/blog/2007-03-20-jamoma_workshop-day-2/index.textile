@@ -8,13 +8,13 @@ author: Trond Lossius
 h1: Jamoma workshop - Day 2
 categories:
 - workshop
-- bug tracker
-- gmea
-- z
-- cicm
-- installason
-- kitty
-- irin
+- bug-tracker
+- GMEA
+- Z
+- CICM
+- InstallaSon
+- KITTy
+- IRIN
 ---
 Time before lunch was spent on general development, exploring the environment, helping everyone setting up svn so that they can get updates from the repository, etc. Also several bugs were recognized, some of which were fixed. We have started using the Sourceforge bug tracker again for "bug reports":http://sourceforge.net/tracker/?group_id=78108&atid=552170.
 

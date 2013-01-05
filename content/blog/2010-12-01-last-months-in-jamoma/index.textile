@@ -10,16 +10,16 @@ categories:
 - installer
 - sonification
 - motiongram
-- qualisys
+- Qualisys
 - documentation
-- userlibs
-- soundhack
-- musicspace
-- audio graph
-- plugtastic
-- art installation
-- spatdif
-- aes
+- UserLibs
+- SoundHack
+- MusicSpace
+- audio-graph
+- Plugtastic
+- art-installation
+- SpatDIF
+- AES
 ---
 As always, the last couple of months saw a nice amount of work getting done. In case you did not have the chance to follow this closely, here are some highlights.
 

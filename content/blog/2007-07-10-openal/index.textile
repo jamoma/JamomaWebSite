@@ -7,9 +7,9 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: OpenAL
 categories:
-- openal
-- opengl
-- spatial audio
+- OpenAL
+- OpenGL
+- spatial-audio
 ---
 
 "OpenAL":http://www.openal.org/ is a cross-platform 3D audio API appropriate for use with gaming applications and many other types of audio applications.

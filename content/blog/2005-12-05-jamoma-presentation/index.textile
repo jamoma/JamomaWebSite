@@ -8,7 +8,7 @@ author: Trond Lossius
 h1: Jamoma presentation
 categories:
 - presentation
-- Electronic Music Midwest
+- Electronic-Music-Midwest
 ---
 
 In late October Tim Place gave a presentation at "Electronic Music Midwest":http://www.electronicmusicmidwest.org on Jamoma. The presentation (with notes) is available as a PDF "here":http://electrotap.net/assets/files/EMM2005-Jamoma.pdf.

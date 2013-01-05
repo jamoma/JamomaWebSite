@@ -8,7 +8,8 @@ author: Trond Lossius
 h1: v001 (Public Beta 1)
 categories:
 - v001
-- performance environment
+- performance
+- environment
 - video
 ---
 

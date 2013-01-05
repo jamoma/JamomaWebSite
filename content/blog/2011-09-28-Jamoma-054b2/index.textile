@@ -9,7 +9,7 @@ h1: Jamoma 0.5.4.b2
 categories:
 - installer
 - download
-- plugtastic
+- Plugtastic
 ---
 A "new installer":http://www.jamoma.org/download.html is now available, with the changes and fixes reported and done in the last few weeks. Most importantly the four Plugtastic externals have been renamed. If you installed the previous beta, please remove the previous versions of these files manually:
 

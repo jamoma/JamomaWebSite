@@ -7,8 +7,8 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: OSC metting at NIME 06
 categories:
-- osc
-- nime
+- OSC
+- NIME
 - namespace
 ---
 

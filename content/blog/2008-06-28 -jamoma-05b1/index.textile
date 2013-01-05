@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Jamoma 0.5 beta 2
 categories:
-- gmea
+- GMEA
 - installer
 - download
 ---

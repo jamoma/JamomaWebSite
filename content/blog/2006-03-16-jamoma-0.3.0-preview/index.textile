@@ -9,7 +9,7 @@ h1: Jamoma 0.3.0 preview
 categories:
 - release
 - preview
-- opensoundcontrol
+- OSC
 ---
 
 The move to "OpenSoundControl":http://www.opensoundcontrol.org is now complete. "Alexander Refsum Jensenius":http://www.arj.no/blog has been adding several new video modules in the last few days. We probably still have some work to do before v.0.3.0 can be released, but I've decided to upload a "preview":http://www.jamoma.org.

@@ -7,9 +7,9 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Vimeo channel and a TextMate demo
 categories:
-- vimeo
-- textmate
-- screen cast
+- Vimeo
+- TextMate
+- screencast
 - cuescript
 ---
 p=. <iframe src="http://player.vimeo.com/video/34349947?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="480" frameborder="0" height="270"></iframe>

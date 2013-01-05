@@ -7,8 +7,8 @@ location: Montreal, Canada
 author: Nils Peters
 h1: Default color settings in Jamoma
 categories:
-- color scheme
-- object defaults
+- color-scheme
+- object-defaults
 - modules
 ---
 If you have installed Jamoma for the first time and you were so excited that you were beginning to use Jamoma without reading the "getting started" section in the ReadMe.rtf, then you have probably seen this kind of dark color scheme. 

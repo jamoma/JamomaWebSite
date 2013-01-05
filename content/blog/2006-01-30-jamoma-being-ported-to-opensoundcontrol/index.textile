@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Jamoma being ported to OpenSoundControl
 categories:
-- osc
+- OSC
 - specifications
 ---
 

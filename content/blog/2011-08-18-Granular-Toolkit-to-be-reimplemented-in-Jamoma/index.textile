@@ -8,10 +8,10 @@ author: Trond Lossius
 h1: Granular Toolkit to be reimplemented in Jamoma
 categories:
 - granulation
-- granular tool kit
-- gtk
-- nathan wolek
-- dsp
+- granular-toolkit
+- GTK
+- Nathan-Wolek
+- DSP
 ---
 For the past 10 years the Granular Toolkit (GTK) by Nathan Wolek has been a welcome and much used extension to MaxMSP for granular synthesis and processing.
 

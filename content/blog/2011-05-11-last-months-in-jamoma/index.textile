@@ -11,10 +11,10 @@ categories:
 - matrix
 - dataspace
 - network
-- unit testing
-- paper
-- windowslib
-- spatlib
+- unit-tests
+- publications
+- WindowsLib
+- SpatLib
 ---
 
 It has been a while since no update was posted on this blog. However, while things are quiet on the surface does not mean nothing is going on. As a matter of facts, since everyone came back from the nice and productive "workshop":http://www.facebook.com/media/set/?set=a.196129060402663.56901.124254017590168 we had at BEK in Bergen, a number of things have been worked on.

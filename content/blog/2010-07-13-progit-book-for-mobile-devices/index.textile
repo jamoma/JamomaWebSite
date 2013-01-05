@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: ProGit book for mobile devices
 categories:
-- git
+- Git
 ---
 
 ProGit, the eminent introduction to and reference on GIT, is now available for "iPad":http://progit.org/2010/05/17/progit-for-the-ipad.html and

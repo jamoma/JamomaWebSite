@@ -7,10 +7,10 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Staged spaces
 categories:
-- installation
+- art-installation
 - announce
-- trond lossius
-- karen kiphoff
+- Trond-Lossius
+- Karen-Kipphoff
 ---
 
 The media installation *Staged Spaces* by "Karen Kiphoff":http://home.snafu.de/%7Ekakidami/ and "Trond Lossius":http://www.bek.no/%7Elossius is currently on display at "Bergen kunsthall":http://www.kunsthall.no as part of the exhibition *Tracing Spaces*. The exhibition also features works by Doris Frohnapfel, Dan Mihaltianu og "Jeremy Welsh":http://homepage.mac.com/jeremyjwelsh/iblog/B1659270737/.

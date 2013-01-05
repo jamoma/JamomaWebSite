@@ -8,7 +8,7 @@ author: Trond Lossius
 h1: Addressing Jamoma modules using aliases
 categories:
 - alias
-- osc
+- OSC
 - cuescript
 ---
 

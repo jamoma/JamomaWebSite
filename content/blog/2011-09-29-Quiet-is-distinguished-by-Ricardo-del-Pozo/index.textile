@@ -7,9 +7,8 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Quiet is distinguished - by Ricardo del Pozo
 categories:
-- installation
-- sound art
-- ricardo del pozo
+- art-installation
+- Ricardo-del-Pozo
 ---
 
 <a class="fancybox" href="images/ricardo.png" data-fancybox-group="fancybox" title="Quiet is distinguished">

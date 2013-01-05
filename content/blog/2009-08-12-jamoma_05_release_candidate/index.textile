@@ -7,7 +7,7 @@ location: Montreal, Canada
 author: Nils Peters
 h1: Jamoma 0.5 Release Candidate
 categories:
-- jamoma 0.5
+- Jamoma-0.5
 - installer
 - download
 ---

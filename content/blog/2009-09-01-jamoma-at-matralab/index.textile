@@ -7,10 +7,10 @@ location: Montreal, Canada
 author: Nils Peters
 h1: Jamoma @ Matralab
 categories:
-- matralab
+- MatraLab
 - workshop
 - presentation
-- virage
+- Virage
 ---
 <a class="fancybox" href="images/pascal.jpg" data-fancybox-group="pascal" title="Pascal show Jamoma and the Virage Sequencer">
 <img alt="Pascal show Jamoma and the Virage Sequencer" class="myCell" class="myCell" src="images/pascal-thumb.jpg"/>

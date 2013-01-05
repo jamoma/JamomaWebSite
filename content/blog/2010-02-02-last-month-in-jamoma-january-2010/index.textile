@@ -7,12 +7,12 @@ location: Montreal, Canada
 author: Nils Peters
 h1: Last Month in Jamoma - January 2010
 categories:
-- fft
-- ios
+- FFT
+- iOS
 - multicore
-- minuit
-- osc
-- copperlan
+- Minuit
+- OSC
+- CopperLan
 - cuescript
 ---
 Traditionally, January seems to be one of the most active months for Jamoma development. This year was no exception. Here are some highlights:

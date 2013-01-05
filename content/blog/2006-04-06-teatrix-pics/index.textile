@@ -10,7 +10,7 @@ categories:
 - workshop
 - pictures
 - pics
-- teatrix
+- Teatrix
 ---
 
 Last week was the Teatrix workshop host by BEK, as previously mentioned in this blog. We used Jamoma extensively in the workshop, and also took the opporunity to a bit of development on it. The following pictures are from the theater at USF Verftet where the Teatrix workshop was held.

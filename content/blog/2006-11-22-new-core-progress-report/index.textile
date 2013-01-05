@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: New Core - Progress Report
 categories:
-- jamoma 0.4
+- Jamoma-0.4
 ---
 _Earlier today Tim posted a status report on the new core to the jamoma-devel list. It is duplicated here, with some updates according to commits done today:_
 

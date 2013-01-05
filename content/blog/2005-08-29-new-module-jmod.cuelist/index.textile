@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: "New module: jmod.cuelist"
 categories:
-- module
+- modules
 - cuelist
 - script
 ---

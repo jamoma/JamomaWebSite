@@ -9,7 +9,7 @@ h1: Jamoma 0.5 rc 10
 categories:
 - installer
 - download
-- ppc
+- PPC
 ---
 Release candidate 10 for Jamoma 0.5 is now available for download. Mac only so far, but hopefully the Windows installer will be up later today. Enjoy, and please "report any problems":http://redmine.jamoma.org/projects/modular/issues you might find.
 

@@ -11,11 +11,11 @@ categories:
 - download
 - workshop
 - publications
-- navid navab
-- ricardo del pozo
-- user libs
-- plugtastic
-- bek
+- Navid-Navab
+- Ricardo-del-Pozo
+- UserLibs
+- Plugtastic
+- BEK
 ---
 Would there be a better way to inaugurate the first 2011 blog post than wishing you all a happy new year, full of exciting and successful creative projects?
 

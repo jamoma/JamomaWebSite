@@ -7,10 +7,9 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Two sound installations in Norway
 categories:
-- art
 - announce
-- installation
-- Trond Lossius
+- art-installation
+- Trond-Lossius
 ---
 
 Trond Lossius is currently exhibiting two sound installations, both depending on the Jamoma library.

@@ -8,7 +8,7 @@ author: Nils Peters
 h1: A new mapper for Jamoma
 categories:
 - mapping
-- dot mapper
+- dot-mapper
 ---
 "Joseph Malloch":http://www.music.mcgill.ca/~mallochj/ recently created a new mapping module based on his "DOT Mapper":http://www.idmil.org/software/mappingtools.
 

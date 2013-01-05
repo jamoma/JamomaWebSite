@@ -7,8 +7,8 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Multiplayer
 categories:
-- ircam
-- openmusic
+- IRCAM
+- OpenMusic
 - spatialisation
 ---
 p=. !images/multiplayer.png!

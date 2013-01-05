@@ -7,7 +7,8 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: ICMC 2006 paper on Jamoma
 categories:
-- publication
+- publications
+- ICMC
 ---
 
 The paper on Jamoma for the upcoming International Computer Music Conference is now available for download from the "front page":http://www.jamoma.org.

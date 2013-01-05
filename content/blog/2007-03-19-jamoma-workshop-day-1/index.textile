@@ -8,7 +8,7 @@ author: Trond Lossius
 h1: Jamoma workshop - Day 1
 categories:
 - workshop
-- gmea
+- GMEA
 ---
 "GMEA":http://www.gmea.net is holding a 4 day workshop on Jamoma, set up by Pascal Baltazar. We'll try to blog what happens as it happens.
 

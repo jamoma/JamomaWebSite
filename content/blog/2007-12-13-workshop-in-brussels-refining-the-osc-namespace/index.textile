@@ -7,14 +7,14 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Workshop in Brussels - Refining the OSC namespace
 categories:
-- osc
+- OSC
 - namespace
-- imal
+- iMAL
 - workshop
 ---
 *This was first posted 12/13/2007 04:46:14.*
 
-This week we are having a Jamoma developer conference in Brussels, generously hosted by "IMAL":http://www.imal.org/. Alexander ("1":http://www.arj.no/2007/12/10/jamoma-workshop-in-brussels/, "2":http://www.arj.no/2007/12/11/coordinate-systems/, "3":http://www.arj.no/2007/12/11/mapping-and-conditioning/) has been writing some blog posts on ongoing discussions and work.
+This week we are having a Jamoma developer conference in Brussels, generously hosted by "iMAL":http://www.imal.org/. Alexander ("1":http://www.arj.no/2007/12/10/jamoma-workshop-in-brussels/, "2":http://www.arj.no/2007/12/11/coordinate-systems/, "3":http://www.arj.no/2007/12/11/mapping-and-conditioning/) has been writing some blog posts on ongoing discussions and work.
 
 Today we have been discussing and reviewing the OSC namespace. As the functionalities implemented in parameters are growing more complex, it is an ongoing process reviewing and structuring the resulting OSC namespace. It is not only a question of moving towards syntax specific to Jamoma, but also trying to understand the underlying mechanisms and problems that maker us move in the directions we do. By searching for more general underlying principles we might be able to make more informed choices for Jamoma, but the discussions can also be presented and reviewed in a more general context, and we are currently considering writing a paper for e.g. NIME on the topic.
 

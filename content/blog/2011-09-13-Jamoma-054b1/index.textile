@@ -12,8 +12,8 @@ categories:
 - beta
 - dataspace
 - time
-- osx lion
-- plugtastic
+- OSX-10.7
+- Plugtastic
 ---
 We have just uploaded a new "Jamoma installer":http://jamoma.org/download.html for Mac. The most important changes in this version are:
 

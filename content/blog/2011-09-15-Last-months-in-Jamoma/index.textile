@@ -7,16 +7,15 @@ location: Berkeley, CA, USA
 author: Nils Peters
 h1: Last months in Jamoma
 categories:
-- last month
 - installer
-- plugtastic
-- osx 10.5
-- osx 10.7
-- cnmat
-- prezi presentation
-- didascalie
+- Plugtastic
+- OSX-10.5
+- OSX-10.7
+- CNMAP
+- Prezi
+- Didascalie
 - workshop
-- sound installation
+- art-installation
 - contact
 ---
 While we hope you all enjoy a nice summer, we thought you will also enjoy to hear some news from Jamoma.

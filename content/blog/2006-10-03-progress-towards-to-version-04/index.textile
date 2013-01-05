@@ -8,7 +8,7 @@ author: Trond Lossius
 h1: Progress towards to version 0.4
 categories:
 - development
-- jamoma 0.4
+- Jamoma-0.4
 ---
 
 _The really big Jamoma development project lately has been the transition to v.0.4, with all core functionalities ported from abstractions to externals. The work has mainly been carried out by Tim. The above is from a mail to the jamoma-devel mailing list today:_

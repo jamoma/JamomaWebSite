@@ -7,9 +7,9 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: TextMate bundle for cue scripts
 categories:
-- textmate
+- TextMate
 - cuescript
-- osc
+- OSC
 ---
 
 p=. <%= fancyImage @item, "images/textmate-bundle.png", "images/textmate-bundle-thumb.png", "TextMate bundle", "textmate-bundle" %>

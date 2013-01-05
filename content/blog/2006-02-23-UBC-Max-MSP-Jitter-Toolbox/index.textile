@@ -10,9 +10,9 @@ categories:
 - toolbox
 - UBC
 - framework
-- Keith Hamel
-- Bob Pritchard
-- Nancy Nisbet
+- Keith-Hamel
+- Bob-Pritchard
+- Nancy-Nisbet
 ---
 *First posted 02/23/2006 10:31:21.*
 

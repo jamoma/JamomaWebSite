@@ -7,9 +7,9 @@ location: Albi, France
 author: Julien Rabin
 h1: Changes to the ObjectiveMax repository
 categories:
-- git
+- Git
 - submodules
-- objective max
+- Objective-Max
 ---
 
 *This blog post is intended at developers and users that do not use the Jamoma installers, but rather check out the code from GitHub, and compile externals and frameworks themselves.*

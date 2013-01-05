@@ -7,10 +7,9 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Physis by Asbjørn Schaatun
 categories:
-- Asbjørn Scaatun
+- Asbjørn-Scaatun
 - project
-- notam
-
+- Notam
 ---
 
 

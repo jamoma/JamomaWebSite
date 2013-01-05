@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Moving blog and wiki to a new server
 categories:
-- web site
+- website
 - blog
 ---
 The Jamoma blog and wiki have now moved to a new server at BEK. In the process we are also abandoning Zope and Plone, the system used in the past for content management. Instead we are now using the "wiki server":http://www.apple.com/server/macosx/features/wikis.html that ships with OSX Server. Hopefully we will all experience this to be much easier to maintain, edit and contribute to.

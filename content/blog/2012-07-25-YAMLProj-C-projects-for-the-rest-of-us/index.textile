@@ -7,12 +7,12 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: YAMLProj - C++ projects for the rest of us
 categories:
-- yaml
+- YAML
 - build
 - compile
 - cross-platform
-- xcode
-- visual studio
+- Xcode
+- Visual-Studio
 ---
 
 p=. <%= fancyImage @item, "images/yaml.png", "images/yaml-thumb.png", "YAML project format" %>

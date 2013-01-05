@@ -8,7 +8,7 @@ author: Trond Lossius
 h1: Wiki RSS feeds
 categories:
 - wiki
-- rss
+- RSS
 - feed
 ---
 

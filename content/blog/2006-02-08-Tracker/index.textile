@@ -9,7 +9,7 @@ h1: Tracker
 categories:
 - announce
 - performance
-- trond lossius
+- Trond-Lossius
 ---
 
 Tracker is a dance and music performance touring schools in the region of Oppland, Norway. The project investigates various ways of interaction between three artists, using live technology to create new possibilities of communication, by means of amplifeing and treating the sound of recorders, and the "Diem Digital Dance":http://www.diem.dk sensor system. Jamoma is used extensively for the live processing.

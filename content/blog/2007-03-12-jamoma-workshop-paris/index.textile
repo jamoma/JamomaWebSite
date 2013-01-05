@@ -8,8 +8,8 @@ author: Trond Lossius
 h1: Jamoma workshop in Paris
 categories:
 - workshop
-- paris
-- ars longa
+- Paris
+- Ars-Longa
 ---
 
 Jamoma introductory workshop in Paris : March 23rd, Ars Longa

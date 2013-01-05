@@ -7,7 +7,7 @@ location: Bergen, Norway
 author: Trond Lossius
 h1: Theater Max
 categories:
-- Theater Max
+- Theater-Max
 - software
 ---
 

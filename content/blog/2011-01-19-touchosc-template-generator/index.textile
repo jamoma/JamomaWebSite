@@ -7,10 +7,10 @@ location: Berkeley, CA, USA
 author: Nils Peters
 h1: TouchOSC template generator
 categories:
-- touch osc
-- osc
-- ipad
-- diemo schwarz
+- TouchOSC
+- OSC
+- iPad
+- Diemo-Schwarz
 ---
 
 P=. <%= fancyImage @item, "images/touchosc.png", "images/touchosc-thumb.png", "Jamoma and Touch OSC" %>
