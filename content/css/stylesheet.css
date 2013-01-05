@@ -118,11 +118,11 @@ em {
 #main {
 	top: 0px;
   	position: absolute;
-	  width: 720px;
+	width: 720px;
   	height: 100%;
   	right: 150px;
   	left: 320px;
-	  margin: 0px 20px;
+	margin: 0px 20px;
   }
 
 #main h1, #main_nabble h1 {
@@ -218,7 +218,7 @@ em {
 }
 
 #main li {	
-	font-size: 12px;
+	font-size: 14px;
 	font-weight:100;
 	margin-top: 0;
 	margin-left: 0;
