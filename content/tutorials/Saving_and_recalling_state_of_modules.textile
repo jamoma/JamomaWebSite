@@ -11,7 +11,7 @@ h3. Dealing with module's parameters using jmod.cueManager
 
 p. Jamoma offers several ways to deal with each module's parameters. While using the module's presets can be handy, storing and recalling presets can be limiting when using a high number of modules in the patch for a particular project. Thus, the Jamoma library of module provides a specific module called jmod.cueManager which can be used to save and recall the values of all modules in a patch and offers a number of advanced feature.
 
-bq. Since Jamoma modules rely on a common architecture, jmod.cuemanager will work with all modules using jcom.parameters, including modules from the User Library.
+bq(note). Since Jamoma modules rely on a common architecture, jmod.cuemanager will work with all modules using jcom.parameters, including modules from the User Library.
 
 In this tutorials, we will use a simple patch composed of an audio soundfiles player, an equalization modules, an audio processing module based on Max's degrade~ external, a jmod.mapperContinuous allowing us to control any parameter from the jmod.mouse module.
 
@@ -19,7 +19,7 @@ In this tutorials, we will use a simple patch composed of an audio soundfiles pl
 
 jmod.cueManager relies on the features provided by the Jamoma Modular framework to internally get and set jcom.parameter values from all Jamoma modules in the patch. Hence, no particular patch cord connection between jmod.cueManager and other modules: it will take care of all remote communication needed for us.
 
-bq. When instantiated in a patch, jmod.cueManager will listen to all module addition notification. Thus you will want to create the jmod.cueManager first, then add all you needed modules. Otherwise, you may need to save and re-open your patch so that jmod.cueManager deal with all modules' parameters.
+bq(note). When instantiated in a patch, jmod.cueManager will listen to all module addition notification. Thus you will want to create the jmod.cueManager first, then add all you needed modules. Otherwise, you may need to save and re-open your patch so that jmod.cueManager deal with all modules' parameters.
 
 h4. Storing cues
 
@@ -45,7 +45,7 @@ You may now tweak some settings and create as many cues as you wish using the st
 
 Please note that although we saved differents cues, we need to save these to file. Do so by selecting the save entry in jmod.cueManager's %(samp)File% menu. This will bring a standard window asking for name and location for our cue file or save our cues to disk if we opened a cue file.
 
-bq. All cues are stored in a single text file saved to disk. Be sure to save this file to disk otherwise, all your cues will be lost when closing the patch.
+bq(note). All cues are stored in a single text file saved to disk. Be sure to save this file to disk otherwise, all your cues will be lost when closing the patch.
 
 h4. Recalling cues
 

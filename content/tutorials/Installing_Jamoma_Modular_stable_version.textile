@@ -27,7 +27,7 @@ Follow the various steps proposed by the installer until the installation is com
 
 !images/installer_2.png!
 
-bq. For some reasons (i.e. installing an older version of Jamoma Modular), if you ever needed to uninstall Jamoma Modular, you will find in the disk image a shell script to automate the process of removing all installed Jamoma files.
+bq(note). For some reasons (i.e. installing an older version of Jamoma Modular), if you ever needed to uninstall Jamoma Modular, you will find in the disk image a shell script to automate the process of removing all installed Jamoma files.
 
 h3. Setting up Max 5 preferences
 

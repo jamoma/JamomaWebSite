@@ -28,7 +28,7 @@ You may want to define a specific name to your module by typing an optional argu
 !images/new_obj_3.png!
 
 
-bq. Assuming you properly set up Max, note that you can create an object box containing your module by using the %(kbd)SHIFT% + %(kbd)m% key combo.
+bq(note). Assuming you properly set up Max, note that you can create an object box containing your module by using the %(kbd)SHIFT% + %(kbd)m% key combo.
 !images/new_obj_4.png!
 
 h3. Using module as bpatcher
@@ -49,7 +49,7 @@ Your module GUI can now be used from within the main Max patch. Note that the bp
 
 !images/new_bpatcher_4.png!
 
-bq. Jamoma also have some shortcuts to ease the creation of modules as bpatchers. Use %(kbd)SHIFT;
+bq(note). Jamoma also have some shortcuts to ease the creation of modules as bpatchers. Use %(kbd)SHIFT;
 % + %(kbd)d% or %(kbd)SHIFT% + %(kbd)b% to create a bpatcher box with containers for module name and arguments.
 
 h3. Using jmod.layout

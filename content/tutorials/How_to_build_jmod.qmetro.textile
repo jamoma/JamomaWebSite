@@ -56,7 +56,7 @@ h3. A template for control modules
 
 Now we will start making the module. The module will embedd the algorithm, and offer a GUI for parameter handling. To make it easier to create new modules, Jamoma offers a number of templates. If you installed Jamoma from the installer, they should be in Max's templates folder, and then accessible from the File > New from template menu in Max. Our module will be based on the template named jmod.template.control.mod. Open this template, and save it as jmod.qmetroTutorial.maxpat in the folder you just created.
 
-bq. (If you didn't install Jamoma with installer, these templates can be found in the Jamoma/documentation/jamoma-templates folder.You should then copy the templates to the patches/templates folder in the MaxMSP folder and proceed as explained in the paragraph above.)
+bq(note). (If you didn't install Jamoma with installer, these templates can be found in the Jamoma/documentation/jamoma-templates folder.You should then copy the templates to the patches/templates folder in the MaxMSP folder and proceed as explained in the paragraph above.)
 
 h3. Parameter handling
 
