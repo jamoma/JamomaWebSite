@@ -36,6 +36,7 @@ The separation is a result of the functionalities implemented as part of jcom.pa
 
 Below is an attempt at structuring the namespace inside the paramers. This is very much a work in progress.
 
+
 <pre>
 Message                                               Category       Description
 
@@ -76,3 +77,49 @@ Message                                               Category       Description
         - [ ] :ui/freeze                              ui
         - [ ] :ui/freeze/get                          ui
 </pre>
+
+p=. <a class="fancybox" href="#inline" title="Lorem ipsum dolor sit amet">Extended view of above code</a>
+
+<div id="inline" style="width:1024px;display: none;">
+<pre>
+Message                                               Category       Description
+
+- [ ] /module/parameter
+    - [ ] General for the module
+        - [ ] :namespace/dump
+        - [ ] :dump/values
+    - [ ] value stuff                                                These ones are not fixed.
+        - [ ] :value/get                              value          get the value of the parameter
+        - [ ] :value                                  value          set the value (why would you want to do it this way?)
+        - [ ] :value/range                            range
+        - [ ] :value/range/get                        range
+        - [ ] :value/range/clipmode                   range
+        - [ ] :value/range/clipmode/get               range
+        - [ ] :value/step/inc                         value          Increase by one step
+        - [ ] :value/step/dec                         value          Decrease by one step
+        - [ ] :value/step/size                        value          Set the step size
+        - [ ] :value/step/size/get                    value          Get the step size
+        - [ ] :value/unit
+        - [ ] :value/type                             type
+        - [ ] :value/type/get                         type
+    - [ ] Conditioning
+        - [ ] :repetitions                            repetitions
+        - [ ] :repetitions/get                        repetitions
+    - [ ] ramp stuff - including drive and function
+        - [ ] :ramp/drive                             ramp/drive     Select what mechanism is driving the ramp
+        - [ ] :ramp/drive/get                         ramp/drive
+        - [ ] :ramp/drive/parameter                   ramp/drive     Pass additional parameters to the driving mechanism
+        - [ ] :ramp/drive/parameter/get               ramp/drive
+        - [ ] :ramp/function                          ramp/drive     Select what mapping function to use for the ramp
+        - [ ] :ramp/function/get                      ramp/function
+        - [ ] :ramp/function/parameter                ramp/function  Pass additional parameters to the function
+        - [ ] :ramp/function/parameter/get            ramp/function
+        - [ ] :ramp/function/parameter/names/dump     ramp/function  Get the name of all parameters for the currently used function
+        - [ ] :ramp/function/parameter width          ramp/function  This is an example (valid for the tanh function)
+        - [ ] :ramp/function/parameter/get width      ramp/function  This is an example (valid for the tanh function)
+    - [ ] ui
+        - [ ] :ui/freeze                              ui
+        - [ ] :ui/freeze/get                          ui
+</pre>
+</div>
+

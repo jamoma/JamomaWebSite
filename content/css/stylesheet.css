@@ -199,15 +199,20 @@ em {
 	color: #797979;
 }
 
-#main pre{
-		margin: 20px 0;
-		background-color: #393938;
-		-moz-box-shadow: 0 0 5px #4a4a4a;
-		-webkit-box-shadow: 0 0 5px #4a4a4a;
-		box-shadow: 0 0 5px #4a4a4a;
-		color: #ffffff;
-		padding: 10px;
-	}
+#main pre, #inline pre{
+	margin: 20px 0;
+	background-color: #393938;
+	-moz-box-shadow: 0 0 5px #4a4a4a;
+	-webkit-box-shadow: 0 0 5px #4a4a4a;
+	box-shadow: 0 0 5px #4a4a4a;
+	color: #ffffff;
+	padding: 10px;
+	font-family: "Andale Mono", "Courier New", Courier, mono;
+}
+
+#inline pre {
+	font-size: 12px;
+}
 
 #main ul, #main ol {
 	padding-top:0;
