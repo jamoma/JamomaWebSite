@@ -1,5 +1,6 @@
 ---
 title: Jamoma 0.5.4 for Mac
+menu: getStarted
 ---
 <iframe width="1" height="1" frameborder="0" src="Jamoma-0.5.4-rc1.dmg"></iframe>
 

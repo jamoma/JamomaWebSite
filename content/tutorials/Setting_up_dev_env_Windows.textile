@@ -3,6 +3,7 @@ title: Setting up development environment on Windows
 description: This tutorial explains how to install and set up Windows for developing in Jamoma
 author: [Adrian Gierakowski]
 created_at: 2011/16/05
+menu: getStarted
 tags: [settings, git, install]
 objref: []
 ---

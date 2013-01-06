@@ -1,5 +1,6 @@
 --- 
 title: Jamoma Core
+menu: whatIsJamoma
 ---
 
 Jamoma Core provides a set of layered C++ frameworks and extensions that creates an object model and then specializes that object model for advanced purposes such as audio and graphics.

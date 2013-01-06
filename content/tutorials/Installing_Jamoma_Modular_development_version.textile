@@ -3,6 +3,7 @@ title: Installing Jamoma Modular development version
 description: This tutorial explains how to get and install Jamoma Modular development version
 author: [Jamoma, Julien Rabin]
 created_at: 2010/11/11
+menu: getStarted
 tags: [github, git, install]
 objref: []
 ---

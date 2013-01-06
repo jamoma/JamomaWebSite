@@ -3,6 +3,7 @@ title: Saving and recalling state of modules
 description: This lesson goes thru the save and recall of modules in a patch, using jmod.cueManager
 author: [Jamoma]
 created_at: 2012/04/21
+menu: getStarted
 tags: [cues, presets, states]
 objref: [jcom.cuemanager, jmod.cueManager]
 ---

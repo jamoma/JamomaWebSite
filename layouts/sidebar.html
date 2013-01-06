@@ -4,7 +4,7 @@
 		</script>
 		  <nav class="menubar">
   			<ul class="menu">
-  				<li>
+				<% if @item[:menu]=="blog" %><li class="expand"><% else %><li><% end %>
   					<a href="#" class="section">News</a>
   					<ul class="acitem">
 						<li><a class="subsectionItem" href="/blog/">Recent posts</a><br/></li>
@@ -13,7 +13,7 @@
 						<li><a class="subsectionItem" href="/blog/feed.xml">Subscribe to feed</a></li>
   					</ul>
   				</li>
-				<li>
+				<% if @item[:menu]=="whatIsJamoma" %><li class="expand"><% else %><li><% end %>
   					<a href="#" class="section">What is Jamoma?</a>
   					<ul class="acitem">
   						<li><a class="subsectionItem" href="/overview/">Overview</a></li>
@@ -23,14 +23,14 @@
 						<li><a class="subsectionItem" href="/publications/">Publications</a></li>
   					</ul>
   				</li>
-  				<li>
+				<% if @item[:menu]=="getStarted" %><li class="expand"><% else %><li><% end %>
   					<a href="#" class="section">Get started</a>
   					<ul class="acitem">
   						<li><a class="subsectionItem" href="/download/">Download</a><br/></li>
 						<li><a class="subsectionItem" href="/tutorials/">Tutorials</a><br/></li>
   					</ul>
   				</li>
-  				<li>
+				<% if @item[:menu]=="getInTouch" %><li class="expand"><% else %><li><% end %>
   					<a href="#" class="section">Get in touch</a>
   					<ul class="acitem">
   						<li><a class="subsectionItem" href="/forum/">Forum</a><br/></li>
@@ -39,7 +39,7 @@
   						<li><a class="subsectionItem" href="http://vimeo.com/channels/jamoma" target="_blank">Vimeo</a><br/></li>
   					</ul>
   				</li>
-  				<li>
+  				<% if @item[:menu]=="getInvolved" %><li class="expand"><% else %><li><% end %>
   					<a href="#" class="section">Get involved</a>
   					<ul class="acitem">
 						<li><a class="subsectionItem" href="/sources/">Sources</a><br/></li>
@@ -49,7 +49,7 @@
   						<li><a class="subsectionItem" href="http://redmine.jamoma.org/" target="_blank">Redmine</a><br/></li>
   					</ul>
   				</li>
-  				<li>
+  				<% if @item[:menu]=="credits" %><li class="expand"><% else %><li><% end %>
   					<a href="#" class="section">Credits</a>
   					<ul class="acitem">
   						<li><a class="subsectionItem" href="/team/">Team</a></li>

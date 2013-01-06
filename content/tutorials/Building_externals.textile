@@ -3,6 +3,7 @@ title: Building Max/MSP externals
 description: This tutorial explains how to compile Jamoma framework and Max/MSP externals
 author: [Jamoma, Julien Rabin, Adrian Gierakowski, Pascal Baltazar]
 created_at: 2011/06/05
+menu: getStarted
 tags: [github, git, compile]
 objref: []
 ---

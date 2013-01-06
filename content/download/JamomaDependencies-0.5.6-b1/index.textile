@@ -1,5 +1,6 @@
 ---
 title: Jamoma Dependencies 0.5.6 beta 1 for Windows
+menu: getStarted
 ---
 <iframe width="1" height="1" frameborder="0" src="JamomaDependencies-0.5.6-b1.msi"></iframe>
 

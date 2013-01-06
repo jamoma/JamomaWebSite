@@ -3,6 +3,7 @@ title: jcom.meter~
 description: Logarithmic GUI level meter
 author: [Jamoma, Julien Rabin]
 created_at: 2010/11/11
+menu: getStarted
 tags: [display, dB, gui, envelope]
 objref: []
 ---

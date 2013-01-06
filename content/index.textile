@@ -1,5 +1,6 @@
 --- 
 title: Home
+menu: none
 ---
 
 <img src="images/jamoma-logo-01.png" class="title" alt="Jamoma logo"/>

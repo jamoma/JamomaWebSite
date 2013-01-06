@@ -3,6 +3,7 @@ title: Setting up development environment
 description: This tutorial goes thru the various setup process to get and compile Jamoma
 author: [Jamoma, Pascal Baltazar, Julien Rabin]
 created_at: 2011/06/05
+menu: getStarted
 tags: [xcode, setup, install]
 objref: []
 ---

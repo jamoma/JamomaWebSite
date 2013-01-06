@@ -1,5 +1,6 @@
 --- 
 title: Jamoma Modular
+menu: whatIsJamoma
 ---
 
 Develop and use patches in the Max environment

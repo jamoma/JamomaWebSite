@@ -1,5 +1,6 @@
 --- 
 title: Download Jamoma source code
+menu: getInvolved
 ---
 
 h2. Source code

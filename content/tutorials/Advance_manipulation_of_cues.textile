@@ -3,6 +3,7 @@ title: Advanced manipulation of cues
 description: This lesson goes thru some advanced feature provided by jmod.cueManager
 author: [Jamoma]
 created_at: 2012/04/21
+menu: getStarted
 tags: [cues, presets, states, advanced]
 objref: [jcom.cuemanager, jmod.cueManager]
 ---

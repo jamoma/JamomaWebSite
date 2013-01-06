@@ -1,5 +1,6 @@
 --- 
 title: Jamoma development is supported by
+menu: credits
 ---
 
 h2. Active supports

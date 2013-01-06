@@ -1,5 +1,6 @@
 --- 
 title: The development team
+menu: credits
 ---
 
 h2. Core developers

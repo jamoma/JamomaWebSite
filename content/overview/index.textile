@@ -1,5 +1,6 @@
 --- 
 title: Overview of Jamoma
+menu: whatIsJamoma
 ---
 
 h2. What is Jamoma?

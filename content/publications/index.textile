@@ -1,5 +1,6 @@
 --- 
 title: Publications
+menu: whatIsJamoma
 ---
 
 This is an overview of publications _on_ or _relating to_ Jamoma. If you know of additional publications that should be mentioned, please "let us know":mailto:jamoma@jamoma.org.

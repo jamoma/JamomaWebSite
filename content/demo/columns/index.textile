@@ -1,5 +1,6 @@
 --- 
 title: Columns demo
+menu: none
 ---
 
 h1. Lorem Ipsum

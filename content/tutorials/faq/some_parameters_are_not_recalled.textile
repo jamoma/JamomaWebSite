@@ -3,6 +3,7 @@ title: Why some parameters do not get triggered when recalling a preset?
 description:
 author: [Jamoma, Julien Rabin]
 created_at: 2011/1/15
+menu: getStarted
 tags: [preset, repetitions, priority]
 objref: [jcom.parameter, jmod.degrade~]
 ---

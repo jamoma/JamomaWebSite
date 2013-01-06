@@ -1,5 +1,6 @@
 --- 
 title: Projects
+menu: whatIsJamoma
 ---
 
 Eventually this page will contain examples of artistic projects and research showcasing how Jamoma might be used "in the real world".

@@ -3,6 +3,7 @@ title: jcom.absdiff
 description: Calculate the absolute difference between two numbers
 author: [Jamoma, Julien Rabin]
 created_at: 2010/11/11
+menu: getStarted
 tags: [operator, difference]
 objref: [jcom.op!, abs, expr]
 ---

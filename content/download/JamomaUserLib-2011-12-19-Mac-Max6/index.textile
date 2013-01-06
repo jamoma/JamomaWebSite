@@ -1,5 +1,6 @@
 ---
 title: Jamoma User Libraries for Mac OS X and Max 6
+menu: getStarted
 ---
 <iframe width="1" height="1" frameborder="0" src="JamomaUserLib-Max6-2011-12-19.dmg"></iframe>
 
