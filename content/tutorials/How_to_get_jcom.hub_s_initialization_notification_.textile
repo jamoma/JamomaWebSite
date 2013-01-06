@@ -59,7 +59,7 @@ In this example, we built a similar situation using three modules from Jamoma Mo
 bc. /time 200
 /toggle 1
 
-bq. Remember that there is currently no way to define an initialization order for each module. While the patch we used works for our demonstration purpose, it may be trickier in a complex patch involving a lot of modules. For example, you would probably want to make sure @myClock@ is also properly initialized before receiving any message. We will let this as an exercise for the reader.
+bq(note). Remember that there is currently no way to define an initialization order for each module. While the patch we used works for our demonstration purpose, it may be trickier in a complex patch involving a lot of modules. For example, you would probably want to make sure @myClock@ is also properly initialized before receiving any message. We will let this as an exercise for the reader.
 
 "Fine. But how does this really works?" Glad you asked.
 

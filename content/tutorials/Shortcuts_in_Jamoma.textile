@@ -24,4 +24,4 @@ h3. Modifier keys for mouse action
 | SHIFT + left mouse click + dragging the mouse | fine resolution change | dials in the menu of a module (jcom.ui) <br />  jcom.textslider  |
 
 
-bq. Some of the Jamoma shortcuts seems to be in conflict with the Max Toolbox. If you have Max Toolbox installed and activated, you might find that some of the Jamoma shortcuts will not work.
+bq(note). Some of the Jamoma shortcuts seems to be in conflict with the Max Toolbox. If you have Max Toolbox installed and activated, you might find that some of the Jamoma shortcuts will not work.

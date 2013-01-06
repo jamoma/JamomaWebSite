@@ -13,7 +13,7 @@ h2. Mac
 
 Install Apple's "Xcode":http://developer.apple.com/TOOLS/xcode/ tools.
 
-bq.The current version is 4, but we recommend using 3.X until more testing has been done.
+bq(note).The current version is 4, but we recommend using 3.X until more testing has been done.
 
 If you don't have it, you can download it from developer.apple.com. It is roughly 4GB of downloading and requires a free login.
 

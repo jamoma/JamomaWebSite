@@ -371,6 +371,55 @@ em {
 }
 /* @end */
 
+/* @group Fancybox/images */
+
+a.image, a.fancybox{
+	max-width: 100%;
+	box-shadow:0px 5px 20px #3B3B3B;
+		-webkit-box-shadow: 0px 5px 20px #A4A4A4;
+		-moz-box-shadow: 0px 5px 20px #bbbdbd;
+	border: 1px double #c1c1c1;
+	padding: px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #fefffe;
+}
+
+a.image img, a.fancybox img{
+	border: 1px double #c1c1c1;
+	max-width: 100%;
+}
+
+/*div.imageZoom:before{
+	-webkit-box-shadow: 0px 5px 20px #A4A4A4;
+	 pour ombre supérieure 
+}*/
+
+div.imageZoom{
+	margin-right: 5%;
+	margin-left: 5%;
+	width: 90%;
+}
+
+a.image:hover, a.fancybox:hover {
+	-webkit-box-shadow: 0px 0px 30px #8CB7FF;
+	-moz-box-shadow: 0px 0px 30px #8CB7FF;
+	-o-box-shadow: 0px 0px 30px #8CB7FF;
+	box-shadow: 0px 0px 30px #8CB7FF;
+
+	transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+
+}
+
+/* @end */
+
 /* @end */
 
 /* @group Page specifics */
@@ -530,6 +579,28 @@ h2 + .postPreview{
 /* @end */
 
 /* @group Tutorials */
+
+/*.note:before, .note:after, q:before, q:after		{ content: ""; }
+.note, q												{ quotes: "" ""; }
+.note{
+	margin-top: 2em;
+	border: 1px solid #c0c1c1;
+	padding: 10px;
+	border-radius:8px;
+	background-color: #fffeff;
+}
+.note:before{
+	content:url(pencil.png);
+	float: left;
+	padding-right: 20px;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: #fffeff;
+}
+.note p{
+	padding: 5px;
+	margin: 0;
+}*/
 
 span.seq, figurePointer{
 	background-color: #97c8ff;

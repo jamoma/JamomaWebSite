@@ -71,7 +71,7 @@ We now have one module that generate audio input to the patch, and another provi
 
 As you can see, we do not follow the MSP convention of the leftmost outlets and outlets being used for audio. Instead Jamoma introduce another convention.
 
-bq. In Jamoma modules the leftmost inlet and outlet is reserved for control messages to and from the module. All remaining inlets and outlets are used for passing signals in and out of the module.
+bq(note). In Jamoma modules the leftmost inlet and outlet is reserved for control messages to and from the module. All remaining inlets and outlets are used for passing signals in and out of the module.
 
 h4. Let's play!
 

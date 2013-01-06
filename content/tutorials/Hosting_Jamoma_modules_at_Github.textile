@@ -36,7 +36,7 @@ Open Terminal.app (which resides in Applications/Utilities/, under OSX), then fr
 
 !images/Put_project_under_Git_control_3.png!
 
-bq. If you are not comfortable with the command line, note that under OSX, you can type @cd @ and drag the folder on the Terminal window.
+bq(note). If you are not comfortable with the command line, note that under OSX, you can type @cd @ and drag the folder on the Terminal window.
 
 Now you need to set your project folder as a Git local repository. To do so, type :
 

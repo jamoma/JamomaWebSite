@@ -17,7 +17,7 @@ From the main Jamoma repository, navigate to the "Tools" folder using the follow
 
 @cd Tools@
 
-bq. For users incomfortable with the Terminal, just type the command @cd@ followed by a space and drop the Tools folder from the Finder to the Terminal window.
+bq(note). For users incomfortable with the Terminal, just type the command @cd@ followed by a space and drop the Tools folder from the Finder to the Terminal window.
 
 To build all Jamoma projects (i.e. all its subprojects), use the provided Ruby script by running
 
@@ -27,7 +27,7 @@ Alternatively, you can use "Development clean" as arguments to the script if you
 
 This will build externals, libraries and frameworks. You may have to do the last step twice to get everything to build.
 
-bq. There are also scripts to build only one Jamoma sub-project at a time (e.g. only DSP or modular).
+bq(note). There are also scripts to build only one Jamoma sub-project at a time (e.g. only DSP or modular).
 To do so, navigate to it, e.g. @cd /Modules/DSP@ to build the DSP framework and externals, and then run its specific build.rb script by running (while being in its folder):
 
 @ruby build.rb Deployment clean@
