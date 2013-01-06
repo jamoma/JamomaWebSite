@@ -2,6 +2,7 @@
 layout: post
 title: Framework
 kind: article
+menu: blog
 created_at: 2006-02-26
 location: Bergen, Norway
 author: Trond Lossius

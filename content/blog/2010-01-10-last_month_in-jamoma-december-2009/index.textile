@@ -2,6 +2,7 @@
 layout: post
 title: Last Month in Jamoma - December 2009
 kind: article
+menu: blog
 created_at: 2010-01-10
 location: Bergen, Norway
 author: Trond Lossius

@@ -2,6 +2,7 @@
 layout: post
 title:  Jamoma Modular 0.5.1 RC8 available to download
 kind: article
+menu: blog
 created_at: 2010-07-02
 location: Montreal, Canada
 author: Nils Peters

@@ -2,6 +2,7 @@
 layout: post
 title: Jamoma 0.5 is out and ready for download!
 kind: article
+menu: blog
 created_at: 2009-11-13
 location: Montreal, Canada
 author: Nils Peters

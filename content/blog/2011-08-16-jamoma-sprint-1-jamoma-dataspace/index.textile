@@ -2,6 +2,7 @@
 layout: post
 title: Jamoma sprint #1: Jamoma Dataspace
 kind: article
+menu: blog
 created_at: 2011-08-16
 location: Albi, France
 author: Julien Rabin

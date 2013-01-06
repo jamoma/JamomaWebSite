@@ -2,6 +2,7 @@
 layout: post
 title:  Jamoma on identi.ca
 kind: article
+menu: blog
 created_at: 2010-07-23
 location: Bergen, Norway
 author: Trond Lossius

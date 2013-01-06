@@ -2,6 +2,7 @@
 layout: post
 title: Bug in the cuelist module fixed
 kind: article
+menu: blog
 created_at: 2006-06-21
 location: Bergen, Norway
 author: Trond Lossius

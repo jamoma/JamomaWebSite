@@ -2,6 +2,7 @@
 layout: post
 title:  Follow Jamoma on Twitter
 kind: article
+menu: blog
 created_at: 2010-07-02
 location: Albi, France
 author: Julien Rabin

@@ -2,6 +2,7 @@
 layout: post
 title:  New Jamoma web site on rails
 kind: article
+menu: blog
 created_at: 2010-05-08
 location: Albi, France
 author: Julien Rabin

@@ -2,6 +2,7 @@
 layout: post
 title: Moving blog and wiki to a new server
 kind: article
+menu: blog
 created_at: 2008-12-31
 location: Bergen, Norway
 author: Trond Lossius

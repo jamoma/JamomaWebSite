@@ -2,6 +2,7 @@
 layout: post
 title:  Addressing Jamoma modules using aliases
 kind: article
+menu: blog
 created_at: 2012-01-05
 location: Bergen, Norway
 author: Trond Lossius

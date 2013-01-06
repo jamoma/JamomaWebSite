@@ -2,6 +2,7 @@
 layout: post
 title: Jamoma DSP Code Intro
 kind: article
+menu: blog
 created_at: 2010-01-10
 location: Kansas, MO, USA
 author: Tim Place

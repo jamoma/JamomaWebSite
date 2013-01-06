@@ -2,6 +2,7 @@
 layout: post
 title: Last Month in Jamoma - January 2010
 kind: article
+menu: blog
 created_at: 2010-02-02
 location: Montreal, Canada
 author: Nils Peters

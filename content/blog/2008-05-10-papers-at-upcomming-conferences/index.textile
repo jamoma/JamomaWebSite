@@ -2,6 +2,7 @@
 layout: post
 title: Papers at upcomming conferences
 kind: article
+menu: blog
 created_at: 2008-05-10
 location: Bergen, Norway
 author: Trond Lossius

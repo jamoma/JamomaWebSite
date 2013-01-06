@@ -2,6 +2,7 @@
 layout: post
 title: New Mac and PC release
 kind: article
+menu: blog
 created_at: 2011-06-11
 location: Albi, France
 author: Julien Rabin

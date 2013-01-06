@@ -2,6 +2,7 @@
 layout: post
 title: Workshop in Brussels - Refining the OSC namespace
 kind: article
+menu: blog
 created_at: 2007-12-13
 location: Bergen, Norway
 author: Trond Lossius

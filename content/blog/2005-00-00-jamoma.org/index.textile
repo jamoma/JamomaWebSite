@@ -2,6 +2,7 @@
 layout: post
 title: jamoma.org
 kind: article
+menu: blog
 created_at: 2005-01-01
 location: Bergen, Norway
 author: Trond Lossius

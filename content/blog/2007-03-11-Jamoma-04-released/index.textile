@@ -2,6 +2,7 @@
 layout: post
 title: Jamoma 0.4 released
 kind: article
+menu: blog
 created_at: 2007-03-11
 location: Bergen, Norway
 author: Trond Lossius

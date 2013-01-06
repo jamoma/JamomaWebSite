@@ -2,6 +2,7 @@
 layout: post
 title: Irin
 kind: article
+menu: blog
 created_at: 2006-04-12
 location: Bergen, Norway
 author: Trond Lossius

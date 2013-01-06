@@ -2,6 +2,7 @@
 layout: post
 title: Spatialisation workshop in Trondheim
 kind: article
+menu: blog
 created_at: 2009-03-09
 location: Bergen, Norway
 author: Trond Lossius

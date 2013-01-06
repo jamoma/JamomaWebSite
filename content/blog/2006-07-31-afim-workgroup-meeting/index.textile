@@ -2,6 +2,7 @@
 layout: post
 title: AFIM workgroup meeting
 kind: article
+menu: blog
 created_at: 2006-07-31
 location: Paris, France
 author: Pascal Baltazar

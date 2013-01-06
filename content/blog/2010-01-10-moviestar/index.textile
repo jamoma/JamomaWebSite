@@ -2,6 +2,7 @@
 layout: post
 title: Moviestar
 kind: article
+menu: blog
 created_at: 2010-02-02
 location: Bergen, Norway
 author: Trond Lossius
