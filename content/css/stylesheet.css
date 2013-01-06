@@ -313,15 +313,16 @@ em {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 320px;
+	width: 330px;
 	height: 150%;
 	/* padding-left: 0; */
 	
 	font-size: 12px;
-	-moz-box-shadow: inset 0 0 10px #bababa;
-	-webkit-box-shadow: inset 0 0 10px #bababa;
-	box-shadow: inset 0 0 10px #bababa;
+	-moz-box-shadow: inset 0 0 15px #ccc6c6;
+	-webkit-box-shadow: inset 0 0 15px #ccc6c6;
+	box-shadow: inset 0 0 15px #ccc6c6;
 	margin: -20px 0 20px -20px;
+	background-color: #fdfdfd;
 }
 
 #sidebar ul {
@@ -329,7 +330,7 @@ em {
 	margin-top: 200px;
 	padding-left: 20px;
 	text-align: right;
-	padding-right: 24px;
+	padding-right: 30px;
 }
 
 #sidebar li {
