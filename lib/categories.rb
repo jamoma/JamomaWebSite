@@ -92,6 +92,7 @@ module Categories
           {
               :title => "Posts in the #{category}",
               :h1 => "#{category} posts",
+              :menu => "blog",
               :posts => posts
           },
           "/categories/#{category}",
