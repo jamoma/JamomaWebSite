@@ -14,10 +14,8 @@ categories:
 - iPad
 ---
 
-<a class="fancybox" href="images/webservice.png" data-fancybox-group="fancybox" title="Controlling Web Servive from Jamoma">
-<img alt="Controlling Web Servive from Jamoma" class="myCell" class="myCell" src="images/webservice-thumb.png"/>
-</a>
 
+p=. <%= fancyImage @item, "images/webservice.png", "images/webservice-thumb.png", "Controlling Web Servive from Jamoma" %>
 
 Today saw a new functionality added to Jamoma. The *jcom.webservice* component enables controlling and monitoring Web Sharing, the service enabling the computer to function as a web server, from within Max and Jamoma.
 

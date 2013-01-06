@@ -13,8 +13,6 @@ categories:
 ProGit, the eminent introduction to and reference on GIT, is now available for "iPad":http://progit.org/2010/05/17/progit-for-the-ipad.html and
 "Kindle":http://progit.org/2010/06/06/pro-git-on-kindle.html.
 
-p=. !http://img.skitch.com/20100517-bn9jr7ax9k13ef2697srtjndyk.png!
+p=. <%= fancyImage @item, "images/bookshelf.png", "images/bookshelf-thumb.png", "GIT Pro at Apple book store", "bookstore" %>
 
-
-p=. !{width: 100%}http://img.skitch.com/20100517-jq3qnwr4w2xs27q8bnwpbay24k.png!
-
+p=. <%= fancyImage @item, "images/git-ebook.png", "images/git-ebook-thumb.png", "GIT Pro as ebook", "ebook" %>
