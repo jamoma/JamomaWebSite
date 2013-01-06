@@ -1,0 +1,30 @@
+---
+layout: post
+title: Happy new year 2013
+kind: article
+menu: blog
+created_at: 2013-01-06
+location: Albi, France
+author: Julien Rabin, Trond Lossius
+h1: Happy new year 2013
+categories:
+- website
+- announce
+- wishes
+---
+
+First thing first, we wish all Jamoma users a happy new year! We hope 2013 will be full of exciting and successful projects!
+
+p=. <%= fancyImage @item, "images/cal.png", "images/cal.png", "2013 page" %>
+
+In order to start 2013 on the good way, we thought it would be great to take the opportunity of the Christmas break to work on Jamoma website. And "quite a lot of work has been done":https://github.com/jamoma/JamomaWebSite/graphs/commit-activity. While aesthetically, you will probably feel already at home, the website moved to a different platform - the nice "nanoc web publishing system":http://nanoc.stoneship.org for that matter. The reason for this change is that it should be much easier to feed new content to jamoma.org. So hopefully, this will bring a bit more life to the website.
+
+We also reorganized the various areas of the website. Worth noting is the "news" section where you will find Jamoma blog. All posts have been migrated from the old blog system "here":http://groupware.bek.no/groups/jamoma/blog/. Be sure to update your bookmarks! You might also want to subscribe to the rss feed or to our -monthly- whenever newsletter.
+
+"Jamoma presentation section":http://www.jamoma.org/core/index.html also saw some changes and will receive some new/updated content soon. You will notice that we added a project section: please feel free to "send us a mail":jamoma@jamoma.org or drop a message on the "forum":http://www.jamoma.org/forum/index.html if you have a nice project you would like to share with other Jamoma users.
+
+We hope you will enjoy the new website. There may be some rough edges here and there so feel free to contact us if you notice anything unexpected.
+
+Of course, development-wise, quite a lot of things happened since the last post on Jamoma blog. We will keep you up to date pretty soon.
+
+In the mean time, best wishes.
