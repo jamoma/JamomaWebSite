@@ -1,5 +1,6 @@
-h2. Jamoma 0.5.0 for Windows
-
+--- 
+title: Jamoma 0.5.0 for Windows
+---
 <iframe width="1" height="1" frameborder="0" src="Jamoma-0.5.0.zip"></iframe>
 
 Thanks for downloading Jamoma! This version requires OSX 10.6 or newer, as well as Max 5.1.9 or newer.

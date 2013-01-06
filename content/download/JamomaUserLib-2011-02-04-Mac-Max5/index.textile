@@ -1,5 +1,6 @@
-h2. Jamoma User Libraries for Max 5
-
+--- 
+title: Jamoma User Libraries for Max 5
+---
 <iframe width="1" height="1" frameborder="0" src="JamomaUserLib-2011-02-04.dmg"></iframe>
 
 Thanks for downloading! This installer provides additional 3rd party Jamoma modules. The installer was assembled on 2011-02-04, and will install Jamoma User Libraries for Max 5.
