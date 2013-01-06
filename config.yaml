@@ -59,7 +59,7 @@ data_sources:
     allow_periods_in_identifiers: true
 
 title: "Jamoma"
-base_url: "http://localhost:3000"
+base_url: "http://www.jamoma.org"
 author_name: "Jamoma developers"
 author_uri: "http://www.jamoma.org"
 
