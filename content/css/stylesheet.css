@@ -442,8 +442,8 @@ margin-left: 50%;
 font: 3em "Corsiva Hebrew";
 }*/
 
-h1 + .postPreview{
-	margin-top: 65px;
+h2 + .postPreview{
+	margin-top: 75px;
 }
 
 .postPreview{
