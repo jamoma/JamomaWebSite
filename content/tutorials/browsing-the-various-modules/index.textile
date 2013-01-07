@@ -8,7 +8,7 @@ tags: []
 objref: []
 ---
 
-Jamoma comes with a number of patchs (modules in the Jamoma terminology) ready to be used in the Max environment. They can be accessed thru the OS's file browser by going to the modules folder. A list of all available modules can be found on the "Index of modules":../modules/ page of this manual.
+Jamoma comes with a number of patchs (modules in the Jamoma terminology) ready to be used in the Max environment. They can be accessed thru the OS's file browser by going to the modules folder. A list of all available modules can be found on the "Index of modules":/tutorials/modules/ page of this manual.
 
 However, Jamoma offers different ways to help you to discover available modules or find the one fitting your needs.
 
@@ -34,7 +34,7 @@ h3. Using Jamoma jmod.layout module
 
 Jamoma Modular distribution inclues a very handy module called jmod.layout. While it provides a number of specific feature (such as assisting user to build patch and presentation views), it can be helpful to explore the various modules.
 
-Please see jmod.layout help patch to see how it can help you to go thru all nice modules installed with Jamoma or read the "next tutorial":../create-new-module-in-a-patch/.
+Please see jmod.layout help patch to see how it can help you to go thru all nice modules installed with Jamoma or read the "next tutorial":/tutorials/create-new-module-in-a-patch/.
 
 !images/layout.png!
 
