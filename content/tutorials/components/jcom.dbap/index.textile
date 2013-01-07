@@ -48,7 +48,7 @@ h3. Messages
 
 h3(seealso). See also
 
-* "ambidecode":components/ambidecode.html 
-* "ambiencode":components/ambiencode.html 
+* "ambidecode":../ambidecode/
+* "ambiencode":../ambiencode/ 
 * "matrix~":http://cycling74.com/docs/max5/refpages/msp-ref/matrix~.html
-* "jmod.sur.vbap":../modules/sur.vbap.html
+* "jmod.sur.vbap":../../modules/sur.vbap.html
