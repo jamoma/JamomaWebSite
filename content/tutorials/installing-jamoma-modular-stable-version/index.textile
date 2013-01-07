@@ -10,7 +10,7 @@ objref: []
 
 h3. Downloading Jamoma installer
 
-Installer can be downloaded from "Jamoma web site":jamoma. Please visit jamoma.org %(seq)1% and follow the "download":http://jamoma.org/download.html link %(seq)2%.
+Installer can be downloaded from "Jamoma web site":/. Please visit jamoma.org %(seq)1% and follow the "download link":/download/ %(seq)2%.
 
 !images/download_installer_1.png!
 
@@ -40,7 +40,7 @@ In the %(samp)Object Defaults% window, click the %(samp)Load Settings% button in
 
 !images/Max_obj_setup_1.png!
 
-Max is now properly set up for Jamoma. Have fun exploring the various provided modules "and":Index_of_modules.html examples !
+Max is now properly set up for Jamoma. Have fun exploring the various provided "modules":/tutorials/modules/ and examples !
 
 !images/Max_obj_setup_3.png!
 
