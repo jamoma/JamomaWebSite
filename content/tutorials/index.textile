@@ -15,6 +15,7 @@ h2. Jamoma Modular
 h2. First steps with Jamoma Modular
 
 * "An introduction to Jamoma modules":/tutorials/introduction-to-jamoma-modules/
+* "Using audio effects modules":/tutorials/sound-fx-modules
 * "Browsing the Various Modules":/tutorials/browsing-the-various-modules/
 * "Create New Module in a Patch":/tutorials/create-new-module-in-a-patch/
 * "Exploring modules documentation":/tutorials/exploring-modules-documentation/

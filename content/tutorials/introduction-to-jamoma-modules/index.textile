@@ -145,6 +145,6 @@ h3. Summary
 
 h4. What's next?
 
-Now that we have audio input and output working, it is tempting to introduce some sound effect processing between the input and output module.
+Now that we have audio input and output working, it is tempting to introduce some "sound effect processing":/tutorials/sound-fx-modules/ between the input and output module.
 
 <%= render 'disqus_thread' %>

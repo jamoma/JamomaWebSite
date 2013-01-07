@@ -12,14 +12,14 @@ In this tutorial we will add an audio effect module offering a simple stereo ech
 
 h3. Shortcuts in Jamoma
 
-We will start of with much the same patch that we ended up with in the "previous tutorial":Tutorial_-_Introduction_to_Jamoma_modules.html, containing an audio input and output module so that we can get sound into and out of the patch. Instead of just continue using the same patch, we'll start out with a fresh blank patcher window, as this gives us an excuse to introduce a few useful shortcuts.
+We will start of with much the same patch that we ended up with in the "previous tutorial":/tutorials/introduction-to-jamoma-modules, containing an audio input and output module so that we can get sound into and out of the patch. Instead of just continue using the same patch, we'll start out with a fresh blank patcher window, as this gives us an excuse to introduce a few useful shortcuts.
 
 The input and output modules are used often, so Jamoma adds two shortcuts to the Max environment for creating them.
 * If the patch from the previous tutorial is still open, please close it, and open an new patch.
 * With the patch in edit mode, we can type %(kbd)SHIFT% + %(kbd)I% to create an input module. The module will show up at the position the mouse is pointing at when we type the shortcut.
 * In the same way we can type %(kbd)SHIFT% + %(kbd)O% to create an output module.
 
-bq(note). The "Shortcuts_in_Jamoma":Shortcuts_in_Jamoma.html in Jamoma.html reference page lists all available key combinations jn Jamoma.
+bq(note). The "Shortcuts_in_Jamoma":/tutorials/shortcuts-in-jamoma lists all available key combinations jn Jamoma.
 
 h4. Naming instances
 
@@ -27,7 +27,7 @@ We didn't really get to give these modules a name, did we? If we forget to provi
 
 Jamoma wants each module to have a unique name, so if we now try making yet another input module by typing %(kbd)SHIFT% + %(kbd)I% again, the new module will be given the name %(samp)input~.1%. The %(samp).1%, %(samp).2%, etc. is a convention often used in Jamoma to distinguish different instances of the same module. Later on we will se how this convention can be used to selectively address one or all instances of a particular module.
 
-For now we only need one instance of the "jmod.input~":modules/jmod.input~.html module, so let's delete the second copy that we created.
+For now we only need one instance of the "jmod.input~":/tutorials/modules/jmod.input~/ module, so let's delete the second copy that we created.
 
 h4. Create modules by SHIFT + B
 
@@ -43,7 +43,7 @@ All we need to provide info on now is:
 
 And yes, it is a bit confusing that we set the name with the @@args@ attribute and the type with the @@name@ attribute. But these are attributes passed to "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html, not the module itself, so we have to adhere to the attribute namespace that "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html have. Hence @@name@ is the name of the patch that we want to load as a subpatcher, while @@args@ are the arguments we want to pass to that patch.
 
-We want to load the "jmod.echo~":modules/jmod.echo~.html module, and give it the name _echo~_, so we will type in bpacther @@args myecho~ @name jmod.echo~@.
+We want to load the "jmod.echo~":/tutorials/modules/jmod.echo~ module, and give it the name _echo~_, so we will type in bpacther @@args myecho~ @name jmod.echo~@.
 
 That is enough shortcuts for now. If you want the full overview of what shortcuts are supported in Jamoma, you can find it here.
 
@@ -70,7 +70,7 @@ The gain dial use a MIDI range that differs from what you might be used to in MS
 *** Midi value @127.0@ equals +10 dB.
 *** In general you will find that the midi range is more sensitive at the top of the range, around 0dB, making it easier to do fine adjustments of balances in the mix.
 
-If you want to apply the Jamoma MIDI range elsewhere in your patches and modules, the external "jcom.dataspace":components/jcom.dataspace.html can be used for mappings between linear, decibel and midi representations of gain levels. Set %(samp)@dataspace% to @gain@, and choose the @input and @output attributes appropriate for what you want to do. Please refer to the help file for "jcom.dataspace":components/jcom.dataspace.html for further details.
+If you want to apply the Jamoma MIDI range elsewhere in your patches and modules, the external "jcom.dataspace":/tutorials/components/jcom.dataspace can be used for mappings between linear, decibel and midi representations of gain levels. Set %(samp)@dataspace% to @gain@, and choose the @input and @output attributes appropriate for what you want to do. Please refer to the help file for "jcom.dataspace":/tutorials/components/jcom.dataspace/ for further details.
 
 * The Mix dial controls the mix between the dry (original) input (0.0 %) and the wet (100.0 %) (processed) signals. When changed, mix levels are briefly displayed in the module toolbar in the same way as for gain levels. Mixing between dry and wet signals is done using equal power (logarithmic) crossfade to avoid a dip in the middle.
 * The Mute button mutes the output signal of the module. It will also stop audio processing internally in the module, thus freeing up CPU for other purposes when the module is not in use. Muting is done in a similar way to how the mute~ object works as we have found this to be more CPU efficient than using poly~.
@@ -137,10 +137,10 @@ h3. Summary
 
 h3. What's next?
 
-For the next tutorial we are going to take a look at "how to communicate with the module":Sending_messages_to_modules.html.
+For the next tutorial we are going to take a look at "how to communicate with the module":/tutorials/sending-messages-to-modules/.
 
 h3. Download
 
-Here you can download the patch used for this tutorial.
+"Here you can download the patch used for this tutorial (right-click and save).":attachments/sound-fx-modules.maxpat.
 
 <%= render 'disqus_thread' %>
