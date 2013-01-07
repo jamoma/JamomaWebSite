@@ -5,6 +5,6 @@ menu: whatIsJamoma
 
 h2. What is Jamoma?
 
-<%= fancyImage @item, "images/42.jpg", "images/42.jpg", "What is Jamoma", "what" %>
+<%= fancyImage @item, "images/the-answer.jpg", "images/the-answer.jpg", "What is Jamoma", "what" %>
 
 The answer will be further elaborated in the near future....

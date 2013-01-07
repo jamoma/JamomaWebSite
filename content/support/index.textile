@@ -7,30 +7,31 @@ h2. Active supports
 
 The development of Jamoma is currently supported by:
 
-* "BEK - Bergen Center for Electronic Arts":http://bek.no/
-* "Hordaland County Council - Kulturelt utviklingsprogram (KUP)":http://www.hordaland.no/Hordaland-fylkeskommune/Kultur/Kulturelt-utviklingsprogram-KUP/
+* "74 Objects":http://74objects.com/
 * "Arts Council Norway":http://kulturradet.no/
+* "BEK - Bergen Center for Electronic Arts":http://bek.no/
 * "Electrotap":http://electrotap.com/
 * "GMEA - Centre National de création Musicale d'Albi-Tarn":http://www.gmea.net/
-* "74 Objects":http://74objects.com/
+* "Hordaland County Council - Kulturelt utviklingsprogram (KUP)":http://www.hordaland.no/Hordaland-fylkeskommune/Kultur/Kulturelt-utviklingsprogram-KUP/
 * "USA-Norway Fulbright Foundation":http://www.fulbright.no/
+
 
 h2. Past supports
 
 Jamoma has received support from:
 
 * "Bergen National Academy of the Arts":http://www.khib.no/ through the "Norwegian Artistic Research Fellowship Programme":http://www.kunststipendiat.no/en
-* "interactive Media Art Laboratory Brussels (iMAL)":http://www.imal.org/
 * "Canada Council for the Arts (CCA)":http://www.canadacouncil.ca/
-* "Natural Sciences and Engineering Research Council of Canada (NSERC)":http://www.nserc-crsng.gc.ca/
 * "COST Action on Gesture Controlled Audio Systems (ConGAS)":http://www.cost287.org/
-* "Norwegian Academy of Music":http://www.nmh.no/
 * "COST Action on Sonic Interaction Design (SID)":http://www.cost-sid.org/
-* "Norwegian Research Council":http://www.forskningsradet.no/
 * "didascalie.net":http://didascalie.net/
+* "interactive Media Art Laboratory Brussels (iMAL)":http://www.imal.org/
+* "Natural Sciences and Engineering Research Council of Canada (NSERC)":http://www.nserc-crsng.gc.ca/
+* "Norwegian Academy of Music":http://www.nmh.no/
+* "Norwegian Research Council":http://www.forskningsradet.no/
 * "The Municipality of Bergen":http://www.bergen.kommune.no/
-* The French National Agency for Research through the "Virage":http://www.virage-platform.org/ research platform
 * "University of Oslo":http://www.fourms.uio.no/
+* The French National Agency for Research through the "Virage":http://www.virage-platform.org/ research platform
 
 
 <%= render 'support' %>
