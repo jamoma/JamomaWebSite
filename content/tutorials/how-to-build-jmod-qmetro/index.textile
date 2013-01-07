@@ -244,4 +244,8 @@ h3. Creating a new module involves the following steps:
 * If the module is to return control messages, you have to use jcom.return.
 * When the module is finished, create a default preset file and html documentation.
 
+h3. Download
+
+"Here you can download the patch used for this tutorial (right-click and save).":attachments/how-to-build-jmod-qmetro.maxpat
+
 <%= render 'disqus_thread' %>

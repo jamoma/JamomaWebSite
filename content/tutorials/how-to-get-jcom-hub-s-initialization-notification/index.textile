@@ -79,6 +79,10 @@ module.initialized jmod.10harmonics~ /mySynth
 
 Thus "jcom.initialized":/tutorials/components/jcom.initialized/ is a handy component that filters out notifications sent by "jcom.receive notifications":/tutorials/components/jcom.receive and sends a @(max)bang@ when matching initialization notification for a given named module defined as argument.
 
+h3. Download
+
+"Here you can download the patch used for this tutorial (right-click and save).":attachments/how-to-get-jcom-hub-s-initialization-notification.maxpat
+
 h3(seealso). See also
 
 * "jcom.init":/tutorials/components/jcom.init/

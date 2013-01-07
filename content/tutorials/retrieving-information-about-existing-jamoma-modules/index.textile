@@ -86,4 +86,8 @@ The argument to "jcom.receive":/tutorials/components/jcom.receive/ can be change
 
 Turn the toggle on, and try changing parameter values in the various modules.
 
+h3. Download
+
+"Here you can download the patch used for this tutorial (right-click and save).":attachments/retrieving-information-about-existing-jamoma-modules.maxpat
+
 <%= render 'disqus_thread' %>

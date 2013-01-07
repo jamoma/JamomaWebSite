@@ -141,6 +141,6 @@ For the next tutorial we are going to take a look at "how to communicate with th
 
 h3. Download
 
-"Here you can download the patch used for this tutorial (right-click and save).":attachments/sound-fx-modules.maxpat.
+"Here you can download the patch used for this tutorial (right-click and save).":attachments/sound-fx-modules.maxpat
 
 <%= render 'disqus_thread' %>

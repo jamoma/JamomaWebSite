@@ -143,6 +143,11 @@ h3. Summary
 * In some modules additional parameters can be accessed in the module control panel.
 * "jmod.input~":/tutorials/modules/jmod.input~/ and "jmod.output~":/tutorials/modules/jmod.output~/ can be provide generic audio input and output to and from the patch.
 
+h3. Download
+
+"Here you can download the patch used for this tutorial (right-click and save).":attachments/introduction-to-jamoma-modules.maxpat
+
+
 h4. What's next?
 
 Now that we have audio input and output working, it is tempting to introduce some "sound effect processing":/tutorials/sound-fx-modules/ between the input and output module.
