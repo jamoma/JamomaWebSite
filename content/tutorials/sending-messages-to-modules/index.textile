@@ -24,7 +24,7 @@ However, if you want to learn more about OSC, "this":http://opensoundcontrol.org
 
 h3. Messages to and from modules
 
-We will continue to work with a simple patch containing modules for audio input and output, and one module doing effect processing. It will be useful to use an effect module where it's very simple to hear subtle changes to the parameters, so this time we will be using the "jmod.tremolo~":modules/jmod.tremolo~.html module.
+We will continue to work with a simple patch containing modules for audio input and output, and one module doing effect processing. It will be useful to use an effect module where it's very simple to hear subtle changes to the parameters, so this time we will be using the "jmod.tremolo~":/tutorials/modules/jmod.tremolo~/ module.
 
 h4. Setting up the patch
 
