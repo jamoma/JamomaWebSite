@@ -9,42 +9,44 @@ objref: []
 
 h2. Jamoma Modular
 
-* "Installing Jamoma Modular Stable Version":installing-jamoma-modular-stable-version/
-* "Installing Jamoma Modular Development Version":installing-jamoma-modular-development-version/
+* "Installing Jamoma Modular Stable Version":/tutorialsinstalling-jamoma-modular-stable-version/
+* "Installing Jamoma Modular Development Version":/tutorialsinstalling-jamoma-modular-development-version/
 
 h2. First steps with Jamoma Modular
 
-* "Browsing the Various Modules":browsing-the-various-modules/
-* "Create New Module in a Patch":create-new-module-in-a-patch/
-* "Exploring modules documentation":exploring-modules-documentation/
+* "An introduction to Jamoma modules":/tutorials/introduction-to-jamoma-modules/
+* "Browsing the Various Modules":/tutorialsbrowsing-the-various-modules/
+* "Create New Module in a Patch":/tutorialscreate-new-module-in-a-patch/
+* "Exploring modules documentation":/tutorialsexploring-modules-documentation/
 
 h2. Using Jamoma Modules
 
-* "Sending Messages to Modules":sending-messages-to-modules/
-* "Retrieving information about existing Jamoma modules":retrieving-information-about-existing-jamoma-modules/
-* "Saving and recalling state of modules":saving-and-recalling-state-of-modules/
-* "Advance manipulation of cues":advance-manipulation-of-cues/
+* "Sending Messages to Modules":/tutorialssending-messages-to-modules/
+* "Retrieving information about existing Jamoma modules":/tutorialsretrieving-information-about-existing-jamoma-modules/
+* "Saving and recalling state of modules":/tutorialssaving-and-recalling-state-of-modules/
+* "Advance manipulation of cues":/tutorialsadvance-manipulation-of-cues/
 
 h2. Developing Modules Using Jamoma Framework
 
-* "How to create a Jamoma module":how-to-build-jmod-qmetro/
-* "How to Get jcom.hub's Initialization Notification":how-to-get-jcom-hub-s-initialization-notification/
+* "How to create a Jamoma module":/tutorialshow-to-build-jmod-qmetro/
+* "How to Get jcom.hub's Initialization Notification":/tutorialshow-to-get-jcom-hub-s-initialization-notification/
 
 h2. Participating to Jamoma Project
 
-* "How to Add Project to User Library":how-to-add-project-to-user-Library/
-* "Setting up development environment":setting-up-development-environment/
-* "Setting up dev env Windows":setting-up-dev-env-windows/
-* "Building externals":building-externals/
+* "How to Add Project to User Library":/tutorialshow-to-add-project-to-user-Library/
+* "Setting up development environment":/tutorialssetting-up-development-environment/
+* "Setting up dev env Windows":/tutorialssetting-up-dev-env-windows/
+* "Building externals":/tutorialsbuilding-externals/
 
 h2. FAQ
 
-* "Some parameters are not recalled":faq-some-parameters-are-not-recalled/
+* "Some parameters are not recalled":/tutorialsfaq-some-parameters-are-not-recalled/
 
 h2. Appendices
 
-* "Anatomy of a preset":anatomy-of-a-preset/
-* "Hosting Jamoma Modules at Github":hosting-jamoma-modules-at-github/
-* "Index of Modules":modules/
-* "Index of Components":components/
-* "Installer Log":installer-log/
+* "Anatomy of a preset":/tutorialsanatomy-of-a-preset/
+* "Hosting Jamoma Modules at Github":/tutorialshosting-jamoma-modules-at-github/
+* "Index of Modules":/tutorialsmodules/
+* "Index of Components":/tutorialscomponents/
+* "Installer Log":/tutorialsinstaller-log/
+* "Shortcuts in Jamoma":/tutorials/shortcuts-in-jamoma/
