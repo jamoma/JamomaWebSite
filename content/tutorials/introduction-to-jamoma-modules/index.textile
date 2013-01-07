@@ -44,7 +44,7 @@ The interface seems handy to have available in the patcher itself, so we will de
 
 !images/create_bpatcher.png!
 
-* Open the inspector and set the patcher file to be "jmod.input~":modules/jmod.input~.html and provide %(samp)/myinput~% as argument to the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html:
+* Open the inspector and set the patcher file to be "jmod.input~":/tutorials/modules/jmod.input~/ and provide %(samp)/myinput~% as argument to the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html:
 
 !images/set_module_name.png!
 
@@ -52,7 +52,7 @@ The interface seems handy to have available in the patcher itself, so we will de
 
 !images/jmod.input_module_GUI.png!
 
-* We will make one more module in the same way by creating another "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html, but this time in the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html inspector the Patcher File should be "jmod.output~":modules/jmod.output~.html and the argument to the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html will be %(samp)myoutput~%. When done you're patch should look like this:
+* We will make one more module in the same way by creating another "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html, but this time in the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html inspector the Patcher File should be "jmod.output~":/tutorials/modules/jmod.output~/ and the argument to the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html will be %(samp)myoutput~%. When done you're patch should look like this:
 
 !images/patch_with_two_modules.png!
 
@@ -107,8 +107,8 @@ Pink noise test signal
 
 Some additional useful features of the module should be mentioned:
 
-* The output level is controlled by the horizontal slider.This slider is one of Jamoma's custom UI objects: "jcom.textslider":components/jcom.textslider.html. See the "Shortcuts in Jamoma":Shortcuts_in_Jamoma.html to learn about the features of "jcom.textslider":components/jcom.textslider.html.
-* The two meters indicate levels on a logarithmic (dB) scale. This is done using one of the custom externals developed for Jamoma: "jcom.meter~":components/jcom.meter~.html. This level indicator can be useful as a GUI object on its own, and we suggest that you check out the help file for it.
+* The output level is controlled by the horizontal slider.This slider is one of Jamoma's custom UI objects: "jcom.textslider":/tutorials/components/jcom.textslider/. See the "Shortcuts in Jamoma":/tutorials/shortcuts-in-jamoma/ to learn about the features of "jcom.textslider":/tutorials/components/jcom.textslider/.
+* The two meters indicate levels on a logarithmic (dB) scale. This is done using one of the custom externals developed for Jamoma: "jcom.meter~":/tutorials/components/jcom.meter~/. This level indicator can be useful as a GUI object on its own, and we suggest that you check out the help file for it.
 * To the left of the slider controlling output level, there's a dial for controlling panning.
 * The %(samp)DSP% button brings up the DSP Status window
 * The %(samp)Audio On/Off% button means that we don't have to add an ezdac~ or ezadc~ object to the patch to get audio started.
@@ -141,7 +141,7 @@ h3. Summary
 * Jamoma modules need to be named.
 * The leftmost inlet and outlet is reserved for passing control messages to and from the modules. Remaining inlets and outlets are used to pass signals.
 * In some modules additional parameters can be accessed in the module control panel.
-* "jmod.input~":modules/jmod.input~.html and "jmod.output~":modules/jmod.output~.html can be provide generic audio input and output to and from the patch.
+* "jmod.input~":/tutorials/modules/jmod.input~/ and "jmod.output~":/tutorials/modules/jmod.output~/ can be provide generic audio input and output to and from the patch.
 
 h4. What's next?
 
