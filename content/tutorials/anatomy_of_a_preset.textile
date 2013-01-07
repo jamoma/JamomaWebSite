@@ -45,3 +45,5 @@ bc[xml]. <preset number='1' name='default'>
 	<item name='audio/gain' type='decimal'>0.000000</item>
 	<item name='audio/bypass' type='boolean'>0</item>
 </preset>
+
+<%= render 'disqus_thread' %>

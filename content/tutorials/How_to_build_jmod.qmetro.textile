@@ -243,3 +243,5 @@ h3. Creating a new module involves the following steps:
 * Use presentation mode to have a nice interface without messing up your patching
 * If the module is to return control messages, you have to use jcom.return.
 * When the module is finished, create a default preset file and html documentation.
+
+<%= render 'disqus_thread' %>

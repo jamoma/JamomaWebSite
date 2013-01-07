@@ -85,3 +85,5 @@ h3(seealso). See also
 * "jmod.initialization":modules/jmod.initialization.html
 * "jcom.receive":components/jcom.receive.html
 <!-- * "Remote_communication_within_Jamoma" TODO -->
+
+<%= render 'disqus_thread' %>

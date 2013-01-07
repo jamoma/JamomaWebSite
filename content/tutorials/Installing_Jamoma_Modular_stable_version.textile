@@ -44,3 +44,4 @@ Max is now properly set up for Jamoma. Have fun exploring the various provided m
 
 !images/Max_obj_setup_3.png!
 
+<%= render 'disqus_thread' %>

@@ -85,3 +85,5 @@ The argument to "jcom.receive":components/jcom.receive.html can be changed on th
 !images/remote.module.from.png!
 
 Turn the toggle on, and try changing parameter values in the various modules.
+
+<%= render 'disqus_thread' %>

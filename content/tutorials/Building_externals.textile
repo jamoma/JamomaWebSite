@@ -38,3 +38,5 @@ h2. On the Windows platform
 NOTE: You first need Cygwin to be set up properly (needs to have the ruby, git, gcc, packages). You also need to have Microsoft Visual C++ 2008 Installed.
 
 Open the Cygwin terminal and run the same scripts as described for building on the Mac.
+
+<%= render 'disqus_thread' %>

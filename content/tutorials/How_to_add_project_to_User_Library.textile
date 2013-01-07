@@ -38,4 +38,4 @@ You can now run @git push origin HEAD@ to upload your addition to the main repos
 
 bq(note). For convenience, you may want your project to be available for non Git-experienced users, for example as a .zip archive. Note that Github is smart enough to build an archive for any tagged project. From your project directory, run @git tag <your version number>@ followed by @git push --tags@
 
-
+<%= render 'disqus_thread' %>

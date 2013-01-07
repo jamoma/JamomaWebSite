@@ -32,3 +32,5 @@ When asked, choose to install for "All Users" and "Unix/binary" default text fil
 When it asks to select packages to install, make sure that you install everything in the "Devel" and "Interpreters" categories. (click on the 'Default' next to it until is says 'Install'). Leave everything else as the default.
 Click the "Next" button at the bottom to start the installation. Warning -- it will take a long time!
 When you are done, it is important to keep the "setup.exe" program(!) so that you can later add or update packages. (Instructions for how to actually compile with GCC on windows will be here when we actually get it to happen.)
+
+<%= render 'disqus_thread' %>

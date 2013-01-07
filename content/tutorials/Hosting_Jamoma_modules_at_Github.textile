@@ -68,3 +68,5 @@ Finally, we can now "update":http://www.kernel.org/pub/software/scm/git/docs/git
 bc. git push origin HEAD
 
 !images/Put_project_under_Git_control_9.png!
+
+<%= render 'disqus_thread' %>

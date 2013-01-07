@@ -86,3 +86,5 @@ h3. Summary
 - Modules can be created inside regular object boxes or as bpatchers
 - Modules can be created using %(kbd)SHIFT% + %(kbd)m%, %(kbd)SHIFT% + %(kbd)d% or %(kbd)SHIFT% + %(kbd)b%
 - "jmod.layout":components/jcom.layout.html can be useful to explore the growing list of modules and insert them in a patch
+
+<%= render 'disqus_thread' %>

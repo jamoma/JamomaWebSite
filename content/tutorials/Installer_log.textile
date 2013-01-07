@@ -51,3 +51,5 @@ h3. Installed files under OSX
 h3. Installed files under Windows
 
 Not yet available.
+
+<%= render 'disqus_thread' %>

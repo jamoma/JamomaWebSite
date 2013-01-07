@@ -37,3 +37,5 @@ Some of this will make more sense as we move further.
 h3. Help files for modules
 
 Finally, if you select %(samp)Open Help Patch% from the pop-up menu, a help patch opens up, where you can interactively examine the module. The help file also contains links to the HTML reference page, and offers simple ways of viewing what issues or bugs (if any) are currently registered for the module.
+
+<%= render 'disqus_thread' %>

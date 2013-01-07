@@ -142,3 +142,5 @@ For the next tutorial we are going to take a look at "how to communicate with th
 h3. Download
 
 Here you can download the patch used for this tutorial.
+
+<%= render 'disqus_thread' %>

@@ -143,3 +143,5 @@ h3. Video modules
 | "jmod.wake%":modules/jmod.wake%25.html | Video feedback/washout effect |
 | "jmod.xfade%":modules/jmod.xfade%25.html | Crossfade between two incoming video matrices |
 | "jmod.yfade%":modules/jmod.yfade%25.html | Crossfade (Pan) a source to two outputs |
+
+<%= render 'disqus_thread' %>

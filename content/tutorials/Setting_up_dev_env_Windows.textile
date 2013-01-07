@@ -69,3 +69,5 @@ exit
 (source http://dancarroll.org/blog/2010/12/cygwin-unable-to-remap/)
 you might need to install ash and rebase first. You can do it by just running cygwins setup.exe (the same you used for the initial installation) and selecting the additional packages.
 specifically how to update your local copy with the fixes and enhancements done on the Jamoma Git repository.
+
+<%= render 'disqus_thread' %>

@@ -110,3 +110,5 @@ h3. Modular Components
 * "jcom.textslider":components/jcom.textslider.html
 * "jcom.ui":components/jcom.ui.html
 * "jcom.unfocus":components/jcom.unfocus.html
+
+<%= render 'disqus_thread' %>

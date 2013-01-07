@@ -65,3 +65,5 @@ h4. Modifying stored cues
 While working on your project, you may want to adjust some settings in a previously stored cue. This can be used using the "update" function.
 
 First select the cue to modify from jmod.cueManager's menu then tweak some settings in your patch. Once happy with the result, click the "update" button from jmod.cueManager GUI. This will update the changes in the previously saved cue.
+
+<%= render 'disqus_thread' %>

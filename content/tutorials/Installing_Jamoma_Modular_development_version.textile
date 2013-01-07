@@ -96,3 +96,5 @@ In the %(samp)Object Defaults% window, click the %(samp)Load Settings% button in
 !images/Max_obj_setup_3.png!
 
 Max is now properly set up for Jamoma. Have fun "exploring":Browsing_the_various_modules.html the various provided "modules":Index_of_modules.html and examples ! Additionally, you may want to read a bit more about the Git workflow, specifically how to update your local copy with the fixes and enhancements done on the Jamoma Git repository.
+
+<%= render 'disqus_thread' %>

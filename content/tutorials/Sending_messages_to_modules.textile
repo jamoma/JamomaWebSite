@@ -91,3 +91,5 @@ h3. Summary
 * The leftmost inlet and outlet of modules is reserved for OSC communication to and from the module.
 * Parameters can be updated by sending OSC messages to the module.
 * Parameters can also be changed gradually by applying a ramp.
+
+<%= render 'disqus_thread' %>

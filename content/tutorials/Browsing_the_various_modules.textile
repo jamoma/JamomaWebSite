@@ -37,3 +37,5 @@ Jamoma Modular distribution inclues a very handy module called jmod.layout. Whil
 Please see jmod.layout help patch to see how it can help you to go thru all nice modules installed with Jamoma or read the "next tutorial":Create_new_module_in_a_patch.html.
 
 !images/layout.png!
+
+<%= render 'disqus_thread' %>

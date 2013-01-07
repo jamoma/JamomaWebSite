@@ -46,3 +46,4 @@ When done, a new cue can be created or the current cue can be updated, following
 
 h3. Absolute cues vs relative cues
 
+<%= render 'disqus_thread' %>
