@@ -51,4 +51,4 @@ h3(seealso). See also
 * "ambidecode":components/ambidecode.html 
 * "ambiencode":components/ambiencode.html 
 * "matrix~":http://cycling74.com/docs/max5/refpages/msp-ref/matrix~.html
-* "jmod.sur.vbap":modules/sur.vbap.html
+* "jmod.sur.vbap":../modules/sur.vbap.html
