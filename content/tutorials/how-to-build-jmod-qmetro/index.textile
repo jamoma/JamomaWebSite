@@ -69,16 +69,16 @@ The first thing we will do is embed the algorithm we have created. This is done 
 
 Then, we'll put some User Interface objects to manipulate our parameters, for instance a "toggle":http://cycling74.com/docs/max5/refpages/max-ref/toggle.html  and a number box, as we had in the initial patcher. 
 
-We'll now build the communication between this algorithm and our User Interface objects, through custom Jamoma _components_ named "jcom.parameter":components/jcom.parameter.html  and "jcom.message":components/jcom.message.html .
+We'll now build the communication between this algorithm and our User Interface objects, through custom Jamoma _components_ named "jcom.parameter":../../components/jcom.parameter/  and "jcom.message":../../components/jcom.message/ .
 First we need to get the toggle and number box to communicate with jcom.parameter by simpling connecting jcom.paramter's first outlet to each object inlet, and each object's first outlet to jcom.parameter's first inlet.The result should look like this :
 
 !images/parameter_ui_connection.png!
 
-Now we're ready for some magic. Try turning the toggle on and off, and change the time in the interface. If everything is working as it's supposed to, any change you make will cause the message box further down in the patch (connected to the 2nd outlet of "jcom.pass":components/jcom.pass.html ) to reflect the parameter change.
+Now we're ready for some magic. Try turning the toggle on and off, and change the time in the interface. If everything is working as it's supposed to, any change you make will cause the message box further down in the patch (connected to the 2nd outlet of "jcom.pass":../../components/jcom.pass/ ) to reflect the parameter change.
 
 h3. More about jcom.parameter
 
-We now need to take a look at the arguments and attributes for "jcom.parameter":components/jcom.parameter.html .
+We now need to take a look at the arguments and attributes for "jcom.parameter":../../components/jcom.parameter/ .
 
 h4. Arguments
 
@@ -155,27 +155,27 @@ Now this part of the patch looks like this:
 
 !images/jcom.parameter_all_attributes.png!
 
-Before we move on, it's worth noting that "jcom.parameter":components/jcom.parameter.html  is quite powerful. In addition to keeping track of the current state of the parameter, it can be used for ramping to new values, clipping the range and filtering out repetitions.
+Before we move on, it's worth noting that "jcom.parameter":../../components/jcom.parameter/  is quite powerful. In addition to keeping track of the current state of the parameter, it can be used for ramping to new values, clipping the range and filtering out repetitions.
 
 h3. Returned message
 
-We want our module to return a message everytime the "qmetro":http://cycling74.com/docs/max5/refpages/max-ref/qmetro.html fires. In order to be OSC compatible we do not want to return a 'bang'. Instead we will return the message '/trigger bang'. In order to do so we will use the component "jcom.return":components/jcom.return.html. "jcom.return":components/jcom.return.html takes more or less the same arguments and attributes as "jcom.parameter":components/jcom.parameter.html, and we will use the following settings:
+We want our module to return a message everytime the "qmetro":http://cycling74.com/docs/max5/refpages/max-ref/qmetro.html fires. In order to be OSC compatible we do not want to return a 'bang'. Instead we will return the message '/trigger bang'. In order to do so we will use the component "jcom.return":../../components/jcom.return/. "jcom.return":../../components/jcom.return/ takes more or less the same arguments and attributes as "jcom.parameter":../../components/jcom.parameter/, and we will use the following settings:
 
 !images/jalg_and_return.png!
 
 We used type none because we don't return any proper data, just output a tick (which will only output the @/trigger@ address, without any value...)
 
-Why do we do it this way instead of simply prepending @/trigger@? The answer is that "jcom.return":components/jcom.return.html helps us in the documentation of the module, as well as with various ways of communication and mapping between modules that will be documented in other tutorials.
+Why do we do it this way instead of simply prepending @/trigger@? The answer is that "jcom.return":../../components/jcom.return/ helps us in the documentation of the module, as well as with various ways of communication and mapping between modules that will be documented in other tutorials.
 
 h3. The interface
 
-Next we will create the interface. If you look in the upper left corner of the patch, there's a kind of panel displaying @/editing_this_module@. This is "jcom.ui":components/jcom.ui.html, one of the core externals of Jamoma, which will be the background of your user interface.
+Next we will create the interface. If you look in the upper left corner of the patch, there's a kind of panel displaying @/editing_this_module@. This is "jcom.ui":../../components/jcom.ui/, one of the core externals of Jamoma, which will be the background of your user interface.
 
 You can notice when trying to resize it that it sticks to certain sizes, which are multiples of 150 pixels wide and 35 pixels high, which is based on the paradigm of conventional rack mount hardware, in order to ease automatic and manual layouts of modules.
 
 When the module is complete, we will be using it as a patcher or bpatcher, that will only display this part of the patcher. At that point all we will need to see is this one small region, sized 300 x 70 pixels, or "1U-half" in the Jamoma terminology: One unit tall (70 pixels) and half a unit wide (300 pixels). As you will see, we don't even need all this space, so we can reduce it in width to half-U.
 
-But first, switch from patching mode to presentation mode. Then move the comments and UI objects to where you like on jcom.ui. If you like, resize "jcom.ui":components/jcom.ui.html so that it fits to the size of your interface. You should get something like this :
+But first, switch from patching mode to presentation mode. Then move the comments and UI objects to where you like on jcom.ui. If you like, resize "jcom.ui":../../components/jcom.ui/ so that it fits to the size of your interface. You should get something like this :
 
 !images/jmod_qmetro_interface.png!
 
@@ -185,9 +185,9 @@ h3. Winding up the module
 
 There's a few more tasks to carry out before we're done.
 
-First we want to change the description attribute for "jcom.hub":components/jcom.hub.html accordingly to what our module does.
+First we want to change the description attribute for "jcom.hub":../../components/jcom.hub/ accordingly to what our module does.
 
-If you want you can connect the left outlet of "jcom.hub":components/jcom.hub.html and the left outlet of the algorithm to a button to check that the patch is working. This is what it ought to look like:
+If you want you can connect the left outlet of "jcom.hub":../../components/jcom.hub/ and the left outlet of the algorithm to a button to check that the patch is working. This is what it ought to look like:
 
 !images/jmod.qmetro_final.png!
 
@@ -197,7 +197,7 @@ For now, just click on the %(samp)Preset File% button on the bottom of this wind
 
 If you want to, you can also auto-generate HTML documentation for the patch. Simply click the %(samp)Documentation% button box next to the previous one. Save the file with the proposed name, _jmod.qmetroTutorial.html_ in the same folder than the preset file.
 
-By clicking the %(samp)Open reference page% in "jcom.ui":components/jcom.ui.html's topleft menu, the documentation page should open and look something like "this":modules/jmod.qmetro.html:
+By clicking the %(samp)Open reference page% in "jcom.ui":../../components/jcom.ui/ 's topleft menu, the documentation page should open and look something like "this":../../modules/jmod.qmetro:
 
 !images/jcom.metroHTML.png!
 
@@ -227,19 +227,19 @@ This programming technique is also know as MVC : "Model-View-Controller":http://
 
 A number of Jamoma components collaborate to make it all work together:
 
-* "jcom.parameter":components/jcom.parameter.html  is dealing with one parameter.
-* If you need to communicate messages to the module that you do not want to treat as parameters, you can use "jcom.message":components/jcom.message.html .
-* "jcom.return":components/jcom.return.html is used to get some variables out of the module
-* "jcom.hub":components/jcom.hub.html is the brain of the Jamoma system, a hub communicating back and forth with all other Jamoma components in the module.
-* "jcom.ui":components/jcom.ui.html is providing the backdrop for the GUI part. It also embeds a number of common features that you want in all or some of the modules. This will be detailed further in the tutorials on how to build audio and video modules.
+* "jcom.parameter":../../components/jcom.parameter/  is dealing with one parameter.
+* If you need to communicate messages to the module that you do not want to treat as parameters, you can use "jcom.message":../../components/jcom.message/ .
+* "jcom.return":../../components/jcom.return/ is used to get some variables out of the module
+* "jcom.hub":../../components/jcom.hub/ is the brain of the Jamoma system, a hub communicating back and forth with all other Jamoma components in the module.
+* "jcom.ui":../../components/jcom.ui/ is providing the backdrop for the GUI part. It also embeds a number of common features that you want in all or some of the modules. This will be detailed further in the tutorials on how to build audio and video modules.
 * The module has a default preset and can be auto-documented as HTML.
 
 h3. Creating a new module involves the following steps:
 
 * Create the algorithm.
 * Create a new module using the appropriate template.
-* Design the user interface. If you need the interface to be a different size, you can change it by resizing "jcom.ui":components/jcom.ui.html accordingly.
-* Create "jcom.parameter":components/jcom.parameter.html, "jcom.message":components/jcom.message.html and "jcom.return":components/jcom.return.html objects as required, and set arguments and attributes.
+* Design the user interface. If you need the interface to be a different size, you can change it by resizing "jcom.ui":../../components/jcom.ui/ accordingly.
+* Create "jcom.parameter":../../components/jcom.parameter/, "jcom.message":../../components/jcom.message/ and "jcom.return":../../components/jcom.return objects as required, and set arguments and attributes.
 * Use presentation mode to have a nice interface without messing up your patching
 * If the module is to return control messages, you have to use jcom.return.
 * When the module is finished, create a default preset file and html documentation.
