@@ -39,5 +39,5 @@ h3. Messages
 
 h3(seealso). See also
 
-# "jcom.oscroute~":components/oscroute~.html _Route of open sound control messages_
-# "jcom.pass":components/pass.html _Direct messages and numbers to different outlets_
+# "jcom.oscroute~":../oscroute~/ _Route of open sound control messages_
+# "jcom.pass":../pass/ _Direct messages and numbers to different outlets_

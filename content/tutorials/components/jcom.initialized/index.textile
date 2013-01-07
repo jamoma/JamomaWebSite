@@ -41,6 +41,6 @@ _none_
 
 h3(seealso). See also
 
-* "jcom.init":components/init.html
-* "jcom.receive":components/receive.html
+* "jcom.init":../init/
+* "jcom.receive":../receive/
 * "loadbang":http://cycling74.com/docs/max5/refpages/max-ref/loadbang.html

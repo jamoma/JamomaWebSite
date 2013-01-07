@@ -8,7 +8,7 @@ tags: [cues, presets, states, advanced]
 objref: [jcom.cuemanager, jmod.cueManager]
 ---
 
-In a "previous tutorial":Saving_and_recalling_state_of_modules.html, we learned how to save and recall some parameters values from the modules used in a patch. Thanks to Jamoma framework features, we saw that remotely getting and setting jcom.parameter values is made easy. However, as a patch grows in density and complexity, a better control of the default function is often required.
+In a "previous tutorial":/tutorials/saving-and-recalling-state-of-modules/, we learned how to save and recall some parameters values from the modules used in a patch. Thanks to Jamoma framework features, we saw that remotely getting and setting jcom.parameter values is made easy. However, as a patch grows in density and complexity, a better control of the default function is often required.
 
 h3. Advanced control of saved modules settings
 

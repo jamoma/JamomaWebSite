@@ -36,5 +36,5 @@ h3. Messages
 
 h3(seealso). See also
 
-* "jcom.stats":components/stats.html
+* "jcom.stats":../stats/
 * "expr":http://cycling74.com/docs/max5/refpages/max-ref/expr.html

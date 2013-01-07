@@ -8,7 +8,7 @@ tags: [preset, annexes]
 objref: []
 ---
 
-Presets for a Jamoma module are saved as an XML(eXtensible Markup Language) formatted file that can then be opened in any regular text editor. As an example, we can open the presets file for "jmod.degrade~":modules/jmod.degrade~.html which can be found in the module's folder. Once opened, it should be similar to what is displayed below (Note that the syntax coloring may be different or nonexistent, depending on your text editor settings).
+Presets for a Jamoma module are saved as an XML(eXtensible Markup Language) formatted file that can then be opened in any regular text editor. As an example, we can open the presets file for "jmod.degrade~":../modules/jmod.degrade~.html which can be found in the module's folder. Once opened, it should be similar to what is displayed below (Note that the syntax coloring may be different or nonexistent, depending on your text editor settings).
 
 bc[xml]. <?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
 <jamoma version='0.4'
@@ -34,7 +34,7 @@ bc[xml]. <?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
 	</preset>
 </jamoma>
 
-A preset is defined by a set of items surrounded by an opening @[xml] <preset>@ tag containing a number and a name for the preset (@[xml] number='1' name='default'@) and a closing @[xml]</preset>@ tag. Each parameter is defined by an @[xml] <item>@ tag containing the name of the "jcom.parameter":components/jcom.parameter.html in your module and its type (@[xml] name='samplerateRatio' type='decimal'@), followed by its value (@1.00@) and a closing @[xml] <item>@ tag. Thus, the first preset for "jmod.degrade~":modules/jmod.degrade~.html looks like this:
+A preset is defined by a set of items surrounded by an opening @[xml] <preset>@ tag containing a number and a name for the preset (@[xml] number='1' name='default'@) and a closing @[xml]</preset>@ tag. Each parameter is defined by an @[xml] <item>@ tag containing the name of the "jcom.parameter":../components/jcom.parameter.html in your module and its type (@[xml] name='samplerateRatio' type='decimal'@), followed by its value (@1.00@) and a closing @[xml] <item>@ tag. Thus, the first preset for "jmod.degrade~":../modules/jmod.degrade~.html looks like this:
 	
 bc[xml]. <preset number='1' name='default'>
 	<item name='samplerateRatio' type='decimal'>1.000000</item>

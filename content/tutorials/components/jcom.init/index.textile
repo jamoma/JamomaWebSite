@@ -35,5 +35,5 @@ h3. Messages
 
 h3(seealso). See also
 
-* "jmod.initialized":modules/initialized.html 
-* "jcom.hub":components/hub.html 
+* "jmod.initialized":../../modules/initialized/
+* "jcom.hub":../hub/

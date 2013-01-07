@@ -45,6 +45,6 @@ _none_
 
 h3. See also
 
-* "jcom.op!":components/jcom.op!.html
+* "jcom.op!":../jcom.op!/
 * "abs":http://cycling74.com/docs/max5/refpages/max-ref/abs.html
 * "expr":http://cycling74.com/docs/max5/refpages/max-ref/expr.html 
