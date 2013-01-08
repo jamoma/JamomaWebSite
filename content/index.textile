@@ -10,8 +10,8 @@ The project is led by an international <a href="http://jamoma.org/team.html">tea
 	<tbody>
 		<tr>
 			<td>
-				<a href="http://www.jamoma.org/modular.html">
-				<img src="images/about/modular.png" border="0" alt="Jamoma Modular logo" class="JamomaUmbrellaLogo"/>
+				<a href="/modular/">
+				<img src="/images/about/modular.png" border="0" alt="Jamoma Modular logo" class="JamomaUmbrellaLogo"/>
 				</a> 
 			</td>
 			<td>
