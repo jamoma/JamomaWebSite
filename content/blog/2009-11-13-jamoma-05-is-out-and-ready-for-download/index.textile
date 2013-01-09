@@ -37,8 +37,8 @@ Here are some resources to get started with Jamoma 0.5:
 
 * "Free Download":/download/
 * "Jamoma 0.5 Tutorials":http://groupware.bek.no/groups/jamoma/wiki/c05cb/Documentation_and_tutorials.html
-* "Mailing lists and forums for users and developers":http://www.jamoma.org/forums.html
-* "Papers on research concerning or related to Jamoma":http://www.jamoma.org/papers.html
+* "Mailing lists and forums for users and developers":/forum/
+* "Papers on research concerning or related to Jamoma":/publications/
 
 Requirements: Jamoma 0.5 requires Max 5.0.8, and works on OSX 10.4 or later (Intel) and Windows XP or later
 

@@ -20,7 +20,7 @@ OpenSoundControl basically means that all parameters that we might want to acces
 
 This is all that we need to know for the time being in order to be able to use OSC with Jamoma. Later on, as we start making our own modules, we will look into how to deal with OSC messages in further detail.
 
-However, if you want to learn more about OSC, "this":http://opensoundcontrol.org/introduction-osc is a good place to start. The Jamoma team has proposed some extensions to the OSC protocol in order to cater for functionalities required in Jamoma. These are discussed in two papers presented at the NIME 2008 and ICMC 2008 conferences. Please check the "Papers":http://www.jamoma.org/papers.html section for further details.
+However, if you want to learn more about OSC, "this":http://opensoundcontrol.org/introduction-osc is a good place to start. The Jamoma team has proposed some extensions to the OSC protocol in order to cater for functionalities required in Jamoma. These are discussed in two papers presented at the NIME 2008 and ICMC 2008 conferences. Please check the "Publications":/publications/ section for further details.
 
 h3. Messages to and from modules
 

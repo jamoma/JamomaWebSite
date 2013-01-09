@@ -20,7 +20,7 @@ h2. Past supports
 
 Jamoma has received support from:
 
-* "Bergen National Academy of the Arts":http://www.khib.no/ through the "Norwegian Artistic Research Fellowship Programme":http://www.kunststipendiat.no/en
+* "Bergen National Academy of the Arts":http://www.khib.no/ through the "Norwegian Artistic Research Fellowship Programme":http://artistic-research.no/?lang=en
 * "Canada Council for the Arts (CCA)":http://www.canadacouncil.ca/
 * "COST Action on Gesture Controlled Audio Systems (ConGAS)":http://www.cost287.org/
 * "COST Action on Sonic Interaction Design (SID)":http://www.cost-sid.org/
