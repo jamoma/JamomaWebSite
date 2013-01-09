@@ -17,7 +17,7 @@ categories:
 
 h2. New beta release : Jamoma Modular 0.5.3b is out
 
-A new version of Jamoma was just "uploaded":http://jamoma.org/download.html. Alongside with the usual optimizations, bug fixes and all, Jamoma 0.5.3 brings some great news: for the "first time in a year":/groups/jamoma/weblog/aa50a/Jamoma_Modular_051_RC8_available_to_download.html, Jamoma installer is available *both* on Mac and Windows!
+A new version of Jamoma was just "uploaded":/download/. Alongside with the usual optimizations, bug fixes and all, Jamoma 0.5.3 brings some great news: for the "first time in a year":/groups/jamoma/weblog/aa50a/Jamoma_Modular_051_RC8_available_to_download.html, Jamoma installer is available *both* on Mac and Windows!
 
 If you did "follow":http://twitter.com/#!/jamomadev the recent activities on the "forum":http://jamoma-forums-mailing-lists.3076123.n2.nabble.com/the-state-of-the-windows-build-project-tp6432453p6432453.html or on "Github":https://github.com/jamoma/Jamoma/commit/835c00061e4661bb022591ec5a62502b1403b487, something has certainly not escaped of your attention: a lot of work has been put on the Windows version of Jamoma. Indeed, Adrian Gierakowski "that we mentioned here before":/groups/jamoma/weblog/31d47/Spotlight_new_modules_coming_to_UserLib.html spent a lot of time working on the Windows versions of the frameworks and externals and fixing the installer amongst other things. Without a doubt, Adrian deserve a huge “thank you” for all the work he is doing!
 

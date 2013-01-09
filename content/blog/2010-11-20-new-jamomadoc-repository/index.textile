@@ -38,7 +38,7 @@ h2. How to contribute?
 
 If you have Git installed, just go to "Github":http://github.com/jamoma/JamomaDoc and clone the repository to start working on it.
 
-If you just can not help by writing some documentation, be sure your feedbacks are still greatly appreciated. In addition to our regular "forum":http://jamoma.org/forum.html, we also set up a dedicated "tracker":http://redmine.jamoma.org/projects/documentation/issues where you can log some ideas, tutorial requests or just point out some typos which may have skipped from our attention.
+If you just can not help by writing some documentation, be sure your feedbacks are still greatly appreciated. In addition to our regular "forum":/forum/, we also set up a dedicated "tracker":http://redmine.jamoma.org/projects/documentation/issues where you can log some ideas, tutorial requests or just point out some typos which may have skipped from our attention.
 
 If you can not wait to give us a hand on Jamoma Documentation, be sure to grab the repository and have a look at the "Tools" folder where you will find to get you started some Textile templates that we use as our format of choice.
 

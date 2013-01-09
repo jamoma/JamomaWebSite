@@ -23,7 +23,7 @@ While we hope you all enjoy a nice summer, we thought you will also enjoy to hea
 
 h2. New in Jamoma
 
-Since the last post from our “Last months” series dating back to "May":/groups/jamoma/weblog/5aa61/Last_months_in_Jamoma.html, a number of "things happened":http://redmine.jamoma.org/projects/jamoma/issues. The full list of changes being not the funniest thing to read, you can see these changes in action using the "installer of Jamoma 0.5.3":http://jamoma.org/download.html available both for Mac AND PC. Also worth noting that a new UserLib installer was released on the 18th of July. Please visit Jamoma "download":http://jamoma.org/download.html page to give it a go.
+Since the last post from our “Last months” series dating back to "May":/groups/jamoma/weblog/5aa61/Last_months_in_Jamoma.html, a number of "things happened":http://redmine.jamoma.org/projects/jamoma/issues. The full list of changes being not the funniest thing to read, you can see these changes in action using the "installer of Jamoma 0.5.3":/download/ available both for Mac AND PC. Also worth noting that a new UserLib installer was released on the 18th of July. Please visit Jamoma "download":/download/ page to give it a go.
 
 Another great news you may have missed is a new development project within Jamoma: "Plugtastic":https://github.com/jamoma/Plugtastic. As previously mentioned, Plugtastic allows the "building of Jamoma-based patches as plugins":http://74objects.com/plugtastic/ (AudioUnit at the moment). Initially developed by "74objects":http://www.74objects.com/, Timothy Place not only decided to "open source Plugtastic but also offered to include it in the main Jamoma distribution":http://twitter.com/#!/74Objects/statuses/93781617906159616. We are thankful for all the efforts Tim put in Plugtastic and we hope it will get a fair interest and feedback from Jamoma community.
 
@@ -45,6 +45,6 @@ Regarding the artistic side, Jamoma has been used in "Trond Lossius’":http://w
 
 h2. New contact address
 
-As a conclusion note, while it is usually advised to share your feedbacks or feature requests with the whole Jamoma community thru the "forum":http://jamoma.org/forum.html page, you can now also reach the "core Jamoma team":http://jamoma.org/team.html at "this address":mailto:jamoma@jamoma.org. This may be useful if you want to get in touch to offer hosting of a workshop, offer support or get involved in whatever way you would like to discuss off-list.
+As a conclusion note, while it is usually advised to share your feedbacks or feature requests with the whole Jamoma community thru the "forum":/forum/ page, you can now also reach the "core Jamoma team":/team/ at "this address":mailto:jamoma@jamoma.org. This may be useful if you want to get in touch to offer hosting of a workshop, offer support or get involved in whatever way you would like to discuss off-list.
 
 We hope you all have a nice summer. Thanks for your support.

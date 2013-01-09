@@ -17,7 +17,7 @@ are finally on the home stretch of releasing Jamoma 0.5 .
 
 p=. !images/modular.png!
 
-We're glad to announce Jamoma 0.5 Release Candidate 1, which is available "online":http://www.jamoma.org/download.html.
+We're glad to announce Jamoma 0.5 Release Candidate 1, which is available "online":/download/.
 
 Jamoma 0.5 is a major rewrite for Max 5, and also contains numerous improvements and new features.
 

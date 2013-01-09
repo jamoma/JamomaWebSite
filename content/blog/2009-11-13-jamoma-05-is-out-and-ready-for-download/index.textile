@@ -35,7 +35,7 @@ Jamoma 0.5 was a major effort. Originally it was envisioned as a port from Max 4
 
 Here are some resources to get started with Jamoma 0.5:
 
-* "Free Download":http://www.jamoma.org/download.html
+* "Free Download":/download/
 * "Jamoma 0.5 Tutorials":http://groupware.bek.no/groups/jamoma/wiki/c05cb/Documentation_and_tutorials.html
 * "Mailing lists and forums for users and developers":http://www.jamoma.org/forums.html
 * "Papers on research concerning or related to Jamoma":http://www.jamoma.org/papers.html
@@ -44,6 +44,6 @@ Requirements: Jamoma 0.5 requires Max 5.0.8, and works on OSX 10.4 or later (Int
 
 Jamoma is licensed as GNU LGPL. Jamoma is an open source development initiative with more than 20 contributors. 
 
-Development is supported by BEK - Bergen Center for Electronic Arts, CIRMMT - the Centre for Interdisciplinary Research in Music Media and Technology, McGill University, Electrotap, GMEA - Centre National de Creation Musicale d'Albi-Tarn and University of Oslo with additional financial support, a wide range of institutions and funding bodies. Further details can be found "here":http://www.jamoma.org/support.html.
+Development is supported by BEK - Bergen Center for Electronic Arts, CIRMMT - the Centre for Interdisciplinary Research in Music Media and Technology, McGill University, Electrotap, GMEA - Centre National de Creation Musicale d'Albi-Tarn and University of Oslo with additional financial support, a wide range of institutions and funding bodies. Further details can be found "here":/support/.
 
 

@@ -21,4 +21,4 @@ Today, Adrian just "posted a message on the Jamoma User forum":http://jamoma-for
 p=. <iframe src="http://player.vimeo.com/video/19109771" width="400" frameborder="0" height="250"></iframe>
 <a href="http://vimeo.com/19109771">ag.granular.suite tutorial 01 - overview</a> from <a href="http://vimeo.com/user5819275">Adrian Gierakowski</a> on <a href="http://vimeo.com">Vimeo</a>.
 
-It is really nice to know about people's use of Jamoma. If you would like to have some of your modules available in the User Library or featured on this blog, please get in touch with us thru the "forum":http://jamoma.org/forum.html.
+It is really nice to know about people's use of Jamoma. If you would like to have some of your modules available in the User Library or featured on this blog, please get in touch with us thru the "forum":/forum/.

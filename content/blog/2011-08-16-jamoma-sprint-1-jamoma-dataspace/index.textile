@@ -18,4 +18,4 @@ h2. Jamoma dataspace
 
 For the last week Trond Lossius has done a lot of work on merging the pitch and time dataspaces, as well as writing up unit tests for dataspaces. He has set this development effort as a (minor) "milestone":http://redmine.jamoma.org/projects/foundation/versions/19.
 
-Hopefully these development sprints will help a lot to get some specific areas more stable or featured and will ease the release of Jamoma updates. If you want to come and help Trond finishing this effort, just get in touch thru the "forum":http://jamoma.org/forum.html.
+Hopefully these development sprints will help a lot to get some specific areas more stable or featured and will ease the release of Jamoma updates. If you want to come and help Trond finishing this effort, just get in touch thru the "forum":/forum/.

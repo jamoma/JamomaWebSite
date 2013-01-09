@@ -35,7 +35,7 @@ A summary and a link to the full BSD license can be found "here":http://creative
 
 h3. OSX: Dynamic Libraries
 
-Jamoma frameworks are now compiled as ".dylib":http://developer.apple.com/library/mac/#documentation/DeveloperTools/Conceptual/DynamicLibraries/000-Introduction/Introduction.html binaries instead of the previously used *.framework* bundles. The most noticeable advantage is that you will now be able to have different versions of Jamoma installed on your computer. This takes effect with "Jamoma 0.5.2 b1":http://jamoma.org/download.html for OSX users and is available on the Jamoma.org download page.
+Jamoma frameworks are now compiled as ".dylib":http://developer.apple.com/library/mac/#documentation/DeveloperTools/Conceptual/DynamicLibraries/000-Introduction/Introduction.html binaries instead of the previously used *.framework* bundles. The most noticeable advantage is that you will now be able to have different versions of Jamoma installed on your computer. This takes effect with "Jamoma 0.5.2 b1":/download/ for OSX users and is available on the Jamoma.org download page.
 
 h3. Jamoma Audio Graph
 

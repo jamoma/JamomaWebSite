@@ -58,7 +58,7 @@ Thanks to Julien Rabin and Nils Peters’s combined efforts, the UserLib has a h
 
 Finally, Nils Peters also started working on a "Jamoma bridge":https://github.com/Nilson/Jamoma.MusicSpace to MusicSpace developed by François Pachet’s team at Sony CSL lab in Paris. Be sure to visit its "dedicated page":http://www.csl.sony.fr/~pachet/MusicSpace/ to learn more about this interesting project and its implementation for Max/MSP.
 
-And a one more thing: best of all, the UserLib now has an independent installer that you can get at the usual "Jamoma download page":http://jamoma.org/download.html.
+And a one more thing: best of all, the UserLib now has an independent installer that you can get at the usual "Jamoma download page":/download/.
 
 h2. Jamoma Audio graph
 
@@ -81,4 +81,4 @@ At the beginning of the month, "Timothy Place":http://www.74objects.com/ was inv
 
 Jamoma also had an appearance at the "last AES convention in San Francisco":http://www.aes.org/events/129/ in Nils’ "SpatDIF":http://www.spatdif.org/ presentation at the workshop on “Standards for Multichannel Audio Distribution":http://www.aes.org/events/129/workshops/?ID=2471.
 
-As always, thanks to all of you for your support. We look forward to hear from you on "Jamoma forums":http://jamoma.org/forum.html and other "social":http://twitter.com/jamomaproject "places":http://www.facebook.com/pages/Jamoma/124254017590168.
+As always, thanks to all of you for your support. We look forward to hear from you on "Jamoma forums":/forum/ and other "social":http://twitter.com/jamomaproject "places":http://www.facebook.com/pages/Jamoma/124254017590168.

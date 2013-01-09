@@ -26,7 +26,7 @@ Matthew Aidekman, Charles Bascou, Casey Basichis, Jeremy Bernstein, Jamie Bulloc
 
 h2. How to contribute?
 
-If you are a programmer and want to join the Jamoma team, please get in touch with us at the <a href="http://jamoma.org/forum.html">development mailing list</a> or contact us directly <a href="mailto:jamoma@jamoma.org">off-list</a>. At current we are particularly interested in getting in touch with anyone willing to contribute towards the following development efforts: 
+If you are a programmer and want to join the Jamoma team, please get in touch with us at the <a href="/forum/">development mailing list</a> or contact us directly <a href="mailto:jamoma@jamoma.org">off-list</a>. At current we are particularly interested in getting in touch with anyone willing to contribute towards the following development efforts: 
 
 * Building Jamoma for Windows
 * DSP and AudioGraph development

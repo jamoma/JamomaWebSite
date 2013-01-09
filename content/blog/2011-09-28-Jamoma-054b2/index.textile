@@ -12,7 +12,7 @@ categories:
 - download
 - Plugtastic
 ---
-A "new installer":http://www.jamoma.org/download.html is now available, with the changes and fixes reported and done in the last few weeks. Most importantly the four Plugtastic externals have been renamed. If you installed the previous beta, please remove the previous versions of these files manually:
+A "new installer":/download/ is now available, with the changes and fixes reported and done in the last few weeks. Most importantly the four Plugtastic externals have been renamed. If you installed the previous beta, please remove the previous versions of these files manually:
 
 * plug.in≈.mxo
 * plug.in≈.maxhelp

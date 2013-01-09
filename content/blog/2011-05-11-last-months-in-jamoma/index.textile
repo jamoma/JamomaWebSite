@@ -32,7 +32,7 @@ The previously code-named deviceManager received a amount of work by Théo De La
 
 Jamoma also received a nice contribution from "Nathan Wolek":http://www.nathanwolek.com/. The "WindowFunctionLib has been expanded":https://github.com/jamoma/JamomaDSP/commits/master?author=nwolek and will surely be a basis for more great stuff in the future. Thanks Nathan and welcome !
 
-Finally, beside all these improvements or features additions, it is worth noting that a lot of attention and work has been done on Unit Testing. This should really help release fully tested and stable Jamoma versions. Of course, you are still more than welcome to report any bug that may have escaped from our attention on Jamoma "forum":http://jamoma.org/forum.html.
+Finally, beside all these improvements or features additions, it is worth noting that a lot of attention and work has been done on Unit Testing. This should really help release fully tested and stable Jamoma versions. Of course, you are still more than welcome to report any bug that may have escaped from our attention on Jamoma "forum":/forum/.
 
 h2. Publication
 
