@@ -6,26 +6,26 @@ Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/list
 
 h3. Cutting Edge
 
-* Mac: "Version 0.5.6 beta 7":Jamoma-0.5.6-b7-Mac (24 April 2012). This version requires OSX 10.6 or newer, as well as Max 5.1.9 or newer.
-* Windows: "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1.  This version requires Max 5.1.9 or newer. 
-
+* Mac: "Version 0.5.7 release candidate 3":Jamoma-0.5.7-rc3-Mac (11 January 2013). <br/><br/>This version requires OSX 10.7 or newer, as well as Max 5.1.9 or newer. This version is thorougly tested and has been used for several large-scale artistic projects. 
+* Unfortunately we have no recent Windows installer. <br/><br/>If you have experience with compiling for Windows and would like to contribute towards the development of Jamoma, we would very much "appreciate your assistance":/team/index.html#how-to-contribute.
 
 h3. Stable
 
-* "Mac: Version 0.5.4":Jamoma-0.5.4-Mac (4 October 2011), requires Max 5.1.9.
-* "Windows: Version 0.5.3 Beta 1":Jamoma-0.5.3-b1-Windows (11 June 2011), requires Max 5.1.8.
+* Mac: "Version 0.5.6 beta 7":Jamoma-0.5.6-b7-Mac (24 April 2012). This version requires OSX 10.6 or newer, as well as Max 5.1.9 or newer.
+* Windows: "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1.  This version requires Max 5.1.9 or newer. 
 				
 h3. Older versions
 
+* "Mac: Version 0.5.4":Jamoma-0.5.4-Mac (4 October 2011), requires Max 5.1.9.
+* "Windows: Version 0.5.3 Beta 1":Jamoma-0.5.3-b1-Windows (11 June 2011), requires Max 5.1.8.
 * Mac: "Version 0.5.3 beta 3":Jamoma-0.5.3-b3-Mac (18 July 2011), requires Max 5.1.8. This is the last version supporting Mac OS 10.5, intel-only.
 * Windows: "Version 0.5.0":Jamoma-0.5.0-Windows (11 November 2009), requires Max 5.1.4.
 
 h2. Download the Jamoma UserLib
 
-The UserLib is a collection of user-created modules, examples, and content for Jamoma.
-No guarantees are made regarding the suitability, safety, or quality of the content of the UserLib.	
+The UserLib is a collection of user-created modules, examples, and content for Jamoma. No guarantees are made regarding the suitability, safety, or quality of the content of the UserLib.	
 
-Want to become a UserLib contributor? <a href="https://raw.github.com/Nilson/JamomaUserLibSupport/master/README">read this</a>.				
+Want to become a UserLib contributor? <a href="https://raw.github.com/Nilson/JamomaUserLibSupport/master/README">Read this</a>.				
 
 * Version 2011-12-19:
 ** "Jamoma User Libraries for OSX and Max 5":JamomaUserLib-2011-12-19-Mac-Max5

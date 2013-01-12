@@ -1,0 +1,26 @@
+---
+layout: post
+title: Jamoma 0.5.7 rc3
+h1: Jamoma 0.5.7 rc3
+kind: article
+menu: blog
+created_at: 2013-01-12
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- installer
+- download
+- jamoma~
+- jamoma≈
+---
+
+
+p=. <%= fancyImage @item, "images/Jamoma-0.5.7-rc3.png", "images/Jamoma-0.5.7-rc3-thumb.png", "Jamoma 0.5.7 release candidate 3" %>
+
+I have just uploaded a new Mac OSX release candidate for Jamoma 0.5.7. This version fixes an issue with the cueManager module that Ricardo del Pozo discoverered in the previous candidate. There are some additional fixes regarding parameters of type decimalArray and integerArray. And finally, there are two new externals added: jamoma~ and jamoma≈. These are swiss army knifes for access to audio processing units defined in the DSP section of the "Jamoma Core C++ library":/Core/. We'll try to find the time to write up a separate blog post on them in the near future.
+
+Grab the installer from the "download page":/download/.
+
+If you also use TapTools, be sure to install "the latest beta":http://74objects.com/taptools4/.
+
+If you experience any problems with this installer, please report, either in the comment field for this post or via the "forums and mailing lists":/forum/.
