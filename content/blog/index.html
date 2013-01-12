@@ -4,7 +4,7 @@ menu: blog
 h1: Blog
 ---
 
-<% sorted_articles[0..4].each do |post| %>
+<% sorted_articles[0..9].each do |post| %>
   <div class='post'>
 	<h1><a href="<%= relative_path_to(post) %>"><%= post[:title] %></a></h1>
   	<div class="dateAuthor"><%= post[:created_at] %> by <%= post[:author] %></div>
