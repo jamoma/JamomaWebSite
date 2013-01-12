@@ -23,6 +23,7 @@ h2. First steps with Jamoma Modular
 h2. Using Jamoma Modules
 
 * "Sending Messages to Modules":/tutorials/sending-messages-to-modules/
+* "Mapping between modules":/tutorials/mapping-between-modules/
 * "Retrieving information about existing Jamoma modules":/tutorials/retrieving-information-about-existing-jamoma-modules/
 * "Saving and recalling state of modules":/tutorials/saving-and-recalling-state-of-modules/
 * "Advance manipulation of cues":/tutorials/advance-manipulation-of-cues/
@@ -42,6 +43,7 @@ h2. Participating to Jamoma Project
 h2. FAQ
 
 * "Some parameters are not recalled":/tutorials/faq-some-parameters-are-not-recalled/
+* "Making a standalone with Jamoma dependencies":/tutorials/faq-how-to-create-a-standalone/
 
 h2. Appendices
 

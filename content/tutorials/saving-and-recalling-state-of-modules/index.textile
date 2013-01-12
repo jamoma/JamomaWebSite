@@ -30,7 +30,7 @@ By default, jmod.cueManager contains no stored cues (presets of all modules stat
 
 Assuming you selected the %(samp)New% item, jmod.cueManager has now created a blank cue file.
 
-We can now adjust some of the modules' parameters to th desired value. Here, for the demo purpose we will select one of the famous MaxMSP audio file, fill some equalization and degradation settings, "then map":/tutorials/mapping-parameters/ the horizontal position of our mouse to the @audio/mix@ parameter of our "myEQ" module.
+We can now adjust some of the modules' parameters to th desired value. Here, for the demo purpose we will select one of the famous MaxMSP audio file, fill some equalization and degradation settings, "then map":/tutorials/mapping-between-modules/ the horizontal position of our mouse to the @audio/mix@ parameter of our "myEQ" module.
 
 !images/making_cues3.png!
 

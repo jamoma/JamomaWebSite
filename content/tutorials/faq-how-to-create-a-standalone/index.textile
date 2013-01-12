@@ -12,8 +12,8 @@ h3. Let's create a simple Jamoma patch
 
 Let's create a soundfile player with panorama, limiter, and recording function in 5 seconds:
 
-# Press SHIFT+i to create "jmod.input~":modules/jmod.input~.html
-# Press SHIFT+o to create "jmod.output~":modules/jmod.output~.html
+# Press SHIFT+i to create "jmod.input~":/tutorials/modules/modules/jmod.input~.html
+# Press SHIFT+o to create "jmod.output~":/tutorials/modules/modules/jmod.output~.html
 # Connect the left and right signal outlet of jmod.input~ to the left and right signal inlet of jmod.output~
 # Done!
 
@@ -69,7 +69,7 @@ That's it - just start your standalone and play with it.
 
 h3. You want more?
 
-If you want to know what files have been aaded via the Jamoma's Application Builder, let's take a look into our final _foo.app_.
+If you want to know what files have been added via the Jamoma's Application Builder, let's take a look into our final _foo.app_.
 The following folders and files were added:
 
 * /foo.app/Contents/Jamoma/Extensions
@@ -80,3 +80,6 @@ The following folders and files were added:
 * /foo.app/Contents/support/jcom.preset_interface.maxpat
 
 bq. If you want to add modules wich are not part of the Jamoma distribution or the Jamoma UserLib, you need to copy the XML preset file manually into foo.app/Contents/Jamoma/Presets
+
+<%= render 'disqus_thread' %>
+
