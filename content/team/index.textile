@@ -24,7 +24,7 @@ We are greatful to everyone that have contributed with additional ideas, advices
 
 Matthew Aidekman, Charles Bascou, Casey Basichis, Jeremy Bernstein, Jamie Bullock, Nicolas Carriere, Mathieu Chamagne, Jean-Michel Couturier, Nicolas Deflache, Ricardo del Pozo, Henrik Frisk, Thomas Grill, John Hudak, Tristan Matthews, João Menezes, Kristian Nymoen, Jan Schacher, Marlon Schumacher, Diemo Schwarz, Thorolf Thuestad
 
-h2. How to contribute?
+h2(#how-to-contribute). How to contribute?
 
 If you are a programmer and want to join the Jamoma team, please get in touch with us at the <a href="/forum/">development mailing list</a> or contact us directly <a href="mailto:jamoma@jamoma.org">off-list</a>. At current we are particularly interested in getting in touch with anyone willing to contribute towards the following development efforts: 
 
