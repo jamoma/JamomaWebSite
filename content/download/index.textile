@@ -4,6 +4,7 @@ menu: getStarted
 ---
 Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":/forum/ or the "bug-tracker":http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1.
 
+
 h3. Cutting Edge
 
 * Mac: "Version 0.5.7 release candidate 3":Jamoma-0.5.7-rc3-Mac (12 January 2013). <br/><br/>This version requires OSX 10.7 or newer, as well as Max 5.1.9 or newer. This version is thorougly tested and has been used for several large-scale artistic projects. 
@@ -13,13 +14,19 @@ h3. Stable
 
 * Mac: "Version 0.5.6 beta 7":Jamoma-0.5.6-b7-Mac (24 April 2012). This version requires OSX 10.6 or newer, as well as Max 5.1.9 or newer.
 * Windows: "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1.  This version requires Max 5.1.9 or newer. 
-				
+
 h3. Older versions
 
 * "Mac: Version 0.5.4":Jamoma-0.5.4-Mac (4 October 2011), requires Max 5.1.9.
 * "Windows: Version 0.5.3 Beta 1":Jamoma-0.5.3-b1-Windows (11 June 2011), requires Max 5.1.8.
 * Mac: "Version 0.5.3 beta 3":Jamoma-0.5.3-b3-Mac (18 July 2011), requires Max 5.1.8. This is the last version supporting Mac OS 10.5, intel-only.
 * Windows: "Version 0.5.0":Jamoma-0.5.0-Windows (11 November 2009), requires Max 5.1.4.
+
+h3. Jamoma 0.6 alpha
+
+Jamoma 0.6 will be introducing major changes to how Jamoma Modules are structured in order to ensure true model-view-controller separation. Modules developed using Jamoma 0.5 will need to be updated in order to work with Jamoma 0.6. Alpha versions of Jamoma 0.6 are provided for developers and testers as well as "early adapters".
+
+* "Go to separate page for Jamoma 0.6 alpha downloads":/download/0.6/
 
 h2. Download the Jamoma UserLib
 
