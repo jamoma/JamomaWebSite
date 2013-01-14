@@ -18,20 +18,27 @@ h3. Audio modules
 | "jmod.delay~":modules/jmod.delay~.html | Sample-accurate delay module |
 | "jmod.echo~":modules/jmod.echo~.html | Stereo echo module |
 | "jmod.equalizer~":modules/jmod.equalizer~.html | Audio equalizer module (multi-band filter) |
+| "jmod.filePlayer.mono~":modules/jmod.filePlayer.mono~.html | Sound file playback module with preloading of files - mono version. |
+| "jmod.filePlayer.stereo~":modules/jmod.filePlayer.stereo~.html | Sound file playback module with preloading of files - stereo version.|
+| "jmod.filePlayer.4ch~":modules/jmod.filePlayer.4ch~.html | Sound file playback module with preloading of files - 4 channel version.|
 | "jmod.filter~":modules/jmod.filter~.html | Audio filter module |
 | "jmod.fluidsynth~":modules/jmod.fluidsynth~.html | Synth based on the fluidsynth using soundfonts |
+| "jmod.hilbertModulator~":modules/jmod.hilbertModulator~.html | One-sided ring modulator using Hilbert filter |
 | "jmod.input~":modules/jmod.input~.html | Generic stereo audio input module |
 | "jmod.limiter~":modules/jmod.limiter~.html | Stereo limiter module |
 | "jmod.multidelay~":modules/jmod.multidelay~.html | Sample-accurate delay module with 5 delay lines per channel and feedback |
 | "jmod.noisegate~":modules/jmod.noisegate~.html | A noise gate module |
 | "jmod.noise~":modules/jmod.noise~.html | Different noise functions |
 | "jmod.output~":modules/jmod.output~.html | Generic stereo output module with some master fx and recording |
+| "jmod.panpot~":modules/jmod.panpot~.html | A stereo panpot for mono and stereo sources |
 | "jmod.rissetGlissando~":modules/jmod.rissetGlissando~.html | Audio synthesis generating Shepard/Risset infinite glissandi |
 | "jmod.sampleplayer2~":modules/jmod.sampleplayer2~.html | A sampleplayer with separate control for pitch and speed based on buffer~ groove~ and gizmo~ |
 | "jmod.samplePlayer~":modules/jmod.samplePlayer~.html | A simple sampleplayer based on buffer~ and groove~ |
 | "jmod.saturation~":modules/jmod.saturation~.html | Stereo saturation/distortion effect |
 | "jmod.scope~":modules/jmod.scope~.html | Visualization of audio signal |
 | "jmod.sine~":modules/jmod.sine~.html | Playing simple waveforms |
+| "jmod.sonifyer~":modules/jmod.sonifyer~.html | Sonification of a video matrix, preferably based on a motiongram |
+| "jmod.spectralGate~":modules/jmod.spectralGate~.html | Spectral purification and noise reduction. this module is based on the brita plugin that was part of the hipno plugins |
 | "jmod.spectralShift~":modules/jmod.spectralShift~.html | 4 in 1 kinderegg: Pitch shift frequency shift feedback delay and limiter |
 | "jmod.spectrogram~":modules/jmod.spectrogram~.html | Spectrogram display of input audio |
 | "jmod.tremolo~":modules/jmod.tremolo~.html | Stereo tremolo effect with channel phase offset |
@@ -44,6 +51,7 @@ h3. Control modules
 | "jmod.colorpicker":modules/jmod.colorpicker.html | a module for setting up to 12 RGB triplets as a parameter of type array |
 | "jmod.continuum":modules/jmod.continuum.html | Module interfacing with the Haken Continuum Fingerboard |
 | "jmod.cueManager":modules/jmod.cueManager.html | Module for managing cuelists |
+| "jmod.cueComment":modules/jmod.cueComment.html | Displays comments of cues stored via the cueManager |
 | "jmod.cueScript":modules/jmod.cueScript.html | A module for remote communication to modules by means of a text format cue script |
 | "jmod.cueTrigger":modules/jmod.cueTrigger.html | Graphical interface triggering cues |
 | "jmod.fileBrowser":modules/jmod.fileBrowser.html | Choose files to play in your audio or video player |
@@ -58,12 +66,13 @@ h3. Control modules
 | "jmod.midiin":modules/jmod.midiin.html | Receive and output messages from a MIDI device |
 | "jmod.mouse":modules/jmod.mouse.html | Outputting mouse information |
 | "jmod.mouse.gdif":modules/jmod.mouse.gdif.html | Outputting mouse information |
+| "jmod.multicast":modules/jmod.multicast.html | Multicast bonjour core |
 | "jmod.qmetro":modules/jmod.qmetro.html | A qmetro module (like metro but can drop frames) |
 | "jmod.polhemus":modules/jmod.polhemus.html | Get data from Polhemus electromagnetic trackers |
 | "jmod.qualisys":modules/jmod.qualisys.html | Communicating with the Qualisys Motion Capture system |
 | "jmod.palette":modules/jmod.palette.html | Create various blends of the 1 to 12 colors on the palette. |
 | "jmod.oscnet":modules/jmod.oscnet.html | Send and receive Open Sound Control (OSC) on a network port |
-| "jmod.multicast":modules/jmod.multicast.html | Multicast bonjour core |
+| "jmod.qualisys":modules/jmod.qualisys.html | Module for receiving OSC data from the Qualisys motion capture system |
 | "jmod.spacenavigator":modules/jmod.spacenavigator.html | Use the Space Navigator from 3D Connexion |
 | "jmod.uc-33":modules/jmod.uc-33.html | Module interfacing with the Edirol UC-33 MIDI fader |
 | "jmod.wacom":modules/jmod.wacom.html | Use Wacom graphic tablets |
@@ -96,7 +105,9 @@ h3. Spatialization modules
 | "jmod.sur.audiounit~":modules/jmod.sur.audiounit~.html | Multichannel AudioUnit plug-ins wrapper |
 | "jmod.sur.aux~":modules/jmod.sur.aux~.html | A module to distribute a multicable to three receivers |
 | "jmod.sur.dbap~":modules/jmod.sur.dbap~.html | Distance based amplitude panning |
+| "jmod.sur.dbapBformat~":modules/jmod.sur.dbapBformat~.html | Distance-based amplitude panning of incomming B-format signals |
 | "jmod.sur.doppler~":modules/jmod.sur.doppler~.html | Doppler effect |
+| "jmod.sur.info~":modules/jmod.sur.info~.html | A module to display stats of an Jamoma Audiograph connection |
 | "jmod.sur.input~":modules/jmod.sur.input~.html | Playback of multichannel audiofiles based on sfplay |
 | "jmod.sur.meters~":modules/jmod.sur.meters~.html | A multichannel meterbridge |
 | "jmod.sur.multi.in~":modules/jmod.sur.multi.in~.html | Put audio signals on a multicable |
@@ -109,6 +120,7 @@ h3. Spatialization modules
 | "jmod.sur.speaker.delay~":modules/jmod.sur.speaker.delay~.html | Individual delay for up to 32 speakers in surround sound setups to correct for varying distances |
 | "jmod.sur.speaker.distamp~":modules/jmod.sur.speaker.distamp~.html | Module for compensating loudspeaker gains in irregular loudspeaker setups |
 | "jmod.sur.vbap~":modules/jmod.sur.vbap~.html | Vector base amplitude panning (VBAP) |
+| "jmod.sur.waveformViewer~":modules/jmod.sur.waveformViewer~.html | Display waveform of real-time multi-channel signal as jitter matrix |
 | "jmod.sur.zoomH2ambi~":modules/jmod.sur.zoomH2ambi~.html | Convert a Zoom-H2 four channel recording into a horizontal-only B-format 2nd order |
 
 h3. Video modules
@@ -123,8 +135,10 @@ h3. Video modules
 | "jmod.chromakey%":modules/jmod.chromakey%25.html | Choke chromakey 2 sources |
 | "jmod.edge%":modules/jmod.edge%25.html | Edge detection |
 | "jmod.emboss%":modules/jmod.emboss%25.html | Cheesy embossing effect |
+| "jmod.fft%":modules/jmod.fft%25.html | Perform Fast Fourier transform on incoming 1 plane image |
 | "jmod.fluoride%":modules/jmod.fluoride%25.html | Neon glow effect |
 | "jmod.foregroundMask%":modules/jmod.foregroundMask%25.html | Create mask based on image foreground. |
+| "jmod.ifft%":modules/jmod.ifft%25.html | Perform Inverse Fast Fourier Transform processing of incoming matrix |
 | "jmod.input%":modules/jmod.input%25.html | Generic video input module |
 | "jmod.keyscreen%":modules/jmod.keyscreen%25.html | Choke chromakey 3 sources |
 | "jmod.mblur%":modules/jmod.mblur%25.html | Motion blur effect |
@@ -137,6 +151,7 @@ h3. Video modules
 | "jmod.output%":modules/jmod.output%25.html | Output video to an OpenGl driven window |
 | "jmod.plur%":modules/jmod.plur%25.html | Video feedback/washout effet |
 | "jmod.record%":modules/jmod.record%25.html | A module for recording video to disk |
+| "jmod.rgb2gray%":modules/jmod.rgb2gray%25.html | Change rgb to grayscale image |
 | "jmod.similarity%":modules/jmod.similarity%25.html | Create a similarity matrix from a video stream |
 | "jmod.slitscan%":modules/jmod.slitscan%25.html | Slit-scanning effect based on xray.jit.timecube |
 | "jmod.television%":modules/jmod.television%25.html | Bad TV' effect |
