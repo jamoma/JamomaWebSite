@@ -78,6 +78,7 @@ strong {
 em {
 	font-style: italic;
 }
+
 /* @end */
 
 /* @group Page structure */
@@ -95,7 +96,7 @@ em {
 	left: 0;
 	z-index: 1;
 	position: fixed;
-	background: rgba(214,58,17,0) url(images/background.png) no-repeat;
+	background: rgba(214,58,17,0) url(/images/background.png) no-repeat;
 }
 
 .logo {
@@ -124,6 +125,30 @@ em {
   	left: 320px;
 	margin: 0px 20px;
   }
+
+#main p {
+	margin: 20px 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+#main blockquote p {
+	margin-right: 30px;
+	margin-left: 30px;
+	color: #797979;
+}
+
+#main ul, #main ol {
+	padding-top:0;
+	list-style-position: inside;
+	list-style-image: none;
+	padding-left: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* @group Headings */
 
 #main h1, #main_nabble h1 {
 	font-size: 24px;
@@ -186,18 +211,11 @@ em {
 	line-height: 1.2;
 }
 
-#main p {
-	margin: 20px 0;
-	font-size: 14px;
-	line-height: 20px;
-	text-align: justify;
-}
 
-#main blockquote p {
-	margin-right: 30px;
-	margin-left: 30px;
-	color: #797979;
-}
+
+/* @end */
+
+/* @group Code and pre */
 
 #main pre, #inline pre{
 	margin: 20px 0;
@@ -214,14 +232,53 @@ em {
 	font-size: 12px;
 }
 
-#main ul, #main ol {
-	padding-top:0;
-	list-style-position: inside;
-	list-style-image: none;
-	padding-left: 2em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+.textSection pre .max, .textSection pre code{
+	color: #ffffff;
+	font-family: "Courier New", Courier, mono;
 }
+
+p code, li code {
+	font-family: "Courier New", Courier, mono;
+	color: #424242;
+	font-size: 14px;
+}
+
+.max{
+	color: #000000;
+}
+
+/* @end */
+
+/* @group Column */
+
+#column {
+	column-count: 2;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	moz-column-gap: 20px;
+	column-gap: 20px;
+	-moz-column-rule: 1px solid #ddccb5;
+	-webkitcolumn-rule: 1px solid #ddccb5;
+	column-rule: 1px solid #ddccb5;
+}
+
+.keepInOneColumn{
+	width: 90%;
+	display: inline-block;
+}
+
+.keepInOneColumn p{
+	width: 50%;
+	clear: none;
+	float: left;
+	text-align: justify;
+}
+
+
+
+/* @end */
+
+/* @group Table */
 
 #main li {	
 	font-size: 14px;
@@ -262,28 +319,9 @@ em {
 	border-color: #ff2741;
 }
 
-#column {
-	column-count: 2;
-	-moz-column-count: 2;
-	-webkit-column-count: 2;
-	moz-column-gap: 20px;
-	column-gap: 20px;
-	-moz-column-rule: 1px solid #ddccb5;
-	-webkitcolumn-rule: 1px solid #ddccb5;
-	column-rule: 1px solid #ddccb5;
-}
 
-.keepInOneColumn{
-	width: 90%;
-	display: inline-block;
-}
 
-.keepInOneColumn p{
-	width: 50%;
-	clear: none;
-	float: left;
-	text-align: justify;
-}
+/* @end */
 
 /* @end */
 
@@ -628,15 +666,6 @@ span.seq, figurePointer{
 	padding-right: 0.35em;
 	padding-left: 0.35em;
 	border: 1px solid #b1b1b1;
-}
-
-.textSection .max, .textSection code{
-	color: #ffffff;
-	font-family: "Courier New", Courier, mono;
-}
-
-.max{
-	color: #000000;
 }
 
 /* @end */
