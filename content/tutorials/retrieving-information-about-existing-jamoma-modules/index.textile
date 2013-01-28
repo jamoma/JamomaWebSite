@@ -13,9 +13,11 @@ In order to control modules, we need to be able to access them remotely using OS
 Setting this up by hand would be a laborious and error-prone approach. Instead, in this tutorial we will illustrate how to query available Jamoma modules for information on their OSC namespace and the state of all OSC nodes.
 
 Before we start investigating the namespace, let us make a few modules so that we have something to play around with. In the example below we are using:
-* jmod.input~ - an audio input module. We will give it the name /input~
-* jmod.echo~ - an echo module. We will give this module the name /echo~
-* jmod.output~ - an output module. We will give this module the name /output~
+
+|_. Module 		|_. Description |
+| jmod.input~ 	| An audio input module. We will give it the name @/input~@ |
+| jmod.echo~ 	| An echo module. We will give this module the name @/echo~@ |
+| jmod.output~ 	| An output module. We will give this module the name @/output~@ |
 
 !images/a_simple_test_patch.png!
 
