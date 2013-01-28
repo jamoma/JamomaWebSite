@@ -148,6 +148,16 @@ em {
 	margin-bottom: 0.5em;
 }
 
+#main li {	
+	font-size: 14px;
+	font-weight:100;
+	list-style-position: outside;
+	list-style-image: url(/images/bullet.png);
+	clear: none;
+	text-align: justify;
+	margin: 0 30px 12px 10px;
+}
+
 /* @group Headings */
 
 #main h1, #main_nabble h1 {
@@ -232,14 +242,14 @@ em {
 	font-size: 12px;
 }
 
-.textSection pre .max, .textSection pre code{
+pre .max, pre code{
 	color: #ffffff;
-	font-family: "Courier New", Courier, mono;
+	font-family: "Andale Mono", "Courier New", Courier, mono;
 }
 
 p code, li code {
-	font-family: "Courier New", Courier, mono;
-	color: #424242;
+	font-family: "Andale Mono", "Courier New", Courier, mono;
+	color: #393938;
 	font-size: 14px;
 }
 
@@ -280,22 +290,11 @@ p code, li code {
 
 /* @group Table */
 
-#main li {	
-	font-size: 14px;
-	font-weight:100;
-	list-style-position: outside;
-	list-style-image: url(/images/bullet.png);
-	clear: none;
-	text-align: justify;
-	margin: 0 30px 12px 10px;
-}
-
 #main table {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 0%;
-	margin-right: 0%;
 	font-size: 14px;
+	margin: 25px;
+	text-align: left;
+	border-collapse: collapse;
 }
 
 #main tr {
@@ -305,21 +304,38 @@ p code, li code {
 	padding-right: 10px;
 }
 
+#main th {
+	font-size: 13px;
+	font-weight: normal;
+	vertical-align: top;
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: none;
+	padding: 8px;
+	background: #d3cfd2;
+	border-top: 4px solid #d3cfd2;
+	border-bottom: 1px solid #fff;
+	color: #980059;
+}
+
 #main td {
-	padding-right: 0px;
 	font-size: 12px; 
 	vertical-align: top;
 	list-style-type: none;
 	list-style-position: outside;
 	list-style-image: none;
-	padding-bottom: 10px;
+	padding: 8px;
+	background: #f1f1f1; 
+	border-bottom: 1px solid #fff;
+	color: #505050;
+	border-top: 1px solid transparent;
 }
 
-#main td:nth-child(even) {
-	border-color: #ff2741;
+#main tr:hover td
+{
+	background: #e1e1e1;
+	color: #424242;
 }
-
-
 
 /* @end */
 
@@ -611,6 +627,28 @@ h2 + .postPreview{
   width: 150px;
   height: 150px;
 }
+
+#main table.frontTable {
+	font-size: 14px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+#main table.frontTable td {
+	font-size: 12px; 
+	vertical-align: top;
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: none;
+	background-color: #ffffff;
+	padding: 0 10px 0 0;
+	margin: 0;
+}
+
+#main table.frontTable td p {
+	text-align: left;
+}
+
 
 /* @end */
 
