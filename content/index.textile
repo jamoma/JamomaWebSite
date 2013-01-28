@@ -6,27 +6,27 @@ menu: none
 <img src="images/jamoma-logo-01.png" class="title" alt="Jamoma logo"/>
 <p>Jamoma is a <a href="/forum/">community</a>-based project, dedicated to the development of several toolsets and frameworks for artistic creation through digital means. 
 The project is led by an international <a href="/team/">team</a> of academic researchers, artists and developers, and supported by several <a href="/support/">institutions</a></p>
-<table>
+<table class="frontTable">
 	<tbody>
 		<tr>
-			<td class="front">
+			<td>
 				<a href="/modular/">
 				<img src="/images/about/modular.png" border="0" alt="Jamoma Modular logo" class="JamomaUmbrellaLogo"/>
 				</a> 
 			</td>
-			<td class="front">
+			<td>
 				<a href="http://redmine.jamoma.org/projects/dsp">
 				<img src="images/about/dsp.png" border="0" alt="Jamoma DSP logo" class="JamomaUmbrellaLogo"/>
 				</a> 
 			</td>
-			<td class="front">
+			<td>
 				<a href="http://redmine.jamoma.org/projects/audiograph">
 				<img src="images/about/multicore.png" border="0" alt="Jamoma Audio Graph logo" class="JamomaUmbrellaLogo"/>
 			</a>
 			</td>
 		</tr>
 		<tr>
-			<td class="front">
+			<td>
 				<p class="module">
 					Jamoma Modular
 				</p>
@@ -34,7 +34,7 @@ The project is led by an international <a href="/team/">team</a> of academic res
 					A modular framework for patching in Max
 				</p>
 			</td>
-			<td class="front">
+			<td>
 				<p class="module">
 					Jamoma DSP
 				</p>
@@ -42,7 +42,7 @@ The project is led by an international <a href="/team/">team</a> of academic res
 					A C++ framework for audio processing objects
 				</p>
 			</td>
-			<td class="front">
+			<td>
 				<p class="module">
 					Jamoma Audio Graph
 				</p>
@@ -52,24 +52,24 @@ The project is led by an international <a href="/team/">team</a> of academic res
 			</td>
 		</tr>
 		<tr>
-			<td class="front">
+			<td>
 				<a href="http://redmine.jamoma.org/projects/test">
 				<img src="images/about/tools.png" border="0" alt="Jamoma Test logo" class="JamomaUmbrellaLogo"/>
 			 </a>
 			</td>
-			<td class="front">
+			<td>
 				<a href="http://spatdif.org">
 				<img src="images/about/spatdif.png"  border="0" alt="Jamoma SpatDIF logo" class="JamomaUmbrellaLogo"/>
 					</a>
 			</td>
-			<td class="front">
+			<td>
 					<a href="http://gdif.org">
 				<img src="images/jamoma-main.png" border="0" alt="Jamoma GDIF logo"  class="JamomaUmbrellaLogo"/>
 				</a>
 			</td>
 		</tr>
 		<tr>
-			<td class="front">
+			<td>
 				<p class="module">
 					Jamoma Test
 				</p>
@@ -77,7 +77,7 @@ The project is led by an international <a href="/team/">team</a> of academic res
 					An automated testing suite for computer music environments.
 				</p>
 			</td>
-			<td class="front">
+			<td>
 				<p class="module">
 					Jamoma SpatDIF
 				</p>
@@ -85,7 +85,7 @@ The project is led by an international <a href="/team/">team</a> of academic res
 					A prototyping environment for the development of SpatDIF
 				</p>
 			</td>
-			<td class="front">
+			<td>
 				<p class="module">
 					Jamoma GDIF
 				</p>
