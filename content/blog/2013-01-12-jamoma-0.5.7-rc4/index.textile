@@ -1,0 +1,26 @@
+---
+layout: post
+title: Jamoma 0.5.7 rc4
+h1: Jamoma 0.5.7 rc4
+kind: article
+menu: blog
+created_at: 2013-01-16
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- installer
+- download
+- jamoma~
+- jamoma≈
+---
+
+
+p=. <%= fancyImage @item, "images/Jamoma-0.5.7-rc4.png", "images/Jamoma-0.5.7-rc4-thumb.png", "Jamoma 0.5.7 release candidate 4" %>
+
+It turned out that a few externals where missing in the rc3 installer (jcom.clip~, jamoma~ and jamoma≈), so we try again. We've added those files, but apart from that there are no changes.
+
+Grab the installer from the "download page":/download/.
+
+If you also use TapTools, be sure to install "the latest beta":http://74objects.com/taptools4/.
+
+If you experience any problems with this installer, please report, either in the comment field for this post or via the "forums and mailing lists":/forum/.

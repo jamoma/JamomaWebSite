@@ -11,152 +11,152 @@ objref: []
 h3. Audio modules 
 
 |_.Module name |_.Module description |
-| "jmod.10harmonics~":modules/jmod.10harmonics~.html | A module for additive synthesis |
-| "jmod.audiounit~":modules/jmod.audiounit~.html | AudioUnit plug-ins hosting module |
-| "jmod.crossfade~":modules/jmod.crossfade~.html | Module for crossfading between two sound sources |
-| "jmod.degrade~":modules/jmod.degrade~.html | Degrade audio signal |
-| "jmod.delay~":modules/jmod.delay~.html | Sample-accurate delay module |
-| "jmod.echo~":modules/jmod.echo~.html | Stereo echo module |
-| "jmod.equalizer~":modules/jmod.equalizer~.html | Audio equalizer module (multi-band filter) |
-| "jmod.filePlayer.mono~":modules/jmod.filePlayer.mono~.html | Sound file playback module with preloading of files - mono version. |
-| "jmod.filePlayer.stereo~":modules/jmod.filePlayer.stereo~.html | Sound file playback module with preloading of files - stereo version.|
-| "jmod.filePlayer.4ch~":modules/jmod.filePlayer.4ch~.html | Sound file playback module with preloading of files - 4 channel version.|
-| "jmod.filter~":modules/jmod.filter~.html | Audio filter module |
-| "jmod.fluidsynth~":modules/jmod.fluidsynth~.html | Synth based on the fluidsynth using soundfonts |
-| "jmod.hilbertModulator~":modules/jmod.hilbertModulator~.html | One-sided ring modulator using Hilbert filter |
-| "jmod.input~":modules/jmod.input~.html | Generic stereo audio input module |
-| "jmod.limiter~":modules/jmod.limiter~.html | Stereo limiter module |
-| "jmod.multidelay~":modules/jmod.multidelay~.html | Sample-accurate delay module with 5 delay lines per channel and feedback |
-| "jmod.noisegate~":modules/jmod.noisegate~.html | A noise gate module |
-| "jmod.noise~":modules/jmod.noise~.html | Different noise functions |
-| "jmod.output~":modules/jmod.output~.html | Generic stereo output module with some master fx and recording |
-| "jmod.panpot~":modules/jmod.panpot~.html | A stereo panpot for mono and stereo sources |
-| "jmod.rissetGlissando~":modules/jmod.rissetGlissando~.html | Audio synthesis generating Shepard/Risset infinite glissandi |
-| "jmod.sampleplayer2~":modules/jmod.sampleplayer2~.html | A sampleplayer with separate control for pitch and speed based on buffer~ groove~ and gizmo~ |
-| "jmod.samplePlayer~":modules/jmod.samplePlayer~.html | A simple sampleplayer based on buffer~ and groove~ |
-| "jmod.saturation~":modules/jmod.saturation~.html | Stereo saturation/distortion effect |
-| "jmod.scope~":modules/jmod.scope~.html | Visualization of audio signal |
-| "jmod.sine~":modules/jmod.sine~.html | Playing simple waveforms |
-| "jmod.sonifyer~":modules/jmod.sonifyer~.html | Sonification of a video matrix, preferably based on a motiongram |
-| "jmod.spectralGate~":modules/jmod.spectralGate~.html | Spectral purification and noise reduction. this module is based on the brita plugin that was part of the hipno plugins |
-| "jmod.spectralShift~":modules/jmod.spectralShift~.html | 4 in 1 kinderegg: Pitch shift frequency shift feedback delay and limiter |
-| "jmod.spectrogram~":modules/jmod.spectrogram~.html | Spectrogram display of input audio |
-| "jmod.tremolo~":modules/jmod.tremolo~.html | Stereo tremolo effect with channel phase offset |
-| "jmod.vst~":modules/jmod.vst~.html | VST plug-ins hosting module |
+| "jmod.10harmonics~":/tutorials/modules/modules/jmod.10harmonics~.html | A module for additive synthesis |
+| "jmod.audiounit~":/tutorials/modules/modules/jmod.audiounit~.html | AudioUnit plug-ins hosting module |
+| "jmod.crossfade~":/tutorials/modules/modules/jmod.crossfade~.html | Module for crossfading between two sound sources |
+| "jmod.degrade~":/tutorials/modules/modules/jmod.degrade~.html | Degrade audio signal |
+| "jmod.delay~":/tutorials/modules/modules/jmod.delay~.html | Sample-accurate delay module |
+| "jmod.echo~":/tutorials/modules/modules/jmod.echo~.html | Stereo echo module |
+| "jmod.equalizer~":/tutorials/modules/modules/jmod.equalizer~.html | Audio equalizer module (multi-band filter) |
+| "jmod.filePlayer.mono~":/tutorials/modules/modules/jmod.filePlayer.mono~.html | Sound file playback module with preloading of files - mono version. |
+| "jmod.filePlayer.stereo~":/tutorials/modules/modules/jmod.filePlayer.stereo~.html | Sound file playback module with preloading of files - stereo version.|
+| "jmod.filePlayer.4ch~":/tutorials/modules/modules/jmod.filePlayer.4ch~.html | Sound file playback module with preloading of files - 4 channel version.|
+| "jmod.filter~":/tutorials/modules/modules/jmod.filter~.html | Audio filter module |
+| "jmod.fluidsynth~":/tutorials/modules/modules/jmod.fluidsynth~.html | Synth based on the fluidsynth using soundfonts |
+| "jmod.hilbertModulator~":/tutorials/modules/modules/jmod.hilbertModulator~.html | One-sided ring modulator using Hilbert filter |
+| "jmod.input~":/tutorials/modules/modules/jmod.input~.html | Generic stereo audio input module |
+| "jmod.limiter~":/tutorials/modules/modules/jmod.limiter~.html | Stereo limiter module |
+| "jmod.multidelay~":/tutorials/modules/modules/jmod.multidelay~.html | Sample-accurate delay module with 5 delay lines per channel and feedback |
+| "jmod.noisegate~":/tutorials/modules/modules/jmod.noisegate~.html | A noise gate module |
+| "jmod.noise~":/tutorials/modules/modules/jmod.noise~.html | Different noise functions |
+| "jmod.output~":/tutorials/modules/modules/jmod.output~.html | Generic stereo output module with some master fx and recording |
+| "jmod.panpot~":/tutorials/modules/modules/jmod.panpot~.html | A stereo panpot for mono and stereo sources |
+| "jmod.rissetGlissando~":/tutorials/modules/modules/jmod.rissetGlissando~.html | Audio synthesis generating Shepard/Risset infinite glissandi |
+| "jmod.sampleplayer2~":/tutorials/modules/modules/jmod.sampleplayer2~.html | A sampleplayer with separate control for pitch and speed based on buffer~ groove~ and gizmo~ |
+| "jmod.samplePlayer~":/tutorials/modules/modules/jmod.samplePlayer~.html | A simple sampleplayer based on buffer~ and groove~ |
+| "jmod.saturation~":/tutorials/modules/modules/jmod.saturation~.html | Stereo saturation/distortion effect |
+| "jmod.scope~":/tutorials/modules/modules/jmod.scope~.html | Visualization of audio signal |
+| "jmod.sine~":/tutorials/modules/modules/jmod.sine~.html | Playing simple waveforms |
+| "jmod.sonifyer~":/tutorials/modules/modules/jmod.sonifyer~.html | Sonification of a video matrix, preferably based on a motiongram |
+| "jmod.spectralGate~":/tutorials/modules/modules/jmod.spectralGate~.html | Spectral purification and noise reduction. this module is based on the brita plugin that was part of the hipno plugins |
+| "jmod.spectralShift~":/tutorials/modules/modules/jmod.spectralShift~.html | 4 in 1 kinderegg: Pitch shift frequency shift feedback delay and limiter |
+| "jmod.spectrogram~":/tutorials/modules/modules/jmod.spectrogram~.html | Spectrogram display of input audio |
+| "jmod.tremolo~":/tutorials/modules/modules/jmod.tremolo~.html | Stereo tremolo effect with channel phase offset |
+| "jmod.vst~":/tutorials/modules/modules/jmod.vst~.html | VST plug-ins hosting module |
 
 h3. Control modules
 
 |_.Module name |_.Module description |
-| "jmod.bcf2000":modules/jmod.bcf2000.html | Module interfacing with the Behringer BCF2000 motorized controller |
-| "jmod.colorpicker":modules/jmod.colorpicker.html | a module for setting up to 12 RGB triplets as a parameter of type array |
-| "jmod.continuum":modules/jmod.continuum.html | Module interfacing with the Haken Continuum Fingerboard |
-| "jmod.cueManager":modules/jmod.cueManager.html | Module for managing cuelists |
-| "jmod.cueComment":modules/jmod.cueComment.html | Displays comments of cues stored via the cueManager |
-| "jmod.cueScript":modules/jmod.cueScript.html | A module for remote communication to modules by means of a text format cue script |
-| "jmod.cueTrigger":modules/jmod.cueTrigger.html | Graphical interface triggering cues |
-| "jmod.fileBrowser":modules/jmod.fileBrowser.html | Choose files to play in your audio or video player |
-| "jmod.fileNameGenerator":modules/jmod.fileNameGenerator.html | Generate indexed file names |
-| "jmod.globalTransport":modules/jmod.globalTransport.html | Control interface to Max's global transport |
-| "jmod.hi":modules/jmod.hi.html | Use any general human interface device (HID). Outputs OSC-messages. |
-| "jmod.layout":modules/jmod.layout.html | Store position of this patcher's modules into presets |
-| "jmod.mapper":modules/jmod.mapper.html | Manage parameter mappings for jamoma modules |
-| "jmod.mapperContinuous":modules/jmod.mapperContinuous.html | A one-to-one continuous mapper |
-| "jmod.mapperDiscrete":modules/jmod.mapperDiscrete.html | A one-to-one mapper for discrete events |
-| "jmod.messages":modules/jmod.messages.html | A performance message display |
-| "jmod.midiin":modules/jmod.midiin.html | Receive and output messages from a MIDI device |
-| "jmod.mouse":modules/jmod.mouse.html | Outputting mouse information |
-| "jmod.mouse.gdif":modules/jmod.mouse.gdif.html | Outputting mouse information |
-| "jmod.multicast":modules/jmod.multicast.html | Multicast bonjour core |
-| "jmod.qmetro":modules/jmod.qmetro.html | A qmetro module (like metro but can drop frames) |
-| "jmod.polhemus":modules/jmod.polhemus.html | Get data from Polhemus electromagnetic trackers |
-| "jmod.qualisys":modules/jmod.qualisys.html | Communicating with the Qualisys Motion Capture system |
-| "jmod.palette":modules/jmod.palette.html | Create various blends of the 1 to 12 colors on the palette. |
-| "jmod.oscnet":modules/jmod.oscnet.html | Send and receive Open Sound Control (OSC) on a network port |
-| "jmod.qualisys":modules/jmod.qualisys.html | Module for receiving OSC data from the Qualisys motion capture system |
-| "jmod.spacenavigator":modules/jmod.spacenavigator.html | Use the Space Navigator from 3D Connexion |
-| "jmod.uc-33":modules/jmod.uc-33.html | Module interfacing with the Edirol UC-33 MIDI fader |
-| "jmod.wacom":modules/jmod.wacom.html | Use Wacom graphic tablets |
+| "jmod.bcf2000":/tutorials/modules/modules/jmod.bcf2000.html | Module interfacing with the Behringer BCF2000 motorized controller |
+| "jmod.colorpicker":/tutorials/modules/modules/jmod.colorpicker.html | a module for setting up to 12 RGB triplets as a parameter of type array |
+| "jmod.continuum":/tutorials/modules/modules/jmod.continuum.html | Module interfacing with the Haken Continuum Fingerboard |
+| "jmod.cueManager":/tutorials/modules/modules/jmod.cueManager.html | Module for managing cuelists |
+| "jmod.cueComment":/tutorials/modules/modules/jmod.cueComment.html | Displays comments of cues stored via the cueManager |
+| "jmod.cueScript":/tutorials/modules/modules/jmod.cueScript.html | A module for remote communication to modules by means of a text format cue script |
+| "jmod.cueTrigger":/tutorials/modules/modules/jmod.cueTrigger.html | Graphical interface triggering cues |
+| "jmod.fileBrowser":/tutorials/modules/modules/jmod.fileBrowser.html | Choose files to play in your audio or video player |
+| "jmod.fileNameGenerator":/tutorials/modules/modules/jmod.fileNameGenerator.html | Generate indexed file names |
+| "jmod.globalTransport":/tutorials/modules/modules/jmod.globalTransport.html | Control interface to Max's global transport |
+| "jmod.hi":/tutorials/modules/modules/jmod.hi.html | Use any general human interface device (HID). Outputs OSC-messages. |
+| "jmod.layout":/tutorials/modules/modules/jmod.layout.html | Store position of this patcher's modules into presets |
+| "jmod.mapper":/tutorials/modules/modules/jmod.mapper.html | Manage parameter mappings for jamoma modules |
+| "jmod.mapperContinuous":/tutorials/modules/modules/jmod.mapperContinuous.html | A one-to-one continuous mapper |
+| "jmod.mapperDiscrete":/tutorials/modules/modules/jmod.mapperDiscrete.html | A one-to-one mapper for discrete events |
+| "jmod.messages":/tutorials/modules/modules/jmod.messages.html | A performance message display |
+| "jmod.midiin":/tutorials/modules/modules/jmod.midiin.html | Receive and output messages from a MIDI device |
+| "jmod.mouse":/tutorials/modules/modules/jmod.mouse.html | Outputting mouse information |
+| "jmod.mouse.gdif":/tutorials/modules/modules/jmod.mouse.gdif.html | Outputting mouse information |
+| "jmod.multicast":/tutorials/modules/modules/jmod.multicast.html | Multicast bonjour core |
+| "jmod.qmetro":/tutorials/modules/modules/jmod.qmetro.html | A qmetro module (like metro but can drop frames) |
+| "jmod.polhemus":/tutorials/modules/modules/jmod.polhemus.html | Get data from Polhemus electromagnetic trackers |
+| "jmod.qualisys":/tutorials/modules/modules/jmod.qualisys.html | Communicating with the Qualisys Motion Capture system |
+| "jmod.palette":/tutorials/modules/modules/jmod.palette.html | Create various blends of the 1 to 12 colors on the palette. |
+| "jmod.oscnet":/tutorials/modules/modules/jmod.oscnet.html | Send and receive Open Sound Control (OSC) on a network port |
+| "jmod.qualisys":/tutorials/modules/modules/jmod.qualisys.html | Module for receiving OSC data from the Qualisys motion capture system |
+| "jmod.spacenavigator":/tutorials/modules/modules/jmod.spacenavigator.html | Use the Space Navigator from 3D Connexion |
+| "jmod.uc-33":/tutorials/modules/modules/jmod.uc-33.html | Module interfacing with the Edirol UC-33 MIDI fader |
+| "jmod.wacom":/tutorials/modules/modules/jmod.wacom.html | Use Wacom graphic tablets |
 
 h3. Data modules
 
 |_.Module name |_.Module description |
-| "jmod.condition":modules/jmod.condition.html | Condition a control signal |
-| "jmod.textwriter":modules/jmod.textwriter.html | Write data to a text file with timestamping for each line of values |
+| "jmod.condition":/tutorials/modules/modules/jmod.condition.html | Condition a control signal |
+| "jmod.textwriter":/tutorials/modules/modules/jmod.textwriter.html | Write data to a text file with timestamping for each line of values |
 
 h3. OpenGL modules
 
 |_.Module name |_.Module description |
-| "jmod.gl.alphamixer%":modules/jmod.gl.alphamixer%25.html | A four layer slab-based video mixer using alpha channel for each layer |
-| "jmod.gl.chromakey%":modules/jmod.gl.chromakey%25.html | Slab-based keying based on chromatic distance |
-| "jmod.gl.edgeblend%":modules/jmod.gl.edgeblend%25.html | Slab-based edge blending with alpha channel |
-| "jmod.gl.background%":modules/jmod.gl.background%25.html | Slab-based background extractor (foreground remover) |
-| "jmod.gl.td.rota%":modules/jmod.gl.td.rota%25.html | Slab-based rotation and repositioning |
-| "jmod.gl.text2d%":modules/jmod.gl.text2d%25.html | Read text file and display as OpenGL bitmap text |
-| "jmod.gl.videoplane%":modules/jmod.gl.videoplane%25.html | Map incoming video as texture to OpenGL videoplane |
+| "jmod.gl.alphamixer%":/tutorials/modules/modules/jmod.gl.alphamixer%25.html | A four layer slab-based video mixer using alpha channel for each layer |
+| "jmod.gl.chromakey%":/tutorials/modules/modules/jmod.gl.chromakey%25.html | Slab-based keying based on chromatic distance |
+| "jmod.gl.edgeblend%":/tutorials/modules/modules/jmod.gl.edgeblend%25.html | Slab-based edge blending with alpha channel |
+| "jmod.gl.background%":/tutorials/modules/modules/jmod.gl.background%25.html | Slab-based background extractor (foreground remover) |
+| "jmod.gl.td.rota%":/tutorials/modules/modules/jmod.gl.td.rota%25.html | Slab-based rotation and repositioning |
+| "jmod.gl.text2d%":/tutorials/modules/modules/jmod.gl.text2d%25.html | Read text file and display as OpenGL bitmap text |
+| "jmod.gl.videoplane%":/tutorials/modules/modules/jmod.gl.videoplane%25.html | Map incoming video as texture to OpenGL videoplane |
 
 h3. Spatialization modules
 
 |_.Module name |_.Module description |
-| "jmod.sur.ambi.adjust~":modules/jmod.sur.ambi.adjust~.html | Display levels and adjust relative weight for ambisonic components |
-| "jmod.sur.ambi.decode~":modules/jmod.sur.ambi.decode~.html | Decode ambisonic signal |
-| "jmod.sur.ambi.encodeM~":modules/jmod.sur.ambi.encodeM~.html | Ambisonic encoding of up to 32 mono sources |
-| "jmod.sur.ambipanning~":modules/jmod.sur.ambipanning~.html | ICST Ambipanning |
-| "jmod.sur.ambisonics~":modules/jmod.sur.ambisonics~.html | ICST Ambisonics encoding and decoding |
-| "jmod.sur.audiounit~":modules/jmod.sur.audiounit~.html | Multichannel AudioUnit plug-ins wrapper |
-| "jmod.sur.aux~":modules/jmod.sur.aux~.html | A module to distribute a multicable to three receivers |
-| "jmod.sur.dbap~":modules/jmod.sur.dbap~.html | Distance based amplitude panning |
-| "jmod.sur.dbapBformat~":modules/jmod.sur.dbapBformat~.html | Distance-based amplitude panning of incomming B-format signals |
-| "jmod.sur.doppler~":modules/jmod.sur.doppler~.html | Doppler effect |
-| "jmod.sur.info~":modules/jmod.sur.info~.html | A module to display stats of an Jamoma Audiograph connection |
-| "jmod.sur.input~":modules/jmod.sur.input~.html | Playback of multichannel audiofiles based on sfplay |
-| "jmod.sur.meters~":modules/jmod.sur.meters~.html | A multichannel meterbridge |
-| "jmod.sur.multi.in~":modules/jmod.sur.multi.in~.html | Put audio signals on a multicable |
-| "jmod.sur.multi.out~":modules/jmod.sur.multi.out~.html | Unpack up to 32 mono signals from a multicable |
-| "jmod.sur.output~":modules/jmod.sur.output~.html | Distribute multicable signals directly to dac~ output channels |
-| "jmod.sur.position":modules/jmod.sur.position.html | Describe position of one surround voice as xyz coordinate |
-| "jmod.sur.race~":modules/jmod.sur.race~.html | Ambiophonics RACE implementation |
-| "jmod.sur.rolloff~":modules/jmod.sur.rolloff~.html | Free-field amplitude roll-off with distance |
-| "jmod.sur.setup":modules/jmod.sur.setup.html | Describing arrangements of instances as sets of XYZ coordinates |
-| "jmod.sur.speaker.delay~":modules/jmod.sur.speaker.delay~.html | Individual delay for up to 32 speakers in surround sound setups to correct for varying distances |
-| "jmod.sur.speaker.distamp~":modules/jmod.sur.speaker.distamp~.html | Module for compensating loudspeaker gains in irregular loudspeaker setups |
-| "jmod.sur.vbap~":modules/jmod.sur.vbap~.html | Vector base amplitude panning (VBAP) |
-| "jmod.sur.waveformViewer~":modules/jmod.sur.waveformViewer~.html | Display waveform of real-time multi-channel signal as jitter matrix |
-| "jmod.sur.zoomH2ambi~":modules/jmod.sur.zoomH2ambi~.html | Convert a Zoom-H2 four channel recording into a horizontal-only B-format 2nd order |
+| "jmod.sur.ambi.adjust~":/tutorials/modules/modules/jmod.sur.ambi.adjust~.html | Display levels and adjust relative weight for ambisonic components |
+| "jmod.sur.ambi.decode~":/tutorials/modules/modules/jmod.sur.ambi.decode~.html | Decode ambisonic signal |
+| "jmod.sur.ambi.encodeM~":/tutorials/modules/modules/jmod.sur.ambi.encodeM~.html | Ambisonic encoding of up to 32 mono sources |
+| "jmod.sur.ambipanning~":/tutorials/modules/modules/jmod.sur.ambipanning~.html | ICST Ambipanning |
+| "jmod.sur.ambisonics~":/tutorials/modules/modules/jmod.sur.ambisonics~.html | ICST Ambisonics encoding and decoding |
+| "jmod.sur.audiounit~":/tutorials/modules/modules/jmod.sur.audiounit~.html | Multichannel AudioUnit plug-ins wrapper |
+| "jmod.sur.aux~":/tutorials/modules/modules/jmod.sur.aux~.html | A module to distribute a multicable to three receivers |
+| "jmod.sur.dbap~":/tutorials/modules/modules/jmod.sur.dbap~.html | Distance based amplitude panning |
+| "jmod.sur.dbapBformat~":/tutorials/modules/modules/jmod.sur.dbapBformat~.html | Distance-based amplitude panning of incomming B-format signals |
+| "jmod.sur.doppler~":/tutorials/modules/modules/jmod.sur.doppler~.html | Doppler effect |
+| "jmod.sur.info~":/tutorials/modules/modules/jmod.sur.info~.html | A module to display stats of an Jamoma Audiograph connection |
+| "jmod.sur.input~":/tutorials/modules/modules/jmod.sur.input~.html | Playback of multichannel audiofiles based on sfplay |
+| "jmod.sur.meters~":/tutorials/modules/modules/jmod.sur.meters~.html | A multichannel meterbridge |
+| "jmod.sur.multi.in~":/tutorials/modules/modules/jmod.sur.multi.in~.html | Put audio signals on a multicable |
+| "jmod.sur.multi.out~":/tutorials/modules/modules/jmod.sur.multi.out~.html | Unpack up to 32 mono signals from a multicable |
+| "jmod.sur.output~":/tutorials/modules/modules/jmod.sur.output~.html | Distribute multicable signals directly to dac~ output channels |
+| "jmod.sur.position":/tutorials/modules/modules/jmod.sur.position.html | Describe position of one surround voice as xyz coordinate |
+| "jmod.sur.race~":/tutorials/modules/modules/jmod.sur.race~.html | Ambiophonics RACE implementation |
+| "jmod.sur.rolloff~":/tutorials/modules/modules/jmod.sur.rolloff~.html | Free-field amplitude roll-off with distance |
+| "jmod.sur.setup":/tutorials/modules/modules/jmod.sur.setup.html | Describing arrangements of instances as sets of XYZ coordinates |
+| "jmod.sur.speaker.delay~":/tutorials/modules/modules/jmod.sur.speaker.delay~.html | Individual delay for up to 32 speakers in surround sound setups to correct for varying distances |
+| "jmod.sur.speaker.distamp~":/tutorials/modules/modules/jmod.sur.speaker.distamp~.html | Module for compensating loudspeaker gains in irregular loudspeaker setups |
+| "jmod.sur.vbap~":/tutorials/modules/modules/jmod.sur.vbap~.html | Vector base amplitude panning (VBAP) |
+| "jmod.sur.waveformViewer~":/tutorials/modules/modules/jmod.sur.waveformViewer~.html | Display waveform of real-time multi-channel signal as jitter matrix |
+| "jmod.sur.zoomH2ambi~":/tutorials/modules/modules/jmod.sur.zoomH2ambi~.html | Convert a Zoom-H2 four channel recording into a horizontal-only B-format 2nd order |
 
 h3. Video modules
 
 |_.Module name |_.Module description |
-| "jmod.alphablend%":modules/jmod.alphablend%25.html | Alpha blending of two video layers |
-| "jmod.avg4%":modules/jmod.avg4%25.html | Average 4 pixels of input for each pixel of output |
-| "jmod.background%":modules/jmod.background%25.html | Background video substraction |
-| "jmod.blur%":modules/jmod.blur%25.html | Video blur effect |
-| "jmod.box%":modules/jmod.box%25.html | Add boxes around objects in the video |
-| "jmod.brcosa%":modules/jmod.brcosa%25.html | Control brightness contrast and saturation |
-| "jmod.chromakey%":modules/jmod.chromakey%25.html | Choke chromakey 2 sources |
-| "jmod.edge%":modules/jmod.edge%25.html | Edge detection |
-| "jmod.emboss%":modules/jmod.emboss%25.html | Cheesy embossing effect |
-| "jmod.fft%":modules/jmod.fft%25.html | Perform Fast Fourier transform on incoming 1 plane image |
-| "jmod.fluoride%":modules/jmod.fluoride%25.html | Neon glow effect |
-| "jmod.foregroundMask%":modules/jmod.foregroundMask%25.html | Create mask based on image foreground. |
-| "jmod.ifft%":modules/jmod.ifft%25.html | Perform Inverse Fast Fourier Transform processing of incoming matrix |
-| "jmod.input%":modules/jmod.input%25.html | Generic video input module |
-| "jmod.keyscreen%":modules/jmod.keyscreen%25.html | Choke chromakey 3 sources |
-| "jmod.mblur%":modules/jmod.mblur%25.html | Motion blur effect |
-| "jmod.motion%":modules/jmod.motion%25.html | Display a motion image |
-| "jmod.motion2%":modules/jmod.motion2%25.html | A simplified motion module |
-| "jmod.motiongram%":modules/jmod.motiongram%25.html | Create motiongrams from video stream |
-| "jmod.moviePlayer%":modules/jmod.moviePlayer%25.html | Playback of Quicktime movies |
-| "jmod.op%":modules/jmod.op%25.html | Mathematical operations on one or two matrices |
-| "jmod.orsize%":modules/jmod.orsize%25.html | Change orientation and size of video |
-| "jmod.output%":modules/jmod.output%25.html | Output video to an OpenGl driven window |
-| "jmod.plur%":modules/jmod.plur%25.html | Video feedback/washout effet |
-| "jmod.record%":modules/jmod.record%25.html | A module for recording video to disk |
-| "jmod.rgb2gray%":modules/jmod.rgb2gray%25.html | Change rgb to grayscale image |
-| "jmod.similarity%":modules/jmod.similarity%25.html | Create a similarity matrix from a video stream |
-| "jmod.slitscan%":modules/jmod.slitscan%25.html | Slit-scanning effect based on xray.jit.timecube |
-| "jmod.television%":modules/jmod.television%25.html | Bad TV' effect |
-| "jmod.wake%":modules/jmod.wake%25.html | Video feedback/washout effect |
-| "jmod.xfade%":modules/jmod.xfade%25.html | Crossfade between two incoming video matrices |
-| "jmod.yfade%":modules/jmod.yfade%25.html | Crossfade (Pan) a source to two outputs |
+| "jmod.alphablend%":/tutorials/modules/modules/jmod.alphablend%25.html | Alpha blending of two video layers |
+| "jmod.avg4%":/tutorials/modules/modules/jmod.avg4%25.html | Average 4 pixels of input for each pixel of output |
+| "jmod.background%":/tutorials/modules/modules/jmod.background%25.html | Background video substraction |
+| "jmod.blur%":/tutorials/modules/modules/jmod.blur%25.html | Video blur effect |
+| "jmod.box%":/tutorials/modules/modules/jmod.box%25.html | Add boxes around objects in the video |
+| "jmod.brcosa%":/tutorials/modules/modules/jmod.brcosa%25.html | Control brightness contrast and saturation |
+| "jmod.chromakey%":/tutorials/modules/modules/jmod.chromakey%25.html | Choke chromakey 2 sources |
+| "jmod.edge%":/tutorials/modules/modules/jmod.edge%25.html | Edge detection |
+| "jmod.emboss%":/tutorials/modules/modules/jmod.emboss%25.html | Cheesy embossing effect |
+| "jmod.fft%":/tutorials/modules/modules/jmod.fft%25.html | Perform Fast Fourier transform on incoming 1 plane image |
+| "jmod.fluoride%":/tutorials/modules/modules/jmod.fluoride%25.html | Neon glow effect |
+| "jmod.foregroundMask%":/tutorials/modules/modules/jmod.foregroundMask%25.html | Create mask based on image foreground. |
+| "jmod.ifft%":/tutorials/modules/modules/jmod.ifft%25.html | Perform Inverse Fast Fourier Transform processing of incoming matrix |
+| "jmod.input%":/tutorials/modules/modules/jmod.input%25.html | Generic video input module |
+| "jmod.keyscreen%":/tutorials/modules/modules/jmod.keyscreen%25.html | Choke chromakey 3 sources |
+| "jmod.mblur%":/tutorials/modules/modules/jmod.mblur%25.html | Motion blur effect |
+| "jmod.motion%":/tutorials/modules/modules/jmod.motion%25.html | Display a motion image |
+| "jmod.motion2%":/tutorials/modules/modules/jmod.motion2%25.html | A simplified motion module |
+| "jmod.motiongram%":/tutorials/modules/modules/jmod.motiongram%25.html | Create motiongrams from video stream |
+| "jmod.moviePlayer%":/tutorials/modules/modules/jmod.moviePlayer%25.html | Playback of Quicktime movies |
+| "jmod.op%":/tutorials/modules/modules/jmod.op%25.html | Mathematical operations on one or two matrices |
+| "jmod.orsize%":/tutorials/modules/modules/jmod.orsize%25.html | Change orientation and size of video |
+| "jmod.output%":/tutorials/modules/modules/jmod.output%25.html | Output video to an OpenGl driven window |
+| "jmod.plur%":/tutorials/modules/modules/jmod.plur%25.html | Video feedback/washout effet |
+| "jmod.record%":/tutorials/modules/modules/jmod.record%25.html | A module for recording video to disk |
+| "jmod.rgb2gray%":/tutorials/modules/modules/jmod.rgb2gray%25.html | Change rgb to grayscale image |
+| "jmod.similarity%":/tutorials/modules/modules/jmod.similarity%25.html | Create a similarity matrix from a video stream |
+| "jmod.slitscan%":/tutorials/modules/modules/jmod.slitscan%25.html | Slit-scanning effect based on xray.jit.timecube |
+| "jmod.television%":/tutorials/modules/modules/jmod.television%25.html | Bad TV' effect |
+| "jmod.wake%":/tutorials/modules/modules/jmod.wake%25.html | Video feedback/washout effect |
+| "jmod.xfade%":/tutorials/modules/modules/jmod.xfade%25.html | Crossfade between two incoming video matrices |
+| "jmod.yfade%":/tutorials/modules/modules/jmod.yfade%25.html | Crossfade (Pan) a source to two outputs |
 
 <%= render 'disqus_thread' %>

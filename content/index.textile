@@ -6,7 +6,7 @@ menu: none
 <img src="images/jamoma-logo-01.png" class="title" alt="Jamoma logo"/>
 <p>Jamoma is a <a href="/forum/">community</a>-based project, dedicated to the development of several toolsets and frameworks for artistic creation through digital means. 
 The project is led by an international <a href="/team/">team</a> of academic researchers, artists and developers, and supported by several <a href="/support/">institutions</a></p>
-<table>
+<table class="frontTable">
 	<tbody>
 		<tr>
 			<td>

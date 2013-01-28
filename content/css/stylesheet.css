@@ -78,6 +78,7 @@ strong {
 em {
 	font-style: italic;
 }
+
 /* @end */
 
 /* @group Page structure */
@@ -95,7 +96,7 @@ em {
 	left: 0;
 	z-index: 1;
 	position: fixed;
-	background: rgba(214,58,17,0) url(images/background.png) no-repeat;
+	background: rgba(214,58,17,0) url(/images/background.png) no-repeat;
 }
 
 .logo {
@@ -124,6 +125,40 @@ em {
   	left: 320px;
 	margin: 0px 20px;
   }
+
+#main p {
+	margin: 20px 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+#main blockquote p {
+	margin-right: 30px;
+	margin-left: 30px;
+	color: #797979;
+}
+
+#main ul, #main ol {
+	padding-top:0;
+	list-style-position: inside;
+	list-style-image: none;
+	padding-left: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#main li {	
+	font-size: 14px;
+	font-weight:100;
+	list-style-position: outside;
+	list-style-image: url(/images/bullet.png);
+	clear: none;
+	text-align: justify;
+	margin: 0 30px 12px 10px;
+}
+
+/* @group Headings */
 
 #main h1, #main_nabble h1 {
 	font-size: 24px;
@@ -186,18 +221,11 @@ em {
 	line-height: 1.2;
 }
 
-#main p {
-	margin: 20px 0;
-	font-size: 14px;
-	line-height: 20px;
-	text-align: justify;
-}
 
-#main blockquote p {
-	margin-right: 30px;
-	margin-left: 30px;
-	color: #797979;
-}
+
+/* @end */
+
+/* @group Code and pre */
 
 #main pre, #inline pre{
 	margin: 20px 0;
@@ -214,53 +242,24 @@ em {
 	font-size: 12px;
 }
 
-#main ul, #main ol {
-	padding-top:0;
-	list-style-position: inside;
-	list-style-image: none;
-	padding-left: 2em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+pre .max, pre code{
+	color: #ffffff;
+	font-family: "Andale Mono", "Courier New", Courier, mono;
 }
 
-#main li {	
-	font-size: 14px;
-	font-weight:100;
-	list-style-position: outside;
-	list-style-image: url(/images/bullet.png);
-	clear: none;
-	text-align: justify;
-	margin: 0 30px 12px 10px;
-}
-
-#main table {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 0%;
-	margin-right: 0%;
+p code, li code {
+	font-family: "Andale Mono", "Courier New", Courier, mono;
+	color: #393938;
 	font-size: 14px;
 }
 
-#main tr {
-	left: 0;
-	padding-left: 0px;
-	margin-left: 0px;
-	padding-right: 10px;
+.max{
+	color: #000000;
 }
 
-#main td {
-	padding-right: 0px;
-	font-size: 12px; 
-	vertical-align: top;
-	list-style-type: none;
-	list-style-position: outside;
-	list-style-image: none;
-	padding-bottom: 10px;
-}
+/* @end */
 
-#main td:nth-child(even) {
-	border-color: #ff2741;
-}
+/* @group Column */
 
 #column {
 	column-count: 2;
@@ -284,6 +283,61 @@ em {
 	float: left;
 	text-align: justify;
 }
+
+
+
+/* @end */
+
+/* @group Table */
+
+#main table {
+	font-size: 14px;
+	margin: 25px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#main tr {
+	left: 0;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-right: 10px;
+}
+
+#main th {
+	font-size: 13px;
+	font-weight: normal;
+	vertical-align: top;
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: none;
+	padding: 8px;
+	background: #d3cfd2;
+	border-top: 4px solid #d3cfd2;
+	border-bottom: 1px solid #fff;
+	color: #980059;
+}
+
+#main td {
+	font-size: 12px; 
+	vertical-align: top;
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: none;
+	padding: 8px;
+	background: #f1f1f1; 
+	border-bottom: 1px solid #fff;
+	color: #505050;
+	border-top: 1px solid transparent;
+}
+
+#main tr:hover td
+{
+	background: #e1e1e1;
+	color: #424242;
+}
+
+/* @end */
 
 /* @end */
 
@@ -574,6 +628,28 @@ h2 + .postPreview{
   height: 150px;
 }
 
+#main table.frontTable {
+	font-size: 14px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+#main table.frontTable td {
+	font-size: 12px; 
+	vertical-align: top;
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: none;
+	background-color: #ffffff;
+	padding: 0 10px 0 0;
+	margin: 0;
+}
+
+#main table.frontTable td p {
+	text-align: left;
+}
+
+
 /* @end */
 
 /* @group Modular */
@@ -628,15 +704,6 @@ span.seq, figurePointer{
 	padding-right: 0.35em;
 	padding-left: 0.35em;
 	border: 1px solid #b1b1b1;
-}
-
-.textSection .max, .textSection code{
-	color: #ffffff;
-	font-family: "Courier New", Courier, mono;
-}
-
-.max{
-	color: #000000;
 }
 
 /* @end */

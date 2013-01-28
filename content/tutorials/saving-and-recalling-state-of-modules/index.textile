@@ -56,7 +56,7 @@ When storing cues, jmod.cueManager automatically populates its menu with the sto
 
 Alternatively, you may recall a cue using the following message sent to jmod.cueManager:
 
-@/cue <index of cue>@
+bc. /cue <index of cue>
 	
 When recalling a cue, jmod.cueManager will send internally to all modules the saved parameters values.
 	

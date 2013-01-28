@@ -19,7 +19,7 @@ The input and output modules are used often, so Jamoma adds two shortcuts to the
 * With the patch in edit mode, we can type %(kbd)SHIFT% + %(kbd)I% to create an input module. The module will show up at the position the mouse is pointing at when we type the shortcut.
 * In the same way we can type %(kbd)SHIFT% + %(kbd)O% to create an output module.
 
-bq(note). The "Shortcuts_in_Jamoma":/tutorials/shortcuts-in-jamoma lists all available key combinations jn Jamoma.
+bq(note). The "Shortcuts_in_Jamoma":/tutorials/shortcuts-in-jamoma lists all available key combinations in Jamoma.
 
 h4. Naming instances
 
@@ -126,14 +126,14 @@ h3. Summary
 * Shortcuts in Jamoma.
 ** Type %(kbd)SHIFT% + %(kbd)I% to create an input module.
 ** Type %(kbd)SHIFT% + %(kbd)O% to create an output module.
-** Naming instances:
-*** Jamoma wants each module to have a unique name.
-*** If we forget to provide names, Jamoma will try to help us out.
-** Creating modules using %(kbd)SHIFT% + %(kbd)B%:
-*** What kind of module we want using the @name attribute
-*** What name we want for the module, using the @args attribute.
+** Type %(kbd)SHIFT% + %(kbd)B% to create any module:
+** Use the @name attribute to specify the kind of module.
+** Use the @args attribute to specify the name for the module. 
+* Naming instances:
+** Jamoma wants each module to have a unique name.
+** If we forget to provide a name, Jamoma will help us out.
 * Features within the module.
-** Audio modules can be provided with mix, gain, metering, bypass and mute.
+** Audio modules can be equipped with mix, gain, metering, bypass, and mute feature.
 
 h3. What's next?
 

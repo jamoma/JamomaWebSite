@@ -13,9 +13,9 @@ h3. Key commands for patching convenience
 |_.Shortcut |_.Description |
 | SHIFT+m | creates an object starting with "jmod." |
 | SHIFT+j | creates an object starting with "jcom." |
-| SHIFT+i | creates a new "jmod.input~":modules/jmod.input~.html module |
-| SHIFT+o | creates a new "jmod.output~":modules/jmod.output~.html module |
-| SHIFT+x | creates a new "jmod.mapperContinuous":modules/jmod.mapperContinuous.html module |
+| SHIFT+i | creates a new "jmod.input~":/tutorials/modules/modules/jmod.input~.html module |
+| SHIFT+o | creates a new "jmod.output~":/tutorials/modules/modules/jmod.output~.html module |
+| SHIFT+x | creates a new "jmod.mapperContinuous":/tutorials/modules/modules/jmod.mapperContinuous.html module |
 | SHIFT+b | creates an object starting with "bpatcher @name jmod. @args myModule" |
 | SHIFT+d | creates an object starting with "bpatcher @name jmod." |
 
