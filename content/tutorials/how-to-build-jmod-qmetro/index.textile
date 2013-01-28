@@ -133,6 +133,7 @@ The template tries to help you remember the various attributes. For our module t
 
 @jcom.parameter toggle@
 
+|_. Attribute |_. Value |_. Comments |
 | @type | boolean | it's a toggle, therefore we use the datatype boolean |
 | @range/bounds | 0 1 | this is all the range that we need |
 | @range/clipmode | both | so anything outside the range is clipped |
@@ -142,6 +143,7 @@ The template tries to help you remember the various attributes. For our module t
 
 @jcom.parameter time@
 
+|_. Attribute |_. Value |_. Comments |
 | @type | integer | it's an integer |
 | @range/bounds | 1 5000 | most of the time the metro will be fired within this time interval |
 | @range/clipmode | low | but we don't want to prevent it from being a higher value |
