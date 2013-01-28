@@ -236,13 +236,13 @@ A number of Jamoma components collaborate to make it all work together:
 
 h3. Creating a new module involves the following steps:
 
-* Create the algorithm.
-* Create a new module using the appropriate template.
-* Design the user interface. If you need the interface to be a different size, you can change it by resizing "jcom.ui":/tutorials/components/jcom.ui/ accordingly.
-* Create "jcom.parameter":/tutorials/components/jcom.parameter/, "jcom.message":/tutorials/components/jcom.message/ and "jcom.return":/tutorials/components/jcom.return objects as required, and set arguments and attributes.
-* Use presentation mode to have a nice interface without messing up your patching
-* If the module is to return control messages, you have to use jcom.return.
-* When the module is finished, create a default preset file and html documentation.
+# Create the algorithm.
+# Create a new module using the appropriate template.
+# Design the user interface. If you need the interface to be a different size, you can change it by resizing "jcom.ui":/tutorials/components/jcom.ui/ accordingly.
+# Create "jcom.parameter":/tutorials/components/jcom.parameter/, "jcom.message":/tutorials/components/jcom.message/ and "jcom.return":/tutorials/components/jcom.return objects as required, and set arguments and attributes.
+# Use presentation mode to have a nice interface without messing up your patching
+# If the module is to return control messages, you have to use jcom.return.
+# When the module is finished, create a default preset file and html documentation.
 
 h3. Download
 
