@@ -156,6 +156,7 @@ em {
 	clear: none;
 	text-align: justify;
 	margin: 0 30px 12px 10px;
+	line-height: 20px;
 }
 
 /* @group Headings */
