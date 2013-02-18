@@ -1,0 +1,48 @@
+---
+layout: post
+title: Jamoma 0.5.7 released
+h1: Jamoma 0.5.7 rc4
+kind: article
+menu: blog
+created_at: 2013-02-14
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- installer
+- download
+- unit-tests
+- audio-graph
+- TapTools
+- dataspace
+- Fulbright
+- granular-toolkit
+- GTK
+- OSSIA
+- Hordaland-county
+- Windows
+- Pledgie
+- Donations
+---
+
+
+p=. <%= fancyImage @item, "images/Jamoma-0.5.7.png", "images/Jamoma-0.5.7-thumb.png", "Jamoma 0.5.7" %>
+
+We are happy to announce the release of Jamoma 0.5.7 for Mac. Please visit the "Jamoma download page":http://jamoma.org/download/ to grab a copy of the installer.
+
+A lot of work has been done over the last year in order to implement new features and fix various issues. We believe this to be a mature release, and it has been used extensively for a number of artistic projects as well as in research. Among many important improvements in this version we would like to highlight:
+
+* The issue of interdependencies of frameworks between Jamoma and TapTools has been resolved once and for all. If you also use TapTools, be sure to install "the latest beta":http://74objects.com/taptools4/. From there on Jamoma and TapTools should be able to happily co-exist, without future updates to one of them also requiring the other to be updated.
+* Several issues have been addressed relating to "AudioGraph":/publications/attachments/jamoma-audiograph-DAFx.pdf, the multi-channel audio solution used for all of the spatialisation modules, improving stability and performance.
+* Full support for "dataspaces":/blog/2012-07-11-Ramping-and-dataspace/ has been implemented. This means that e.g. gain levels in modules can now be specified as MIDI, linear or decibel values.
+* The Jamoma web site has been overhauled. We now have a growing number of "tutorials":/tutorials/ on how to use Jamoma. If you have questions or suggestions, we encourage you to make use of the new possibilities for commenting on tutorials and blog posts.
+* We've done extended work on implementing "systematic unit and integration testing":http://www.jamoma.org/publications/attachments/smc2012-testing.pdf. We believe this to have a major impact on the stability and reliability of Jamoma.
+
+If you experience any problems with this installer, please report, either in the comment field for this post, or via the "forums and mailing lists":/forum/.
+
+Unfortunately we still have no recent Windows installer. We hope to be able to remedy this over the comming year, and we are grateful for recent "donations":http://www.pledgie.com/campaigns/5615 towards Jamoma. Part of the donations have been used towards a Windows 8 installer. Still, if you have experience with compiling for Windows and would like to contribute towards the development of Jamoma, we would very much "appreciate your assistance":/team/index.html#how-to-contribute.
+
+Currently we are fortunate to see funding for Jamoma development that help propagate further development. "BEK":http://www.bek.no receives funding from the County Council of Hordaland for development of Jamoma 2012-2014, and "GMEA":http://www.gmea.net is heading the 3-year industrial research project OSSIA (Open Scenario System for Interactive Application). And finally "Nathan Wolek":http://www.nathanwolek.com/ from Stetson University visited BEK as a Fulbright Scholar in the fall 2012, making good progress "porting Granular Toolkit to Jamoma":http://www.lowkeydigitalstudio.com/2011/08/gtk-10-years/. So stay tuned, we're likely to see lots of exciting Jamoma development over the next few years!
+
+&nbsp;
+
+p=. <img src="/blog/2013-02-14-jamoma-0.5.7/images/kup1.jpg" width="55%" alt="Hordaland Kulturelt utviklingsprogram" />

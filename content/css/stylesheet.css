@@ -156,6 +156,7 @@ em {
 	clear: none;
 	text-align: justify;
 	margin: 0 30px 12px 10px;
+	line-height: 20px;
 }
 
 /* @group Headings */
@@ -204,11 +205,12 @@ em {
 }
 
 #main h4{
-	color: #333;
+	color: #777;
 	font-size: 14px;
-	font-weight: 100;
-	border-bottom: 1px solid #dadada;
+	font-weight: bold;
 	clear: left;
+	padding-top: 9px;
+	padding-bottom: 6px;
 }
 
 #main h5 {

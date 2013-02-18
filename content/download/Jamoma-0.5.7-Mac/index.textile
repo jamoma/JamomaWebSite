@@ -1,0 +1,11 @@
+---
+title: Jamoma 0.5.7 for Mac
+menu: getStarted
+---
+<iframe width="1" height="1" frameborder="0" src="attachments/Jamoma-0.5.7.dmg"></iframe>
+
+Thanks for downloading Jamoma! This version requires OSX 10.7 or newer, as well as Max 5.1.9 or newer. Your download should start automatically. If you experience problems with the download, please try this "direct link":attachments/Jamoma-0.5.7.dmg.
+
+* Further details on this release can be found in "this blog post":/blog/2013-02-14-jamoma-0.5.7/.
+* If you also use TapTools, be sure to install "the latest (beta) version of TapTools 4":http://74objects.com/taptools4/.
+* If you have previously installed Jamoma and/or TapTools, we recommend that you run the uninstaller scripts for Max 5 and Max 6 prior to the installer, in order to ensure that you do not end up with conflicting sets of frameworks.
