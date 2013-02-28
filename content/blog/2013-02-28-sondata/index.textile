@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshop and SonData at the upcoming Code Control
-h1: Jamoma 0.5.7 rc4
+h1: Workshop and SonData at the upcoming Code Control
 kind: article
 menu: blog
 created_at: 2013-02-28
