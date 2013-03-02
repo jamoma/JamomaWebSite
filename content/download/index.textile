@@ -9,7 +9,7 @@ h3. Current version
 
 h4. Mac
 
-* "Version 0.5.7":Jamoma-0.5.7-Mac/ (12 January 2013), requires OSX 10.7 or newer, as well as Max 5.1.9 or newer. If you also use TapTools, be sure to install the latest (beta) version of "TapTools 4":http://74objects.com/taptools4/.
+* "Version 0.5.7":Jamoma-0.5.7-Mac/ (12 January 2013), requires OSX 10.7 or newer, as well as Max 5.1.9 or newer. Not compatible with Max 6.1 or newer. If you also use TapTools, be sure to install the latest (beta) version of "TapTools 4":http://74objects.com/taptools4/.
 
 h4. Windows
 
