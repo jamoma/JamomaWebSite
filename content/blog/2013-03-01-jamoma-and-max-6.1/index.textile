@@ -1,0 +1,25 @@
+---
+layout: post
+title: Jamoma and Max 6.1
+h1: Jamoma and Max 6.1
+kind: article
+menu: blog
+created_at: 2013-03-01
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- Max-6.1
+- 64bit
+- jcom.meter~
+- crash
+---
+
+p=. <%= fancyImage @item, "images/max6-1.png", "images/max6-1-thumb.png", "Jamoma isnnotbyet compatible with Max 6.1" %>
+
+Recently Cycling'74 announced a "public beta of Max 6.1":http://cycling74.com/forums/topic.php?id=45448. This is a 64-bit version of Max accompanying the upcoming release of "Live 9":https://www.ableton.com/. Max 6.1 can be run as 32-bit or 64-bit, but unfortunately initial testing reveals that the current Jamoma (0.5.7) will not be able to be used with neither versions of Max 6.1.
+
+In order for Jamoma externals to work with the 64-bit version of Max, they all need to be revamped once an updated SDK for Max becomes available. For this reason it is no surprise that Jamoma won't work with the 64-bit version of Max 6.1. Unfortunately, there seem to be changes to the SDK affecting the 32-bit version as well. We have discovered that whenever an instance of jcom.meter~ is deleted, Max 6.1 will crash. We do not know the exact reason why this happens yet, and we have not yet made any decision on what to do. But it has severe inpact: Max crash whenever an audio module is deleted, due to the fact that all audio-related modules make heavy use of jcom-meter~.
+
+General Jamoma development is now being geared towards Jamoma 0.6, bringing model-view-controller separation. One option is to sidestep this development to work on a Jamoma 0.5.8 version, identical in functionality to the current 0.5.7 version, but with support for Max 6.1 (most likely not supporting any earlier versions of Max). Alternatively  support for Max 6.1 becomes part of the Jamoma 0.6 development effort. At the moment the latter option seems the most likely.
+
+So, if you want to check out Max 6.1, but also want to be able to use Jamoma, we recommend that you keep Max 6.0.8 around as well for the time being. Fortunately Max 6.0.8 and Max 6.1 can live happily side by side.
