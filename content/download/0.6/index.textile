@@ -15,7 +15,7 @@ Some details concerning the development of Jamoma 0.6 can be found "here":http:/
 
 h3. Download Jamoma 0.6 alpha versions
 
-* Mac: "Version 0.6.0 alpha 18":Jamoma-0.6.0-a18-Mac/ (5 March 2013). <br/><br/>This version requires OSX 10.6.8 or newer, as well as Max 5.1.9 or newer.
+* Mac: "Version 0.6.0 alpha 19":Jamoma-0.6.0-a19-Mac/ (7 March 2013). <br/><br/>This version requires OSX 10.6.8 or newer, as well as Max 5.1.9 or newer.
 * Mac: "Version 0.6.0 alpha 17":Jamoma-0.6.0-a17-Mac/ (18 February 2013). <br/><br/>This version requires OSX 10.6.8 or newer, as well as Max 5.1.9 or newer.
 
 <%= render 'support' %>
