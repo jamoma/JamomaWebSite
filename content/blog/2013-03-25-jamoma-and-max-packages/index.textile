@@ -1,0 +1,99 @@
+---
+layout: post
+title: Jamoma and Max packages
+h1: Jamoma and Max packages
+kind: article
+menu: blog
+created_at: 2013-03-25
+location: Bergen, Norway
+author: Trond Lossius & Tim Place
+categories:
+- Max-6.1
+- 64bit
+- packages
+---
+
+p=. <%= fancyImage @item, "images/jamoma-package.png", "images/jamoma-package-thumb.png", "Jamoma for Max organised as a package" %>
+
+Over the past weeks, Tim and Theo have made some changes to Jamoma, its build scripts, etc., affecting developers and users that are checking out and building Jamoma from the GitHub repositories rather than using installers. These changes further improve the separation between generic C++ libraries and Max-specific implementations, simplifies future distribution of Jamoma, and makes it easier to switch between different versions of Jamoma.
+
+h2. Reorganising the Modular repository
+
+Most notabely files that previously belonged to Jamoma Modular have now been split: The C++ library and extensions have become part of Jamoma Core, while all Max-related files now are located in the Implementations/Max folder. If you have not updated your repository recently, we recomend that you do a fresh checkout with the following commands in Terminal:
+
+
+<pre>
+git clone git@github.com:jamoma/Jamoma.git Jamoma
+cd Jamoma
+git submodule init
+git submodule update
+git submodule foreach git checkout master
+git submodule foreach git pull
+
+cd Tools
+ruby build.rb clean
+</pre>
+
+
+The @git submodule update@ command will take a while since it is downloading the repositories.
+
+h2. Packages
+
+Max 6.1 introduced a new feature called "Packages":http://www.youtube.com/watch?feature=player_embedded&v=Rh8v1U0dCi4. The files for Jamoma in Implementations/Max/Jamoma are organized as a package.  When you run the Ruby script for Jamoma it builds the missing items into the correct locations of this folder.  Namely:
+
+* externals - Max externals are built into this folder.
+* extensions - jcom.loader gets built to this folder.
+* support - Libraries and Extensions are copied into this folder.
+
+In addition, you'll see that all other Jamoma files for Max have been organised in the following standard folders:
+
+* clippings
+* default-definitions
+* default-settings
+* docs
+* examples
+* extras
+* help
+* interfaces
+* javascript
+* jsui
+* media
+* misc
+* patchers - modules and components go here.
+* templates
+
+To give your build to some one just hand them the 'Jamoma' folder, and they can put it in one of two locations:
+
+* @/Applications/Max 6.1/packages@
+* @~/Documents/Max/Packages@
+
+For the official download, we can eventually include both Windows and Mac externals in the package and distribute a single cross-platform download. This will greatly simplify the distribution of Jamoma in the future as we no longer need to bother with installers.
+
+For those of us actually building Jamoma from source with the whole folder structure as it comes from Github, there is a third way to get Max to recognize the Jamoma package.  Do this:
+
+# In the Max folder, make a new text file with TextMate called "packages.txt"
+# Type in the path to the folder a level above your Jamoma package folder, followed by return.
+# Save it.
+
+For example, Tim's "packages.txt" file looks like this (because he also wants the TapTools package):
+
+<pre>
+/Users/tim/code/Jamoma/Implementations/Max;
+~/code/JamomaUserLibraries/TapTools;
+
+</pre>
+
+Now Max will also search these locations for packages.  That means you can just run the Ruby build scripts and everything is up-to-date automatically.
+
+
+h2. The @/usr/local/lib/jamoma@ folder is no longer needed
+
+The dynamically-linked Jamoma libraries and extensions are in a 'support' folder in the package.  And, they are all in the same folder as each other.  And, they aren't built there -- they are copied there by the Ruby script. If these are missing, then they should still be found in @/usr/local/lib@ -- but they all would actually need to be in @/usr/local/lib@, which wasn't actually true before (at least with regard to the extensions).  Building into @/usr/local/lib@ has always been problematic due to permissions issues, and being a hidden folder -- so we no longer copy them here!
+
+h2. Max  6.1.1 compatibility
+
+Max 6.1.1 solved some compatibility issues introduced in Max 6.1.0. The current master branch should be compatible with Max 6.1.1, although it has not yet been fully tested with the 64-bit version of Max. In order to simplify our own work on maintenance of Jamoma, it might well be that future versions of Jamoma will require Max 6.1.1 or newer.
+
+h2. Jamoma 0.5.7 and 0.6 co-existence
+
+A final convinient side effect of the recent changes is that if you want to be able to use both Jamoma 0.5.7 and 0.6 interchangeably, the Jamoma 0.5.7 installer will work with Max 6.0.8, and there will be no interference between Max 6.0.8/Jamoma 0.5.7 and Max 6.1.1/Jamoma 0.6.
