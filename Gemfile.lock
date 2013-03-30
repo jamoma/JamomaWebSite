@@ -7,6 +7,7 @@ GEM
       colored (>= 1.2)
     nanoc (3.4.3)
       cri (~> 2.2)
+    rainpress (1.0)
     rubypants (0.2.0)
     typogruby (1.0.15)
       rubypants
@@ -17,4 +18,5 @@ PLATFORMS
 DEPENDENCIES
   RedCloth
   nanoc
+  rainpress
   typogruby
