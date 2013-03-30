@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'nanonc', '~3.4'
+gem 'nanoc'
