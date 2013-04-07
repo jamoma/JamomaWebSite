@@ -1,0 +1,25 @@
+---
+layout: post
+title: Jamoma 0.5.7 package for Max 6.1
+h1: Jamoma 0.5.7 package for Max 6.1
+kind: article
+menu: blog
+created_at: 2013-04-07
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- Max-6.1
+- packages
+---
+
+p=. <%= fancyImage @item, "images/jamoma-0.5.7-package.png", "images/jamoma-0.5.7-package-thumb.png", "Jamoma 0.5.7 package" %>
+
+In follow up to the "previous post":/blog/2013-03-25-jamoma-and-max-packages we have now added a hand-crafted package for Jamoma 0.5.7 to the download section. If you want to use Jamoma 0.5.7 (the current stable release) with Max 6.1 or newer, please follow these steps to get going:
+
+# Download the regular version of Jamoma 0.5.7, and run the installer.
+# Download the package, unzip and copy to the @Max 6.1/packages folder@.
+# If you did not have Max 6.0.8 (or an earlier version of Max 6) installed from beforehand, you'll notice that the first astep here has added a new @Max6@ folder to your @Applications@ folder, in addition to the @Max 6.1@ folder that is created when installing Max 6.1 or higher. Having completed the first two steps, you can go ahead and delete this @Max6@ folder.
+
+The reason that you need to run the regular installer first, is that Jamoma 0.5.7 do not only install files in your Max 6 folder, but also installs a number of frameworks and extensions in the hidden @/usr/local@ Unix folder. These additional files are required for Jamoma 0.5.7 to run.
+
+For this reason, if you use Jamoma 0.5.7 for a project, and want to keep all files relating to that project for future use, it will not be sufficient to just keep a copy of the package. Make sure that you also keep a copy of the Jamoma installer, so that you are also able to install these additional "hidden" files.
