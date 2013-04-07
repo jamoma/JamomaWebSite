@@ -14,7 +14,7 @@ categories:
 
 p=. <%= fancyImage @item, "images/jamoma-0.5.7-package.png", "images/jamoma-0.5.7-package-thumb.png", "Jamoma 0.5.7 package" %>
 
-In follow up to the "previous post":/blog/2013-03-25-jamoma-and-max-packages we have now added a hand-crafted package for Jamoma 0.5.7 to the download section. If you want to use Jamoma 0.5.7 (the current stable release) with Max 6.1 or newer, please follow these steps to get going:
+In follow up to the "previous post":/blog/2013-03-25-jamoma-and-max-packages we have now added a hand-crafted package for Jamoma 0.5.7 to the "download":/download section. If you want to use Jamoma 0.5.7 (the current stable release) with Max 6.1 or newer, please follow these steps to get going:
 
 # Download the regular version of Jamoma 0.5.7, and run the installer.
 # Download the package, unzip and copy to the @Max 6.1/packages folder@.

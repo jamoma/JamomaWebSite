@@ -8,5 +8,4 @@ Thanks for downloading Jamoma! Your download should start automatically. If you 
 
 Max 6.1 introduce a "new solution for distribution of 3rd party externals as packages":http://cycling74.com/2013/03/11/max-6-feature-packages/. The zipped folder that you are now downloading is a hand-crafted reorganisation of the content of the 0.5.7 installer as a package for the 32-bit version of Max 6.1 and higher. If you want to use this, you first need to run the regular installer ("download here":/download/Jamoma-0.5.7-Mac/). Afterwards download and unzip this package, and move it to your @Max 6.1/packages@ folder.
 
-* Further details on this release can be found in "this blog post":/blog/2013-02-14-jamoma-0.5.7/.
-* If you also use TapTools, be sure to install "the latest (beta) version of TapTools 4":http://74objects.com/taptools4/.
+Further details on this release can be found in "this blog post":/blog/2013-04-07-jamoma-0-5-7-package/.
