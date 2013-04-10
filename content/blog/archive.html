@@ -9,7 +9,7 @@ h1: Tracking the development and use of Jamoma since 2005
 	<% sorted_articles.each do |article| %>
 		<div class="postPreview">
 			<p><a href="<%= relative_path_to(article) %>"><%= article.attributes[:title] %></a></p>
-			<p><span class="date"><%= article.attributes[:created_at] %></span></p>
+			<p><span class="date"><%= article.attributes[:created_at] %></span> | <a href="<%= relative_path_to(article) %>#disqus_thread">Comments</a></p>
 	</div>
 	<% end %>
 
