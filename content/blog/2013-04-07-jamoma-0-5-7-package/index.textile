@@ -14,6 +14,8 @@ categories:
 
 p=. <%= fancyImage @item, "images/jamoma-0.5.7-package.png", "images/jamoma-0.5.7-package-thumb.png", "Jamoma 0.5.7 package" %>
 
+*Update 2013-04-10:* I've corrected the name of the "patchers" folders as pointed out by Nicolas Marechal. Additionally I have added a Jamoma-dependencies folder to the archive as well. This folder contains a number of packages of 3rd party externals (ICST ambisonics externals, VBAP, etc.) required by some of the modules, e.g. spatialisation modules.
+
 In follow up to the "previous post":/blog/2013-03-25-jamoma-and-max-packages we have now added a hand-crafted package for Jamoma 0.5.7 to the "download":/download section. If you want to use Jamoma 0.5.7 (the current stable release) with Max 6.1 or newer, please follow these steps to get going:
 
 # Download the regular version of Jamoma 0.5.7, and run the installer.

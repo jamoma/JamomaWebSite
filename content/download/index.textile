@@ -9,8 +9,8 @@ h3. Current version
 
 h4. Mac
 
-* "Version 0.5.7":Jamoma-0.5.7-Mac/ (12 January 2013)<br/>This version requires OSX 10.7 or newer, as well as Max 5.1.9 or newer. This installer is for Max 5.1.9 through Max 6.0.8. If you also use TapTools, be sure to install the latest (beta) version of "TapTools&nbsp;4":http://74objects.com/taptools4/.<br/>
-* "Version 0.5.7 Package":Jamoma-0.5.7-Package-Mac/ for 32-bit Max 6.1 and higher (07 April 2013).<br/>Max 6.1 introduce a "new solution for distribution of 3rd party externals as packages":http://cycling74.com/2013/03/11/max-6-feature-packages/. This is a hand-crafted reorganisation of the content of the 0.5.7 installer as a package for the 32-bit version of Max 6.1 and higher. If you want to use this, you first need to run the regular installer ("download here"::Jamoma-0.5.7-Mac/). Afterwards download and unzip this package, and move it to your @Max 6.1/packages@ folder.
+* "Version 0.5.7":Jamoma-0.5.7-Mac/<br/>(12 January 2013)<br/>This version requires OSX 10.7 or newer, as well as Max 5.1.9 or newer. This installer is for Max 5.1.9 through Max 6.0.8. If you also use TapTools, be sure to install the latest (beta) version of "TapTools&nbsp;4":http://74objects.com/taptools4/.<br/>
+* "Version 0.5.7 Package":Jamoma-0.5.7-Package-Mac/ for 32-bit Max 6.1 and higher<br/>(Updated on 10 April 2013).<br/>Max 6.1 introduce a "new solution for distribution of 3rd party externals as packages":http://cycling74.com/2013/03/11/max-6-feature-packages/. This is a hand-crafted reorganisation of the content of the 0.5.7 installer as a package for the 32-bit version of Max 6.1 and higher. If you want to use this, you first need to run the regular installer ("download here"::Jamoma-0.5.7-Mac/). Afterwards download and unzip this archive. It contains a @Jamoma 0.5.7@ package that will need to be moved to your @Max 6.1/packages@ folder. Additional it contains packages for 3rd party externals that some of the Jamoma modules depends on. Please move these packages to @Max 6.1/packages@ as well.
 
 h4. Windows
 
