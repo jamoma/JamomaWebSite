@@ -1,0 +1,25 @@
+---
+layout: post
+title: New article on SpatDIF
+h1: New article on SpatDIF
+kind: article
+menu: blog
+created_at: 2013-05-11
+location: Bergen, Norway
+author: Nils Peters & Trond Lossius
+categories:
+- spatdif
+- "Computer Music Journal"
+---
+
+p=. <%= fancyImage @item, "images/2013-CMJ-Front.png", "images/2013-CMJ-Front-thumb.png", "SpatDIF article in CMJ" %>
+
+The latest issue of  the Computer Music Journal (MIT Press) includes an article on the Spatial Sound Description Interchange Format (SpatDIF) by "Nils Peters":http://nilspeters.info/, "Trond Lossius":http://www.trondlossius.no, and "Jan Schacher":http://www.jasch.ch/focus.html, entitled “The Spatial Sound Description Interchange Format: Principles, Specification, and Examples”.
+
+h2. Abstract
+
+bq. SpatDIF, the Spatial Sound Description Interchange Format, is an ongoing collaborative effort offering a semantic and syntactic specification for storing and transmitting spatial audio scene descriptions. The SpatDIF core is a lightweight minimal solution providing the most essential set of descriptors for spatial sound scenes. Additional descriptors are introduced as extensions, expanding the namespace and scope with respect to authoring, scene description, rendering, and reproduction of spatial sound. A general overview presents the principles informing the specification, as well as the structure and the terminology of the SpatDIF syntax. Two use cases exemplify SpatDIF’s potential for pre-composed pieces as well as interactive installations, and several prototype implementations that have been developed show its real-life utility.
+
+The full paper can be found "here":http://www.mitpressjournals.org/doi/abs/10.1162/COMJ_a_00167. An earlier version of this manuscript was presented at the SMC conference 2012 where it received a Best Paper Award.
+
+More information on SpatDIF can be found "here":http://www.spatdif.org.
