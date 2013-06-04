@@ -13,11 +13,11 @@ categories:
 
 p=. <%= fancyImage @item, "images/swap-packages.png", "images/swap-packages-thumb.png", "SpatDIF article in CMJ" %>
 
-Jamoma developers are currently lining up in Albi for a workshop (more on that later). Currently everyone are busy bringing their systems up to date for the workshop. One question that keeps popping up is how to be able to fast and efficiently swap back and forth between using Jamoma 0.5.7 and Jamoma 0.6-alpha. Here's my solution to this, using Max 6.1:
+Jamoma developers are currently lining up in Albi for a workshop (more on that later). Currently everyone are busy bringing their systems up to date for the workshop. One question that keeps popping up is how to be able to fast and efficiently swap back and forth between using Jamoma 0.5.7 and Jamoma 0.6-alpha. Here's my solution to this, using Max 6.1 on OSX:
 
-* I have Jamoma 0.5.7 installed, using the "installer":/download/. This step is important in order to ensure that I have necsessary files installer in the invisible @/usr/local@ folder, required for Jamoma 0.5.7.
+* I have Jamoma 0.5.7 installed, using the "installer":/download/. This step is important in order to ensure that I have necsessary files installed in the invisible @/usr/local@ folder, required for Jamoma 0.5.7.
 * I have Jamoma 0.6 checked out and compiled from the "GitHub repositories":https://github.com/jamoma/Jamoma.
-* I have made sure that I have created the following folder: @~/Documents/Max/Packages@ (@"~"@ is the location of your home folder on Mac). In the past I have experienced that if this folder is missing, the following won't work.
+* I have made sure that I have created the following folder: @~/Documents/Max/Packages@ (@"~"@ is the location of your home folder on Mac). In the past I have experienced that if this folder is missing, the next step won't work.
 * In the Max folder (@/Applications/Max 6.1@) I have added a file named @packages.txt@. This file adds additional locations where packages might resides.
 
 When I want to use Jamoma 0.5.7 I make sure the content of this files looks like this:
