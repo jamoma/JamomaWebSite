@@ -1,0 +1,41 @@
+---
+layout: post
+title: Swapping back and forth between Jamoma 0.5.7 and 0.6-alpha
+h1: Swapping back and forth between Jamoma 0.5.7 and 0.6-alpha
+kind: article
+menu: blog
+created_at: 2013-06-04
+location: Albi, France
+author: Trond Lossius
+categories:
+- packages
+---
+
+p=. <%= fancyImage @item, "images/swap-packages.png", "images/swap-packages-thumb.png", "SpatDIF article in CMJ" %>
+
+Jamoma developers are currently lining up in Albi for a workshop (more on that later). Currently everyone are busy bringing their systems up to date for the workshop. One question that keeps popping up is how to be able to fast and efficiently swap back and forth between using Jamoma 0.5.7 and Jamoma 0.6-alpha. Here's my solution to this, using Max 6.1:
+
+* I have Jamoma 0.5.7 installed, using the "installer":/download/. This step is important in order to ensure that I have necsessary files installer in the invisible @/usr/local@ folder, required for Jamoma 0.5.7.
+* I have Jamoma 0.6 checked out and compiled from the "GitHub repositories":https://github.com/jamoma/Jamoma.
+* I have made sure that I have created the following folder: @~/Documents/Max/Packages@ (@"~"@ is the location of your home folder on Mac). In the past I have experienced that if this folder is missing, the following won't work.
+* In the Max folder (@/Applications/Max 6.1@) I have added a file named @packages.txt@. This file adds additional locations where packages might resides.
+
+When I want to use Jamoma 0.5.7 I make sure the content of this files looks like this:
+
+<pre>
+/Users/lossius/dev/Jamoma/Implementations/MaxDependencies/Max;
+/Users/lossius/dev/Jamoma/Implementations/MaxTest;
+/Users/lossius/dev/Jamoma/Implementations/Max;
+#/Users/lossius/Documents/Max/Trond-Externals/Packages;
+</pre>
+
+When I instead want to use Jamoma 0.6, I change this to:
+
+<pre>
+/Users/lossius/dev/Jamoma/Implementations/MaxDependencies/Max;
+/Users/lossius/dev/Jamoma/Implementations/MaxTest;
+/Users/lossius/Documents/Max/Trond-Externals/Packages;
+#/Users/lossius/dev/Jamoma/Implementations/Max;
+</pre>
+
+Please note that the @#@ doesn't really work to comment out lines in this file. Instead it apparently makes Max stop, ignoring whetever follows from here on. For this reason it is important that the line(s) that you want Max to disregard are positioned at the end of the file.
