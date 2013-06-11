@@ -19,6 +19,7 @@ In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors 
 * "Adrian Gierakowski":http://www.audibledata.com/About.html
 * "Henrique Matias":http://www.hems.io
 
+
 h2. Additional contributions
 
 We are greatful to everyone that have contributed with additional ideas, advices, code, tutorials, modules for the UserLib, etc. In alphabetical order:
