@@ -17,7 +17,6 @@ In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors 
 * "Nathan Wolek":http://www.nathanwolek.com/about/
 * Julien Rabin
 * "Adrian Gierakowski":http://www.audibledata.com/About.html 
-test
 
 
 h2. Additional contributions
