@@ -1,0 +1,32 @@
+--- 
+title: Download Jamoma source code
+menu: getInvolved
+---
+
+h2. Report an issue
+
+Do you have a feature request, or did you discover a bug? Please report so that we can take a look!
+
+We are tracking issues at GitHub. As the source code for Jamoma is separated into several repositories, here's a quick overview of where you might want to post your issue:
+
+h3. C++ libraries
+
+* If you work on the *Core C++ libraries*, please report your issue "here":https://github.com/jamoma/JamomaCore/issues?state=open.
+
+h3. Implementations
+
+If you have an issue while using Jamoma...
+
+* for *AudioUnit Plugin Development*, please report your issue "here":https://github.com/jamoma/JamomaAudioUnit/issues?state=open.
+* for *iOS Development*, please report your issue "here":https://github.com/jamoma/JamomaiOS/issues?state=open.
+* in *Max*, please report your issue "here":https://github.com/jamoma/JamomaMax/issues?state=open.
+* in *PureData (Pd)*, please report your issue "here":https://github.com/jamoma/JamomaPureData/issues?state=open.
+* with *Ruby*, please report your issue "here":https://github.com/jamoma/JamomaRuby/issues?state=open.
+* for *VST Plugin Development*, please report your issue "here":https://github.com/jamoma/JamomaVST/issues?state=open.
+
+h3. Tutorials and Web Site
+
+* If you find something in the *online tutorials* that ought to be addressed, please report your issue "here":https://github.com/jamoma/JamomaWebSite/issues.
+* If you see something else on the *web site* that ought to be addressed, please report your issue "here":https://github.com/jamoma/JamomaWebSite/issues.
+
+If you know how to fix the issue and want to contribute, you can find further instructions on how to go along "here":https://github.com/jamoma/Jamoma/blob/dev/contributing.md.
