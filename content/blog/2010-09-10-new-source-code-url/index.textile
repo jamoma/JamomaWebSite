@@ -9,7 +9,7 @@ author: Nils Peters
 h1: New source code URL
 categories:
 - Git
-- GitHib
+- GitHub
 ---
 To facilitate maintenance of Jamoma's source code, Jamoma has now its own residence at github. Please change your bookmarks from "http://github.com/tap":http://github.com/tap to "http://github.com/jamoma":http://github.com/jamoma.
 
