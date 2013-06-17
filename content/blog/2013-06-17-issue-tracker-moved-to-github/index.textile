@@ -1,0 +1,20 @@
+---
+layout: post
+title: Issue trackers have moved to GitHub
+h1: Issue trackers have moved to GitHub
+kind: article
+menu: blog
+created_at: 2013-06-17
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- issues
+- GitHub
+- Redmine
+---
+
+p=. <%= fancyImage @item, "images/github-tracker.png", "images/github-tracker-thumb.png", "GitHub issue tracker" %>
+
+When all of the Jamoma developers were gathered in Albi the past two weeks, most of the time was spent discussing current and future development. But we also spent some time on various kinds of project management in order to simplify our workflow.
+
+For a number of years we have used Redmine for wikis and issue trackers. At the workshop we decided to move the issue trackers to GitHub. Hopefully this will make the issue trackers more responsive, in particular for users and developers based outside Europe. Henriques Matias did a fabolous job creating Ruby scripts that helped automating the transition, and now the "Getting involved" section of the Jamoma web site has been updated to reflect the change. As the Jamoma development effort is spread over several repositories, we have created an overview that might help you decide what issue tracker _your_ issue best should be adeed to. Please "check it out":/issues/ the next time you want to report an issue!
