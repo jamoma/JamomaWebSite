@@ -4,7 +4,7 @@ menu: credits
 ---
 
 
-h3. Core developers
+h2. Core developers
 
 In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors to our code repository, Jamoma is what it is through the efforts of:
 
