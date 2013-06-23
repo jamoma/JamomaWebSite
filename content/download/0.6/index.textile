@@ -2,7 +2,7 @@
 title: Download Jamoma 0.6 alpha
 menu: getStarted
 ---
-Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":/forum/ or the "bug-tracker":http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1.
+Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":/forum/ or the "bug-tracker":/issues/.
 
 
 h3. About Jamoma 0.6
