@@ -14,18 +14,18 @@ categories:
 
 p=. <%= fancyImage @item, "images/0.6.0-alpha-way-of-patching.png", "images/0.6.0-alpha-way-of-patching.png", "0.6 way of patching" %>
 
-The Jamoma 0.6 alpha version development continu. The new way of patching is closed to be finalized and many fixes have been made in "real life" situation to ensure Max patchers stability.
-The 0.6 version provides a clear separation between the *model* (where the core execution happens) and its *views* (where gui complexity are handled) and now the *module* simply eases the creation of a standard view for a model in one shot.
+The Jamoma 0.6 alpha version development continues. The new way of patching is close to be finalized and many fixes have been made in "real life" situations to ensure Max patchers stability.
+The 0.6 version provides a clear separation between the *model* (where the core execution happens) and its *views* (where gui complexity are handled). Thus, the *module* now simply eases the creation of a standard view for a model in one shot.
 
-However if the model/view separation convention is boring you, it is now possible to do Max and then add Jamoma at any level of your patchers. Any where you'll add a *j.parameter | j.message | j.return* you'll still keep the benefits of the many externals the 0.6 version provides like : 
+However if the model/view separation convention seems boring to you, it is now possible to do standard Max patching then add Jamoma at any level of your patchers. Anywhere you add a *j.parameter | j.message | j.return* you'll still keep the benefits of the many externals the 0.6 version provides such as : 
 
 - *j.cue* to store and recall the state of your patcher,
-- *j.namespace* to explore all the parameters registered and manage selection for cue management,
-- *j.map* to enable a mapping between two remotes j.parameter | j.message | j.return and automatically scale the value to the appropriate range bounds and dataspace unit,
+- *j.namespace* to explore all the registered parameters and manage selection for cue management,
+- *j.map* to enable a mapping between two j.parameter | j.message | j.return remotes and automatically scale the value to the appropriate range bounds and dataspace unit,
 - *j.send(~)* and *j.receive(~)* which are particularly powerful considering the use of wildcard in their address to bind to a set of j.parameter | j.message | j.return.
 
-Finally the 0.6 version will provides an original *protocol solution* to easily set, get, listen and discover any registered model, view, parameter, message or return your patcher from a remote network client (unfortunatelly this feature cannot be considered as completed in the 0.6.0-a25 version but we encourage you to look at the *j.modular.maxhelp* to know more about this experimental development).
+Finally the 0.6 version will provide an original *protocol solution* to easily set, get, listen and discover any registered model, view, parameter, message or return in your patcher from a remote network client. While this feature can unfortunately not be considered as completed as of Jamoma 0.6.0-a25 version, we encourage you to look at the *j.modular.maxhelp* to know more about this upcoming feature.
 
-If you're insterested in testing the new 0.6.0-a25 release you can get it "here"=http://www.jamoma.org/download/0.6/.
+If you're interested in testing the new 0.6.0-a25 release you can get it "here":http://www.jamoma.org/download/0.6/.
 
 
