@@ -18,7 +18,7 @@ module Categories
       next if article[:categories].nil?
       cats << article[:categories]
     end
-    cats.flatten.sort_by { |x| x.downcase }.compact.uniq
+    cats.flatten.sort_by { |x| x.to_s.downcase }.compact.uniq
   end
   memoize :all_categories
 
