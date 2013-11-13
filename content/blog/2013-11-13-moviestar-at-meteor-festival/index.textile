@@ -24,3 +24,5 @@ Moviestar is an interactive installation that moulds old and new media together 
 The installation forms a tribute to the young history of Special Effects, that since the existince of film has experienced a fastmoving evolution. Special effect technologies opened up oppertunities explored by filmmakers in order to produce imaginative movies by putting together diffrent filmed scenes; blending real actor recordings with stopmotion animations and prerecorded material. Filmmakers were able to create characters and filmsets using clay, wood and gardenutilities for their imaginative movieplots. Allthough films using these technologies looked far from realistic, they graduately gained acceptance from the public, and changed the way we looked at film forever.
 
 A lot more info on this installation can be found at "the official Moviestar website":http://moviestar.marieke.nu/who.html.
+
+Moviestar was co-produced by "BIT-Teatergarasjen":http://bit-teatergarasjen.no/ and "BEK":http://www.bek.no and supported by the Norwegian Art Council, Nordic Film Institute and The Municipality of Bergen.
