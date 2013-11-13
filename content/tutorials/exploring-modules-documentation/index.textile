@@ -2,7 +2,7 @@
 title: Exploring documentation
 description: This tutorial show some of the documentation features included in Jamoma Modular
 created_at: 2010/11/11
-authors: [Jamoma, Trond Lossius?]
+authors: [Jamoma, Trond Lossius]
 menu: getStarted
 tags: [index, toc]
 objref: []
