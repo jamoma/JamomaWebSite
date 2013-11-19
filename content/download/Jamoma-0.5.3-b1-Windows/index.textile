@@ -1,9 +1,9 @@
 --- 
-title: Jamoma 0.5.0 for Windows
+title: Jamoma 0.5.3-b1 for Windows
 menu: getStarted
 ---
-<iframe width="1" height="1" frameborder="0" src="Jamoma-0.5.0.zip"></iframe>
+<iframe width="1" height="1" frameborder="0" src="Jamoma-0.5.3-B1.zip"></iframe>
 
-Thanks for downloading Jamoma! This version requires OSX 10.6 or newer, as well as Max 5.1.9 or newer.
+Thanks for downloading Jamoma! This version requires requires Max 5.1.8 or newer.
 
-Your download should start automatically. If you experience problems with the download, please try this "direct link":Jamoma-0.5.0.zip.
+Your download should start automatically. If you experience problems with the download, please try this "direct link":Jamoma-0.5.3-b1--.zip.
