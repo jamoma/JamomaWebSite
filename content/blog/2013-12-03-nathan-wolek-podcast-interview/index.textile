@@ -1,0 +1,17 @@
+---
+layout: post
+title: Podcast interview with Nathan Wolek 
+h1: Podcast interview with Nathan Wolek 
+kind: article
+menu: blog
+created_at: 2013-12-03
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- interview
+- Nathan-Wolek
+---
+
+p=. <%= fancyImage @item, "images/wolek.jpg", "images/wolek-thumb.jpg", "Nathan Wolek", "nathan" %>
+
+Darwin Grosse has just released a "podcast interview with Nathan Wolek":http://artmusictech.libsyn.com/podcast-008-nathan-wolek, talking about his musical education and career, his work on the Granular Toolkit, and his contributions to Jamoma development.
