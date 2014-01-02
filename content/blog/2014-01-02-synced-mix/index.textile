@@ -16,7 +16,9 @@ categories:
 
 In Jamoma audio effects models it has been a "long-standing issue":https://github.com/jamoma/JamomaMax/issues/65 how to ensure that the wet and dry signals are properly synced. This is important whenever we want to mix wet and dry.
 
-One model where this has been an accute problem is the spectralGate~.model. This audio effect involves spectral filtering performed inside a pfft~ object. pfft~ introduce a delay, and according to its reference page, the delay _"is equal to the window size minus the hop size (e.g., for a 1024-sample FFT window with an overlap factor of 4, the hop size is equal to 256, and the overall delay from input to output is 768 samples)."_ With a window size of 4096 samples and a overlap factor of 4, introduce a delay of 4096, our pfft~ object introduce a delay of 3072 samples. At 44.1 kHz sample rate that's a whopping 70 milliseconds - more than enough to make a dry/wet mix utterly useless.
+One model where this has been an accute problem is the spectralGate~.model. This audio effect involves spectral filtering performed inside a pfft~ object. pfft~ introduce a delay, and according to its reference page, the delay "is equal to the window size minus the hop size (e.g., for a 1024-sample FFT window with an overlap factor of 4, the hop size is equal to 256, and the overall delay from input to output is 768 samples)."
+
+With a window size of 4096 samples and a overlap factor of 4, our pfft~ object introduce a delay of 3072 samples. At 44.1 kHz sample rate that's a whopping 70 milliseconds, more than enough to make a dry/wet mix utterly useless.
 
 Today I found a simple way of addressing this. Before looking into the details, we should recap how audio gain, mixing, bypassing and muting are handled in audio models. Here's a screenshot of the degrade~-model, our pet lab rat:
 
