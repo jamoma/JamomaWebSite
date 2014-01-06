@@ -14,9 +14,9 @@ categories:
 
 When Tim and I wrote the very first paper on Jamoma, <em>"Jamoma: a modular standard for structuring patches in Max":/publications/attachments/jamoma-icmc2006.pdf</em> for the ICMC 2006 conference, we stated that one of the benefits of a standardised way of creating modules in Max is that it _"ensures inter-operability of modules so that they might be reused"_. In the upcoming Jamoma 0.6 release, with its "model-view-controller":http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller separation, this potential is further enhanced.
 
-A filter or a limiter can come in handy in all sorts of audio processing models. Previosuly this caused us to implement limiters and their parameters several times over for different modules, in a way that could not be said to be DRY (Don't Repeat Yourself).
+A filter or a limiter can come in handy in all sorts of audio processing models. Previously this caused us to implement limiters and their parameters several times over for different modules, in a way that could not be considered DRY (Don't Repeat Yourself).
 
-In Jamoma 0.6 it is possible to embed models in models. The output~ model is one example that makes extensive use of it. It offers saturation and limiter master effects as well as stereo balance, and in 0.6 these functions are impemented by embedding the preexisting saturation~, limiter~ and balance~ models:
+In Jamoma 0.6 it is possible to embed models in models, and the output~ model is one example that makes extensive use of this. It offers saturation and limiter master effects as well as stereo balance, and in 0.6 these functions are impemented by embedding the pre-existing saturation~, limiter~ and balance~ models:
 
 p=. <%= fancyImage @item, "images/embedded-models.png", "images/embedded-models.png", "Models embedded in the output~ model", "embedded-models" %>
 
