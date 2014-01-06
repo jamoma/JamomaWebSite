@@ -14,9 +14,9 @@ In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors 
 * Théo De La Hogue
 * "Pascal Baltazar":http://www.zkrx.org/content/view/12/27/lang,en/
 * "Alexander Refsum Jensenius":http://www.arj.no/bio/
+* Julien Rabin
 * Dave Watson
 * "Nathan Wolek":http://www.nathanwolek.com/about/
-* Julien Rabin
 * "Adrian Gierakowski":http://www.audibledata.com/About.html
 
 
