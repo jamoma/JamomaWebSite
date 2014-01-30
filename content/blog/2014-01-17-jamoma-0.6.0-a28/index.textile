@@ -1,0 +1,25 @@
+---
+layout: post
+title: 0.6.0-a28 released
+h1: 0.6.0-a28 released
+kind: article
+menu: blog
+created_at: 2014-01-17
+location: Albi, France
+author: Théo de la Hogue
+categories:
+- release
+- Jamoma-0.6
+---
+
+Start this new year testing the 28th alpha release of Jamoma 0.6.0. This version contains more improvements than new features. 
+
+However you may have a look at the j.map features : this external allow you to edit a mapping between two remote parameters. By default the scale is a linear function based on the range/bounds attribute of the source and destination but many other functions exist to get non linear behaviour. It is also possible to get nofications when the input or the output value crosses its bounds allowing to trigger anything if it happens.
+
+The picture below illustrates what kind of module you'll be able to create to handle the j.map external. In this module we use the freehand function to manually edit any kind of mapping.
+
+p=. <%= fancyImage @item, "images/example-of-j.map-feature.png", "images/example-of-j.map-feature.png", "example of j.map feature" %>
+
+If you're interested in testing the new 0.6.0-a28 release you can get it "here":http://www.jamoma.org/download/0.6/.
+
+
