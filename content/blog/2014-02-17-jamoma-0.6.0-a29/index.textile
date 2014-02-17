@@ -1,0 +1,25 @@
+---
+layout: post
+title: 0.6.0-a29 released
+h1: 0.6.0-a29 released
+kind: article
+menu: blog
+created_at: 2014-02-17
+location: Albi, France
+author: Théo de la Hogue
+categories:
+- release
+- Jamoma-0.6
+---
+
+A new 29th alpha release of Jamoma 0.6.0 is online. This version contains many improvements relative to the j.parameter|message|return|remote Array externals.
+
+But why should you try the 0.6 version ? because you'll get the benefit of a real Model-View-Controler architecture. Look at those 2 patchers :
+
+p=. <%= fancyImage @item, "images/example-of-MVC-benefit.png", "images/example-of-MVC-benefit.png", "example of MVC benefit" %>
+
+One to patch some sharable and modular ressources and one to patch a specific behavior remotely.
+
+If you're interested in testing the new 0.6.0-a29 release you can get it "here":http://www.jamoma.org/download/0.6/.
+
+
