@@ -30,5 +30,3 @@ You are *free* to use fancyBox for your personal or non-profit website projects.
 You can get the author's permission to use fancyBox for commercial websites by paying a "fee":http://fancyapps.com/store/.
 
 The latest source code is available on "GitHub":https://github.com/fancyapps/fancyBox.
-
-
