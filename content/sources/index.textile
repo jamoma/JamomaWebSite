@@ -11,6 +11,6 @@ h2. Using GIT
 
 We are using GIT for versioning control. A number of GUI clients are available, as listed on the "GIT web site":http://git-scm.com/.
 
-A crash course on using GIT for Jamoma can be found "here":http://redmine.jamoma.org/projects/jamoma/wiki/Working_with_GIT. For an in-depth introduction to using Git with the Terminal, we recomment the book _Pro Git_ by Scott Chacon, available "online and as a free download":http://git-scm.com/book.
+For an in-depth introduction to using Git with the Terminal, we recomment the book _Pro Git_ by Scott Chacon, available "online and as a free download":http://git-scm.com/book.
 
 <%= render 'support' %>
