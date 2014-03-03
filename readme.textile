@@ -43,7 +43,7 @@ The blog section of the web site is based on code from nanoc_blog by vipulnsward
 
 
 
-h7. fancyBox
+h6. fancyBox:
 
 "fancyBox":http://fancyapps.com/fancybox/ is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize:
 
@@ -54,8 +54,8 @@ You can get the author's permission to use fancyBox for commercial websites by p
 The latest source code is available on "GitHub":https://github.com/fancyapps/fancyBox.
 
 
-h3. codeship
+h6. codeship:
 
-"codeship":https://www.codeship.io/ is an online service which offers a nice online interface for Continuous Deployment
+"codeship":https://www.codeship.io/ is an online service which offers a nice online interface for Continuous Deployment, basically you can configure tests and deploys from within a web interface which will also notify people when things go wrong ( or right! ) 
 
 "!https://www.codeship.io/projects/5e45c3b0-845d-0131-5389-0eb7b1c3930e/status?branch=master!":https://www.codeship.io/projects/15017
