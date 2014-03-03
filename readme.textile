@@ -4,24 +4,46 @@ This is the Git repository containing sources of the Jamoma website visible at w
 
 Pushing a change to the "master" branch will trigger the build script which will automatically update the site.
 
+h2. Usage:
+
+In order to modify the website's content, you will need to edit (or add) pages in the content folder, by using the textile:http://en.wikipedia.org/wiki/Textile_(markup_language)format.
+
+h3. Getting started
+
+First of all, one needs to install all necessary ruby gems. In order to do this, type the following commands in the Terminal:
+- sudo gem install bundle 
+- sudo bundle
+
+h3. Building the Web site locally 
+
+Before pushing changes, please make sure everything is fine by building the Web site locally.
+To do so, type the following commands in the Terminal:
+- nanoc compile
+- nanoc view
+
+Then open your favorite browser and type http://localhost:3000/ in the URL bar.
+
+You should now be able to navigate the full website locally. 
+
+In order to stop the web server (e.g. to see new changes and recompile it), type ctrl-C in the terminal.
+
 
 h2. Credits:
 
 
-
-h3. nanoc:
+h5. nanoc:
 
 This web site is developed using "nanoc":http://nanoc.stoneship.org/
 
 
 
-h3. nanoc-blog:
+h6. nanoc-blog:
 
 The blog section of the web site is based on code from nanoc_blog by vipulnsward:https://github.com/vipulnsward/nanoc-blog
 
 
 
-h3. fancyBox
+h7. fancyBox
 
 "fancyBox":http://fancyapps.com/fancybox/ is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize:
 
