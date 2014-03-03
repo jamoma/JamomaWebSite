@@ -6,7 +6,7 @@ Pushing a change to the "master" branch will trigger the build script which will
 
 h2. Usage:
 
-In order to modify the website's content, you will need to edit (or add) pages in the content folder, by using the textile:http://en.wikipedia.org/wiki/Textile_(markup_language)format.
+In order to modify the website's content, you will need to edit (or add) pages in the content folder, by using the "textile format":http://en.wikipedia.org/wiki/Textile_(markup_language)
 
 h3. Getting started
 
