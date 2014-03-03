@@ -3,7 +3,12 @@ title: Jamoma Modular
 menu: whatIsJamoma
 ---
 
-Develop and use patches in the Max environment
+Develop and use patches in the Max environment.
+This page presents the current stable version of Jamoma: 0.5.7.
+
+The next version of Jamoma 0.6 is approaching completion.
+While keeping the same set of functionnalities than Jamoma 0.5.7, it introduces a new way of patching which is more powerful and flexible.
+Learn more about Jamoma 0.6 on "its dedicated page":/download/0.6/
 
 
 

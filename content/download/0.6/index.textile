@@ -7,9 +7,17 @@ Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/list
 
 h3. About Jamoma 0.6
 
-Jamoma 0.6 will be introducing major changes to how Jamoma Modules are structured, introducing true model-view-controller separation. An introduction to Jamoma 0.6 is provided as a patcher you can find into the package inside the examples folder (see in "Modular0.6_overview").
+Jamoma 0.6 is introducing major changes to how Jamoma Modules are structured, introducing true model-view-controller separation. 
 
-Some details concerning the development of Jamoma 0.6 can be found "here":http://redmine.jamoma.org/projects/modular/wiki/Jamoma_06. Please note that all modules developed using Jamoma 0.5 will need to be updated in order to work with Jamoma 0.6.
+The video below presents the main features of the way Jamoma 0.6 works, and can help getting an idea of it.
+
+(Please notice that this video has been made a while ago, and that most jamoma objects names have changed since them, though their features remained mostly identical)  
+
+<iframe src="http://player.vimeo.com/video/35026525" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+
+An introduction to Jamoma 0.6 is also provided as a patcher that lays in the installation package inside the examples folder (see in "Modular0.6_overview").
+
+Please notice that all modules developed using Jamoma 0.5 will need to be updated in order to work with Jamoma 0.6.
 
 h3. Download Jamoma 0.6 alpha versions
 
