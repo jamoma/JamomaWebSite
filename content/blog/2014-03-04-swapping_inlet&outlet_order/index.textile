@@ -4,7 +4,7 @@ title: Swapping the order of inlets and outlets in Jamoma 0.6 for Max
 h1: Swapping the order of inlets and outlets in Jamoma 0.6 for Max
 kind: article
 menu: blog
-created_at: 2014-03-04
+created_at: 2014-03-04 17:00
 location: Bergen, Norway
 author: Pascal Baltazar
 categories:
