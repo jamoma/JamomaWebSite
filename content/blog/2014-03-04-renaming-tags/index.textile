@@ -1,0 +1,33 @@
+---
+layout: post
+title: Renaming tags in Git repositories
+h1: Renaming tags in Git repositories
+kind: article
+menu: blog
+created_at: 2014-03-04
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- git
+---
+
+
+Jamoma developers are currently coding away at the developer workshop here in Bergen. As usual in these workshop the philosophy can be expressed as "This changes everything" (Apple's marketing way of saying that it breaks everything) or the Oblique Strategy "Destroy nothing. Destroy the most important part." Regardless, with the size and complexity of the Jamoma development effort, we do need to revisit how we work from time to time, and throughout this workshop we will try to write up blog posts regarding important changes. Here's the first:
+
+Up until now we have been tagging versions in the GitHub repositories as @0.6.0.a24@ and so forth. This works fine as long as we only work towards one implementation. In reality we have the ambition that in particular the JamomaCore repository of C++ libraries can be used in several different hosting environments, not just Max. For this reason we have decided to change our tagging habits to use tags such as @Max/0.6.0.a24@. We have already renamed all tags on Jamoma, JamomaCore and JamomaMax repositories. As a developer you will need to run "two commands":http://stackoverflow.com/questions/1841341/remove-local-tags-that-are-no-longer-on-the-remote-repository in Terminal on each of the repositories in order to bring them up to speed:
+
+<pre>
+git tag -l | xargs git tag -d
+git fetch
+</pre>
+
+p=. <%= fancyImage @item, "images/nerdy-patch.png", "images/nerdy-patch.png", "Nerdy patch" %>
+
+And for the nerds, the above screenshot is the Max patch I used to generate the following four commands for each and every tag of each of those repositories:
+
+<pre>
+git tag new old
+git tag -d old
+git push origin :refs/tags/old
+git push --tags
+</pre>
