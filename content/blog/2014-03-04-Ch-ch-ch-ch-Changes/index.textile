@@ -1,0 +1,48 @@
+---
+layout: post
+title: Ch-ch-ch-ch-Changes
+h1: Ch-ch-ch-ch-Changes
+kind: article
+menu: blog
+created_at: 2014-03-04 16:00
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- audio-graph, graph
+---
+
+Here are some changes that we have decided on so far in the workshop:
+
+h2. Naming of model, view and module instances
+
+We have decided that when a user creates a model, view or module and does not explicitly provide a name for the instance, we'll add a unique (random-generated) name. This name will be consistent; that is it will be saved with the patch and recalled the next time the patch is opened. This will for instance resolve some problems that can be experienced when opening help patches for models, and experiencing that the models of the help patch ends up conflicting with the module names used in the users own patchers.
+
+h2. Reorganising inlets and outlets
+
+Up until now we have reserved the leftmost inlet and outlet of models for OSC communication. This is about to change. In audio and video (Jitter) models we will now use the leftmost inlet for signals in the same way as for regular MSP and Jitter externals. OSC messages can also be passed to this inlet, so behaviour will become much more consistent with how regular externals behave. We will make AudioGraph externals behave similarly.
+
+OSC messages returned from the model will be passed out from the leftmost outlet, in a similar way to the dumpout outlet of Jitter objects.
+
+h2. j.parameter will be renamed j.attribute
+
+This change will make it much easier to document models using the Max refpage system. If the Max auto-completion system could be extended to serve abstraction with refpages in the same way as for externals, it would become tremendously useful, as our j.parameters could basically be considered attributes with added abilities.
+
+h2. AudioGraph externals for Max will be renamed
+
+We will substitute the @≈@ sign for @=@. This makes life much easier for us when compiling for Windows, and also resolves the problem that many do not know how to type ≈ on their keyboards.
+
+h2. Graph externals for Max will be renamed
+
+We will substitute the @#@ sign for @-@.
+
+h2. Surround sound models will be renamed
+
+Rather than long and cumbersom names such as @sur.dbap.model@, we'll use @dbap=.model@
+
+h2. Naming convention: under_score rather than camelCase
+
+The majority of developers feel that under_score is more readable than camelCase. In addition it seems to be more consistent with what other developers do in Max.
+
+We also recommend that the first part of names should identify the context that the message is addressing, so that as little reading as possible is required to understand what this message is all about. As an example @speaker_count@ is preferable to @number_of_speakers@.
+
+More to come!
