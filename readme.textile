@@ -59,3 +59,4 @@ h6. codeship:
 "codeship":https://www.codeship.io/ is an online service which offers a nice online interface for Continuous Deployment, basically you can configure tests and deploys from within a web interface which will also notify people when things go wrong ( or right! ) 
 
 "!https://www.codeship.io/projects/5e45c3b0-845d-0131-5389-0eb7b1c3930e/status?branch=master!":https://www.codeship.io/projects/15017
+
