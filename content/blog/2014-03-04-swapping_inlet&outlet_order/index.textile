@@ -35,7 +35,7 @@ And now what we are proposing:
 
 p=. <%= fancyImage @item, "images/NewPatching.png", "images/NewPatching.png", "The New way of patching Jamoma models" %> 
 
-An important change, beyond changing the order of inlets and outlets, is that from now on, j.in~ will now manage signal input (or jitter matrices) as well as control messages.
+An important change, beyond changing the order of inlets and outlets, is that from now on, j.in~ will now manage signal input (or jitter matrices) as well as routing control messages to j.model. Sending control messages to j.model will keep on working (and will remain necessary for models without signal inputs).
 Following the now well established convention in Max of a dumpout, all inner activity is now output from the rightmost outlet.
 
 There are several other arguments in favor to this move, that we have been discussing today (and previous times too):
