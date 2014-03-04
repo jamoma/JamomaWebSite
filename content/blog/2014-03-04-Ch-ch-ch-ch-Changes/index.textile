@@ -21,7 +21,7 @@ h2. Reorganising inlets and outlets
 
 Up until now we have reserved the leftmost inlet and outlet of models for OSC communication. This is about to change. In audio and video (Jitter) models we will now use the leftmost inlet for signals in the same way as for regular MSP and Jitter externals. OSC messages can also be passed to this inlet, so behaviour will become much more consistent with how regular externals behave. We will make AudioGraph externals behave similarly.
 
-OSC messages returned from the model will be passed out from the leftmost outlet, in a similar way to the dumpout outlet of Jitter objects.
+OSC messages returned from the model will be passed out from the rightmost outlet, in a similar way to the dumpout outlet of Jitter objects.
 
 h2. j.parameter will be renamed j.attribute
 
