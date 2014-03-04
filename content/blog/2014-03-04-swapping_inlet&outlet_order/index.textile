@@ -1,0 +1,48 @@
+---
+layout: post
+title: Swapping the order of inlets and outlets in Jamoma 0.6 for Max
+h1: Swapping the order of inlets and outlets in Jamoma 0.6 for Max
+kind: article
+menu: blog
+created_at: 2014-03-04
+location: Bergen, Norway
+author: Pascal Baltazar
+categories:
+- patching-style
+- Jamoma-0.6
+---
+
+The Jamoma core team is currently meeting in Bergen for a dense and, as always, very productive workshop.
+
+The main topic of this workshop is to finalize the specifications and to achieve a consolidated version of Jamoma 0.6.
+
+Thus, now is the time for making bold changes !
+
+One of them is about the order of inlets and outlets for Jamoma 0.6 models (and modules) in Max:
+
+Since the first version of Jade, the convention in Jamoma has been to use the leftmost inlets and outlets to control a module's behavior via Max messages and retrieve its activity. 
+This has become less relevant in Jamoma 0.6, which relies much less on the use of Max messages to control the behavior of models. Most of this control can now be done remotely with the use of j.receive/j.send, j.remote and friends.
+
+The model's output can also be monitored remotely by using [j.receive /model_name:activity/out] (or its input via :activity/in).
+
+Furthermore, this way of patching is also somehow contradictory to patching conventions in Max, where signal connections (and most connections, actually) are starting from the leftmost inlets/outlets.
+
+Let's see how things have been done until now:
+
+p=. <%= fancyImage @item, "images/ClassicPatching.png", "images/ClassicPatching.png", "The Classic way of patching Jamoma models" %>
+
+And now what we are proposing: 
+
+p=. <%= fancyImage @item, "images/NewPatching.png", "images/NewPatching.png", "The New way of patching Jamoma models" %> 
+
+An important change, beyond changing the order of inlets and outlets, is that from now on, j.in~ will now manage signal input (or jitter matrices) as well as control messages.
+Following the now well established convention in Max of a dumpout, all inner activity is now output from the rightmost outlet.
+
+There are several other arguments in favor to this move, that we have been discussing today (and previous times too):
+
+- There have been some first experiments (and working prototypes) of developing models directly as Max externals (noise~.model.mxo and allpass1~.model.mxo are such examples). Since these objects are hardcoded in C, they must have their signal outlets leftmost (in other words, it is not possible to put a control inlet/outlet to the left of a signal inlet/outlet) 
+
+- The main argument in favor of keeping the control inlet/outlet leftmost was that it would remain at the same place, even if the number of channels of a module changes. Now that we typically rely on Jamoma Audio Graph multi-channel cables to manage multi-channel audio, this is no longer a problem. Also, even in the case of MSP-based audio models, the number of audio inlets/outlets (and also of other types of inlets/outlets, see future blog post) can now be automatically retrieved by observing the instance lists of the in/out subnodes of a model...
+
+All models of the distribution have now been changed in order to implement this change.
+They will be available in the next Jamoma 0.6 release (or via the dev branch of the repository).
