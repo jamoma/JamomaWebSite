@@ -18,6 +18,7 @@ h3. Building the Web site locally
 
 Before pushing changes, please make sure everything is fine by building the Web site locally.
 To do so, type the following commands in the Terminal:
+- bundle install
 - nanoc compile
 - nanoc view
 
