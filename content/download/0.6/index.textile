@@ -36,7 +36,7 @@ Jamoma 0.6 is available as a Max6 package from "a DropBox repository":https://ww
 
 			?>
 
-    		Download build: <a href=<?php echo "'$version/$version.dmg'" ?>><?php echo $version ?></a>
+    		Download build: <a href=<?php echo "'$version/$version.tar.gz'" ?>><?php echo $version ?></a>
     		<br />
 
     		<?php
