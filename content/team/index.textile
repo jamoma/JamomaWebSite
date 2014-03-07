@@ -18,6 +18,7 @@ In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors 
 * Dave Watson
 * "Nathan Wolek":http://www.nathanwolek.com/about/
 * "Adrian Gierakowski":http://www.audibledata.com/About.html
+* "Henrique Matias":http://hems.io
 
 
 h2. Additional contributions
