@@ -27,20 +27,39 @@ Jamoma 0.6 is available as a Max6 package from "a DropBox repository":https://ww
 <notextile>
 	<?php 
 
-		$versions = scandir( '.' );
+		// scan dir, sort DESC by date and ignore some files
+		function scan_dir( $dir ) {
+		    $ignored = array('.', '..', 'index.php' );
 
+		    $files = array();    
+		    foreach (scandir($dir) as $file) {
+		        if (in_array($file, $ignored)) continue;
+		        $files[$file] = filemtime($dir . '/' . $file);
+		    }
+
+		    arsort($files);
+		    $files = array_keys($files);
+
+		    return ($files) ? $files : false;
+		}
+
+		$versions = scan_dir( '.' );
+
+		$i = 0;
 		foreach ( $versions as $version) {
-			if( $version == '.' ) continue;
-			if( $version == '..' ) continue;
-			if( $version == 'index.php' ) continue;
+
+			if( $i == 3 ) break;
+
+			$date = date( 'jS \of F Y', filemtime($filename)
 
 			?>
 
-    		Download build: <a href=<?php echo "'$version/$version.tar.gz'" ?>><?php echo $version ?></a>
+    		Download build: <a href=<?php echo "'$version/$version.tar.gz'" ?>><?php echo $version ?></a> - <?php echo $date ?>
     		<br />
 
     		<?php
 
+    		$i++;
 		}
 	?>
 </notextile>
