@@ -27,8 +27,9 @@ Jamoma 0.6 is available as a Max6 package from "a DropBox repository":https://ww
 <notextile>
 	<?php 
 
+		date_default_timezone_set('Europe/London');
 		// second argument as 1 means "descendent"
-		// $versions = scandir( '.', 1 );
+		$versions = scandir( '.', 1 );
 
 		$i = 0;
 		foreach ( $versions as $version) {
@@ -38,14 +39,11 @@ Jamoma 0.6 is available as a Max6 package from "a DropBox repository":https://ww
 			if( $version == '..' ) continue;
 			if( $version == 'index.php' ) continue;
 
-			/**
-			// $date = date( 'jS \of F Y', filemtime( "$version/$version.tar.gz" );
-			// - <?php echo $date ?> 
-			**/
+			$date = date( 'jS \of F Y', filemtime( "$version/$version.tar.gz" ) );
 
 			?>
 
-    		Download build: <a href=<?php echo "'$version/$version.tar.gz'" ?>><?php echo $version ?></a> 
+    		Download build: <a href=<?php echo "'$version/$version.tar.gz'" ?>><?php echo $version ?></a> - <?php echo $date ?>
     		<br />
 
     		<?php
