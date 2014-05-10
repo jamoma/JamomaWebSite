@@ -1,8 +1,0 @@
-<?php
-ini_set('error_reporting', E_ALL);
-
-echo 'hello';
-
-echo shell_exec( "./deploy.sh" )
-
-?>

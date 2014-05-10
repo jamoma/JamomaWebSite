@@ -7,7 +7,8 @@ Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/list
 
 h3. About Jamoma 0.6
 
-Jamoma 0.6 is introducing major changes to how Jamoma Modules are structured, introducing true model-view-controller separation. 
+
+Jamoma 0.6 is introducing major changes to how Jamoma Modules are structured, introducing true model-view-controller paradigm. 
 
 The video below presents the main features of the way Jamoma 0.6 works, and can help getting an idea of it.
 
@@ -22,5 +23,36 @@ Please notice that all modules developed using Jamoma 0.5 will need to be update
 h3. Download Jamoma 0.6 alpha versions
 
 Lz7tmLJthU. <br/><br/>This version requires OSX 10.7 or newer, as well as Max 6.1 or newer.
+
+<notextile>
+	<?php 
+
+		date_default_timezone_set('Europe/London');
+		// second argument as 1 means "descendent"
+		$versions = scandir( '.', 1 );
+
+		$i = 0;
+		foreach ( $versions as $version) {
+			if( $i == 3 ) break;
+
+			if( $version == '.' ) continue;
+			if( $version == '..' ) continue;
+			if( $version == 'index.php' ) continue;
+
+			if( !file_exists( "$version/$version.tar.gz" ) ) continue;
+
+			$date = date( 'jS \of F Y', filemtime( "$version/$version.tar.gz" ) );
+
+			?>
+
+    		Download build: <a href=<?php echo "'$version/$version.tar.gz'" ?>><?php echo $version ?></a> - <?php echo $date ?>
+    		<br />
+
+    		<?php
+
+    		$i++;
+		}
+	?>
+</notextile>
 
 <%= render 'support' %>
