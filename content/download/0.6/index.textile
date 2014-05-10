@@ -22,7 +22,7 @@ Please notice that all modules developed using Jamoma 0.5 will need to be update
 
 h3. Download Jamoma 0.6 alpha versions
 
-<br/><br/>This version requires OSX 10.7 or newer, as well as Max 6.1 or newer.
+This version requires OSX 10.7 or newer, as well as Max 6.1 or newer.
 
 <notextile>
 	<?php 
