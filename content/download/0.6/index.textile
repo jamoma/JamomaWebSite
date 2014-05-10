@@ -21,6 +21,6 @@ Please notice that all modules developed using Jamoma 0.5 will need to be update
 
 h3. Download Jamoma 0.6 alpha versions
 
-Jamoma 0.6 is available as a Max6 package from "a DropBox repository":https://www.dropbox.com/sh/3za89ka43mwrkxp/Lz7tmLJthU. <br/><br/>This version requires OSX 10.6.8 or newer, as well as Max 6.1 or newer.
+Lz7tmLJthU. <br/><br/>This version requires OSX 10.7 or newer, as well as Max 6.1 or newer.
 
 <%= render 'support' %>
