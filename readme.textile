@@ -1,4 +1,4 @@
-h1. Jamoma Web site 
+h1. Jamoma Web site
 
 This is the Git repository containing sources of the Jamoma website visible at www.jamoma.org.
 
