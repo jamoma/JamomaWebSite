@@ -5,7 +5,7 @@ menu: whatIsJamoma
 
 This is an overview of publications _on_ or _relating to_ Jamoma. If you know of additional publications that should be mentioned, please "let us know":mailto:jamoma@jamoma.org.
 
-* Schuett, J. H., Winton, R. J., Batterman, J. M., and Walker, B. N. (2014): Auditory weather reports: Demonstrating listener comprehension of five concurrent variables. In Proceedings of the 9th Audio Mostly: A Conference on Interaction With Sound, New York, NY, USA. ACM.
+* Schuett, J. H., Winton, R. J., Batterman, J. M., and Walker, B. N. (2014): "Auditory weather reports: Demonstrating listener comprehension of five concurrent variables":http://dl.acm.org/citation.cfm?id=2636898. In Proceedings of the 9th Audio Mostly: A Conference on Interaction With Sound, New York, NY, USA. ACM.
 * Jensenius, A. R (2013): "Some Video Abstraction Techniques for Displaying Body Movement in Analysis and Performance":http://www.mitpressjournals.org/doi/abs/10.1162/LEON_a_00485. Leonardo Music Journal, Vol. 46, No. 1, pp. 53-60.
 * Jensenius, A. R &amp; V. Johnson (2012): "Performing the electric violin in a sonic space":http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/computer_music_journal/v036/36.4.jensenius.html. Computer Music Journal, Vol. 36, No. 4, pp. 28-39.
 * N. Peters, T. Lossius &amp; T. Place (2012): "An Automated Testing Suite for Computer Music Environments.":attachments/smc2012-testing.pdf Proceedings of the 9th Sound and Music Computing Conference, 12-14 July 2012, Copenhagen. Nominated for Best Paper Award. ["poster":attachments/SMC2012-JamomaTestingPoster.pdf] 
