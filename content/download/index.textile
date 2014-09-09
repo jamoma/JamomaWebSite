@@ -4,8 +4,19 @@ menu: getStarted
 ---
 Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":/forum/ or the "bug-tracker":http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1.
 
-h3. Current version
+h3. Development version (Jamoma 0.6 alpha)
 
+*Notes regarding compatibility*<br>Jamoma 0.6 introduces major changes to how Jamoma Modules are structured in order to ensure true model-view-controller separation. Modules developed using Jamoma 0.5 will need to be updated in order to work with Jamoma 0.6. Alpha versions of Jamoma 0.6 are provided for developers and testers as well as "early adapters".
+
+h4. Mac
+
+* "Version 0.6.a42":http://jamoma.org/download/0.6/0.6.0.a42/0.6.0.a42.tar.gz
+
+h4. Windows
+
+There is no Windows version available at this point.
+
+h3. Current version
 
 h4. Mac
 
@@ -14,34 +25,11 @@ h4. Mac
 
 h4. Windows
 
-* Unfortunately we have no recent Windows installer. If you have experience with compiling for Windows and would like to contribute towards the development of Jamoma, we would very much "appreciate your assistance":/team/index.html#how-to-contribute.
-
-
-h3. Older versions
-
-h4. Mac
-
-* "Version 0.5.6 beta 7":Jamoma-0.5.6-b7-Mac (24 April 2012), requires OSX 10.6 or newer, as well as Max 5.1.9 or newer.
-* "Version 0.5.4":Jamoma-0.5.4-Mac (4 October 2011), requires Max 5.1.9 or newer.
-* "Version 0.5.3 beta 3":Jamoma-0.5.3-b3-Mac (18 July 2011), requires Max 5.1.8. This is the last version supporting Mac OS 10.5, intel-only.
-
-h4. Windows
-
 * "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1, requires Max 5.1.9 or newer. 
-* "Version 0.5.3 Beta 1":Jamoma-0.5.3-b1-Windows (11 June 2011), requires Max 5.1.8 or newer.
-* "Version 0.5.0":Jamoma-0.5.0-Windows (11 November 2009), requires Max 5.1.4 or newer.
 
+"Looking for another version?":all/
 
-
-h3. Development version (Jamoma 0.6 alpha)
-
-Jamoma 0.6 will be introducing major changes to how Jamoma Modules are structured in order to ensure true model-view-controller separation. Modules developed using Jamoma 0.5 will need to be updated in order to work with Jamoma 0.6. Alpha versions of Jamoma 0.6 are provided for developers and testers as well as "early adapters".
-
-* "Go to separate page for Jamoma 0.6 alpha downloads":/download/0.6/
-
-
-
-h2. Download the Jamoma UserLib
+h3. Download the Jamoma UserLib
 
 The UserLib is a collection of user-created modules, examples, and content for Jamoma. No guarantees are made regarding the suitability, safety, or quality of the content of the UserLib.	
 
