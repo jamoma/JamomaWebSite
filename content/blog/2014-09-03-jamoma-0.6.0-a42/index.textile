@@ -12,7 +12,7 @@ categories:
 - Jamoma-0.6
 ---
 
-We posted a new alpha release of Jamoma package for Max in the "download section of the site":http://www.jamoma.org/download/. Release 0.6.0-a42 is likely to be the last before Jamoma fully go beta and we are quite excited about it !
+We posted a new alpha release of Jamoma package for Max in the "download section of the site":http://www.jamoma.org/download/. Release 0.6.0-a42 is likely to be the last before Jamoma fully goes beta and we are quite excited about it !
 
 p=. <%= fancyImage @item, "images/eqviews.png", "images/eqviews.png", "equalizer's views" %>
 
