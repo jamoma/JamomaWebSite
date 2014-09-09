@@ -1,0 +1,21 @@
+---
+layout: post
+title: 0.6.0-a42 released
+h1: 0.6.0-a42 released
+kind: article
+menu: blog
+created_at: 2014-09-09
+location: Albi, France
+author: Julien Rabin
+categories:
+- release
+- Jamoma-0.6
+---
+
+We posted a new alpha release of Jamoma package for Max in the "download section of the site":http://www.jamoma.org/download/. Release 0.6.0-a42 is likely to be the last before Jamoma fully go beta and we are quite excited about it !
+
+p=. <%= fancyImage @item, "images/eqviews.png", "images/eqviews.png", "equalizer's views" %>
+
+Quite a "number":http://jamoma.org/blog/2014-03-04-swapping_inlet&outlet_order/ of "changes":http://jamoma.org/blog/2014-03-04-Ch-ch-ch-ch-Changes/ happened since we last announced a release here, so be sure to give it a test and "let us know":http://jamoma.org/forum/ what you think !
+
+While Jamoma 0.6 has been used in a number of projects so far, please remember that this is still an alpha version, so please fully test your work before using it in a production.
