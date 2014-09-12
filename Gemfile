@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'nanoc'
+gem 'nanoc', '3.6.2'
 gem 'RedCloth'
 gem 'typogruby'
 gem 'rainpress'

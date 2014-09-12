@@ -1,0 +1,25 @@
+--- 
+title: Download Jamoma
+menu: getStarted
+---
+Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":/forum/ or the "bug-tracker":http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1.
+
+h3. Mac
+
+h4. Version 0.5.*
+
+* "Version 0.5.7":http://www.jamoma.org/download/Jamoma-0.5.7-Mac (12 January 2013)
+* "Version 0.5.7 package":http://www.jamoma.org/download/Jamoma-0.5.7-Package-Mac (10 April 2013)
+* "Version 0.5.6":http://www.jamoma.org/download/Jamoma-0.5.6-b7-Mac (24 April 2012)
+* "Version 0.5.4":http://www.jamoma.org/download/Jamoma-0.5.4-Mac (4 October 2011)
+* "Version 0.5.3-b3":http://www.jamoma.org/download/Jamoma-0.5.3-b1-Mac (18 July 2011)
+
+h3. Windows
+
+h4. Version 0.5.*
+
+* "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1
+* "Version 0.5.3 Beta 1":Jamoma-0.5.3-b1-Windows (11 June 2011)
+* "Version 0.5.0":Jamoma-0.5.0-Windows (11 November 2009)
+
+<%= render 'support' %>

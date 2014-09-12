@@ -2,18 +2,18 @@ GEM
   remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
-    adsf (1.1.1)
+    adsf (1.2.0)
       rack (>= 1.0.0)
-    builder (3.2.0)
+    builder (3.2.2)
     colored (1.2)
-    cri (2.3.0)
-      colored (>= 1.2)
+    cri (2.6.1)
+      colored (~> 1.2)
     nanoc (3.6.2)
       cri (~> 2.3)
     rack (1.5.2)
     rainpress (1.0)
     rubypants (0.2.0)
-    typogruby (1.0.15)
+    typogruby (1.0.16)
       rubypants
 
 PLATFORMS
@@ -23,6 +23,6 @@ DEPENDENCIES
   RedCloth
   adsf
   builder
-  nanoc
+  nanoc (= 3.6.2)
   rainpress
   typogruby
