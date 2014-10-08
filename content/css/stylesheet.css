@@ -608,6 +608,13 @@ h2 + .postPreview{
 	border-bottom: 1px solid #aeaeae;
 	height: 1em;
 }
+
+article blockquote{
+	border-left: 0.5em solid #9E005D;
+	background-color: #efefef;
+}
+
+
 /* @end */
 
 /* @group Front */
