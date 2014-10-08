@@ -11,7 +11,7 @@ categories:
 - audio-graph, graph
 ---
 
-bq. Update 01/10/1014
+bq. *Update 01/10/1014*
 Note that some changes here have been postponed to some future release:
 - random-generated auto-name has not been implemented. Hence you are still responsible for naming your models or modules. When duplicating a model for example, Jamoma will register it in the namespace using ithe provided name followed by a ".1" instance number.
 - j.parameter remains j.parameter for now.
