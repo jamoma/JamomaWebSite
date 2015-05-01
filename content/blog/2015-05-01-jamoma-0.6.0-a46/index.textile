@@ -1,0 +1,19 @@
+---
+layout: post
+title: 0.6.0-a46 released
+h1: 0.6.0-a46 released
+kind: article
+menu: blog
+created_at: 2015-05-01
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- release
+- Jamoma-0.6
+---
+
+A new alpha release of Jamoma package for Max has been posted in the "download section of the site":http://www.jamoma.org/download/. This new release (0.6.0-a46) includes all of the development that has happened over the past 6 months.
+
+p=. <%= fancyImage @item, "images/ramp_and_dataspace.png", "images/ramp_and_dataspace.png", "Ramping and dataspace" %>
+
+One important change with this version is j.parameter, j.message and j.return now supports using dataspace units and rampings at the same time. Check out the help file for j.parameter for further details.
