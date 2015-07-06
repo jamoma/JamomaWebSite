@@ -1,4 +1,4 @@
---- 
+---
 title: Download Jamoma 0.6 alpha
 menu: getStarted
 ---
@@ -8,13 +8,13 @@ Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/list
 h3. About Jamoma 0.6
 
 
-Jamoma 0.6 is introducing major changes to how Jamoma Modules are structured, introducing true model-view-controller paradigm. 
+Jamoma 0.6 is introducing major changes to how Jamoma Modules are structured, introducing true model-view-controller paradigm.
 
 The video below presents the main features of the way Jamoma 0.6 works, and can help getting an idea of it.
 
-(Please notice that this video has been made a while ago, and that most jamoma objects names have changed since them, though their features remained mostly identical)  
+(Please notice that this video has been made a while ago, and that most jamoma objects names have changed since them, though their features remained mostly identical)
 
-<iframe src="http://player.vimeo.com/video/35026525" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+<iframe src="http://player.vimeo.com/video/35026525" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 An introduction to Jamoma 0.6 is also provided as a patcher that lays in the installation package inside the examples folder (see in "Modular0.6_overview").
 
@@ -25,7 +25,7 @@ h3. Download Jamoma 0.6 alpha versions
 This version requires OSX 10.7 or newer, as well as Max 7 or newer.
 
 <notextile>
-	<?php 
+	<?php
 
 		date_default_timezone_set('Europe/London');
 		// second argument as 1 means "descendent"
@@ -52,7 +52,44 @@ This version requires OSX 10.7 or newer, as well as Max 7 or newer.
 
     		$i++;
 		}
+
 	?>
 </notextile>
+
+h4. Download nightly-build version
+
+Some robots are building Jamoma each times a human developer make a modification in code.
+You can find a cutting edge package below.
+
+<notextile>
+  <?php
+
+    date_default_timezone_set('Europe/London');
+    // second argument as 1 means "descendent"
+    $versions = scandir( './nightly-builds', 1 );
+
+    $i = 0;
+    foreach ( $versions as $version) {
+      if( $i == 3 ) break;
+
+      if( $version == '.' ) continue;
+      if( $version == '..' ) continue;
+      if( $version == 'Readme.md' ) continue;
+
+      $date = date( 'jS \of F Y', filemtime( "$version" ) );
+
+      ?>
+
+        Download build: <a href=<?php echo "'$version'" ?>><?php echo $version ?></a> - <?php echo $date ?>
+        <br />
+
+        <?php
+
+        $i++;
+    }
+
+  ?>
+</notextile>
+
 
 <%= render 'support' %>
