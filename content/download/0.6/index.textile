@@ -56,7 +56,7 @@ This version requires OSX 10.7 or newer, as well as Max 7 or newer.
 	?>
 </notextile>
 
-h4. Download nightly-build version
+h3. Download nightly-build version
 
 Some robots are building Jamoma each times a human developer make a modification in code.
 You can find a cutting edge package below.
@@ -74,13 +74,13 @@ You can find a cutting edge package below.
 
       if( $version == '.' ) continue;
       if( $version == '..' ) continue;
-      if( $version == 'Readme.md' ) continue;
+      if( $version == 'Readme' ) continue;
 
-      $date = date( 'jS \of F Y', filemtime( "$version" ) );
+      $date = date( 'jS \of F Y', filemtime( "nightly-builds/$version" ) );
 
       ?>
 
-        Download build: <a href=<?php echo "'$version'" ?>><?php echo $version ?></a> - <?php echo $date ?>
+        Download build: <a href=<?php echo "'nightly-builds/$version'" ?>><?php echo $version ?></a> - <?php echo $date ?>
         <br />
 
         <?php
