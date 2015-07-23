@@ -59,37 +59,7 @@ This version requires OSX 10.7 or newer, as well as Max 7 or newer.
 h3. Download nightly-build version
 
 Some robots are building Jamoma each times a human developer make a modification in code.
-You can find a cutting edge package below.
-
-<notextile>
-  <?php
-
-    date_default_timezone_set('Europe/London');
-    // second argument as 1 means "descendent"
-    $versions = scandir( './nightly-builds', 1 );
-
-    $i = 0;
-    foreach ( $versions as $version) {
-      if( $i == 3 ) break;
-
-      if( $version == '.' ) continue;
-      if( $version == '..' ) continue;
-      if( $version == 'Readme' ) continue;
-
-      $date = date( 'jS \of F Y', filemtime( "nightly-builds/$version" ) );
-
-      ?>
-
-        Download build: <a href=<?php echo "'nightly-builds/$version'" ?>><?php echo $version ?></a> - <?php echo $date ?>
-        <br />
-
-        <?php
-
-        $i++;
-    }
-
-  ?>
-</notextile>
-
+Those binary packages are pushed into https://github.com/jamoma/nightly-builds.
+Please download them directly from github.
 
 <%= render 'support' %>
