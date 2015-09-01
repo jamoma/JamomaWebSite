@@ -1,11 +1,16 @@
---- 
+---
 title: Download Jamoma
 menu: getStarted
 ---
 Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":/forum/ or the "bug-tracker":http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1.
 
-h3. Development version (Jamoma 0.6 alpha)
- 
+h3. Development version
+
+There are now nightly builds of Jamoma for Max and Puredata.
+You'll find them in their own page :
+"Max":/JamomaMax/nightly-builds/
+"PureData":/JamomaPd/nightly-builds/
+
 h4. Mac
 
 * "Get latest alpha release here.":/download/0.6/
@@ -23,15 +28,15 @@ h4. Mac
 
 h4. Windows
 
-* "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1, requires Max 5.1.9 or newer. 
+* "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1, requires Max 5.1.9 or newer.
 
 "Looking for another version?":all/
 
 h3. Download the Jamoma UserLib
 
-The UserLib is a collection of user-created modules, examples, and content for Jamoma. No guarantees are made regarding the suitability, safety, or quality of the content of the UserLib.	
+The UserLib is a collection of user-created modules, examples, and content for Jamoma. No guarantees are made regarding the suitability, safety, or quality of the content of the UserLib.
 
-Want to become a UserLib contributor? <a href="https://raw.github.com/Nilson/JamomaUserLibSupport/master/README">Read this</a>.				
+Want to become a UserLib contributor? <a href="https://raw.github.com/Nilson/JamomaUserLibSupport/master/README">Read this</a>.
 
 * Version 2011-12-19:
 ** "Jamoma User Libraries for OSX and Max 5":JamomaUserLib-2011-12-19-Mac-Max5
