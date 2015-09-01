@@ -2,6 +2,7 @@ h1. Jamoma for PureData nightly-builds.
 
 Some robots are building Jamoma each times a human developer make a modification in code.
 Those binary packages are listed below :
+
   <?php
 
     date_default_timezone_set('Europe/London');
@@ -20,7 +21,7 @@ Those binary packages are listed below :
 
       ?>
 
-        <a href=<?php echo "'$file'" ?>><?php echo $version ?></a> - <?php echo $date ?>
+        <a href=<?php echo "'$file'" ?>><?php echo $file ?></a> - <?php echo $date ?>
         <br />
 
         <?php
@@ -29,3 +30,5 @@ Those binary packages are listed below :
     }
 
   ?>
+
+<%= render 'support' %>
