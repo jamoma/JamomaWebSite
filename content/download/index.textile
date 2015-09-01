@@ -8,8 +8,8 @@ h3. Development version
 
 There are now nightly builds of Jamoma for Max and Puredata.
 You'll find them in their own page :
-"Max":/JamomaMax/nightly-builds/
-"PureData":/JamomaPd/nightly-builds/
+"Max":/download/JamomaMax/nightly-builds/
+"PureData":/download/JamomaPd/nightly-builds/
 
 h4. Mac
 
