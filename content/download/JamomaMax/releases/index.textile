@@ -1,7 +1,6 @@
-h1. Jamoma for PureData nightly-builds.
+h1. Jamoma for Max nightly-builds.
 
-Some robots are building Jamoma each times a human developer make a modification in code.
-Those binary packages are listed below :
+You will find Releases binary of Jamoma for Max below.
 
 <notextile>
   <?php

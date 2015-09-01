@@ -17,6 +17,22 @@ route '/download/0.6' do
   item.identifier + 'index.php'
 end
 
+route '/download/JamomaPd/nightly-builds/' do
+  item.identifier + 'index.php'
+end
+
+route '/download/JamomaMax/nightly-builds/' do
+  item.identifier + 'index.php'
+end
+
+route '/download/JamomaPd/releases/' do
+  item.identifier + 'index.php'
+end
+
+route '/download/JamomaMax/releases/' do
+  item.identifier + 'index.php'
+end
+
 compile '/stylesheet/' do
   # don’t filter or layout
 end
@@ -131,12 +147,12 @@ route '/tutorials/*/' do
     when 'maxpat'
       item.identifier.chop + '.' + item[:extension]
     when 'textile'
-      if item[:content_filename] =~ /\/index.*$/ 
-        item.identifier + 'index.html' 
-      else 
+      if item[:content_filename] =~ /\/index.*$/
+        item.identifier + 'index.html'
+      else
         item.identifier.chop + '.html'
       end
-    end 
+    end
 end
 
 ##############################################################################
