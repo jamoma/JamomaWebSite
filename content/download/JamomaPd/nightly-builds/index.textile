@@ -3,6 +3,7 @@ h1. Jamoma for PureData nightly-builds.
 Some robots are building Jamoma each times a human developer make a modification in code.
 Those binary packages are listed below :
 
+<notextile>
   <?php
 
     date_default_timezone_set('Europe/London');
@@ -30,5 +31,6 @@ Those binary packages are listed below :
     }
 
   ?>
+</notextile>
 
 <%= render 'support' %>
