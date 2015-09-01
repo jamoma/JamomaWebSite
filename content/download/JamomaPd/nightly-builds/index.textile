@@ -12,11 +12,11 @@ Those binary packages are listed below :
 
     $i = 0;
     foreach ( $files as $file) {
-      if( $i == 3 ) break;
+      // if( $i == 3 ) break;
 
       if( $file == '.' ) continue;
       if( $file == '..' ) continue;
-      if( $file == 'index.php' ) continue;
+      if( $file == 'index.html' ) continue;
 
       $date = date( 'jS \of F Y', filemtime( "$file" ) );
 
