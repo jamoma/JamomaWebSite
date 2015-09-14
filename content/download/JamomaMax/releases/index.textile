@@ -1,4 +1,4 @@
-h1. Jamoma for Max nightly-builds.
+h1. Jamoma for Max releases.
 
 You will find Releases binary of Jamoma for Max below.
 
