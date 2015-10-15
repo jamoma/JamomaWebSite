@@ -1,0 +1,20 @@
+---
+layout: post
+title: Forums have moved to Google groups
+h1: Forums have moved to Google groups
+kind: article
+menu: blog
+created_at: 2015-10-15
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- forum
+- mailing-lists
+---
+
+We have recently moved the forums from SourceForge to Google Groups. The web site has been updated accordingly, and now embeds the "developer forum":../forum-developers/ and "user forum":../forum-users/.
+
+For anyone needing to access the old archives, they can still be found here:
+
+* "Archive for the old developer list":https://lists.sourceforge.net/lists/listinfo/jamoma-devel
+* "Archive for the old user list":https://lists.sourceforge.net/lists/listinfo/jamoma-users
