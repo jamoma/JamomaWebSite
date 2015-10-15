@@ -58,8 +58,6 @@ This version requires OSX 10.7 or newer, as well as Max 7 or newer.
 
 h3. Download nightly-build version
 
-Some robots are building Jamoma each times a human developer make a modification in code.
-Those binary packages are pushed into https://github.com/jamoma/nightly-builds.
-Please download them directly from github.
+Each night, provided that there has been changes to the source code, a fresh build of Jamoma is compiled. If you want a brand spanking new version of Jamoma, "you can download the nighly builds here":https://github.com/jamoma/nightly-builds.
 
 <%= render 'support' %>
