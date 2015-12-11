@@ -12,7 +12,7 @@ categories:
 - mailing-lists
 ---
 
-We have recently moved the forums from SourceForge to Google Groups. The web site has been updated accordingly, and now embeds the "developer forum":../forum-developers/ and "user forum":../forum-users/.
+We have recently moved the forums from SourceForge to Google Groups. The web site has been updated accordingly, and now embeds the "developer forum":http://jamoma.org/forum-developers/ and "user forum":http://jamoma.org/forum-developers/.
 
 For anyone needing to access the old archives, they can still be found here:
 

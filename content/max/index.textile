@@ -1,7 +1,15 @@
 --- 
-title: Jamoma Modular
 menu: whatIsJamoma
 ---
+
+
+
+What can Jamoma do for you?
+
+As your Max patchers for stage, music performances or sound installations grow in size, it becomes increasingly important that they do not run wild. Jamoma for Max is a package of externals and patchers that helps YOU to stay in control of your patch. Each section of your patch is neatly turned into a model. You gain a new sense of freedom with respect to how interfaces can be designed, and it is a relief to discover that the patch can be instantiated in a predictable and reliable way. At any moment you can ask your patch how it is currently configured, and use this to build presets and cues for future performances. How do you want interactions to operate? Mapping between parameters is a breeze, and invites playful experimentation. Advanced mappings with interpolations recreate long missed sound effect processes from the discontinued Hipno plugin suite. Many models are available for spatial audio, and AudioGraph turns your patch cord into an audio snake cable, carrying many channels.
+
+
+
 
 Develop and use patches in the Max environment.
 This page presents the current stable version of Jamoma: 0.5.7.
