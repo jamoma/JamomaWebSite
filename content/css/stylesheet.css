@@ -33,18 +33,19 @@
 * {
 	margin: 0;
 	padding: 0;
-	font: small Verdana, "Lucida Grande", Lucida, sans-serif;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 300;
 	text-transform: none;
 	word-spacing: 2px;
 	color: #424242;
 }
 
 body {
-	background: #fffeff;
+	background: #fefefe;
 }
 
 a {
-	color: #9E005D;
+	color: #8B004A;
 	text-decoration: none;
 	font-size: inherit;
 }
@@ -67,7 +68,7 @@ a:hover {
 	text-decoration: none;
 }
 a .caps{
-	color: #9E005D;
+	color: #8B004A;
 	
 }
 
@@ -85,45 +86,40 @@ em {
 
 /* This section is for tags relating to the various sections of the pages, organised by structure/semantics */
 
+
 /* @group Header */
 
-#header {
-	width: 142px;
-	height: 150px;
-	margin: 0;
+#header img {
+	margin-top: 40px;
 	padding: 0;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	position: fixed;
-	background: rgba(214,58,17,0) url(/images/background.png) no-repeat;
+	width: 128px;
+	height: 128px;
 }
 
-.logo {
+#header h1 {
+	margin-top: -50px;
 	padding: 0;
-	position: absolute;
-	width: 140px;
-	height: 140px;
-	top: 25px;
-	background-color: rgba(254,255,254,0);
-	background-image: none;
-	left: 160px;
-	color: rgba(254,255,254,0);
-	display: block;
+	font-size: 128px;
+	color: #666;
 }
+
+#header p {
+	margin-top: -24px;
+	padding: 0;
+	font-size: 28px;
+	color: #8B004A;
+}
+
 
 /* @end */
+
 
 /* @group Main content */
 
 #main {
-	top: 0px;
-  	position: absolute;
-	width: 580px;
+	width: 90%;
   	height: 100%;
-  	right: 150px;
-  	left: 320px;
-	margin: 0px 20px;
+	margin: 2% 5% 2% 5%;
   }
 
 #main p {
@@ -176,7 +172,7 @@ em {
 	padding-top: 1em;
 	margin: 0;
 	padding-left: 0;
-	color: #9E005D;
+	color: #8B004A;
 	text-decoration: none;
 }
 
@@ -346,86 +342,40 @@ p code, li code {
 /* @group Footer */
 
 #footer {
-	color: #333;
 	width: 100%;
-	padding-bottom: 1em;
-	padding-top: 1em;
+	padding-bottom: 0;
+	margin-bottom: -40px;
+	padding-top: 100px;
 	text-align: justify;
 }
 
-#footer p {
-	clear: both;
-	display: block;
-	position: relative;
-	width: 100%;
-	font-size: 12px;
+#footer hr {
+	height: 1px;
+	color: #ccc;
+	background-color: #ccc;
+	border: 0 none;
+}
 
+#footer p {
+	display: block;
+	font-size: 12px;
+	color: #aaa;
 }
 
 #footer a {
 	font-size: 12px;
 }
 
-/* @end */
-
-/* @group Side bar */
-
-#sidebar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 330px;
-	height: 150%;
-	/* padding-left: 0; */
-	
-	font-size: 12px;
-	-moz-box-shadow: inset 0 0 15px #ccc6c6;
-	-webkit-box-shadow: inset 0 0 15px #ccc6c6;
-	box-shadow: inset 0 0 15px #ccc6c6;
-	margin: -20px 0 20px -20px;
-	background-color: #fdfdfd;
-}
-
-#sidebar ul {
-	list-style-type: none;
-	margin-top: 200px;
-	padding-left: 20px;
+p.contact {
+	float: right;
 	text-align: right;
-	padding-right: 30px;
+	width: 50%;
 }
 
-#sidebar li {
-	list-style-image: none;
-	letter-spacing: 0px;
-	margin-bottom: 2px;
-	opacity: 1;
-	font-size: 26px;
-}
-
-#sidebar .section {
-	letter-spacing: 2px;
-	margin-bottom: 5px;
-	opacity: 1;
-	color: #9E005D;
-	text-decoration: none;
-	font: 20px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
-}
-
-#sidebar .subsection, #sidebar .acitem {
-	/*border-left: 1px solid #d5d5d5;*/
-	padding-left: 15px;
-	line-height: 17px;
-	margin: 10px 5px 20px;
-	/* Maybe we want to remove the right line and set a 0 right-padding?*/
-	border-right: 1px solid #eaeae9;
-	padding-right: 15px;
-}
-
-.subsectionItem{
-	color: #878585;
-	font-size: 16px;
-}
 /* @end */
+
+
+
 
 /* @group Fancybox/images */
 
@@ -610,7 +560,7 @@ h2 + .postPreview{
 }
 
 article blockquote{
-	border-left: 0.5em solid #9E005D;
+	border-left: 0.5em solid #8B004A;
 	background-color: #efefef;
 }
 
@@ -619,6 +569,7 @@ article blockquote{
 
 /* @group Front */
 
+/*
 .title
 {
   left: 60px;
@@ -629,33 +580,41 @@ article blockquote{
   border-bottom-color: #d5d5d5;
   margin-top: 35px;
 }
+*/
 
-.JamomaUmbrellaLogo
-{
-  text-align: center;
-  width: 150px;
-  height: 150px;
+#main h2.frontH2 {
+	border-bottom-style: none;
+	text-align: center;
+}
+
+#main .frontP {
+	text-align: center;
 }
 
 #main table.frontTable {
+	text-align: center;
 	font-size: 14px;
-	margin: 0px;
+	margin: 70px 0 0 0;
 	border-collapse: collapse;
 }
 
 #main table.frontTable td {
-	font-size: 12px; 
-	vertical-align: top;
-	list-style-type: none;
+/*	font-size: 12px; */
+	vertical-align: middle;
+/*	list-style-type: none;
 	list-style-position: outside;
 	list-style-image: none;
-	background-color: #ffffff;
-	padding: 0 10px 0 0;
+*/	background-color: #ffffff;
+	padding: 5px 10px 0 10px;
 	margin: 0;
+	width: 33%;
 }
 
-#main table.frontTable td p {
-	text-align: left;
+
+#main table.frontTable td h3 {
+	border-bottom-style: none;
+	color: #666;
+	font-size: 24px;
 }
 
 

@@ -1,98 +1,40 @@
 --- 
-title: Home
 menu: none
 ---
 
-<img src="images/jamoma-logo-01.png" class="title" alt="Jamoma logo"/>
-<p>Jamoma is a <a href="/forum/">community</a>-based project, dedicated to the development of several toolsets and frameworks for artistic creation through digital means. 
-The project is led by an international <a href="/team/">team</a> of academic researchers, artists and developers, and supported by several <a href="/support/">institutions</a></p>
-<table class="frontTable">
-	<tbody>
-		<tr>
-			<td>
-				<a href="/modular/">
-				<img src="/images/about/modular.png" border="0" alt="Jamoma Modular logo" class="JamomaUmbrellaLogo"/>
-				</a> 
-			</td>
-			<td>
-				<a href="http://redmine.jamoma.org/projects/dsp">
-				<img src="images/about/dsp.png" border="0" alt="Jamoma DSP logo" class="JamomaUmbrellaLogo"/>
-				</a> 
-			</td>
-			<td>
-				<a href="http://redmine.jamoma.org/projects/audiograph">
-				<img src="images/about/multicore.png" border="0" alt="Jamoma Audio Graph logo" class="JamomaUmbrellaLogo"/>
-			</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p class="module">
-					Jamoma Modular
-				</p>
-				<p class="description">
-					A modular framework for patching in Max
-				</p>
-			</td>
-			<td>
-				<p class="module">
-					Jamoma DSP
-				</p>
-				<p class="description">
-					A C++ framework for audio processing objects
-				</p>
-			</td>
-			<td>
-				<p class="module">
-					Jamoma Audio Graph
-				</p>
-				<p class="description">
-				A coding layer for the creation of dynamic audio graph topographies
-				</p>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="http://redmine.jamoma.org/projects/test">
-				<img src="images/about/tools.png" border="0" alt="Jamoma Test logo" class="JamomaUmbrellaLogo"/>
-			 </a>
-			</td>
-			<td>
-				<a href="http://spatdif.org">
-				<img src="images/about/spatdif.png"  border="0" alt="Jamoma SpatDIF logo" class="JamomaUmbrellaLogo"/>
-					</a>
-			</td>
-			<td>
-					<a href="http://gdif.org">
-				<img src="images/jamoma-main.png" border="0" alt="Jamoma GDIF logo"  class="JamomaUmbrellaLogo"/>
-				</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p class="module">
-					Jamoma Test
-				</p>
-				<p class="description">
-					An automated testing suite for computer music environments.
-				</p>
-			</td>
-			<td>
-				<p class="module">
-					Jamoma SpatDIF
-				</p>
-				<p class="description">
-					A prototyping environment for the development of SpatDIF
-				</p>
-			</td>
-			<td>
-				<p class="module">
-					Jamoma GDIF
-				</p>
-				<p class="description">
-					A prototyping environment for the development of GDIF
-				</p>
-			</td>
-		</tr>
-	</tbody>
+
+<h2 class="frontH2">Jamoma’s Essence is Modularity</h2>
+
+<p class="frontP"> Manage complex systems built up of flexible and interchangable modules. <br/> Make your own modules to fully leverage Jamoma’s power or use the existing library to quickly create and explore artistic potentials.</p>
+
+<p class="frontP"> Explore Jamoma’s powerful communication, automation, and signal processing in a graphical patching environment like Max or take it close to the metal and use the C++ systems directly. </p>
+
+
+
+<table class="frontTable" align="center">
+	<tr>
+		<td><a href="/max/"><img src="images/max.png" width="50%" /></a></td>
+		<td><a href="https://github.com/jamoma/JamomaPureData"><img src="images/pd.png" /></a></td>
+		<td><a href="http://api.jamoma.org"><img src="images/cpp.png" width="50%" /></a></td>
+	</tr>
+	<tr>
+		<td><h3><a href="/max/">Max</a></h3></td>
+		<td><h3><a href="https://github.com/jamoma/JamomaPureData">PureData</a></h3></td>
+		<td><h3><a href="http://api.jamoma.org">C++</a></h3></td>
+	</tr>
+	<tr>
+		<td>Modular Patching for Max, the flagship environment from Cycling '74.</td>
+		<td>Modular Patching for the open source PureData environment.</td>
+		<td>Frameworks for C++ featuring a Reflective and Dynamic API for DSP and Modular systems creation.</td>
+	</tr>
+	<tr>
+		<td><a href="/max/">Learn More</a></td>
+		<td><a href="https://github.com/jamoma/JamomaPureData">Learn More</a></td>
+		<td><a href="http://api.jamoma.org">Learn More</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/jamoma/JamomaMax/releases/latest">Download Latest</a></td>
+		<td><a href="https://github.com/jamoma/JamomaPureData/releases/latest">Download Latest</a></td>
+		<td><a href="https://github.com/jamoma/JamomaCore">Fork it on Github</a></td>
+	</tr>	
 </table>
