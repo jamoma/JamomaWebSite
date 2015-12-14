@@ -3,13 +3,29 @@ menu: whatIsJamoma
 ---
 
 
+<div align="center">
+<p class="button"><a href="https://github.com/jamoma/JamomaMax/releases/latest">Download Jamoma v1\.0</a></p>
+<p class="button"><a href="http://www.jamoma.org/download/JamomaMax/nightly-builds/">Download Jamoma Nightly</a></p>
+</div>
 
-What can Jamoma do for you?
 
+
+
+<h2 class="frontH2" style="clear: both;">What can Jamoma 1.0 do for you?</h2>
+
+
+
+<p class="frontP"> Manage complex systems built up of flexible and interchangable modules. <br/> Make your own modules to fully leverage Jamoma’s power or use the existing library to quickly create and explore artistic potentials.</p>
+
+<iframe align="center" width="480" height="360" src="http://medias.ircam.fr/embed/media/xc11385" frameborder="0" allowfullscreen></iframe>
+
+<p>
 As your Max patchers for stage, music performances or sound installations grow in size, it becomes increasingly important that they do not run wild. Jamoma for Max is a package of externals and patchers that helps YOU to stay in control of your patch. Each section of your patch is neatly turned into a model. You gain a new sense of freedom with respect to how interfaces can be designed, and it is a relief to discover that the patch can be instantiated in a predictable and reliable way. At any moment you can ask your patch how it is currently configured, and use this to build presets and cues for future performances. How do you want interactions to operate? Mapping between parameters is a breeze, and invites playful experimentation. Advanced mappings with interpolations recreate long missed sound effect processes from the discontinued Hipno plugin suite. Many models are available for spatial audio, and AudioGraph turns your patch cord into an audio snake cable, carrying many channels.
+</p>
 
+<hr/>
 
-
+<h1>Legacy Versions</h1>
 
 Develop and use patches in the Max environment.
 This page presents the current stable version of Jamoma: 0.5.7.

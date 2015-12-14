@@ -376,6 +376,24 @@ p.contact {
 
 
 
+p.button {
+/*	display: block;*/
+/*	float: left;*/
+display: inline-block;
+	background: #8B004A;
+	color: #fff;
+	border-color: #fff;
+	border-width: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+
+p.button a {
+	color: #eee;
+	font-size: 24px;
+	text-align: center;
+}
+
 
 /* @group Fancybox/images */
 
