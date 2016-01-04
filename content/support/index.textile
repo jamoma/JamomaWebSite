@@ -12,7 +12,8 @@ These supporters include:
 * "Arts Council Norway":http://kulturradet.no/
 * "BEK - Bergen Center for Electronic Arts":http://bek.no/
 * "Electrotap":http://electrotap.com/
-* "GMEA - Centre National de création Musicale d'Albi-Tarn":http://www.gmea.net/
+* "GMEA - Centre National de création Musicale d'Albi-Tarn":http://www.gmea.net/       
+* "Blue Yeti":http://www.blueyeti.fr/
 * "Hordaland County Council - Kulturelt utviklingsprogram (KUP)":http://www.hordaland.no/Hordaland-fylkeskommune/Kultur/Kulturelt-utviklingsprogram-KUP/
 * "USA-Norway Fulbright Foundation":http://www.fulbright.no/
 
