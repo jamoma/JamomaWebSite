@@ -1,0 +1,19 @@
+---
+layout: post
+title: Music Moves - Free online course
+h1: Music Moves - Free online course
+kind: article
+menu: blog
+created_at: 2016-01-25
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- fourMs
+- online-course
+- motion
+---
+
+p=. <%= fancyImage @item, "images/music-moves.jpg", "images/music-moves.jpg", "Music Moves", "music-moves" %>
+
+
+The fourMs lab at the University of Oslo is now offering the free online course "Music Moves: Why Does Music Make You Move?":https://www.futurelearn.com/courses/music-moves/:
