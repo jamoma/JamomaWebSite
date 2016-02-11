@@ -1,0 +1,28 @@
+---
+layout: post
+title: Ximena Alarcón - Guest researcher visit to Bergen
+h1: Ximena Alarcón - Guest researcher visit to Bergen
+kind: article
+menu: blog
+created_at: 2016-02-11
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- CRISAP
+- Ximena Alarcón
+- Sound Matters
+---
+
+p=. <%= fancyImage @item, "images/PhotoXimena.jpg", "images/PhotoXimena.jpg", "Ximena Alarcón", "Ximena-Alarcón" %>
+
+
+The artist and researcher Ximena Alarcón from CRISAP (Creative Research in Sound Arts Practice) visits BEK in week 7. Friday February 19 she will give an artist talk, presenting her artistic practise, and also discuss her ongoing work on ‘Sound Matters: a framework for the creative use and re-use of sound’.
+
+For the remaining of the week she will be working with Trond Lossius on how to create interfaces for accessing archives of sound, such as archives of field or speech recordings. Together they will explore the possibility of utilising Jamoma for this, in preparation for further research relating to the  "Sound Matters" framework.
+
+p=. <%= fancyImage @item, "images/workshop.jpg", "images/workshop.jpg", "Ximena Alarcón", "Ximena-Alarcón" %>
+
+
+*Ximena Alarcón* is an artist who engages in listening to migratory spaces, connecting this to individual and collective memories. Her practice involves deep listening, sonic improvisation, and the creation of screen-based interfaces for relational listening that expand our sense of belonging and place. She is interested in creating telematic performances, derived from listening in interstitial spaces, such as dreams, underground transportation, and the ‘in-between’ space in the context of migration. She completed a PhD in Music, Technology and Innovation, from De Montfort University, and received a Leverhulme Early Career Fellowship 2007-2009, which led to the creation of ‘Sounding Underground’. She gained a Deep Listening Teaching Certificate in 2012, and is currently a tutor for the Deep Listening Training Program at the Rensselaer Polytechnic Institute. Since 2011 she has been Research Fellow at Creative Research in Sound Arts Practice (CRiSAP), based at the London College of Communication, where she has developed ‘Networked Migrations’. In 2015 she launched with Cathy Lane the first stage of a JISC funded project ‘Sound Matters: a framework for the creative use and re-use of sound’, which explores the creation of interfaces for interrogation and relational playback of Field Recordings and Speech. 
+
+Her visit to BEK is funded by an Erasmus grant.
