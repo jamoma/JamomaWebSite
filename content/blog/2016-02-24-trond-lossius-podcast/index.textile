@@ -1,0 +1,20 @@
+---
+layout: post
+title: Podcast interview with Trond Lossius
+h1: Podcast interview with Trond Lossius
+kind: article
+menu: blog
+created_at: 2016-02-24
+location: Bergen, Norway
+author: Trond Lossius
+categories:
+- podcast
+- Darwin Grosse
+- Trond Lossius
+---
+
+p=. "!{width:50%}/blog/2016-02-24-trond-lossius-podcast/images/podcast.png(Art + Music + Technology podcast series)!":http://artmusictech.libsyn.com/podcast-117-trond-lossius
+
+For more than two years Darwin Gross has been producing the podcast series "Art + Music + Technology":http://artmusictech.libsyn.com/. Each podcast is an interview with an artist, musician, designer or creative, discussing their work in general, and also touching upon how Max and other tools integrate into their workflow and artistic thinking. Early on Darwin interviewed "Nathan Wolek":http://artmusictech.libsyn.com/podcast-008-nathan-wolek, and this week he has interviewed yet another Jamoma developer, "Trond Lossius":http://artmusictech.libsyn.com/podcast-117-trond-lossius.
+
+Trond talks about his preference for collaborative processes, and how this is reflected in audiovisual artistic projects as well as the development of Jamoma. He discuss his fascination with sound, space and place, and how his initial encounter with Max helped carve a new and more meaningful artistic direciton that he has continued to pursue since the late 1990s.
