@@ -6,20 +6,22 @@
   <body>
 	  <%= render 'header' %>
 	  <section id="main">
-		  <% if @item[:posts].length > 0 %>
-		  <h1 class="top">Browse the blog by category</h1>
-			<h2><%= @item[:title] %> category</h2>
-			<% @item[:posts].each do |p| %>
-			<div class="postPreview">
-				<p><a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a></p>
-				<p><span class="date"><%= p.attributes[:created_at] %></span></p>
-			</div>
-			<% end %>
-		  <% end %>
-		  
-		  <!--p>Tags: <%= tags_for(@item) %></p-->
-		  
-		  <%= render 'footer' %>
+      <div class="container">
+		    <% if @item[:posts].length > 0 %>
+		    <h1 class="top">Browse the blog by category</h1>
+			  <h2><%= @item[:title] %> category</h2>
+			  <% @item[:posts].each do |p| %>
+			  <div class="postPreview">
+			  	<p><a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a></p>
+			  	<p><span class="date"><%= p.attributes[:created_at] %></span></p>
+			  </div>
+			  <% end %>
+		    <% end %>
+		    
+		    <!--p>Tags: <%= tags_for(@item) %></p-->
+		    
+		    <%= render 'footer' %>
+      </div> <!-- div id="container" -->
 	  </section> <!-- id="main" -->  
 
     <%= render 'bootstrap_footer' %>

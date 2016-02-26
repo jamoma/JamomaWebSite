@@ -6,43 +6,45 @@
 	<body>
 		<%= render 'header' %>
 		<section id="main">
+      <div class="container">
 		  
 		  	<!-- Collect posts to category for the category pages -->
-			<% puts @item.inspect%>
-			<% if !@item[:posts].nil? %>
-				<ul class="archive">
-					<% @item[:posts].each do |p| %>
-						<li>
-							<span><%= p.attributes[:created_at] %> &middot; </span>
-							<a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
-						</li>
-					<% end %>
-	      		</ul>
-	      	<% end %>
-			
-			<!-- Display the content of the blog post -->
-			<% post=@item %>
-			<div class="post">
-				<h1 class="top"><%= @item[:h1] %></h1>
-				<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
-		  
-		  		<% if !@item[:categories].nil? %>
-					<div class="categories">
-		 	 			<% @item[:categories].sort.each do |category| %>
-			  	  	  		<p class="category"><a href="/categories/<%= category %>"><%= category %></a></p>
-		  	  			<% end %>
-					</div>
-				<% end %>
-				
-				<article>
-	      			<%= yield %>
-				</article>
-			</div>	<!-- class="post" -->
-		  
-		  	<%= render 'disqus_thread' %>
-		  
-		  	<%= render 'footer' %>
-	  	</section> <!-- id="main" -->
+	  		<% puts @item.inspect%>
+	  		<% if !@item[:posts].nil? %>
+	  			<ul class="archive">
+	  				<% @item[:posts].each do |p| %>
+	  					<li>
+	  						<span><%= p.attributes[:created_at] %> &middot; </span>
+	  						<a href="<%= relative_path_to(p) %>"><%= p.attributes[:title] %></a>
+	  					</li>
+	  				<% end %>
+	        		</ul>
+	        	<% end %>
+	  		
+	  		<!-- Display the content of the blog post -->
+	  		<% post=@item %>
+	  		<div class="post">
+	  			<h1 class="top"><%= @item[:h1] %></h1>
+	  			<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
+	  	  
+	  	  		<% if !@item[:categories].nil? %>
+	  				<div class="categories">
+	  	 	 			<% @item[:categories].sort.each do |category| %>
+	  		  	  	  		<p class="category"><a href="/categories/<%= category %>"><%= category %></a></p>
+	  	  	  			<% end %>
+	  				</div>
+	  			<% end %>
+	  			
+	  			<article>
+	        			<%= yield %>
+	  			</article>
+	  		</div>	<!-- class="post" -->
+	  	  
+	  	  	<%= render 'disqus_thread' %>
+	  	  
+	  	  	<%= render 'footer' %>
+	    	</div> <!-- div class="container" -->
+      </section> <!-- id="main" -->
 
       <%= render 'bootstrap_footer' %>
 	  	<%= render 'google_analytics' %>

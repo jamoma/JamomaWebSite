@@ -4,16 +4,16 @@
   <%= render 'head' %>
 
   <body>
+    
 	  <%= render 'header' %>
-	  
-	  <section id="main">
-		  <h1 class="top"><%= @item[:title] %></h1>
-		  <%= yield %>
-		  <%= render 'footer' %>
-	  </section> <!-- id="main" -->  
-
+	    <section id="main">
+        <div class="container">
+		      <h1 class="top"><%= @item[:title] %></h1>
+	  	    <%= yield %>
+	  	    <%= render 'footer' %>
+        </div>
+	    </section> <!-- id="main" -->  
     <%= render 'bootstrap_footer' %>
 	  <%= render 'google_analytics' %>
-
   </body>
 </html>
