@@ -1,13 +1,17 @@
-<head>
-	<meta charset="utf-8">
+<head>  
+  <%= render 'bootstrap_header' %>
+  
+  <!-- Stylesheet for overriding Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
+  
+  <!-- FancyBox for viewing images. We might want to remove this later on. -->
+	<%= render 'headFancyBox' %>
+  
+  
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 	<link href="http://feeds.feedburner.com/Jamoma" rel="alternate" title="Jamoma News" type="application/atom+xml" />
 	<title>Jamoma - <%= @item[:title] %></title>
-	
-	<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
-
-	<%= render 'headFancyBox' %>
-	
+		
 	<!-- you don't need to keep this, but it's cool for stats! -->
 	<meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
 </head>
