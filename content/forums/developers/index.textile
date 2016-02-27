@@ -1,6 +1,6 @@
 --- 
-title: Forums and mailing lists
-menu: getInTouch
+title: Developer forum
+menu: forums
 ---
 
 <iframe id="forum_embed"
