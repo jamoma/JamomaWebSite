@@ -31,11 +31,16 @@ end
 #
 #############################################################
 def copyFancyBox  
+  puts "  Copying .htaccess"
   puts " "
+  `cp -r "content/.htaccess" "output/.htaccess"`
+  puts " "
+  
   puts "  Copying fancyBox "
   puts " "
   `cp -r "preParsedContent/fancyBox" "output/fancyBox"`
   puts " "
+  
   puts "  Copying module documentation "
   puts " "
   `cp -r "preParsedContent/modules" "output/tutorials/modules"`
