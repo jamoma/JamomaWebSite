@@ -5,24 +5,67 @@ h1: Blog
 ---
 
 <% sorted_articles[0..9].each do |post| %>
-  <div class='post'>
-	<h1><a href="<%= relative_path_to(post) %>"><%= post[:title] %></a></h1>
-  	<div class="dateAuthor"><%= post[:created_at] %> by <%= post[:author] %></div>
-	<% if !post[:categories].nil? %>
-		<div class="categories">
-			<% post[:categories].sort.each do |category| %>
-				<p class="category"><%= "<a href=\"/categories/" + category + "\">" + category + "</a>" %></p>
-			<% end %>
 
-		</div>
-	<% end %>
-	
-    <article>
-      <%= post.compiled_content %>
-    </article>
-	
-	<div class="comments"><a href="<%= relative_path_to(post) %>#disqus_thread"><%= post.attributes[:title] %></a></div>
+  <!-- Page Heading/Breadcrumbs -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header"><%= post[:title] %><br/>
+            <small>by <%= post[:author] %></small>
+          </h1>
+          <ol class="breadcrumb">
+              <li><a href="/">Home</a>
+              </li>
+              <li class="active">Blog Post</li>
+          </ol>
+      </div>
   </div>
+  <!-- /.row -->
+  
+  <div class="row">
+
+      <!-- Blog Post Content Column -->
+      <div class="col-lg-8">
+
+          <!-- Blog Post -->
+          
+          <hr>
+
+          <!-- Date/Time -->
+          <p><i class="fa fa-clock-o"></i><%= "Posted on " + @item[:created_at].to_s %><%= @item.mtime.strftime("%B %d, %Y") %></p>
+          <hr>
+
+          <!-- Post Content -->
+          <%= post.compiled_content %>
+
+          <hr>
+
+          <!-- Blog Comments -->
+          
+          <div class="comments"><a href="<%= relative_path_to(post) %>#disqus_thread"><%= post.attributes[:title] %></a></div>
+
+      </div>
+
+      <!-- Blog Sidebar Widgets Column -->
+      <div class="col-md-4">
+
+          <!-- Blog Categories Well -->
+          <div class="well">
+              <h4>Blog Categories</h4>
+              <div class="row">
+                  <div class="col-lg-12">
+                      <ul class="list-unstyled">
+              			  <% post[:categories].sort.each do |category| %>
+              				    <li><%= "<a href=\"/categories/" + category + "\">" + category + "</a>" %></li>
+              			  <% end %>
+                  </div>
+              </div>
+              <!-- /.row -->
+          </div>
+
+      </div>
+
+  </div>
+  <!-- /.row -->
   
 <% end %>
 

@@ -5662,6 +5662,10 @@ button.close {
     border-bottom-color: #67696D;
 }
 
+hr {
+    border-color: #67696D;
+}
+
 .list-publications {
 	padding-bottom: 0.8em;
 }
