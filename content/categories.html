@@ -6,8 +6,13 @@ h1: Browse the blog by category
 
 <% cats = all_categories %>
 <% if cats.length > 0 %>
-<p>Here's an overview of topics that we've been blogging about. Click a link to see all articles about that topic.</p>
-<p class="cloud"><%= link_categories(cats).join(' ') %></p>
+<p class="lead">These are some of the topics that we have been interested in.</p>
+
+    <ul class="list-inline">
+      <li class="text-capitalize">
+        <%= link_categories(cats).join(' &nbsp;</li> <li class="text-capitalize">') %>
+      </li>
+    </ul>
 <% else %>
 <p>No categories yet. Try again later.</p>
 <% end %>
