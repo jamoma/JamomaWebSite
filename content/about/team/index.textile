@@ -4,28 +4,52 @@ menu: credits
 ---
 
 
+h2. History
+
+Jamoma was originally born out of the modular construction of a realtime performance management environment called Jade written by Timothy Place using Cycling '74 Max. In 2003 the modular architecture was lifted out of Jade at the recommendation of Trond Lossius over a meal of shrimp on the West coast of Norway. In 2005 the work began in earnest. Through a processes of continuous iteration and steady growth of contributors and peer-review, Jamoma has expanded its reach from those humble beginnings. The current version was created through the tireless work of many many people including Jamoma's lead-developer Théo De La Hogue.
+
 h2. Core developers
 
-In order of the "amount of commits":https://www.ohloh.net/p/jamoma/contributors to our code repository, Jamoma is what it is through the efforts of:
+In order of the "amount of commits":https://www.openhub.net/p/jamoma/contributors to our code repository, Jamoma is what it is through the efforts of:
 
 * "Tim Place":http://74objects.com
 * "Trond Lossius":http://www.trondlossius.no/bio
-* "Nils Peters":http://nilspeters.info/research
 * Théo De La Hogue
+* "Nils Peters":http://nilspeters.info/research
 * "Pascal Baltazar":http://www.zkrx.org/content/view/12/27/lang,en/
-* "Alexander Refsum Jensenius":http://www.arj.no/bio/
 * Julien Rabin
-* Dave Watson
 * "Nathan Wolek":http://www.nathanwolek.com/about/
+* Antoine Villeret
+* "Alexander Refsum Jensenius":http://www.arj.no/bio/
+* Renaud Rubiano
+* Dave Watson
+* Mathieu Chamagne
 * "Adrian Gierakowski":http://www.audibledata.com/About.html
 * "Henrique Matias":http://hems.io
-
 
 h2. Additional contributions
 
 We are greatful to everyone that have contributed with additional ideas, advices, code, tutorials, modules for the UserLib, etc. In alphabetical order:
 
-Matthew Aidekman, Charles Bascou, Casey Basichis, Jeremy Bernstein, Jamie Bullock, Nicolas Carriere, Mathieu Chamagne, Jean-Michel Couturier, Nicolas Deflache, Ricardo del Pozo, Henrik Frisk, Thomas Grill, John Hudak, Tristan Matthews, João Menezes, Kristian Nymoen, Jan Schacher, Marlon Schumacher, Diemo Schwarz, Thorolf Thuestad
+* Casey Basichis
+* Charles Bascou
+* Diemo Schwarz
+* Henrik Frisk
+* Jamie Bullock
+* Jan Schacher
+* Jean-Michel Couturier
+* Jeremy Bernstein
+* John Hudak
+* João Menezes
+* Kristian Nymoen
+* Marlon Schumacher
+* Matthew Aidekman
+* Nicolas Carriere
+* Nicolas Deflache
+* Ricardo del Pozo
+* Thomas Grill
+* Thorolf Thuestad
+* Tristan Matthews
 
 h2(#how-to-contribute). How to contribute?
 
@@ -33,7 +57,6 @@ If you are a programmer and want to join the Jamoma team, please get in touch wi
 
 * Building Jamoma for Windows
 * DSP and AudioGraph development
-* True MVC ("model-view-controller":http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) separation for Jamoma 0.6. In particular we will appreciate assistance with porting existing modules and components
 * Documentation:
 ** Tutorials for Jamoma Modular
 ** Doxygen documentation of Jamoma Core. This is a great way to get to know the C++ frameworks
