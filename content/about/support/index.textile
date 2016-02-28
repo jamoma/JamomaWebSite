@@ -32,11 +32,10 @@ These supporters include:
 
 h2. Join Us
 
-Want to support Jamoma development or host a workshop? Contact us for more information.  
-If you are a programmer and want to join the Jamoma team, contact us or get involved through Github.
+Want to support Jamoma development or host a workshop? Contact us for more information.  If you are a programmer and want to join the Jamoma team, contact us or get involved through Github.
 
-Financial support is also appreciated as a pledgie donation:
+h2. Donate
 
- <a href='http://www.pledgie.com/campaigns/5615'><img alt='Click here to lend your support to: Jamoma and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/5615.png?skin_name=chrome' border='0' /></a> 
+Financial support is also appreciated as a Pledgie donation.
 
-<script type="text/javascript" src="http://www.ohloh.net/p/27434/widgets/project_thin_badge.js"></script> 
+<p class="text-center"><a href='http://www.pledgie.com/campaigns/5615'><img alt='Click here to lend your support to: Jamoma and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/5615.png?skin_name=chrome' border='0' /></a></p>
