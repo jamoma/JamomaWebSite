@@ -3,38 +3,70 @@ menu: none
 ---
 
 
-<h2 class="frontH2">Jamoma’s Essence is Modularity</h2>
+<h2 class="lead">Jamoma’s Essence is Modularity</h2>
 
-<p class="frontP"> Manage complex systems built up of flexible and interchangable modules. <br/> Make your own modules to fully leverage Jamoma’s power or use the existing library to quickly create and explore artistic potentials.</p>
+<p class="lead"> Manage complex systems built up of flexible and interchangable modules. <br/> Make your own modules to fully leverage Jamoma’s power or use the existing library to quickly create and explore artistic potentials.</p>
 
-<p class="frontP"> Explore Jamoma’s powerful communication, automation, and signal processing in a graphical patching environment like Max or take it close to the metal and use the C++ systems directly. </p>
+<p class="lead"> Explore Jamoma’s powerful communication, automation, and signal processing in a graphical patching environment like Max or take it close to the metal and use the C++ systems directly. </p>
 
+<!-- Marketing Icons Section -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+             Use Jamoma with your environment
+        </h1>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="text-center">Jamoma for Max</h4>
+            </div>
+            <div class="panel-body">
+                <p class="text-center"><a href="/max/"><img src="images/max.png" width="50%" /></a></p>
+                <p>Modular Patching for Max, the flagship environment from Cycling '74.</p>
+                <p class="text-center">
+                  <a href="/max/" class="btn btn-default">Learn More</a>
+                </p>
+                <p class="text-center">
+                  <a href="https://github.com/jamoma/JamomaMax/releases/latest" target="_blank" class="btn btn-success">Download</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="text-center">Jamoma for Pure Data</h4>
+            </div>
+            <div class="panel-body">
+                <p class="text-center"><a href="https://github.com/jamoma/JamomaPureData"><img src="images/pd.png" /></a></p>
+                <p>Modular Patching for the open source PureData environment.</p>
+                <p class="text-center">
+                  <a href="https://github.com/jamoma/JamomaPureData" target="_blank" class="btn btn-default">Learn More</a>
+                </p>
+                <p class="text-center">
+                  <a href="https://github.com/jamoma/JamomaPureData/releases/latest" target="_blank" class="btn btn-success">Download</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="text-center">Jamoma C++</h4>
+            </div>
+            <div class="panel-body">
+                <p class="text-center"><a href="http://api.jamoma.org"><img src="images/cpp.png" width="50%" /></a></p>
+                <p>Frameworks for C++ featuring a Reflective and Dynamic API for DSP and Modular systems creation.</p>
+                <p class="text-center">
+                  <a href="http://api.jamoma.org" target="_blank" class="btn btn-default">Learn More</a>
+                </p>
+                <p class="text-center">
+                  <a href="https://github.com/jamoma/JamomaCore" target="_blank" class="btn btn-success">Download</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
 
-
-<table class="frontTable" align="center">
-	<tr>
-		<td><a href="/max/"><img src="images/max.png" width="50%" /></a></td>
-		<td><a href="https://github.com/jamoma/JamomaPureData"><img src="images/pd.png" /></a></td>
-		<td><a href="http://api.jamoma.org"><img src="images/cpp.png" width="50%" /></a></td>
-	</tr>
-	<tr>
-		<td><h3><a href="/max/">Max</a></h3></td>
-		<td><h3><a href="https://github.com/jamoma/JamomaPureData">PureData</a></h3></td>
-		<td><h3><a href="http://api.jamoma.org">C++</a></h3></td>
-	</tr>
-	<tr>
-		<td>Modular Patching for Max, the flagship environment from Cycling '74.</td>
-		<td>Modular Patching for the open source PureData environment.</td>
-		<td>Frameworks for C++ featuring a Reflective and Dynamic API for DSP and Modular systems creation.</td>
-	</tr>
-	<tr>
-		<td><a href="/max/">Learn More</a></td>
-		<td><a href="https://github.com/jamoma/JamomaPureData">Learn More</a></td>
-		<td><a href="http://api.jamoma.org">Learn More</a></td>
-	</tr>
-	<tr>
-		<td><a href="https://github.com/jamoma/JamomaMax/releases/latest">Download Latest</a></td>
-		<td><a href="https://github.com/jamoma/JamomaPureData/releases/latest">Download Latest</a></td>
-		<td><a href="https://github.com/jamoma/JamomaCore">Fork it on Github</a></td>
-	</tr>	
-</table>

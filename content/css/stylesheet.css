@@ -5635,10 +5635,12 @@ button.close {
 
 @media print {
   .hidden-print {
-    display: none !important; } }
+    display: none !important; } 
+}
 
 
 
+/* Customisations */
 
 .bgimage {
     background-image: url('/images/header-background.png');
@@ -5646,3 +5648,13 @@ button.close {
     background-size: cover;
     height: 200px;
 }
+    
+.panel-default > .panel-heading {
+    background-color:#C7C6B9;
+    color:#67696D;
+}
+    
+.panel-body {
+    background:#67696D;
+}
+
