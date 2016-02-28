@@ -5658,6 +5658,10 @@ button.close {
     background:#67696D;
 }
 
+.page-header {
+    border-bottom-color: #67696D;
+}
+
 .list-publications {
 	padding-bottom: 0.8em;
 }
