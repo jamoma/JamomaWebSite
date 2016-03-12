@@ -5677,3 +5677,11 @@ hr {
 .list-publications {
 	padding-bottom: 0.8em;
 }
+
+li.category {
+    background:rgba(199, 198, 185, 0.15);
+    border-radius: 5px;
+	padding-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.8em;
+}
