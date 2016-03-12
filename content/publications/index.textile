@@ -3,111 +3,107 @@ title: Publications
 menu: whatIsJamoma
 ---
 
-<div class="row">
-  <div class="col-md-offset-2 col-md-8">
+
     
-    <p class="lead">The below publications relate to the development and use of Jamoma.</p>
-        
-    <ul class="list-unstyled">
-      <li class="list-publications">
-        T. Lossius, T. de la Hogue, P. Baltazar, T. Place, N. Wolek & J. Rabin (2014): "Model-View-Controller separation in Max using Jamoma.":attachments/icmcsmc2014-mvc.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
-      </li>
-      <li class="list-publications">
-        T. Lossius, N. Wolek, T. de la Hogue & P. Baltazar (2014): "Demo: Using Jamama’s MVC features to design an audio effect interface.":attachments/icmcsmc2014-demo.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
-      </li>
-      <li class="list-publications">
-        P. Baltazar, T. de la Hogue & M. Desainte-Catherine (2014): "i-score, an Interactive Sequencer for the Intermedia Arts":attachments/icmcsmc2014-i-score-workshop.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
-      </li>
-      <li class="list-publications">
-        Schuett, J. H., Winton, R. J., Batterman, J. M., and Walker, B. N. (2014): "Auditory weather reports: Demonstrating listener comprehension of five concurrent variables":http://dl.acm.org/citation.cfm?id=2636898. In Proceedings of the 9th Audio Mostly: A Conference on Interaction With Sound, New York, NY, USA. ACM.
-      </li>
-      <li class="list-publications">
-        Jensenius, A. R (2013): "Some Video Abstraction Techniques for Displaying Body Movement in Analysis and Performance":http://www.mitpressjournals.org/doi/abs/10.1162/LEON_a_00485. Leonardo Music Journal, Vol. 46, No. 1, pp. 53-60.
-      </li>
-      <li class="list-publications">
-        Jensenius, A. R &amp; V. Johnson (2012): "Performing the electric violin in a sonic space":http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/computer_music_journal/v036/36.4.jensenius.html. Computer Music Journal, Vol. 36, No. 4, pp. 28-39.
-      </li>
-      <li class="list-publications">
-        N. Peters, T. Lossius &amp; T. Place (2012): "An Automated Testing Suite for Computer Music Environments.":attachments/smc2012-testing.pdf Proceedings of the 9th Sound and Music Computing Conference, 12-14 July 2012, Copenhagen. Nominated for Best Paper Award. ["poster":attachments/SMC2012-JamomaTestingPoster.pdf] 
-      </li>
-      <li class="list-publications">
-        A. R. Jensenius (2012): "Motion-sound Interaction Using Sonification based on Motiongrams.":http://www.thinkmind.org/download.php?articleid=achi_2012_7_20_20060 In Proc. of the International Conference on Advances in Computer-Human Interactions (ACHI 2012), p. 170 - 175, Valencia. Winner of Best Paper Award. ["videos":http://www.arj.no/2012/02/03/sonification/] 
-      </li>
-      <li class="list-publications">
-        Y. de Quay, S. Skogstad &amp; A. Jensenius (2011): "Dance jockey: Performing electronic music by dancing.":http://www.mitpressjournals.org/doi/abs/10.1162/LMJ_a_00052 Leonardo Music Journal, Vol. 21, pp. 11 - 12.
-      </li>
-      <li class="list-publications">
-        Y. de Quay (2011): "Interactive Music 2.0: User‐driven ad hoc dance clubs.":attachments/STSM_Call7_DeQuay_report.pdf Short Term Scientific Mission Report COST IC0601 
-      </li>
-      <li class="list-publications">
-        T. De La Hogue, J. Rabin &amp; L. Garnier (2011): "Jamoma Modular: Une librairie C++ dédiée au developpement d'applications modulaires pour la création.":attachments/JIM11-JamomaModular-FR.pdf Journées d'Informatique Musicale. Saint-Etienne, France. ["English paper version":attachments/JIM11-JamomaModular-EN.pdf] 
-      </li>
-      <li class="list-publications">
-        J. Allison (2011): "Distributed Performance Systems Using HTML5 and Rails.":http://allisonic.com/assets/papers/SEAMUS2011_Distributed_Performance.pdf 26th Annual Conference of the Society for Electro-Acoustic Music in the United States. Miami. ["Slides":http://allisonic.com/assets/papers/Distributed_performance.mov] 
-      </li>
-      <li class="list-publications">
-        N. Peters (2010): "Sweet [re]production: Developing sound spatialization tools for musical applications with emphasis on sweet spot and off-center perception.":attachments/Petersthesis-web.pdf PhD thesis, McGill University, Montreal, Canada. 
-      </li>
-      <li class="list-publications">
-        T. Place, T. Lossius &amp; N. Peters (2010): "The Jamoma Audio Graph Layer.":attachments/jamoma-audiograph-DAFx.pdf Proceedings of the 13th International Conference on Digital Audio Effects. 6-10 September 2010, Graz. ["poster":attachments/jamoma-AudioGraphPoster-DAFx10.pdf] 
-      </li>
-      <li class="list-publications">
-        T. Place, T. Lossius &amp; N. Peters (2010): "A flexible and dynamic c++ framework and library for digital audio signal processing":attachments/jamoma-icmc2010.pdf. Proceedings of the International Computer Music Conference, 1-5 June 2010, New York. 
-      </li>
-      <li class="list-publications">
-        P. Baltazar &amp; B. Habbestad: "Unruhige Räume - Spatial electroacoustic composition as a collaborative artistic research process":attachments/baltazar-unruhige-raume-icmc-2010.pdf. Proceedings of the International Computer Music Conference, 1-5 June 2010, New York. 
-      </li>
-      <li class="list-publications">
-        Pritchard, A. / R. Sletteland (2009): Don't touch me, you don't know where I've been. A performance, installation and publication / Commisioning a piece of music. Remarks on Alwynne Pritchard's _Don't touch me, you don't know where I've been_ (performance version). Sensuous knowledge series, vol. 7, Bergen National Academy of the Arts. 
-      </li>
-      <li class="list-publications">
-        Jensenius, A. R (2009): "Motion capture studies of action-sound couplings in sonic interaction.":attachments/Jensenius_stsm_report_Call4.pdf STSM COST Action SID report. fourMs lab, University of Oslo. 
-      </li>
-      <li class="list-publications">
-        Lossius T., P. Baltazar &amp; T. de la Hogue (2009): "DBAP - Distance-Based Amplitude Panning.":attachments/icmc2009-dbap-rev1.pdf Proceedings of the International Computer Music Conference, 17-21 August 2009, Montreal. 
-      </li>
-      <li class="list-publications">
-        N. Peters, T. Lossius, J. Schacher, P. Baltazar, C. Bascou &amp; T. Place (2009): "A stratified approach for sound spatialization.":attachments/Spatialization-SMC09.pdf Proceedings of the 6th Sound and Music Computing Conference, 23-25 July 2009, Porto. ["poster":attachments/smc2009-poster.pdf] 
-      </li>
-      <li class="list-publications">
-        T. Place, T. Lossius, A. R. Jensenius &amp; N. Peters (2008): "Flexible control of composite parameters in Max/MSP":attachments/jamoma-icmc2008.pdf. Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
-      </li>
-      <li class="list-publications">
-        N. Peters, T. Matthews, J. Braasch &amp; S. McAdams (2008): "Spatial sound rendering in Max/MSP with ViMiC":http://www.music.mcgill.ca/%7Enils/papers/ICMC08-VIMIC_final.pdf. Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
-      </li>
-      <li class="list-publications">
-        Lossius, T. (2008): "Controlling spatial sound within an installation art context":attachments/lossius-icmc2008.pdf. Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
-      </li>
-      <li class="list-publications">
-        Jensenius, A. R., K. Nymoen and R. I. Godøy (2008): "A Multilayered GDIF-Based Setup for Studying Coarticulation in the Movements of Musicians.":http://www.hf.uio.no/imv/forskning/forskningsprosjekter/musicalactions/PDF/Jensenius_2008a.pdf Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
-      </li>
-      <li class="list-publications">
-        Godoy, R. I., Jensenius, A. R. and K. Nymoen (2008): Production and perception of goal-points and coarticulations in music. Acoustics '08, 29 June- 4 July 2008, Paris. 
-      </li>
-      <li class="list-publications">
-        Place T., T. Lossius, A. R. Jensenius, N. Peters &amp; P. Baltazar (2008): "Addressing Classes by Differentiating Values and Properties in OSC.":attachments/jamoma-nime2008.pdf In Proceeding of the Conference on New Instruments for Musical Expression (NIME), 2008, Genova. ["poster":attachments/jamoma-nime2008-poster.pdf] 
-      </li>
-      <li class="list-publications">
-        Nymoen, K. (2008): "SID Short Term Scientific Mission from University of Oslo to McGill University Montreal (Canada)":attachments/Jensenius_stsm_report_Call4.pdf; 2/3/2008 - 29/3/2008 
-      </li>
-      <li class="list-publications">
-        N. Peters, S. Ferguson, S. McAdams (2007): "Towards a Spatial Sound Description Interchange Format (SpatDIF).":http://www.music.mcgill.ca/~nils/papers/CAA2007_Peters_et_al-SpatDIF.pdf Canadian Acoustic, Vol. 35:3, pp. 64-65. 
-      </li>
-      <li class="list-publications">
-        N. Peters, M. Evans &amp; E. Britton (2007): "Trakhue Intuitive gestural control of live electronics.":http://www.music.mcgill.ca/~nils/papers/ICMC2007_TrakHue.pdf Proceedings of the International Computer Music Conference, 27-31 August 2007, Copenhagen. 
-      </li>
-      <li class="list-publications">
-        Jensenius, A. R. (2007). "Action - Sound: Developing Methods and Tools to Study Music-related Body Movement.":http://folk.uio.no/alexanje/phd/jensenius-phd.pdf PhD thesis. Department of Musicology. University of Oslo, Norway. 
-      </li>
-      <li class="list-publications">
-        Lossius, T. (2007). "Sound - Space - Body. Reflections on Artistic Practice.":http://www.trondlossius.no/system/fileattachments/6/original/main_web.pdf Submitted in partial fulfillment for Research Fellowship in the Arts. Bergen National Academy of the Arts 
-      </li>
-      <li class="list-publications">
-        Place, T. &amp; T. Lossius (2006): "Jamoma: A modular standard for structuring patches in Max.":attachments/jamoma-icmc2006.pdf In Proceedings of the International Computer Music Conference 2006. New Orleans, USA: International Computer Music Association.
-      </li>
-    </ul>
+<p class="lead">The below publications relate to the development and use of Jamoma.</p>
     
-    <p><small><br/>If you know of additional publications that you would like to see listed, please "let us know":mailto:jamoma@jamoma.org.</small></p>
-        
-  </div> <!-- column -->
-</div> <!-- row -->
+<ul class="list-unstyled">
+  <li class="list-publications">
+    T. Lossius, T. de la Hogue, P. Baltazar, T. Place, N. Wolek & J. Rabin (2014): "Model-View-Controller separation in Max using Jamoma.":attachments/icmcsmc2014-mvc.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
+  </li>
+  <li class="list-publications">
+    T. Lossius, N. Wolek, T. de la Hogue & P. Baltazar (2014): "Demo: Using Jamama’s MVC features to design an audio effect interface.":attachments/icmcsmc2014-demo.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
+  </li>
+  <li class="list-publications">
+    P. Baltazar, T. de la Hogue & M. Desainte-Catherine (2014): "i-score, an Interactive Sequencer for the Intermedia Arts":attachments/icmcsmc2014-i-score-workshop.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
+  </li>
+  <li class="list-publications">
+    Schuett, J. H., Winton, R. J., Batterman, J. M., and Walker, B. N. (2014): "Auditory weather reports: Demonstrating listener comprehension of five concurrent variables":http://dl.acm.org/citation.cfm?id=2636898. In Proceedings of the 9th Audio Mostly: A Conference on Interaction With Sound, New York, NY, USA. ACM.
+  </li>
+  <li class="list-publications">
+    Jensenius, A. R (2013): "Some Video Abstraction Techniques for Displaying Body Movement in Analysis and Performance":http://www.mitpressjournals.org/doi/abs/10.1162/LEON_a_00485. Leonardo Music Journal, Vol. 46, No. 1, pp. 53-60.
+  </li>
+  <li class="list-publications">
+    Jensenius, A. R &amp; V. Johnson (2012): "Performing the electric violin in a sonic space":http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/computer_music_journal/v036/36.4.jensenius.html. Computer Music Journal, Vol. 36, No. 4, pp. 28-39.
+  </li>
+  <li class="list-publications">
+    N. Peters, T. Lossius &amp; T. Place (2012): "An Automated Testing Suite for Computer Music Environments.":attachments/smc2012-testing.pdf Proceedings of the 9th Sound and Music Computing Conference, 12-14 July 2012, Copenhagen. Nominated for Best Paper Award. ["poster":attachments/SMC2012-JamomaTestingPoster.pdf] 
+  </li>
+  <li class="list-publications">
+    A. R. Jensenius (2012): "Motion-sound Interaction Using Sonification based on Motiongrams.":http://www.thinkmind.org/download.php?articleid=achi_2012_7_20_20060 In Proc. of the International Conference on Advances in Computer-Human Interactions (ACHI 2012), p. 170 - 175, Valencia. Winner of Best Paper Award. ["videos":http://www.arj.no/2012/02/03/sonification/] 
+  </li>
+  <li class="list-publications">
+    Y. de Quay, S. Skogstad &amp; A. Jensenius (2011): "Dance jockey: Performing electronic music by dancing.":http://www.mitpressjournals.org/doi/abs/10.1162/LMJ_a_00052 Leonardo Music Journal, Vol. 21, pp. 11 - 12.
+  </li>
+  <li class="list-publications">
+    Y. de Quay (2011): "Interactive Music 2.0: User‐driven ad hoc dance clubs.":attachments/STSM_Call7_DeQuay_report.pdf Short Term Scientific Mission Report COST IC0601 
+  </li>
+  <li class="list-publications">
+    T. De La Hogue, J. Rabin &amp; L. Garnier (2011): "Jamoma Modular: Une librairie C++ dédiée au developpement d'applications modulaires pour la création.":attachments/JIM11-JamomaModular-FR.pdf Journées d'Informatique Musicale. Saint-Etienne, France. ["English paper version":attachments/JIM11-JamomaModular-EN.pdf] 
+  </li>
+  <li class="list-publications">
+    J. Allison (2011): "Distributed Performance Systems Using HTML5 and Rails.":http://allisonic.com/assets/papers/SEAMUS2011_Distributed_Performance.pdf 26th Annual Conference of the Society for Electro-Acoustic Music in the United States. Miami. ["Slides":http://allisonic.com/assets/papers/Distributed_performance.mov] 
+  </li>
+  <li class="list-publications">
+    N. Peters (2010): "Sweet [re]production: Developing sound spatialization tools for musical applications with emphasis on sweet spot and off-center perception.":attachments/Petersthesis-web.pdf PhD thesis, McGill University, Montreal, Canada. 
+  </li>
+  <li class="list-publications">
+    T. Place, T. Lossius &amp; N. Peters (2010): "The Jamoma Audio Graph Layer.":attachments/jamoma-audiograph-DAFx.pdf Proceedings of the 13th International Conference on Digital Audio Effects. 6-10 September 2010, Graz. ["poster":attachments/jamoma-AudioGraphPoster-DAFx10.pdf] 
+  </li>
+  <li class="list-publications">
+    T. Place, T. Lossius &amp; N. Peters (2010): "A flexible and dynamic c++ framework and library for digital audio signal processing":attachments/jamoma-icmc2010.pdf. Proceedings of the International Computer Music Conference, 1-5 June 2010, New York. 
+  </li>
+  <li class="list-publications">
+    P. Baltazar &amp; B. Habbestad: "Unruhige Räume - Spatial electroacoustic composition as a collaborative artistic research process":attachments/baltazar-unruhige-raume-icmc-2010.pdf. Proceedings of the International Computer Music Conference, 1-5 June 2010, New York. 
+  </li>
+  <li class="list-publications">
+    Pritchard, A. / R. Sletteland (2009): Don't touch me, you don't know where I've been. A performance, installation and publication / Commisioning a piece of music. Remarks on Alwynne Pritchard's _Don't touch me, you don't know where I've been_ (performance version). Sensuous knowledge series, vol. 7, Bergen National Academy of the Arts. 
+  </li>
+  <li class="list-publications">
+    Jensenius, A. R (2009): "Motion capture studies of action-sound couplings in sonic interaction.":attachments/Jensenius_stsm_report_Call4.pdf STSM COST Action SID report. fourMs lab, University of Oslo. 
+  </li>
+  <li class="list-publications">
+    Lossius T., P. Baltazar &amp; T. de la Hogue (2009): "DBAP - Distance-Based Amplitude Panning.":attachments/icmc2009-dbap-rev1.pdf Proceedings of the International Computer Music Conference, 17-21 August 2009, Montreal. 
+  </li>
+  <li class="list-publications">
+    N. Peters, T. Lossius, J. Schacher, P. Baltazar, C. Bascou &amp; T. Place (2009): "A stratified approach for sound spatialization.":attachments/Spatialization-SMC09.pdf Proceedings of the 6th Sound and Music Computing Conference, 23-25 July 2009, Porto. ["poster":attachments/smc2009-poster.pdf] 
+  </li>
+  <li class="list-publications">
+    T. Place, T. Lossius, A. R. Jensenius &amp; N. Peters (2008): "Flexible control of composite parameters in Max/MSP":attachments/jamoma-icmc2008.pdf. Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
+  </li>
+  <li class="list-publications">
+    N. Peters, T. Matthews, J. Braasch &amp; S. McAdams (2008): "Spatial sound rendering in Max/MSP with ViMiC":http://www.music.mcgill.ca/%7Enils/papers/ICMC08-VIMIC_final.pdf. Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
+  </li>
+  <li class="list-publications">
+    Lossius, T. (2008): "Controlling spatial sound within an installation art context":attachments/lossius-icmc2008.pdf. Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
+  </li>
+  <li class="list-publications">
+    Jensenius, A. R., K. Nymoen and R. I. Godøy (2008): "A Multilayered GDIF-Based Setup for Studying Coarticulation in the Movements of Musicians.":http://www.hf.uio.no/imv/forskning/forskningsprosjekter/musicalactions/PDF/Jensenius_2008a.pdf Proceedings of the International Computer Music Conference, 24-29 August 2008, Belfast. 
+  </li>
+  <li class="list-publications">
+    Godoy, R. I., Jensenius, A. R. and K. Nymoen (2008): Production and perception of goal-points and coarticulations in music. Acoustics '08, 29 June- 4 July 2008, Paris. 
+  </li>
+  <li class="list-publications">
+    Place T., T. Lossius, A. R. Jensenius, N. Peters &amp; P. Baltazar (2008): "Addressing Classes by Differentiating Values and Properties in OSC.":attachments/jamoma-nime2008.pdf In Proceeding of the Conference on New Instruments for Musical Expression (NIME), 2008, Genova. ["poster":attachments/jamoma-nime2008-poster.pdf] 
+  </li>
+  <li class="list-publications">
+    Nymoen, K. (2008): "SID Short Term Scientific Mission from University of Oslo to McGill University Montreal (Canada)":attachments/Jensenius_stsm_report_Call4.pdf; 2/3/2008 - 29/3/2008 
+  </li>
+  <li class="list-publications">
+    N. Peters, S. Ferguson, S. McAdams (2007): "Towards a Spatial Sound Description Interchange Format (SpatDIF).":http://www.music.mcgill.ca/~nils/papers/CAA2007_Peters_et_al-SpatDIF.pdf Canadian Acoustic, Vol. 35:3, pp. 64-65. 
+  </li>
+  <li class="list-publications">
+    N. Peters, M. Evans &amp; E. Britton (2007): "Trakhue Intuitive gestural control of live electronics.":http://www.music.mcgill.ca/~nils/papers/ICMC2007_TrakHue.pdf Proceedings of the International Computer Music Conference, 27-31 August 2007, Copenhagen. 
+  </li>
+  <li class="list-publications">
+    Jensenius, A. R. (2007). "Action - Sound: Developing Methods and Tools to Study Music-related Body Movement.":http://folk.uio.no/alexanje/phd/jensenius-phd.pdf PhD thesis. Department of Musicology. University of Oslo, Norway. 
+  </li>
+  <li class="list-publications">
+    Lossius, T. (2007). "Sound - Space - Body. Reflections on Artistic Practice.":http://www.trondlossius.no/system/fileattachments/6/original/main_web.pdf Submitted in partial fulfillment for Research Fellowship in the Arts. Bergen National Academy of the Arts 
+  </li>
+  <li class="list-publications">
+    Place, T. &amp; T. Lossius (2006): "Jamoma: A modular standard for structuring patches in Max.":attachments/jamoma-icmc2006.pdf In Proceedings of the International Computer Music Conference 2006. New Orleans, USA: International Computer Music Association.
+  </li>
+</ul>
+
+<p><small><br/>If you know of additional publications that you would like to see listed, please "let us know":mailto:jamoma@jamoma.org.</small></p>

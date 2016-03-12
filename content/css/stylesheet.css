@@ -5642,6 +5642,14 @@ button.close {
 
 /* Customisations */
 
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+h1, h2 {
+    text-transform: capitalize;
+}
+
 .bgimage {
     background-image: url('/images/header-background.png');
     background-position: center center;

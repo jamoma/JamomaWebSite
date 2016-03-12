@@ -1,11 +1,9 @@
 --- 
-title: Supported by
+title: Supported By
 menu: credits
 ---
 
-<p class="lead">Jamoma has been supported in various ways through &mdash;	 not only the contributions of time by so many &mdash; but also financially through grants, hosting of workshops, donations of intellectual property, and sponsoring the work to be done.</p>
-
-These supporters include:
+We are grateful for the support we have received towards the development of Jamoma, in the form of grants, hosting of workshops, donations of intellectual property, and sponsoring of the work to be done. Our supporters include:
 
 * "74 Objects":http://74objects.com/
 * "Arts Council Norway":http://kulturradet.no/
@@ -19,7 +17,7 @@ These supporters include:
 * "Electrotap":http://electrotap.com/
 * "GMEA - Centre National de création Musicale d'Albi-Tarn":http://www.gmea.net/       
 * "Hordaland County Council - Kulturelt utviklingsprogram (KUP)":http://www.hordaland.no/Hordaland-fylkeskommune/Kultur/Kulturelt-utviklingsprogram-KUP/
-* "interactive Media Art Laboratory Brussels (iMAL)":http://www.imal.org/
+* "Interactive Media Art Laboratory Brussels (iMAL)":http://www.imal.org/
 * "Natural Sciences and Engineering Research Council of Canada (NSERC)":http://www.nserc-crsng.gc.ca/
 * "Norwegian Academy of Music":http://www.nmh.no/
 * "Norwegian Research Council":http://www.forskningsradet.no/
@@ -32,7 +30,7 @@ These supporters include:
 
 h2. Join Us
 
-Want to support Jamoma development or host a workshop? Contact us for more information.  If you are a programmer and want to join the Jamoma team, contact us or get involved through Github.
+Want to support Jamoma development or host a workshop? "Contact us":mailto:jamoma@jamoma.org?Subject=Hello%20again for more information.  If you are a programmer and want to join the Jamoma team, contact us or get involved through Github.
 
 h2. Donate
 

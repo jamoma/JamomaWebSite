@@ -51,7 +51,7 @@ We are greatful to everyone that have contributed with additional ideas, advices
 * Thorolf Thuestad
 * Tristan Matthews
 
-h2(#how-to-contribute). How to contribute?
+h2. How to contribute?
 
 If you are a programmer and want to join the Jamoma team, please get in touch with us at the <a href="/forum/">development mailing list</a> or contact us directly <a href="mailto:jamoma@jamoma.org">off-list</a>. At current we are particularly interested in getting in touch with anyone willing to contribute towards the following development efforts: 
 

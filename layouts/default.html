@@ -2,17 +2,34 @@
 <html lang="en">
 
   <%= render 'head' %>
+  
+  <header class="bgimage">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+  	      <h1>Jamoma</h1>
+  	      <p class="lead">Modular Patching and Programming for Realtime Media</p>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <body>
     
 	  <%= render 'header' %>
-	    <section id="main">
-        <div class="container">
-		      <h1 class="top"><%= @item[:title] %></h1>
-	  	    <%= yield %>
-	  	    <%= render 'footer' %>
-        </div>
-	    </section> <!-- id="main" -->  
+    
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+		        <h1 class="top text-capitalize"><%= @item[:title] %></h1>
+	    	    <%= yield %>
+	    	    <%= render 'footer' %>
+          </div> <!-- column -->
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section> <!-- id="main" -->
+      
     <%= render 'bootstrap_footer' %>
 	  <%= render 'google_analytics' %>
   </body>
