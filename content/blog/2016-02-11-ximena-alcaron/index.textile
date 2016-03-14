@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ximena Alarcón - Guest researcher visit to Bergen
-h1: Ximena Alarcón - Guest researcher visit to Bergen
+title: Ximena Alarcón - Guest visit to Bergen
+h1: Ximena Alarcón - Guest visit to Bergen
 kind: article
 menu: blog
 created_at: 2016-02-11

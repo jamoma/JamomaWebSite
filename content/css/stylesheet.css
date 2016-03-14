@@ -5661,6 +5661,8 @@ a.image, a.fancybox{
 
 a.image img, a.fancybox img{
 	max-width: 100%;
+	margin-top: 3em;
+	margin-bottom: 2em;
 }
 
 

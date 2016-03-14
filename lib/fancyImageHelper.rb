@@ -21,6 +21,6 @@ module FancyImageHelper
       effect = "fancybox"
     end
       
-    fancyString = fancyString = "<a class=\"" + effect + "\" href=\"" + @item.identifier + image + "\"data-fancybox-group=\"" + context +"\" title=\"" + caption + "\"> <img alt=\"" + caption + "\" class=\"myCell\" src=\"" + @item.identifier + thumb + "\"/></a>"
+    fancyString = fancyString = "<a class=\"" + effect + "\" href=\"" + @item.identifier + image + "\"data-fancybox-group=\"" + context +"\" title=\"" + caption + "\"> <img alt=\"" + caption + "\" class=\"img-rounded\" src=\"" + @item.identifier + thumb + "\"/></a>"
   end
 end

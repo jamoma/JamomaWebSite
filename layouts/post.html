@@ -25,26 +25,63 @@
 	  		    
 	  		    <!-- Display the content of the blog post -->
 	  		    <% post=@item %>
-	  		    <div class="post">
-	  		    	<h1 class="top"><%= @item[:h1] %></h1>
-	  		    	<div class="dateAuthor"><%= @item[:created_at] %> by <%= @item[:author] %></div>
+
+	  		    	<h1>
+                <%= @item[:h1] %><br/>
+                <small>Posted <%= @item.mtime.strftime("%B %d, %Y") %> <span class="text-lowercase">by</span> <%= post[:author] %></small>
+              </h1>
+              
+              <hr/>
+              
 	  	      
 	  	      	<% if !@item[:categories].nil? %>
-	  		    	  <div class="categories">
-	  	 	     		  <% @item[:categories].sort.each do |category| %>
-	  		        	  <p class="category"><a href="/categories/<%= category %>"><%= category %></a></p>
-	  	      	 		<% end %>
-	  		    	  </div>
+	  		    	    <ul class="list-inline text-center">
+	  	 	     		    <% @item[:categories].sort.each do |category| %>
+                      <li class="text-capitalize category">
+	  		          	    <a href="/categories/<%= category %>"><%= category%></a> &nbsp;
+                      </li>
+	  	      	 	  	<% end %>
+	  		    	    </ul>
 	  		    	<% end %>
+            </div> <!-- col --> 
+          </div> <!-- row -->
+          
+          <div class="row">
+            <div class="col-xs-12" style="height:2em;"></div>
+          </div> <!-- row -->
+          
+          <div class="row">
+            <div class="col-md-offset-2 col-md-8">
 	  		    	
 	  		    	<article>
 	              <%= yield %>
 	  		    	</article>
-	  		    </div>	<!-- class="post" -->
+              
+              <hr/>
+              
+            </div> <!-- column -->
+          </div> <!-- row -->
+          
+          <div class="row">
+            <div class="col-xs-12" style="height:4em;"></div>
+          </div> <!-- row -->
+          
+          <div class="row">
+            <div class="col-md-offset-2 col-md-8">
 	  	      
-	  	      <%= render 'disqus_thread' %>
+	  	        <%= render 'disqus_thread' %>
+              
+            </div> <!-- column -->
+          </div> <!-- row -->
 	  	      
-	  	      <%= render 'footer' %>
+          <div class="row">
+            <div class="col-xs-12" style="height:2em;"></div>
+          </div> <!-- row -->
+          
+          <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+              
+	  	        <%= render 'footer' %>
           
             </div> <!-- column -->
           </div> <!-- row -->
