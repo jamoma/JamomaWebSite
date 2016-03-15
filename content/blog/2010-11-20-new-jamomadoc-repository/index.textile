@@ -25,7 +25,9 @@ h2. How to get the repository?
 Git users can head for Github and "clone the project":http://help.github.com/ using the following url:
 
 <pre>
+<code class="language-bash">
 git@github.com:jamoma/JamomaDoc.git
+</code>
 </pre>
 
 If you do not feel like using Git, an archive of the project can also be "downloaded":http://github.com/jamoma/JamomaDoc/archives/master as a .zip compressed file for example.

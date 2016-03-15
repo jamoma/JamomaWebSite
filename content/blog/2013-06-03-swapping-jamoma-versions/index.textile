@@ -23,19 +23,23 @@ Jamoma developers are currently lining up in Albi for a workshop (more on that l
 When I want to use Jamoma 0.5.7 I make sure the content of this files looks like this:
 
 <pre>
+<code class="language-bash">
 /Users/lossius/dev/Jamoma/Implementations/MaxDependencies/Max;
 /Users/lossius/dev/Jamoma/Implementations/MaxTest;
 /Users/lossius/dev/Jamoma/Implementations/Max;
 #/Users/lossius/Documents/Max/Trond-Externals/Packages;
+</code>
 </pre>
 
 When I instead want to use Jamoma 0.6, I change this to:
 
 <pre>
+<code class="language-bash">
 /Users/lossius/dev/Jamoma/Implementations/MaxDependencies/Max;
 /Users/lossius/dev/Jamoma/Implementations/MaxTest;
 /Users/lossius/Documents/Max/Trond-Externals/Packages;
 #/Users/lossius/dev/Jamoma/Implementations/Max;
+</code>
 </pre>
 
 Please note that the @#@ doesn't really work to comment out lines in this file. Instead it apparently makes Max stop, ignoring whetever follows from here on. For this reason it is important that the line(s) that you want Max to disregard are positioned at the end of the file.

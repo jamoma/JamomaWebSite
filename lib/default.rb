@@ -45,6 +45,11 @@ def copyFancyBox
   puts "  Copying module documentation "
   puts " "
   `cp -r "preParsedContent/modules" "output/tutorials/modules"`
+  
+  puts "  Copying Prism "
+  puts " "
+  `cp -r "preParsedContent/prism" "output"`
+  puts " "
 end
 
 copyFancyBox

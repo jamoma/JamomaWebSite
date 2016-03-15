@@ -15,5 +15,7 @@ categories:
 In case anyone is interested/motivated, here is the terminal command to backup the Jamoma SVN repository:
 
 <pre>
+<code class="language-bash">
 rsync -av jamoma.svn.sourceforge.net::svn/jamoma/* jamoma-backup
+</code>
 </pre>

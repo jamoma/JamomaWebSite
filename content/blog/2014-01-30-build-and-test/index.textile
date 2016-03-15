@@ -38,6 +38,8 @@ Prior to Build &amp; Test, myself and other C++ developers on Jamoma would follo
 The Terminal output from Ruby would look something like this:
 
 <pre>
+<pre>
+<code class="language-bash">
 Test checkout of first SampleMatrix...
     PASS -- checkOutMatrix returns a valid pointer
     PASS -- numChannels is set properly
@@ -73,6 +75,7 @@ Testing check in process...
 
         Number of assertions: 16
         Number of failed assertions: 0
+</code>
 </pre>
 
 Alternatively: you could also send the &quot;test&quot; message to an object in the Max. However, this adds more manual steps like building the "Max Implementation":https://github.com/jamoma/JamomaMax, opening Max, instantiating the object, etc, etc...

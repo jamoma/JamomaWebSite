@@ -26,10 +26,12 @@ h2. 1) Update supports
 In Terminal, located at the folder of the main Jamoma repository, run the following 4 commands one by one (you can past them all into Terminal in one go):\
 
 <pre>
+<code class="language-bash">
 git submodule foreach git submodule foreach git checkout master
 git submodule foreach git submodule foreach git pull
 git submodule foreach git submodule foreach git submodule init
 git submodule foreach git submodule foreach git submodule update
+</code>
 </pre>
 
 By now all support submodules should be updated to refer to github.com/jamoma/support rather than github.com/tap/support
@@ -39,10 +41,12 @@ h2. 2) Update objectivemax
 Now try updating the objectivemax submodules (you can all four commands into Terminal in one go):
 
 <pre>
+<code class="language-bash">
 git submodule foreach git submodule foreach git submodule foreach git checkout master
 git submodule foreach git submodule foreach git submodule foreach git pull
 git submodule foreach git submodule foreach git submodule foreach git submodule init
 git submodule foreach git submodule foreach git submodule foreach git submodule update
+</code>
 </pre>
 
 
@@ -51,7 +55,9 @@ h2. 3) Check to see if objectivemax is working
 Now try pulling the objectivemax submodules:
 
 <pre>
+<code class="language-bash">
 git submodule foreach git submodule foreach git submodule foreach git submodule foreach git pull
+</code>
 </pre>
 
 h2. 4) If it is not, fix it
@@ -59,19 +65,25 @@ h2. 4) If it is not, fix it
 This command might bring up error messages, as the .git/config file inside the objectivemax folder might still be referencing github.com/tap. If so, see from the error messages in Terminal which submodule failed to be pulled. If you e.g. see that the objectivemax submodule inside AudioGraph failed, you can edit the file with this command (provided that you are on Mac with TextMate installed):
 
 <pre>
+<code class="language-bash">
 mate Modules/AudioGraph/supports/objectivemax/.git/config
+</code>
 </pre>
 
 Change this line:
 
 <pre>
+<code class="language-bash">
 url = git://github.com/tap/ObjectiveMax.git
+</code>
 </pre>
 
 to:
 
 <pre>
+<code class="language-bash">
 url = git@github.com:jamoma/ObjectiveMax.git
+</code>
 </pre>
 
 This will update the repository reference and make it writeable, so that you can commit changes in the future.

@@ -23,6 +23,7 @@ Most notabely files that previously belonged to Jamoma Modular have now been spl
 
 
 <pre>
+<code class="language-bash">
 git clone git@github.com:jamoma/Jamoma.git Jamoma
 cd Jamoma
 git submodule init
@@ -32,6 +33,7 @@ git submodule foreach git pull
 
 cd Tools
 ruby build.rb clean
+</code>
 </pre>
 
 
@@ -78,9 +80,10 @@ For those of us actually building Jamoma from source with the whole folder struc
 For example, Tim's "packages.txt" file looks like this (because he also wants the TapTools package):
 
 <pre>
+<code class="language-bash">
 /Users/tim/code/Jamoma/Implementations/Max;
 ~/code/JamomaUserLibraries/TapTools;
-
+</code>
 </pre>
 
 Now Max will also search these locations for packages.  That means you can just run the Ruby build scripts and everything is up-to-date automatically.
