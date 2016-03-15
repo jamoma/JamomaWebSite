@@ -5732,12 +5732,16 @@ h1, h2 {
     background-size: cover;
     height: 200px;
 }
+
+blockquote {
+    border-left: 5px solid #67696D;
+}
     
 .panel-default > .panel-heading {
     background-color:#C7C6B9;
     color:#67696D;
 }
-    
+
 .panel-body {
     background:#67696D;
 }

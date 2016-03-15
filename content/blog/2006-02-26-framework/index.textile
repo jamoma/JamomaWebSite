@@ -16,10 +16,10 @@ categories:
 
 There seems to be several similar initiatives to Jamoma happening at the moment. The "UBC Max/MSP/Jitter Toolbox":http://www.opusonemusic.net/muset/toolbox.html blogged here a few days ago is one of them. Yesterday I discovered another: "Framework":http://www.leafcutter.33-rpm.net/Downloadframework.htm by Leafcutter John. Framework is aimed at effect processing of stereo audio signals. This is how he describes it:
 
-bq. I wanted to do a project where the many people could contribute to a big Max patch for treating audio. So I developed Framework, a free to use / modify modular audio patch made in Max/MSP.
-
-bq. The framework part of the patch comprises 9 bpatcher objects connected in series. The user loads different kind of audio treatment modules into the bpatchers.
-
-bq. You play a stereo file into the framework using splay~. Or you can use a mic input. If you want to do something different to this then please hack the patch!
+bq. I wanted to do a project where the many people could contribute to a big Max patch for treating audio. So I developed Framework, a free to use / modify modular audio patch made in Max/MSP. <br/>
+ <br/>
+The framework part of the patch comprises 9 bpatcher objects connected in series. The user loads different kind of audio treatment modules into the bpatchers.<br/>
+ <br/>
+You play a stereo file into the framework using splay~. Or you can use a mic input. If you want to do something different to this then please hack the patch!
 
 He encourages others to make new modules and e-mail them to him for inclusion in future releases.
