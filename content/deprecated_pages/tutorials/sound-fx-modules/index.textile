@@ -16,8 +16,8 @@ We will start of with much the same patch that we ended up with in the "previous
 
 The input and output modules are used often, so Jamoma adds two shortcuts to the Max environment for creating them.
 * If the patch from the previous tutorial is still open, please close it, and open an new patch.
-* With the patch in edit mode, we can type %(kbd)SHIFT% + %(kbd)I% to create an input module. The module will show up at the position the mouse is pointing at when we type the shortcut.
-* In the same way we can type %(kbd)SHIFT% + %(kbd)O% to create an output module.
+* With the patch in edit mode, we can type <code>SHIFT + I</code> to create an input module. The module will show up at the position the mouse is pointing at when we type the shortcut.
+* In the same way we can type <code>SHIFT + O</code> to create an output module.
 
 bq(note). The "Shortcuts_in_Jamoma":/tutorials/shortcuts-in-jamoma lists all available key combinations in Jamoma.
 
@@ -25,13 +25,13 @@ h4. Naming instances
 
 We didn't really get to give these modules a name, did we? If we forget to provide names, Jamoma will try to help us out. So you'll see from the toolbar of the modules that the two modules have been named _input~_ and _output~_ respectively.
 
-Jamoma wants each module to have a unique name, so if we now try making yet another input module by typing %(kbd)SHIFT% + %(kbd)I% again, the new module will be given the name %(samp)input~.1%. The %(samp).1%, %(samp).2%, etc. is a convention often used in Jamoma to distinguish different instances of the same module. Later on we will se how this convention can be used to selectively address one or all instances of a particular module.
+Jamoma wants each module to have a unique name, so if we now try making yet another input module by typing <code>SHIFT + I</code> again, the new module will be given the name %(samp)input~.1%. The %(samp).1%, %(samp).2%, etc. is a convention often used in Jamoma to distinguish different instances of the same module. Later on we will se how this convention can be used to selectively address one or all instances of a particular module.
 
 For now we only need one instance of the "jmod.input~":/tutorials/modules/jmod.input~/ module, so let's delete the second copy that we created.
 
 h4. Create modules by SHIFT + B
 
-If all Jamoma module types should have their own shortcut, it would quickly become difficult to remember. In general, when creating a new module, we need to say what kind of module we want, and what name we want to give it. Doing so using the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html inspector can be tedious, so the last shortcut we will introduce for now is %(kbd)SHIFT% + %(kbd)B%.
+If all Jamoma module types should have their own shortcut, it would quickly become difficult to remember. In general, when creating a new module, we need to say what kind of module we want, and what name we want to give it. Doing so using the "bpatcher":http://cycling74.com/docs/max5/refpages/max-ref/bpatcher.html inspector can be tedious, so the last shortcut we will introduce for now is <code>SHIFT + B</code>.
 
 This creates a new object box with most of the information filled in for us:
 
@@ -124,9 +124,9 @@ Now might be a good time to test out some of the other audio effect modules that
 h3. Summary
 
 * Shortcuts in Jamoma.
-** Type %(kbd)SHIFT% + %(kbd)I% to create an input module.
-** Type %(kbd)SHIFT% + %(kbd)O% to create an output module.
-** Type %(kbd)SHIFT% + %(kbd)B% to create any module:
+** Type <code>SHIFT + I</code> to create an input module.
+** Type <code>SHIFT + O</code> to create an output module.
+** Type <code>SHIFT + B</code> to create any module:
 ** Use the @name attribute to specify the kind of module.
 ** Use the @args attribute to specify the name for the module. 
 * Naming instances:

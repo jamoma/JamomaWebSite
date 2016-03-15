@@ -40,7 +40,7 @@ Once done, we can store the patch's state by creating a new "cue". From the jmod
 
 !images/making_cues5.png!
 
-This will bring a pop up window with a default name provided for the cue. Hit the %(kbd)return% key and you're done. You just created your first cue !
+This will bring a pop up window with a default name provided for the cue. Hit the <code>return</code> key and you're done. You just created your first cue !
 
 You may now tweak some settings and create as many cues as you wish using the steps descibed above.
 
