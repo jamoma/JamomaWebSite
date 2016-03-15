@@ -12,7 +12,7 @@ Jamoma Modular can really make the design of a Max interactive application easie
 
 h3. Using Jamoma modules as abstractions
 
-Modules can be created as "abstractions":http://www.cycling74.com/docs/max5/vignettes/core/abstractions.html, just like any regular Max patch saved to disk. In Max, open a blank patcher window and double-click in the window or press the <code>n</code> key to create a new object.
+Modules can be created as "abstractions":http://www.cycling74.com/docs/max5/vignettes/core/abstractions.html, just like any regular Max patch saved to disk. In Max, open a blank patcher window and double-click in the window or press the <kbd>n</kbd> key to create a new object.
 
 
 Once the object box is created, type in the name of the desired module. In this example, we will create a "jmod.degrade~":/tutorials/modules/jmod.degrade~/ module.
@@ -27,7 +27,7 @@ You may want to define a specific name to your module by typing an optional argu
 
 <%= fancyImage @item, "images/new_obj_3.png" %>
 
-Assuming you properly set up Max, note that you can create an object box containing your module by using the <code>SHIFT + m</code> key combo.
+Assuming you properly set up Max, note that you can create an object box containing your module by using the <kbd>SHIFT + m</kbd> key combo.
 
 <%= fancyImage @item, "images/new_obj_4.png" %>
 
@@ -51,7 +51,7 @@ Your module GUI can now be used from within the main Max patch. Note that the bp
 
 My %(text-uppercase)mother% has %{color:blue}blue% eyes.
 
-Jamoma also have some shortcuts to ease the creation of modules as bpatchers. Use <code>SHIFT + d</code> or <code>SHIFT + b</code> to create a bpatcher box with containers for module name and arguments.
+Jamoma also have some shortcuts to ease the creation of modules as bpatchers. Use <kbd>SHIFT + d</kbd> or <kbd>SHIFT + b</kbd> to create a bpatcher box with containers for module name and arguments.
 
 h3. Using jmod.layout
 
@@ -85,7 +85,7 @@ You can insert as many modules as you like. When all your modules are created, y
 h3. Summary
 
 - Modules can be created inside regular object boxes or as bpatchers
-- Modules can be created using <code>SHIFT + m</code>, <code>SHIFT + d</code> or <code>SHIFT + b</code>
+- Modules can be created using <kbd>SHIFT + m</kbd>, <kbd>SHIFT + d</kbd> or <kbd>SHIFT + b</kbd>
 - "jmod.layout":/tutorials/components/jcom.layout/ can be useful to explore the growing list of modules and insert them in a patch
 
 <%= render 'disqus_thread' %>
