@@ -1,17 +1,56 @@
 ---
 title: Blog Archive
 menu: blog
-h1: Tracking the development and use of Jamoma since 2005
 ---
 
-<h2><%= @item[:h1] %></h2>
+<% sorted_articles.each do |article| %>
 
-	<% sorted_articles.each do |article| %>
-		<div class="postPreview">
-			<p><a href="<%= relative_path_to(article) %>"><%= article.attributes[:title] %></a></p>
-			<p><span class="date"><%= article.attributes[:created_at] %></span> | <a href="<%= relative_path_to(article) %>#disqus_thread">Comments</a></p>
-	</div>
-	<% end %>
+  <div class="row">
+    <div class="col-md-12">
+
+      <!-- Blog heading -->
+            
+      <h2 class="page-header"><%= article[:title] %><br/>
+        <small>Posted <%= @item.mtime.strftime("%B %d, %Y") %> <span class="text-lowercase">by</span> <%= article[:author] %></small>
+      </h2>
+      
+      <!-- Blog categories -->  
+      
+	     <% if !article[:categories].nil? %>
+	       <ul class="list-inline text-center">
+	         <% article[:categories].sort.each do |category| %>
+          <li class="text-capitalize category">
+	             <a href="/categories/<%= category %>"><%= category%></a> &nbsp;
+          </li>
+	        	<% end %>
+	       </ul>
+	     <% end %>
+      
+    </div> <!-- col --> 
+  </div> <!-- row -->
+    
+  <div class="row">
+    <div class="col-xs-12" style="height:2em;"></div>
+  </div> <!-- row -->
+    
+  <div class="row">
+    <div class="col-md-12">
+  
+      <!-- Blog content -->
+
+      <%= HTML_Truncator.truncate(article.compiled_content, 45, :ellipsis => '<a href="' + relative_path_to(article) + '">&hellip;</a>') %>
+      <hr/>
+      <p><a href="<%= relative_path_to(article) %>#disqus_thread">Comments</a> | <a href="<%= relative_path_to(article) %>">Continue reading</a></p>
+      <hr/>
+    </div> <!-- col --> 
+  </div> <!-- row -->
+  
+  <div class="row">
+    <div class="col-xs-12" style="height:6em;"></div>
+  </div> <!-- row -->
+
+
+<% end %>
 
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

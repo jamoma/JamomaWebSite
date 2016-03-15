@@ -6,6 +6,7 @@ include Nanoc::Helpers::Tagging
 include Nanoc::Helpers::LinkTo
 include Categories
 require 'fileutils'
+require "html_truncator"
 #require 'redcarpet'
 
 def blog_route(item)
