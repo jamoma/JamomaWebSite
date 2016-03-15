@@ -14,7 +14,7 @@ h1: Recent blog posts
       <!-- Blog heading -->
             
       <h2 class="page-header"><%= post[:title] %><br/>
-        <small>Posted <%= @item.mtime.strftime("%B %d, %Y") %> <span class="text-lowercase">by</span> <%= post[:author] %></small>
+        <small>Posted <%= Date.parse(post[:created_at].to_s).strftime("%B %d, %Y") %> <span class="text-lowercase">by</span> <%= post[:author] %></small>
       </h2>
       
       <!-- Blog categories -->  
@@ -61,6 +61,21 @@ h1: Recent blog posts
 
   
 <% end %>
+
+<div class="row">
+  <div class="col-md-12">
+
+    <hr/>
+    <p class="text-center"><a href="/blog/archive/">View the full archive</a></p>
+    <hr/>
+    
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<div class="row">
+  <div class="col-xs-12" style="height:8em;"></div>
+</div> <!-- row -->
+
 
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

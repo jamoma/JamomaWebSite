@@ -28,7 +28,7 @@
 
 	  		    	<h1>
                 <%= @item[:h1] %><br/>
-                <small>Posted <%= @item.mtime.strftime("%B %d, %Y") %> <span class="text-lowercase">by</span> <%= post[:author] %></small>
+                <small>Posted <%= Date.parse(post[:created_at].to_s).strftime("%B %d, %Y") %> <span class="text-lowercase">by</span> <%= post[:author] %></small>
               </h1>
               
               <hr/>
