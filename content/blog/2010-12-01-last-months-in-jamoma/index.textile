@@ -71,7 +71,7 @@ We are really happy to see developments using some of the Jamoma framework possi
 
 On the artistic side, "Trond Lossius":http://www.trondlossius.no/ collaborated with Jon Arne Mogstad and Jeremy Welsh for the installation named "PLEASE NOTE AFTER IMAGE":http://trondlossius.no/works/36-lmw-please-note-after-image-2010 which is "currently being exhibited at the Bergen Art Museum":http://www.kunstmuseene.no/?side=kalender&art=682&enhet=kunstmuseum&sp=1.
 
-p=. !images/pleasenote.png!
+p=. <%= fancyImage @item, "images/pleasenote.png" %>
 
 Based on processed B-format recordings, the sound is generated in realtime using Jamoma Modular + Jamoma Audio Graph, output thru an array of 16 loudspeakers and has been playing without interruption since the 29th of October. As we move toward more developments, it is really nice to see that Jamoma Audio Graph is not only useful for creation, but also mature and stable. Keep an eye on "Trond’s website":http://trondlossius.no/articles to read more details about it soon.
 

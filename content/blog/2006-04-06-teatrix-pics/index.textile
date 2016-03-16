@@ -16,20 +16,14 @@ categories:
 
 Last week was the Teatrix workshop host by BEK, as previously mentioned in this blog. We used Jamoma extensively in the workshop, and also took the opporunity to a bit of development on it. The following pictures are from the theater at USF Verftet where the Teatrix workshop was held.
 
-<a class="fancybox" href="images/teatrix_img_1.jpg" data-fancybox-group="eve" title="Alexander and Tim working on the new mappings and network modules">
-<img alt="Alexander and Tim working on the new mappings and network modules" class="myCell" class="myCell" src="images/teatrix_img_1.jpg"/>
-</a>
+p=. <%= fancyImage @item, "images/teatrix_img_1.jpg", "images/teatrix_img_1.jpg", "Alexander and Tim working on the new mappings and network modules", "teatrix "%>
 
 Alexander and I working on the new mappings and network modules
 
-<a class="fancybox" href="images/teatrix_img_2.jpg" data-fancybox-group="eve" title="Trond trying to make sense of all the broken things">
-<img alt="Trond trying to make sense of all the broken things" class="myCell" class="myCell" src="images/teatrix_img_2.jpg"/>
-</a>
+p=. <%= fancyImage @item, "images/teatrix_img_2.jpg", "images/teatrix_img_2.jpg", "Trond trying to make sense of all the broken things", "teatrix" %>
 
 Trond trying to make sense of all the things that Alexander and I broke as we worked on the Jamoma core.
 
-<a class="fancybox" href="images/teatrix_img_3.jpg" data-fancybox-group="eve" title="Time for relaxing, discussion, and eating in the cafe">
-<img alt="Time for relaxing, discussion, and eating in the cafe" class="myCell" class="myCell" src="images/teatrix_img_3.jpg"/>
-</a>
+p=. <% fancyImage @item, "images/teatrix_img_3.jpg", "images/teatrix_img_3.jpg", "Time for relaxing, discussion, and eating in the cafe", "teatrix" %>
 
 Time for relaxing, discussion, and eating in the cafe overlooking the harbor at USF Verftet.

@@ -12,9 +12,7 @@ categories:
 - Ricardo-del-Pozo
 ---
 
-<a class="fancybox" href="images/ricardo.png" data-fancybox-group="fancybox" title="Quiet is distinguished">
-<img alt="Quiet is distinguished" class="myCell" class="myCell" src="images/ricardo.png"/>
-</a>
+p=. <% fancyImage @item, "images/ricardo.png", "images/ricardo.png", "Quiet is distinguished", "ricardo" %>
 
 The installation “Quit is distinguished” by Ricardo del Pozo will be shown at Union Scene in Drammen in Multisal 2 the 2nd and 3rd of October. Here's more "from his blog":http://www.rdpozo.no/rdp/news/Entries/2011/8/7_Quiet_is_distinguished.html:
 

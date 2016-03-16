@@ -10,7 +10,8 @@ h1: New JamomaDoc repository
 categories:
 - documentation
 ---
-p=. !images/jamomadoc-icon.png!
+
+p=. <%= fancyImage @item,"images/jamomadoc-icon.png" %>
 
 From our desire to continuously improve and extend Jamoma documentation, we decided to create a "dedicated repository on Github":http://github.com/jamoma/JamomaDoc.
 
