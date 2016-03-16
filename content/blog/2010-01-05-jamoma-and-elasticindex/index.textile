@@ -11,7 +11,8 @@ categories:
 - modules
 - elastique
 ---
-p=. <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/qYf-GYBZUZc&amp;hl=en&amp;fs=1&amp;rel=0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/qYf-GYBZUZc&amp;hl=en&amp;fs=1&amp;rel=0" allowscriptaccess="always" height="344" width="425" allowfullscreen="true" type="application/x-shockwave-flash"> </embed></param></param></param></object>
+
+p=. <iframe width="480" height="360" src="https://www.youtube.com/embed/qYf-GYBZUZc" frameborder="0" allowfullscreen></iframe>
 
 A test with Jamoma and Elasticindex~ object, Thanks for sharing, Ricardo!
 

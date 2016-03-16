@@ -15,8 +15,7 @@ Today "Alexander":http://www.arj.no added a great feature to the jmod.motiongram
 
 Watch the movie to see how easy it is to do slit-scanning with Jamoma now.
 
-p=. <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/qPR21-FPGuM&amp;hl=en_US&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/qPR21-FPGuM&amp;hl=en_US&amp;fs=1" allowscriptaccess="always" height="385" width="480" allowfullscreen="true" type="application/x-shockwave-flash"> </embed></param></param></param></object></div> 
- <div><br class="" /></div>
+p=. <iframe width="480" height="360" src="https://www.youtube.com/embed/qPR21-FPGuM" frameborder="0" allowfullscreen></iframe>
  
 This feature will be available in the next Jamoma Modular update. You can also see the "commit":http://github.com/tap/JamomaModular/commit/c470edf782b020906e70a7462acaa888192b4438 on Github and clone
 Jamoma Modular repository.

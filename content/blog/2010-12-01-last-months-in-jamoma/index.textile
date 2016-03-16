@@ -32,7 +32,7 @@ h3. New modules
 
 In addition to a new component called "jcom.autoexpose%":https://github.com/jamoma/JamomaModular/commit/060b1bd8a73a171b4a7d4a8cbf1c744a167fed3b, "Alexander Refsum Jensenius":http://www.arj.no/ brought "jmod.sonifyer~":https://github.com/jamoma/JamomaModular/commit/c7c8bfcd7926d8e74b1d94b4a89670b9c8b34651 dedicated – you guess it – to the sonification of motiongram. Read more on "Alexander’s blog post":http://www.arj.no/2010/11/09/sonification-of-motiongrams/ or watch his nice screencast included below.
 
-p=. <object width="480" height="293"><param name="movie" value="http://www.youtube.com/v/zz5SCP5ZkcU&amp;hl=en_US&amp;feature=player_embedded&amp;version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/zz5SCP5ZkcU&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" allowscriptaccess="always" height="293" width="480" allowfullscreen="true" type="application/x-shockwave-flash"> </embed></param></param></param></object>
+p=. <iframe width="480" height="360" src="https://www.youtube.com/embed/zz5SCP5ZkcU" frameborder="0" allowfullscreen></iframe>
 
 Jamoma Modular now also has a "new module":https://github.com/jamoma/JamomaModular/commit/8f9a97692cb735fece9770ccbf071b4467b41ff0 allowing communication with the "Qualisys motion capture system":http://www.qualisys.com, thanks to "Kristian Nymoen":http://folk.uio.no/krisny/.
 
