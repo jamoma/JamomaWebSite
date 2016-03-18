@@ -5742,6 +5742,10 @@ blockquote {
     color:#67696D;
 }
 
+.panel-default {
+    background:#67696D;
+}
+
 .panel-body {
     background:#67696D;
 }
@@ -5764,4 +5768,14 @@ li.category {
 	padding-left: 1em;
     margin-right: 1em;
     margin-bottom: 0.8em;
+}
+
+
+
+/* Ensuring columns with same height */
+
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
 }
