@@ -15,7 +15,7 @@ menu: none
 </h1>
 
 <div class="row equal">
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h1 class="panel-title text-center">Jamoma for Max</h1>
@@ -32,7 +32,7 @@ menu: none
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h1 class="panel-title text-center">Jamoma for Pure Data</h1>
@@ -49,7 +49,7 @@ menu: none
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h1 class="panel-title text-center">Jamoma C++</h1>
