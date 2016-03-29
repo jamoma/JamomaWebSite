@@ -21,7 +21,7 @@ We are grateful for the support we have received towards the development of Jamo
 * "Natural Sciences and Engineering Research Council of Canada (NSERC)":http://www.nserc-crsng.gc.ca/
 * "Norwegian Academy of Music":http://www.nmh.no/
 * "Norwegian Research Council":http://www.forskningsradet.no/
-* "The French National Agency for Research through the Virage":http://www.virage-platform.org/ research platform
+* "The French National Agency for Research through the Virage research platform":http://www.virage-platform.org/
 * "The Municipality of Bergen":http://www.bergen.kommune.no/
 * "University of Oslo":http://www.fourms.uio.no/
 * "USA-Norway Fulbright Foundation":http://www.fulbright.no/
