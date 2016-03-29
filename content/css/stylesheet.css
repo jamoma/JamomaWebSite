@@ -5774,8 +5774,12 @@ li.category {
 
 /* Ensuring columns with same height */
 
-.equal, .equal > div[class*='col-'] {  
-    display: -webkit-flex;
-    display: flex;
-    flex:1 1 auto;
+@media (min-width: 750px) {
+    .equal, .equal > div[class*='col-'] {  
+        display: -webkit-flex;
+        display: flex;
+        flex:1 1 auto;
+    }
 }
+
+
