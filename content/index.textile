@@ -58,7 +58,7 @@ menu: none
                 <p class="text-center"><a href="http://api.jamoma.org"><img src="images/cpp.png" width="50%" /></a></p>
                 <p class="text-center">Extend your favourite media processing tool using the Jamoma C++ framework.</p>
                 <p class="text-center">
-                  <a href="http://api.jamoma.org" target="_blank" class="btn btn-primary">Learn More</a>
+                  <a href="/cplusplus/" class="btn btn-primary">Learn More</a>
                 </p>
                 <p class="text-center">
                   <a href="https://github.com/jamoma/JamomaCore" target="_blank" class="btn btn-success">Download</a>

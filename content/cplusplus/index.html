@@ -5,7 +5,24 @@ menu: whatIsJamoma
 
 &nbsp;
 
-Jamoma Core is a C++ platform for building dynamic and reflexive systems with an emphasis on audio and media. It is released according to the permissive <a href="https://raw.githubusercontent.com/jamoma/JamomaCore/master/License.txt" target="_blank">New BSD License</a>, and can be used for open-source as well as commersial and closed-source develoopment.
+p(lead). Jamoma Core is a C++ platform for building dynamic and reflexive systems with an emphasis on audio and media. 
+
+Jamoma Core serves as the backbone for the Max and PureData implementations of Jamoma. Additional implementations can be envisaged, e.g. a Jamoma addons for openFrameworks, a Jamoma module for Unity 3D, stand-alone applications for computers or mobile devices, AudioUnit and VST plugins, and Ruby implementations.
+
+Jamoma Core makes extensive use of automated unit testing, as detailed in a paper by "Tim Place et. al.":/publications/index.html#testing-paper It is released according to the permissive <a href="https://raw.githubusercontent.com/jamoma/JamomaCore/master/License.txt" target="_blank">New BSD License</a>, and can be used for open-source as well as commersial and closed-source development.
+
+
+
+&nbsp;
+
+<p class="text-center">
+  <a href="https://github.com/jamoma/JamomaCore" target="_blank" class="btn btn-success">Jamoma Core at GitHub</a>
+</p>
+<p class="text-center">
+  <a href="http://api.jamoma.org" target="_blank" class="btn btn-primary">View API Documentation</a>
+</p>
+
+&nbsp;
 
 h2(page-header). A layered framework
 
@@ -27,12 +44,17 @@ Jamoma makes use of polymorphic typing, dynamic binding, and introspection to cr
             <img src="images/cplusplus-foundation.png" class="center-block" width="85%" />
         </div>
         <div class="col-sm-8">
-          <p>Jamoma Foundation provides low-level support, base classes, and communication systems. It serves as a runtime and API implementing a light-weight, dynamically bound, reflective object-oriented architecture layer on top of C++.</p>
-          <p>The DataspaceLib extension enables common media processing values such as time, gain and spatioal positions to be set using various measurement units and coordinate systems interchangeably. For instance gain values can be described using decibels or linear amplitude, and positions can be described using Cartesian or spherical coordinates.</p>
+          <p>
+            Jamoma Foundation provides low-level support, base classes, and communication systems. It serves as a runtime and API implementing a light-weight, dynamically bound, reflective object-oriented architecture layer on top of C++.
+          </p>
+          <p>
+            The DataspaceLib extension enables common media processing values such as time, gain and spatial positions to be set using various measurement units and coordinate systems interchangeably.
+            This way gain values can be described using decibels or linear amplitude, and positions can be described using Cartesian or spherical coordinates.
+          </p>
         </div>
       </div> <!-- row -->
-    </div>
-  </div>
+    </div> <!-- panel-body -->
+  </div> <!-- panel -->
   
   &nbsp;
   
@@ -48,11 +70,23 @@ Jamoma makes use of polymorphic typing, dynamic binding, and introspection to cr
             <img src="images/cplusplus-dsp.png" class="center-block" width="85%" />
         </div>
         <div class="col-sm-8 col-sm-pull-4">
-          <p>Jamoma DSP specializes the Foundation classes to provide a framework for creating a library of unit generators. A C++ framework for audio processing objects. Jamoma DSP is further documented in \cite Place2010:DSP.</p>
+          <p>
+            Jamoma DSP specializes the Foundation classes to provide a framework for creating a library of unit generators for audio processing.
+          </p>
+          <p>
+            A wide range of units are implemented for common audio processing purposes in a series of extensions.
+            This includes signal generators, audio effects, filters, Fourier transforms and windowing functions for granular and spectral processing.
+          </p>
+          <p>
+            Common easing functions are available for gradual transitions of values at control or audio rate.
+          </p>
+          <p>
+            Jamoma DSP is further documented in a paper by "Tim place et. al.":/publications/index.html#dsp-paper
+          </p>
         </div>
       </div> <!-- row -->
-    </div>
-  </div>
+    </div> <!-- panel-body -->
+  </div> <!-- panel -->
   
   &nbsp;
   
@@ -68,11 +102,16 @@ Jamoma makes use of polymorphic typing, dynamic binding, and introspection to cr
             <img src="images/cplusplus-graph.png" class="center-block" width="85%" />
         </div>
         <div class="col-sm-8">
-          <p>Jamoma Graph networks Jamoma Foundation based objects into graph structures, providing a basic asynchronous processing model for objects (nodes) in the graph structure. A coding layer for the creation of dynamic asynchronous graph topographies.</p>
+          <p>
+            Jamoma Graph networks Jamoma Foundation based objects into graph structures, providing a basic asynchronous processing model for objects (nodes) in the graph structure.
+          </p>
+          <p>
+            An extension enables MIDI messages to be passed as dictionaries between graph nodes.
+          </p>
         </div>
       </div> <!-- row -->
-    </div>
-  </div>
+    </div> <!-- panel-body -->
+  </div> <!-- panel -->
   
   &nbsp;
   
@@ -88,11 +127,21 @@ Jamoma makes use of polymorphic typing, dynamic binding, and introspection to cr
             <img src="images/cplusplus-audiograph.png" class="center-block" width="85%" />
         </div>
         <div class="col-sm-8 col-sm-pull-4">
-          <p>Jamoma Audio Graph is an open source C++ framework that extends and specializes the Jamoma Graph layer. It provides the ability to create and network Jamoma DSP objects into dynamic graph structures for synchronous audio processing. A coding layer for the creation of dynamic audio graph topographies. AudioGraph is further documented in \cite Place2010:AudioGraph .</p>
+          <p>
+            Jamoma Audio Graph extends and specializes the Jamoma Graph layer.
+            It provides the ability to create and network Jamoma DSP objects into dynamic graph structures for synchronous audio processing.
+          </p>
+          <p>
+            The audio graph can pass multi-channel audio signals between nodes, and the nodes can themselves process multi-channel audio.
+            As such Jamoma Audio Graph is particularly well-suited for spatial audio processing.
+          </p>
+          <p>
+            AudioGraph is further documented in a paper by "Tim Place et. al.":/publications/index.html#audiograph-paper
+          </p>
         </div>
       </div> <!-- row -->
-    </div>
-  </div>
+    </div> <!-- panel-body -->
+  </div> <!-- panel -->
   
   &nbsp;
   
@@ -108,11 +157,22 @@ Jamoma makes use of polymorphic typing, dynamic binding, and introspection to cr
             <img src="images/cplusplus-modular.png" class="center-block" width="85%" />
         </div>
         <div class="col-sm-8">
-          <p>Jamoma Modular provides a structured approach to development and control of modules in the graphical media environment Max.  framework for assembling high-level interactive modular systems.</p>
+          <p>
+            Jamoma Modular is a framework for assembling high-level interactive modular systems.
+            It provides a structured approach to modular development, with clear model-view-controller (MVC) seperation.
+          </p>
+          <p>
+            Node parameters are implemented with a set of amenities including type checking, description of range and range boundary behavior, dataspace conversion, and easing to new values.
+            Models and parameters are organisied into a structured namespace, and this node tree can be queried and addressed remotely.
+            This way the system can be controlled in advanced way using e.g., presets, mappings, or cues.
+          </p>
+          <p>
+            Jamoma Modular is further documented in a paper by "Theo de la Hogue et. al.":/publications/index.html#modular-paper
+          </p>
         </div>
       </div> <!-- row -->
-    </div>
-  </div>
+    </div> <!-- panel-body -->
+  </div> <!-- panel -->
   
   &nbsp;
   
@@ -128,21 +188,26 @@ Jamoma makes use of polymorphic typing, dynamic binding, and introspection to cr
             <img src="images/cplusplus-score.png" class="center-block" width="85%" />
         </div>
         <div class="col-sm-8 col-sm-pull-4">
-          <p>TODO: Some text about score</p>
+          <p>
+            Jamoma Score can be used to design and play back complex interactive scenarios that coordinates heterogeneous and distributed media systems.
+            It provides an organized structuring of events in time that also permits various degrees of freedom for interactivity.
+          </p>
+          <p>
+            Jamoma Score is at the heart of the <a href="http://i-score.org/" target="_blank">i-score</a> interactive intermedia sequencer.
+            This application can be used to control Jamoma systems implemented in Max, Pd or other environments
+            i-score can also control other media appications using OSC or MIDI communication.
+          </p>
+          <p>
+            The i-score application is further documented in a paper by "Pascal Baltazar et. al.":/publications/index.html#i-score-paper
+          </p>
         </div>
       </div> <!-- row -->
-    </div>
-  </div>
+    </div> <!-- panel-body -->
+  </div> <!-- panel -->
   
-</div>
+</div> <!-- panel-group -->
 
-h2. Automated unit testing and extra text
-
-Blabla
-
-h2(page-header). Possible implementations
-
-blabla
+p(small text-center). Icons made by "Freepik":http://www.freepik.com and "Google":http://www.flaticon.com/authors/google from "www.flaticon.com":http://www.flaticon.com are licensed by "CC 3.0 BY":http://creativecommons.org/licenses/by/3.0/.
 
 
 h2(page-header). Jamoma2
@@ -150,6 +215,10 @@ h2(page-header). Jamoma2
 
 A new version of the Jamoma C++ libraries is currently in development. This will be a header-only C++ library for building dynamic and reflexive systems with an emphasis on audio and media.
 
-https://github.com/jamoma/Jamoma2
+&nbsp;
 
-</div>
+<p class="text-center">
+  <a href="https://github.com/jamoma/Jamoma2" target="_blank" class="btn btn-success">Jamoma 2 at GitHub</a>
+</p>
+
+&nbsp;

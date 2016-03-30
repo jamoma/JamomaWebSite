@@ -5783,3 +5783,12 @@ li.category {
 }
 
 
+/* Prevent anchor links from hiding under top menubar */
+/* https://pixelflips.com/blog/anchor-links-with-a-fixed-header */
+
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}

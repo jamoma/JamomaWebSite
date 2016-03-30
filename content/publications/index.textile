@@ -14,6 +14,8 @@ menu: whatIsJamoma
   <li class="list-publications">
     T. Lossius, N. Wolek, T. de la Hogue & P. Baltazar (2014): "Demo: Using Jamama’s MVC features to design an audio effect interface.":attachments/icmcsmc2014-demo.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
   </li>
+  <!-- The anchor spans are needed to prevent anchor links from hiding underneath thew top menu, ref. https://pixelflips.com/blog/anchor-links-with-a-fixed-header -->
+  <span class="anchor" id="i-score-paper"></span>
   <li class="list-publications">
     P. Baltazar, T. de la Hogue & M. Desainte-Catherine (2014): "i-score, an Interactive Sequencer for the Intermedia Arts":attachments/icmcsmc2014-i-score-workshop.pdf Proceedings of the joint 40th International Computer Music Conference & 11th Sound and Music Computing Conference, Athens.
   </li>
@@ -26,6 +28,7 @@ menu: whatIsJamoma
   <li class="list-publications">
     Jensenius, A. R &amp; V. Johnson (2012): "Performing the electric violin in a sonic space":http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/computer_music_journal/v036/36.4.jensenius.html. Computer Music Journal, Vol. 36, No. 4, pp. 28-39.
   </li>
+  <span class="anchor" id="testing-paper"></span>
   <li class="list-publications">
     N. Peters, T. Lossius &amp; T. Place (2012): "An Automated Testing Suite for Computer Music Environments.":attachments/smc2012-testing.pdf Proceedings of the 9th Sound and Music Computing Conference, 12-14 July 2012, Copenhagen. Nominated for Best Paper Award. ["poster":attachments/SMC2012-JamomaTestingPoster.pdf] 
   </li>
@@ -38,6 +41,7 @@ menu: whatIsJamoma
   <li class="list-publications">
     Y. de Quay (2011): "Interactive Music 2.0: User‐driven ad hoc dance clubs.":attachments/STSM_Call7_DeQuay_report.pdf Short Term Scientific Mission Report COST IC0601 
   </li>
+  <span class="anchor" id="modular-paper"></span>
   <li class="list-publications">
     T. De La Hogue, J. Rabin &amp; L. Garnier (2011): "Jamoma Modular: Une librairie C++ dédiée au developpement d'applications modulaires pour la création.":attachments/JIM11-JamomaModular-FR.pdf Journées d'Informatique Musicale. Saint-Etienne, France. ["English paper version":attachments/JIM11-JamomaModular-EN.pdf] 
   </li>
@@ -47,9 +51,11 @@ menu: whatIsJamoma
   <li class="list-publications">
     N. Peters (2010): "Sweet [re]production: Developing sound spatialization tools for musical applications with emphasis on sweet spot and off-center perception.":attachments/Petersthesis-web.pdf PhD thesis, McGill University, Montreal, Canada. 
   </li>
+  <span class="anchor" id="audiograph-paper"></span>
   <li class="list-publications">
     T. Place, T. Lossius &amp; N. Peters (2010): "The Jamoma Audio Graph Layer.":attachments/jamoma-audiograph-DAFx.pdf Proceedings of the 13th International Conference on Digital Audio Effects. 6-10 September 2010, Graz. ["poster":attachments/jamoma-AudioGraphPoster-DAFx10.pdf] 
   </li>
+  <span class="anchor" id="dsp-paper"></span>
   <li class="list-publications">
     T. Place, T. Lossius &amp; N. Peters (2010): "A flexible and dynamic c++ framework and library for digital audio signal processing":attachments/jamoma-icmc2010.pdf. Proceedings of the International Computer Music Conference, 1-5 June 2010, New York. 
   </li>
