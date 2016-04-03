@@ -18,6 +18,16 @@ p=. <a href="https://github.com/jamoma/JamomaMax/releases/latest" target="_blank
 
 &nbsp;
 
+h3. Nighly build
+
+If you want to be up to speed with the most recent development, you can download the nightly builds. Any changes, addition and bug fixes that we do makes it into these releases within 24 hours.
+
+p=. <a href="/download/JamomaMax/nightly-builds/" target="_blank" class="btn btn-primary">Get Nightly Builds</a> 
+
+&nbsp;
+
+&nbsp;
+
 <div class="alert alert-warning">
   <p><strong>Experiencing bugs or problems?</strong></p>
   <p>Please report bugs to the "bug tracker":https://github.com/jamoma/JamomaMax/issues. If you need help and support, please contact us via the "user forum":https://groups.google.com/forum/#!forum/jamoma-users.</p>
@@ -76,7 +86,7 @@ p=. <a href="/download/Jamoma-0.5.6-b1-Windows/" target="_blank" class="btn btn-
 
 p=. <a href="/download/JamomaDependencies-0.5.6-b1/" target="_blank" class="btn btn-primary">Windows Dependencies for 0.5.6</a>
 
-The windows installer dates from 9 November 2011, and only works with the 32-bit version of Max.
+The Windows installer dates from 9 November 2011, and only works with the 32-bit version of Max.
 
         </div>
       </div>
