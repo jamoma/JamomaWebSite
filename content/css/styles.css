@@ -81,31 +81,6 @@ h1, h2 {
     height: 200px;
 }
 
-blockquote {
-    border-left: 5px solid #67696D;
-}
-    
-.panel-default > .panel-heading {
-    background-color:#C7C6B9;
-    color:#67696D;
-}
-
-.panel-default {
-    background:#67696D;
-}
-
-.panel-body {
-    background:#67696D;
-}
-
-.page-header {
-    border-bottom-color: #67696D;
-}
-
-hr {
-    border-color: #67696D;
-}
-
 .list-publications {
 	padding-bottom: 0.8em;
 }
@@ -118,10 +93,6 @@ li.category {
     margin-bottom: 0.8em;
 }
 
-/* Fixing active button colour issue (GitHub #48) */
-.btn-primary:active:focus {
-  background-color: #67696D; 
-}
 
 /* Ensuring columns with same height */
 
