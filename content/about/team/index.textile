@@ -4,9 +4,9 @@ menu: credits
 ---
 
 
-h2. History
+p(lead). Jamoma has been in active development since 2005.
 
-Jamoma was originally born out of the modular construction of a realtime performance management environment called Jade written by Timothy Place using Cycling '74 Max. In 2003 the modular architecture was lifted out of Jade at the recommendation of Trond Lossius over a meal of shrimp on the West coast of Norway. In 2005 the work began in earnest. Through a processes of continuous iteration and steady growth of contributors and peer-review, Jamoma has expanded its reach from those humble beginnings. The current version was created through the tireless work of many many people including Jamoma's lead-developer Théo De La Hogue.
+Jamoma was originally born out of the modular construction of a realtime performance management environment called Jade, written by Timothy Place using Cycling '74 Max. In 2003 the modular architecture was lifted out of Jade at the recommendation of Trond Lossius over a meal of shrimp on the West coast of Norway. In 2005 the work began in earnest. Through a processes of continuous iteration and steady growth of contributors and peer-review, Jamoma has expanded its reach from those humble beginnings. The current version was created through the tireless work of many many people including Jamoma's lead-developer Théo De La Hogue.
 
 h2. Core developers
 

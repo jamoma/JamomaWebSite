@@ -3,17 +3,6 @@
 
   <%= render 'head' %>
   
-  <header class="bgimage">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-  	      <h1>Jamoma</h1>
-  	      <p class="lead">Modular Patching and Programming for Realtime Media</p>
-        </div>
-      </div>
-    </div>
-  </header>
-
   <body>
     
 	  <%= render 'header' %>
@@ -22,7 +11,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-		        <h1 class="top text-capitalize"><%= @item[:title] %></h1>
+		        <h1 class="top page-header text-capitalize"><%= @item[:title] %></h1>
 	    	    <%= yield %>
 	    	    <%= render 'footer' %>
           </div> <!-- column -->

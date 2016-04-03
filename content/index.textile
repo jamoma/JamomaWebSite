@@ -1,18 +1,17 @@
 --- 
+title: Jamoma<br/><span class="small">Modular Patching and Programming for Realtime Media</span>
 menu: none
 ---
 
-
-<h2 class="lead">Jamoma’s Essence is Modularity</h2>
 
 <p class="lead"> Manage complex systems built up of flexible and interchangable modules. <br/> Make your own modules to fully leverage Jamoma’s power or use the existing library to quickly create and explore artistic potentials.</p>
 
 <p class="lead"> Explore Jamoma’s powerful communication, automation, and signal processing in a graphical patching environment like Max or take it close to the metal and use the C++ systems directly. </p>
 
 
-<h1 class="page-header">
+<h2 class="page-header">
      Use Jamoma with your environment
-</h1>
+</h2>
 
 <div class="row equal">
     <div class="col-sm-4">

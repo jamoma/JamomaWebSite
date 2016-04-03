@@ -14,16 +14,6 @@
     #67696D : link color, primary button background, pagination active background, progress bar background, label background, panel heading color
     #3F4040 : text color, legend color, dropdown link color, panel text color	
     #3A3E44 : navbar inverse background
-
-    Dark theme
-
-    #3A3E44 : body background
-    #3F4040 : disabled input & button background, input addon background, nav & tabs & pagination link hover background, jumbotron background
-    #67696D : disabled link color, input placeholder color, dropdown header color, navbar inverse & link color
-    #837973 : nav tab link hover color
-    #A6A7A6 : link color, primary button background, pagination active background, progress bar background, label background, panel heading color
-    #C7C6B9 : text color, legend color, dropdown link color, panel text color 	
-    #DDDDD9 : navbar inverse background
 */
 
 
@@ -67,7 +57,10 @@ div.imageZoom{
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 110px;
+    /*  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. 
+        navbar is 50 px, the rest is to add some additional space.
+    */
 }
 
 h1, h2 {
@@ -86,7 +79,7 @@ h1, h2 {
 }
 
 li.category {
-    background:rgba(199, 198, 185, 0.15);
+    background:rgba(58, 62, 68, 0.15);
     border-radius: 5px;
 	padding-left: 1em;
     margin-right: 1em;

@@ -90,7 +90,7 @@ module Categories
       @items << Nanoc::Item.new(
           "<%= render('category', :category => '#{category}') %>",
           {
-              :title => "Posts <span class=\"text-lowercase\">in the <span class=\"text-primary\"><strong>#{category}</strong></span> category</span>",
+              :title => "All <span class=\"text-lowercase\">posts in the <strong>#{category}</strong> category</span>",
               :h1 => "#{category} posts",
               :menu => "blog",
               :posts => posts
