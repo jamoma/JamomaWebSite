@@ -33,8 +33,13 @@ route '/download/JamomaMax/releases/' do
   item.identifier + 'index.php'
 end
 
-compile '/stylesheet/' do
-  # don’t filter or layout
+# Do not filter or layout css files:
+compile '/lavish/' do
+  # css file - don't do anything
+end
+
+compile '/styles/' do
+  # css file - don't do anything
 end
 
 #!/usr/bin/env ruby
@@ -66,8 +71,12 @@ end
 # Style sheets
 ##############################################################################
 
-route '/css/stylesheet/' do
-  '/css/style.css'
+route '/css/lavish/' do
+  '/css/lavish.css'
+end
+
+route '/css/styles/' do
+  '/css/styles.css'
 end
 
 # TODO: Is this duplicating stuff that comes at the end of this file?

@@ -1,0 +1,144 @@
+/*
+    Lavish colous are derived from the following image:
+
+    http://trondlossius.no/system/photos/727/original/Screen_Shot_2016-02-28_at_09.13.42.png
+
+    The seven generated colours:
+
+    Bright theme
+
+    #DDDDD9 : body background
+    #C7C6B9 : disabled input & button background, input addon background, nav & tabs & pagination link hover background, jumbotron background
+    #A6A7A6 : disabled link color, input placeholder color, dropdown header color, navbar inverse & link color
+    #837973 : nav tab link hover color
+    #67696D : link color, primary button background, pagination active background, progress bar background, label background, panel heading color
+    #3F4040 : text color, legend color, dropdown link color, panel text color	
+    #3A3E44 : navbar inverse background
+
+    Dark theme
+
+    #3A3E44 : body background
+    #3F4040 : disabled input & button background, input addon background, nav & tabs & pagination link hover background, jumbotron background
+    #67696D : disabled link color, input placeholder color, dropdown header color, navbar inverse & link color
+    #837973 : nav tab link hover color
+    #A6A7A6 : link color, primary button background, pagination active background, progress bar background, label background, panel heading color
+    #C7C6B9 : text color, legend color, dropdown link color, panel text color 	
+    #DDDDD9 : navbar inverse background
+*/
+
+
+/* @group Fancybox/images */
+
+a.image, a.fancybox{
+    display: inline-block;
+}
+
+a.image img, a.fancybox img{
+	max-width: 100%;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+@media (min-width: 750px) {
+    a.image img, a.fancybox img{
+    	max-width: 80%;
+    }
+}
+
+div.imageZoom{
+	margin-right: 5%;
+	margin-left: 5%;
+	width: 90%;
+}
+
+
+
+
+/* Other customisations */
+
+
+
+
+/* Reducing container width on large screens */
+@media (min-width: 992px) {
+    .container{
+        max-width: 810px;
+    }
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+h1, h2 {
+    text-transform: capitalize;
+}
+
+.bgimage {
+    background-image: url('/images/header-background.png');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+blockquote {
+    border-left: 5px solid #67696D;
+}
+    
+.panel-default > .panel-heading {
+    background-color:#C7C6B9;
+    color:#67696D;
+}
+
+.panel-default {
+    background:#67696D;
+}
+
+.panel-body {
+    background:#67696D;
+}
+
+.page-header {
+    border-bottom-color: #67696D;
+}
+
+hr {
+    border-color: #67696D;
+}
+
+.list-publications {
+	padding-bottom: 0.8em;
+}
+
+li.category {
+    background:rgba(199, 198, 185, 0.15);
+    border-radius: 5px;
+	padding-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.8em;
+}
+
+/* Fixing active button colour issue (GitHub #48) */
+.btn-primary:active:focus {
+  background-color: #67696D; 
+}
+
+/* Ensuring columns with same height */
+
+@media (min-width: 750px) {
+    .equal, .equal > div[class*='col-'] {  
+        display: -webkit-flex;
+        display: flex;
+        flex:1 1 auto;
+    }
+}
+
+/* Prevent anchor links from hiding under top menubar */
+/* https://pixelflips.com/blog/anchor-links-with-a-fixed-header */
+
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
