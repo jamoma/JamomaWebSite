@@ -1,50 +1,89 @@
 ---
-title: Download Jamoma
+title: Download Jamoma for Max
 menu: getStarted
 ---
-Please report bugs on the "Jamoma users-list":https://lists.sourceforge.net/lists/listinfo/jamoma-users, "forum":/forum/ or the "bug-tracker":http://redmine.jamoma.org/projects/modular/issues?set_filter=1&amp;tracker_id=1.
 
-h3. Development version
 
-There are now nightly builds of Jamoma for Max and Puredata.
-You'll find them in their own page :
-"Max":/download/JamomaMax/nightly-builds/
-"PureData":/download/JamomaPd/nightly-builds/
+h2. Current version
 
-h4. Mac
+p(lead). The Max Package Manager makes it very easy to install Jamoma.
 
-* "Get latest alpha release here.":/download/0.6/
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/161361407?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
-h4. Windows
+&nbsp;
 
-There is no Windows version available at this point.
+Alternatively you can download the latst release from GitHub and install yourself. The download is organised as a Max Pachage.
 
-h3. Current version
+p=. <a href="https://github.com/jamoma/JamomaMax/releases/latest" target="_blank" class="btn btn-success">Latest Release on GitHub</a>
 
-h4. Mac
+&nbsp;
 
-* "Version 0.5.7":Jamoma-0.5.7-Mac/<br/>(12 January 2013)<br/>This version requires OSX 10.7 or newer, as well as Max 6.0.8 or newer. If you also use TapTools, be sure to install the latest (beta) version of "TapTools&nbsp;4":http://download.74objects.com/taptools/index.html.<br/><br/>(The installer also offers to install for Max 5.1.9, but tests as of April 2014 reveals that this no longer is stable.)<br/>
-* "Version 0.5.7 Package":Jamoma-0.5.7-Package-Mac/ for 32-bit Max 6.1 and higher<br/>(Updated on 10 April 2013).<br/>Max 6.1 introduce a "new solution for distribution of 3rd party externals as packages":http://cycling74.com/2013/03/11/max-6-feature-packages/. This is a hand-crafted reorganisation of the content of the 0.5.7 installer as a package for the 32-bit version of Max 6.1 and higher. If you want to use this, you first need to run the regular installer ("download here"::Jamoma-0.5.7-Mac/). Afterwards download and unzip this archive. It contains a @Jamoma 0.5.7@ package that will need to be moved to your @Max 6.1/packages@ folder. Additional it contains packages for 3rd party externals that some of the Jamoma modules depends on. Please move these packages to @Max 6.1/packages@ as well.
+<div class="alert alert-warning">
+  <p><strong>Experiencing bugs or problems?</strong></p>
+  <p>Please report bugs to the "bug tracker":https://github.com/jamoma/JamomaMax/issues. If you need help and support, please contact us via the "user forum":https://groups.google.com/forum/#!forum/jamoma-users.</p>
+</div>
 
-h4. Windows
+&nbsp;
 
-* "Version 0.5.6 beta 1":Jamoma-0.5.6-b1-Windows (9 November 2011) and "3rd party externals":JamomaDependencies-0.5.6-b1, requires Max 5.1.9 or newer.
+h2(page-header). Legacy version - Jamoma 0.5<br/><span class="small">Final version before the introduction of model-view-controller separation.</span>
 
-"Looking for another version?":all/
+<div class="well">
+p(small). _Q: How do you see if a patch is made with Jamoma 0.5.7 or Jamoma 1?_
+A: The names of externals in Jamoma 0.5.7 started with a <code>jcom.</code> suffix. The names of modules would have a <code>jmod.</code> prefix. In Jamoma&nbsp;v.1 externals have a <code>j.</code> prefix, and the names of model and view patchers ends with <code>model.maxpat</code> and <code>view.maxpat</code>.
+</div> <!-- well -->
+    
+    </div> <!-- col -->
+  </div> <!-- column -->
+</div> <!-- row -->
+      
+<div class="container">
+  <div class="row equal">
+    <div class="col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="panel-title text-center">Jamoma 0.5.7 for Mac</h1>
+        </div>
+        <div class="panel-body">  
+p=. <a href="/downloads/Jamoma-0.5.7-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Installer</a>
 
-h3. Download the Jamoma UserLib
+p=. <a href="/downloads/Jamoma-0.5.7-Package-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Package</a>
 
-The UserLib is a collection of user-created modules, examples, and content for Jamoma. No guarantees are made regarding the suitability, safety, or quality of the content of the UserLib.
+Jamoma 0.5.7 requires OSX 10.7 or newer, as well as Max 6.0.8 or newer. Max need to run as a 32-bit application.
 
-Want to become a UserLib contributor? <a href="https://raw.github.com/Nilson/JamomaUserLibSupport/master/README">Read this</a>.
+p(text-info). *Installing*
 
-* Version 2011-12-19:
-** "Jamoma User Libraries for OSX and Max 5":JamomaUserLib-2011-12-19-Mac-Max5
-** "Jamoma User Libraries for OSX and Max 6":JamomaUserLib-2011-12-19-Mac-Max6
-** "Jamoma User Libraries for Windows":JamomaUserLib-2011-12-19-Windows
-* Version 2011-07-18:
-** "Jamoma User Libraries for OSX and Max 5":JamomaUserLib-2011-07-18-Mac-Max5
-* Version 2011-02-04:
-** "Jamoma User Libraries for OSX and Max 5":JamomaUserLib-2011-02-04-Mac-Max5
+p(text-info). Using Jamoma 0.5.7 with Max 6.0.8:
 
-<%= render 'support' %>
+# Download and run the installer.
+
+p(text-info). Using Jamoma 0.5.7 with Max 6.1 or newer
+
+# Download and run the installer
+# Download the Jamoma 0.5.7 package, and copy to <code>~/Documents/Max/Packages</code>
+# Ensure that Max is running as a 32-bit application, not 64-bit.
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="panel-title text-center">Jamoma 0.5.6 for Windows</h1>
+        </div>
+        <div class="panel-body">
+          
+p=. <a href="/downloads/Jamoma-0.5.6-b1-Window/" target="_blank" class="btn btn-primary">Windows 0.5.6.b1 Installer</a>
+
+p=. <a href="/downloads/JamomaDependencies-0.5.6-b1/" target="_blank" class="btn btn-primary">Windows Dependencies for 0.5.6</a>
+
+The windows installer dates from 9 November 2011, and only works with the 32-bit version of Max.
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
