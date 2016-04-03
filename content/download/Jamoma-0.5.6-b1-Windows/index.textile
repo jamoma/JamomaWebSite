@@ -4,6 +4,8 @@ menu: getStarted
 ---
 <iframe width="1" height="1" frameborder="0" src="Jamoma-0.5.6-b1.zip"></iframe>
 
-Thanks for downloading Jamoma! This version requires Max 5.1.9 or newer.
+p(lead). Thanks for downloading Jamoma!
+
+This version requires Max 5.1.9 or newer.
 
 Your download should start automatically. If you experience problems with the download, please try this "direct link":Jamoma-0.5.6-b1.zip.

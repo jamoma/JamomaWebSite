@@ -4,6 +4,8 @@ menu: getStarted
 ---
 <iframe width="1" height="1" frameborder="0" src="JamomaDependencies-0.5.6-b1.msi"></iframe>
 
-Thanks for downloading! This installer provides additional 3rd party externals for Max that various Jamoma modules depend on.
+p(lead). Thanks for downloading!
+
+This installer provides additional 3rd party externals for Max that various Jamoma modules depend on.
 
 Your download should start automatically. If you experience problems with the download, please try this "direct link":JamomaDependencies-0.5.6-b1.msi.

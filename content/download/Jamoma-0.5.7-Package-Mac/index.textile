@@ -1,18 +1,27 @@
 ---
-title: Jamoma 0.5.7 Package for Max 6.1 on Mac
+title: Jamoma Max 0.5.7 Package for OSX
 menu: getStarted
 ---
 <iframe width="1" height="1" frameborder="0" src="attachments/Jamoma-0.5.7-Package.zip"></iframe>
 
-Thanks for downloading Jamoma! Your download should start automatically. If you experience problems with the download, please try this "direct link":attachments/Jamoma-0.5.7-Package.zip.
+p(lead). Thanks for downloading Jamoma!
 
-Max 6.1 introduce a "new solution for distribution of 3rd party externals as packages":http://cycling74.com/2013/03/11/max-6-feature-packages/. The zipped folder that you are now downloading is a hand-crafted reorganisation of the content of the 0.5.7 installer as a set of packages for the 32-bit version of Max 6.1 and higher. If you want to use this, you need to:
+Your download should start automatically. If you experience problems with the download, please try this "direct link":attachments/Jamoma-0.5.7-Package.zip.
 
-* First run the regular installer ("download here":/download/Jamoma-0.5.7-Mac/).
-* Afterwards download and unzip this package.
-* In the unzipped folder you'll find two folders.
-** Move the @Jamoma-0.5.7@ folder to your @"Max 6.1/packages"@ folder.
-** Additionally, in order to install 3rd party JamomaDependencies externals, move the folders inside the @Jamoma-Dependencies@ folder to the @"Max 6.1/packages"@ folder.
+<div class="section">
+  <div class="row">
+    <div class="col-sm-12 bg-info">
+h4. Installing
+  
+Max 6.1 introduced Packages for 3rd party externals. The zipped folder that you are now downloading is a reorganisation of the content of the 0.5.7 installer as a set of packages for the 32-bit version of Max 6.1 and higher. If you want to use this, you need to:
+  
+# Run the regular installer, "found here":/download/Jamoma-0.5.7-Mac/.
+# Download and unzip this package. In the unzipped folder you'll find two folders.
+# Move the @Jamoma-0.5.7@ folder to your <code>~/Documents/Max/Packages</code> folder.
+# Additionally, in order to install 3rd party JamomaDependencies externals, move the folders inside the @Jamoma-Dependencies@ folder to the <code>~/Documents/Max/Packages</code> folder.
+    </div>
+  </div>
+</div>
 
 Further details on this release can be found in "this blog post":/blog/2013-04-07-jamoma-0-5-7-package/.
 

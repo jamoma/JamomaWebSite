@@ -44,9 +44,9 @@ A: The names of externals in Jamoma 0.5.7 started with a <code>jcom.</code> suff
           <h1 class="panel-title text-center">Jamoma 0.5.7 for Mac</h1>
         </div>
         <div class="panel-body">  
-p=. <a href="/downloads/Jamoma-0.5.7-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Installer</a>
+p=. <a href="/download/Jamoma-0.5.7-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Installer</a>
 
-p=. <a href="/downloads/Jamoma-0.5.7-Package-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Package</a>
+p=. <a href="/download/Jamoma-0.5.7-Package-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Package</a>
 
 Jamoma 0.5.7 requires OSX 10.7 or newer, as well as Max 6.0.8 or newer. Max need to run as a 32-bit application.
 
@@ -72,9 +72,9 @@ p(text-info). Using Jamoma 0.5.7 with Max 6.1 or newer
         </div>
         <div class="panel-body">
           
-p=. <a href="/downloads/Jamoma-0.5.6-b1-Window/" target="_blank" class="btn btn-primary">Windows 0.5.6.b1 Installer</a>
+p=. <a href="/download/Jamoma-0.5.6-b1-Windows/" target="_blank" class="btn btn-primary">Windows 0.5.6.b1 Installer</a>
 
-p=. <a href="/downloads/JamomaDependencies-0.5.6-b1/" target="_blank" class="btn btn-primary">Windows Dependencies for 0.5.6</a>
+p=. <a href="/download/JamomaDependencies-0.5.6-b1/" target="_blank" class="btn btn-primary">Windows Dependencies for 0.5.6</a>
 
 The windows installer dates from 9 November 2011, and only works with the 32-bit version of Max.
 
