@@ -3,10 +3,13 @@ title: Jamoma<br/><span class="small">Modular Patching and Programming for Realt
 menu: none
 ---
 
+p(lead).  Manage media processing in large installations, performances and interactions, with systems built up of flexible and interchangable modules.
 
-<p class="lead"> Manage complex systems built up of flexible and interchangable modules. <br/> Make your own modules to fully leverage Jamoma’s power or use the existing library to quickly create and explore artistic potentials.</p>
+p=. <%= fancyImage @item, "images/header-background.png", "images/header-background.png", "Jamoma", "Jamoma" %>
 
-<p class="lead"> Explore Jamoma’s powerful communication, automation, and signal processing in a graphical patching environment like Max or take it close to the metal and use the C++ systems directly. </p>
+p(lead). Make your own models to fully leverage Jamoma’s power &mdash; or use the existing library to quickly create and explore artistic potentials.
+
+p(lead). Explore Jamoma’s powerful communication, automation, and signal processing in a graphical patching environment like Max or take it close to the metal and use the C++ systems directly.
 
 
 <h2 class="page-header">
