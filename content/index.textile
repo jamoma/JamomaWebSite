@@ -3,7 +3,7 @@ title: Jamoma<br/><span class="small">Modular Patching and Programming for Realt
 menu: none
 ---
 
-p(lead).  Manage media processing in large installations, performances and interactions, with systems built up of flexible and interchangable modules.
+p(lead).  Manage media processing in large installations, performances and interactions, with systems built up of flexible and interchangable modeles.
 
 p=. <%= fancyImage @item, "images/header-background.png", "images/header-background.png", "Jamoma", "Jamoma" %>
 

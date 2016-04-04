@@ -6,7 +6,7 @@ menu: getStarted
 
 h2. Current version
 
-p(lead). The Max Package Manager makes it very easy to install Jamoma.
+p(lead). The Max Package Manager makes it easy to install Jamoma.
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/161361407?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
@@ -18,7 +18,7 @@ p=. <a href="https://github.com/jamoma/JamomaMax/releases/latest" target="_blank
 
 &nbsp;
 
-h3. Nighly build
+h3. Nighly builds
 
 If you want to be up to speed with the most recent development, you can download the nightly builds. Any changes, addition and bug fixes that we do makes it into these releases within 24 hours.
 
@@ -35,12 +35,9 @@ p=. <a href="/download/JamomaMax/nightly-builds/" target="_blank" class="btn btn
 
 &nbsp;
 
-h2(page-header). Legacy version - Jamoma 0.5<br/><span class="small">Final version before the introduction of model-view-controller separation.</span>
+h2(page-header). Legacy version - Jamoma 0.5<br/><span class="small">Final version before the introduction of model-view-controller separation</span>
 
-<div class="well">
-p(small). _Q: How do you see if a patch is made with Jamoma 0.5.7 or Jamoma 1?_
-A: The names of externals in Jamoma 0.5.7 started with a <code>jcom.</code> suffix. The names of modules would have a <code>jmod.</code> prefix. In Jamoma&nbsp;v.1 externals have a <code>j.</code> prefix, and the names of model and view patchers ends with <code>model.maxpat</code> and <code>view.maxpat</code>.
-</div> <!-- well -->
+
     
     </div> <!-- col -->
   </div> <!-- column -->
@@ -54,9 +51,14 @@ A: The names of externals in Jamoma 0.5.7 started with a <code>jcom.</code> suff
           <h1 class="panel-title text-center">Jamoma 0.5.7 for Mac</h1>
         </div>
         <div class="panel-body">  
+
+&nbsp;
+
 p=. <a href="/download/Jamoma-0.5.7-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Installer</a>
 
 p=. <a href="/download/Jamoma-0.5.7-Package-Mac/" target="_blank" class="btn btn-primary">OSX 0.5.7 Package</a>
+
+&nbsp;
 
 Jamoma 0.5.7 requires OSX 10.7 or newer, as well as Max 6.0.8 or newer. Max need to run as a 32-bit application.
 
@@ -69,7 +71,7 @@ p(text-info). Using Jamoma 0.5.7 with Max 6.0.8:
 p(text-info). Using Jamoma 0.5.7 with Max 6.1 or newer
 
 # Download and run the installer
-# Download the Jamoma 0.5.7 package, and copy to <code>~/Documents/Max/Packages</code>
+# Download the Jamoma 0.5.7 package, unzip, and copy the two packages (Jamoma and Jamoma Dependencies) to <code>~/Documents/Max/Packages</code>
 # Ensure that Max is running as a 32-bit application, not 64-bit.
 
         </div>
@@ -81,10 +83,14 @@ p(text-info). Using Jamoma 0.5.7 with Max 6.1 or newer
           <h1 class="panel-title text-center">Jamoma 0.5.6 for Windows</h1>
         </div>
         <div class="panel-body">
+
+&nbsp;
           
 p=. <a href="/download/Jamoma-0.5.6-b1-Windows/" target="_blank" class="btn btn-primary">Windows 0.5.6.b1 Installer</a>
 
 p=. <a href="/download/JamomaDependencies-0.5.6-b1/" target="_blank" class="btn btn-primary">Windows Dependencies for 0.5.6</a>
+
+&nbsp;
 
 The Windows installer dates from 9 November 2011, and only works with the 32-bit version of Max.
 
@@ -97,3 +103,9 @@ The Windows installer dates from 9 November 2011, and only works with the 32-bit
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
+      
+<div class="well">
+p(small). _Q: How do you see if a patch is made with Jamoma 0.5 or Jamoma 1?_
+
+p(small). A: The names of externals in Jamoma 0.5.7 started with a <code>jcom.</code> prefix. The names of modules would have a <code>jmod.</code> prefix. In Jamoma&nbsp;v.1 externals have a <code>j.</code> prefix, and the names of model and view patchers ends with <code>model.maxpat</code> and <code>view.maxpat</code>.
+</div> <!-- well -->

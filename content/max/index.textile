@@ -3,140 +3,59 @@ title: Jamoma for Max
 menu: whatIsJamoma
 ---
 
+p(lead). As your Max patchers grow in size, it becomes increasingly important that they do not run wild. Jamoma for Max helps structuring and controlling your system so that YOU stay in control.
 
-<div align="center">
-<p class="button"><a href="https://github.com/jamoma/JamomaMax/releases/latest">Download Jamoma v1\.0</a></p>
-<p class="button"><a href="http://www.jamoma.org/download/JamomaMax/nightly-builds/">Download Jamoma Nightly</a></p>
-</div>
+&nbsp;
 
+p(text-center). <a href="/download/" class="btn btn-success">Download</a> <a href="/max/tutorials/" class="btn btn-info">View Tutorials</a>
 
-
-
-<h2 class="frontH2" style="clear: both;">What can Jamoma 1.0 do for you?</h2>
+&nbsp;
 
 
+h2(page-header). Modularity <span class="small">With model-view-controller separation</span>
 
-<p class="frontP"> Manage complex systems built up of flexible and interchangable modules. <br/> Make your own modules to fully leverage Jamoma’s power or use the existing library to quickly create and explore artistic potentials.</p>
+p=. <%= fancyImage @item, "images/models-and-views.png", "images/models-and-views.png", "Model-View-Controller separation", "MVC" %>
 
-<iframe align="center" width="480" height="360" src="http://medias.ircam.fr/embed/media/xc11385" frameborder="0" allowfullscreen></iframe>
+Each section of your patch is neatly turned into a model. The interfaces for the models are developed separately, and this gives a new sense of freedom with respect to how interfaces can be designed and used.
 
-<p>
-As your Max patchers for stage, music performances or sound installations grow in size, it becomes increasingly important that they do not run wild. Jamoma for Max is a package of externals and patchers that helps YOU to stay in control of your patch. Each section of your patch is neatly turned into a model. You gain a new sense of freedom with respect to how interfaces can be designed, and it is a relief to discover that the patch can be instantiated in a predictable and reliable way. At any moment you can ask your patch how it is currently configured, and use this to build presets and cues for future performances. How do you want interactions to operate? Mapping between parameters is a breeze, and invites playful experimentation. Advanced mappings with interpolations recreate long missed sound effect processes from the discontinued Hipno plugin suite. Many models are available for spatial audio, and AudioGraph turns your patch cord into an audio snake cable, carrying many channels.
-</p>
+&nbsp;
 
-<hr/>
+h2(page-header). Rapid prototyping
 
-<h1>Legacy Versions</h1>
+p=. <%= fancyImage @item, "images/rapid-prototyping.png", "images/rapid-prototyping.png", "Rapid prototyping", "prototyping" %>
 
-Develop and use patches in the Max environment.
-This page presents the current stable version of Jamoma: 0.5.7.
+Jamoma for Max comes with a rich set of models for processing of data, audio and video. Whether it is for an art installation, audio production, VJ-ing or theater, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting models available right out of the box.
 
-The next version of Jamoma 0.6 is approaching completion.
-While keeping the same set of functionnalities than Jamoma 0.5.7, it introduces a new way of patching which is more powerful and flexible.
-Learn more about Jamoma 0.6 on "its dedicated page":/download/0.6/
+&nbsp;
 
+h2(page-header). Presets and cues
 
+p=. <%= fancyImage @item, "images/presets.png", "images/presets.png", "Model presets", "presets" %>
 
-<div class="modularGreatStuff">
+Jamoma makes it easier to control your Max patchers. The patch can be instantiated in a predictable and reliable way. At any moment you can ask your patch how it is currently configured, and use this to build presets and cues for future performances.
 
-h2. Patch-in-a-box
+&nbsp;
 
-<div class="imageInlineLeft">
-	<%= fancyImage @item, "images/patchinabox.png", "images/patchinabox_thumb.png", "Jamoma overview", "overview" %>
-</div>
+h2(page-header). Mapping and interaction
 
-Jamoma Modular comes with a growing number of modules dedicated to data, audio or video processing. Whether it is for an Art installation, audio production, VJing or theater, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting modules available right out of the box.
+p=. <%= fancyImage @item, "images/mappings.png", "images/mappings.png", "Mappings and preset interpolations", "mapping" %>
 
-</div>	<!-- class="modularGreatStuff" -->
+How do you want interactions to operate? Mapping between parameters is a breeze, and invites playful experimentation. Advanced mappings with interpolations recreate long missed sound effect processes from the discontinued Hipno plugin suite.
 
+&nbsp;
 
+h2(page-header). Going surround
 
-<div class="modularGreatStuff">
+p=. <%= fancyImage @item, "images/surround.png", "images/surround.png", "Sound spatialisation in Jamoma using AudioGraph and Distance-based amplitude panning.", "surround" %>
 
-h2. OSC communication
+Many models are available for spatial audio, and AudioGraph turns your patch cord into an audio snake cable, carrying many channels.
 
-<div class="imageInlineRight">
-	<%= fancyImage @item, "images/oscnetwork.png", "images/oscnetwork_thumb.png", "OSC network", "osc_network" %>
-</div>
+&nbsp;
 
-Communication within and between Jamoma modules is based on the OSC protocol. As such, it also offers the possibility to communicate with other OSC-compatible softwares such as Pure Data, Reaktor, Isadora, EyesWeb or the Virage sequencer to name a few. Of course, controlling modules with Midi devices is also possible using the dedicated conversion and mapping modules.
+h2(page-header). Communicate with other applications
 
-</div>	<!-- class="modularGreatStuff" -->
+Communication within and between Jamoma modules is based on the OSC protocol. As such, it also offers the possibility to communicate with other OSC-compatible applications such as TouchOSC, Pure Data, Reaktor, Isadora or EyesWeb to name a few. Of course, controlling modules with Midi devices is also possible using the dedicated conversion and mapping modules.
 
+&nbsp;
 
-
-<div class="modularGreatStuff">
-
-h2. Made for performance
-
-<div class="imageInlineLeft">
-	<%= fancyImage @item, "images/cuescript.png", "images/cuescript_thumb.png", "Performance ready", "cuescript" %>
-</div>
-
-Together with its development, Jamoma Modular has been used in various arts projects and comes with modules optimized for performance.  Store each module’s parameter value or any message needed in presets file and recall cues using the different transition options.
-
-</div>	<!-- class="modularGreatStuff" -->
-
-
-
-<div class="modularGreatStuff">
-
-h2. Extensive component library
-
-<div class="imageInlineRight">
-	<%= fancyImage @item, "images/components.png", "images/components_thumb.png", "Jamoma components", "components" %>
-</div>
-
-p. Whether you want to develop your own module or interacting with pre-existing ones, Jamoma offers an extensive collection of components implemented as Max externals, abstractions or Javascript code. Be it processing audio signals, communication between various modules or mapping data, these will be useful to deal with simple repetitive tasks as well as more complex situations.
-
-</div>	<!-- class="modularGreatStuff" -->
-
-
-
-<div class="modularGreatStuff">
-
-h2. Standardized GUI
-
-<div class="imageInlineLeft">
-	<%= fancyImage @item, "images/custogui.png", "images/custogui_thumb.png", "Customizable GUI", "custom-gui" %>
-</div>
-	
-Built-in modules are based on a generic GUI implemented as an external. This brings to your modules a convenient and consistent access to presets management, help patch and reference page, as well as basic parameters control such as gain, bypass or preview by the mean of optional widgets. In addition, colour schemes are fully customizable using built-in objects’ colour themes or Max 5 standard object inspector.
-
-</div>	<!-- class="modularGreatStuff" -->
-
-h2. Time is precious
-
-<div class="modularGreatStuff">
-	
-<div class="imageInlineRight">	
-	<%= fancyImage @item, "images/timesavers.png", "images/timesavers_thumb.png", "Time savers", "time-savers" %>
-</div>
-	
-We know you would spend your time making art and music rather than patching, debugging and documenting your work. Thus, Jamoma Modular offers a number of patch templates, shortcuts and tools to create and defines parameters that will come handy during the whole development process. Finally, Jamoma framework embed a full system to automagically create consistent module documentation.
-
-</div>	<!-- class="modularGreatStuff" -->
-
-<div class="modularGreatStuff">
-	
-<div class="imageInlineLeft">
-	<%= fancyImage @item, "images/clippings.png", "images/clippings_thumb.png", "Time savers", "time-savers" %>
-</div>
-
-Using Max 5's file browser features, Jamoma include some clippings for all of its modules. Just drag a patch from the file browser or use Max contextual menu to drop a module and start patching.
-
-</div>	<!-- class="modularGreatStuff" -->
-
-
-
-<div class="modularGreatStuff">
-
-h2. Still want more?
-
-<div class="imageInlineRight">
-	<%= fancyImage @item, "images/more.png", "images/more_thumb.png", "Community", "community" %>
-</div>
-
-Can not find the module you need? Stuck in development of your patch? Do not forget that Jamoma is community-driven. A number of users are already sharing their creations ready to be downloaded, advices and experiences. Join them on the user forum and help us continuously improving Jamoma based on your experience.
-
-</div>	<!-- class="modularGreatStuff" -->
+h2(page-header). i-score
