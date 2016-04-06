@@ -18,6 +18,8 @@ p=. <%= fancyImage @item, "images/models-and-views.png", "images/models-and-view
 
 Each section of your patch is neatly turned into a model. The interfaces for the models are developed separately, and this gives a new sense of freedom with respect to how interfaces can be designed and used.
 
+You can change the interface without needing to change the model, you can swap between different interfaces depeneding on your needs, and you can have several views open at the same time that all connects to the same model.
+
 &nbsp;
 
 h2(page-header). Rapid prototyping
@@ -33,6 +35,8 @@ h2(page-header). Presets and cues
 p=. <%= fancyImage @item, "images/presets.png", "images/presets.png", "Model presets", "presets" %>
 
 Jamoma makes it easier to control your Max patchers. The patch can be instantiated in a predictable and reliable way. At any moment you can ask your patch how it is currently configured, and use this to build presets and cues for future performances.
+
+Jamoma offers powerful show control for your live performances. Use it to control interactive audio, video, light, MIDI, sensors, robotics, and anything else that Max can be used with.
 
 &nbsp;
 
@@ -54,7 +58,9 @@ Many models are available for spatial audio, and AudioGraph turns your patch cor
 
 h2(page-header). Communicate with other applications
 
-Communication within and between Jamoma modules is based on the OSC protocol. As such, it also offers the possibility to communicate with other OSC-compatible applications such as TouchOSC, Pure Data, Reaktor, Isadora or EyesWeb to name a few. Of course, controlling modules with Midi devices is also possible using the dedicated conversion and mapping modules.
+p=. <%= fancyImage @item, "images/osc-example-with-touchosc.png", "images/osc-example-with-touchosc.png", "Jamoma and OSC communication", "osc" %>
+
+All model parameters are readily accessibel for OSC communicaiton, making it easy to connect Max and Jamoma with other OSC-compatible applications such as TouchOSC, Pure Data, Reaktor or Isadora. Of course, controlling modules with MIDI devices is also possible using the dedicated conversion and mapping modules.
 
 &nbsp;
 
