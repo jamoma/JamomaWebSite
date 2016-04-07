@@ -23,7 +23,7 @@ p(lead). Explore Jamoma’s powerful communication, automation, and signal proce
                 <h1 class="panel-title text-center">Jamoma for Max</h1>
             </div>
             <div class="panel-body">
-                <p class="text-center"><a href="/max/"><img src="images/max.png" width="50%" /></a></p>
+                <p class="text-center"><img src="images/max.png" width="50%" /></p>
                 <p class="text-center">Control your installations and live performances with Jamoma for Cycling'74 Max.</p>
                 <p class="text-center">
                   <a href="/max/" class="btn btn-info">Learn More</a>
@@ -40,7 +40,7 @@ p(lead). Explore Jamoma’s powerful communication, automation, and signal proce
                 <h1 class="panel-title text-center">Jamoma for Pure Data</h1>
             </div>
             <div class="panel-body">
-                <p class="text-center"><a href="https://github.com/jamoma/JamomaPureData"><img src="images/pd.png" width="50%" /></a></p>
+                <p class="text-center"><img src="images/pd.png" width="50%" /></p>
                 <p class="text-center">Control your embedded systems using Jamoma with the PureData environment.</p>
                 <p class="text-center">
                   <a href="/pd/" class="btn btn-info">Learn More</a>
@@ -57,7 +57,7 @@ p(lead). Explore Jamoma’s powerful communication, automation, and signal proce
                 <h1 class="panel-title text-center">Jamoma C++</h1>
             </div>
             <div class="panel-body">
-                <p class="text-center"><a href="http://api.jamoma.org"><img src="images/cpp.png" width="50%" /></a></p>
+                <p class="text-center"><img src="images/cpp.png" width="50%" /></p>
                 <p class="text-center">Extend your favourite media processing tool using the Jamoma C++ framework.</p>
                 <p class="text-center">
                   <a href="/cplusplus/" class="btn btn-info">Learn More</a>

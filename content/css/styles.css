@@ -19,6 +19,8 @@
 
 /* @group Fancybox/images */
 
+/* mouse over link for orange*/
+
 a.image, a.fancybox{
     display: inline-block;
 }
@@ -46,8 +48,17 @@ div.imageZoom{
 
 /* Other customisations */
 
+a {
+    color: #86898e;
+}
 
+a:hover {
+    color: #F26000;
+}
 
+li.dropdown a:hover, li.dropdown a.dropdown-toggle:hover {
+    color: #F26000;
+}
 
 /* Reducing container width on large screens */
 @media (min-width: 992px) {
