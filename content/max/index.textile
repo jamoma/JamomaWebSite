@@ -16,7 +16,7 @@ h2(page-header). Modularity <span class="small">With model-view-controller separ
 
 p=. <%= fancyImage @item, "images/models-and-views.png", "images/models-and-views.png", "Model-View-Controller separation", "MVC" %>
 
-Each section of your patch is neatly turned into a model. The interfaces for the models are developed separately, and this gives a new sense of freedom with respect to how interfaces can be designed and used.
+Each section of your patch is neatly turned into a model. The interfaces for the models are developed separately, and this gives a new sense of freedom with respect to how they can be designed and used.
 
 You can change the interface without needing to change the model, you can swap between different interfaces depeneding on your needs, and you can have several views open at the same time that all connects to the same model.
 
@@ -26,7 +26,7 @@ h2(page-header). Rapid prototyping
 
 p=. <%= fancyImage @item, "images/rapid-prototyping.png", "images/rapid-prototyping.png", "Rapid prototyping", "prototyping" %>
 
-Jamoma for Max comes with a rich set of models for processing of data, audio and video. Whether it is for an art installation, audio production, VJ-ing or theater, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting models available right out of the box.
+Jamoma for Max comes with a rich set of models for processing of data, audio and video. Whether it is for an art installation, audio production, VJ-ing or stage productions, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting models available right out of the box.
 
 &nbsp;
 
@@ -60,8 +60,16 @@ h2(page-header). Communicate with other applications
 
 p=. <%= fancyImage @item, "images/osc-example-with-touchosc.png", "images/osc-example-with-touchosc.png", "Jamoma and OSC communication", "osc" %>
 
-All model parameters are readily accessibel for OSC communicaiton, making it easy to connect Max and Jamoma with other OSC-compatible applications such as TouchOSC, Pure Data, Reaktor or Isadora. Of course, controlling modules with MIDI devices is also possible using the dedicated conversion and mapping modules.
+All model parameters are readily accessible for OSC communicaiton, making it easy to connect Max and Jamoma with other OSC-compatible applications such as TouchOSC, Pure Data, Reaktor or Isadora. Of course, controlling modules with MIDI devices is also possible using the dedicated conversion and mapping models.
 
 &nbsp;
 
 h2(page-header). i-score
+
+p=. <%= fancyImage @item, "images/jamoma-and-i-score.png", "images/jamoma-and-i-score.png", "Jamoma and i-score", "i-score" %>
+
+<a href="http://i-score.org/" target="_blank">i-score</a> is an intermedia sequencer for flexible scripting of interactive scenarios. i-score communicates with Jamoma for Max using the <a href="https://github.com/Minuit/minuit" target="_blank">Minuit</a> protocol.
+
+Once the connection between i-score and Jamoma has been set up, i-score instantly knows about all models and parameters in Jamoma, as well as their current state. This can be used to compose a timeline of cues and automations. When played back, i-score conducts the Jamoma system.
+
+The score can include conditional cues and branching for interaction, and enables you to compose and perform rich and detailed multimedia events and processes in time.
