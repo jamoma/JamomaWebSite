@@ -1,7 +1,7 @@
 ---
-title: Recent blog posts
-menu: Recent blog posts
-h1: Recent blog posts
+title: Recent news
+menu: Recent news
+h1: Recent news
 ---
 
 <!-- Iterate over blog posts -->
@@ -16,24 +16,8 @@ h1: Recent blog posts
       <h2 class="page-header"><%= post[:title] %><br/>
         <small>Posted <%= Date.parse(post[:created_at].to_s).strftime("%B %d, %Y") %> <span class="text-lowercase">by</span> <%= post[:author] %></small>
       </h2>
-      
-      <!-- Blog categories -->  
-      
-	     <% if !post[:categories].nil? %>
-	       <ul class="list-inline text-center">
-	         <% post[:categories].sort.each do |category| %>
-          <li class="text-capitalize category">
-	             <a href="/categories/<%= category %>"><%= category%></a> &nbsp;
-          </li>
-	        	<% end %>
-	       </ul>
-	     <% end %>
         
     </div> <!-- col --> 
-  </div> <!-- row -->
-        
-  <div class="row">
-    <div class="col-xs-12" style="height:2em;"></div>
   </div> <!-- row -->
     
   <div class="row">

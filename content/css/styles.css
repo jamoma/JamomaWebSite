@@ -25,7 +25,7 @@ a.image, a.fancybox{
 
 a.image img, a.fancybox img{
 	max-width: 100%;
-	margin-top: 3em;
+	margin-top: 1em;
 	margin-bottom: 2em;
 }
 

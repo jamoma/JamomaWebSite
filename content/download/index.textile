@@ -3,18 +3,26 @@ title: Download Jamoma for Max
 menu: getStarted
 ---
 
+&nbsp;
 
-h2. Current version
+<div class="alert alert-info">
+  <h3><strong>Install using Package Manager</strong></h3>
+  <p>The easiest way to install Jamoma for Max is to do it directly in Max using the Package Manager. Please follow the instructions in this video.</p>
+    
+  <p><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 5%; left: 5%; width: 90%; height: 90%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/161361407?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></p>
+  
+  <p><em>Package Manager is available in Max 7.1 and newer versions.</em></p>
+</div>
 
-p(lead). The Max Package Manager makes it easy to install Jamoma.
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/161361407?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 &nbsp;
 
-Alternatively you can download the latst release from GitHub and install yourself. The download is organised as a Max Pachage.
+h3. Install manually
 
-p=. <a href="https://github.com/jamoma/JamomaMax/releases/latest" target="_blank" class="btn btn-success">Latest Release on GitHub</a>
+Alternatively you can download the latst release from GitHub and install yourself. The download is organised as a Max Package.
+
+p=. <a href="https://github.com/jamoma/JamomaMax/releases/latest" target="_blank" class="btn btn-primary">Latest Release on GitHub</a>
 
 &nbsp;
 

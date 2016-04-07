@@ -33,23 +33,9 @@
               
               <hr/>
               
-	  	      
-	  	      	<% if !@item[:categories].nil? %>
-	  		    	    <ul class="list-inline text-center">
-	  	 	     		    <% @item[:categories].sort.each do |category| %>
-                      <li class="text-capitalize category">
-	  		          	    <a href="/categories/<%= category %>"><%= category%></a> &nbsp;
-                      </li>
-	  	      	 	  	<% end %>
-	  		    	    </ul>
-	  		    	<% end %>
             </div> <!-- col --> 
           </div> <!-- row -->
-          
-          <div class="row">
-            <div class="col-xs-12" style="height:2em;"></div>
-          </div> <!-- row -->
-          
+                    
           <div class="row">
             <div class="col-md-12">
 	  		    	
