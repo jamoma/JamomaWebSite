@@ -1,4 +1,4 @@
-h1. Jamoma for PureData nightly-builds.
+h1. Jamoma for PureData <br/><small>Latest release</small>
 
 Some robots are building Jamoma each times a human developer make a modification in code.
 Those binary packages are listed below :

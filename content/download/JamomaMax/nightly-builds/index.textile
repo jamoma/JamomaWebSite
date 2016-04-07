@@ -1,4 +1,4 @@
-h1. Jamoma for Max nightly-builds.
+h1. Jamoma for Max <br/><small>Nightly builds</small>
 
 Some robots are building Jamoma each times a human developer make a modification in code.
 Those binary packages are listed below :

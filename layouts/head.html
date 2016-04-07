@@ -248,7 +248,7 @@
 	<link href="http://feeds.feedburner.com/Jamoma" rel="alternate" title="Jamoma News" type="application/atom+xml" />
   
   <!-- Title -->
-	<title>Jamoma - <%= @item[:title] %></title>
+	<title>Jamoma - <%= @item[:title].to_s.gsub(/<\/?[^>]*>/, "") %></title>
 		
 	<!-- you don't need to keep this, but it's cool for stats! -->
 	<meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
