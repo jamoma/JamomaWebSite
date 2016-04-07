@@ -21,7 +21,7 @@ git tag -l | xargs git tag -d
 git fetch
 </pre>
 
-p=. <%= fancyImage @item, "images/nerdy-patch.png", "images/nerdy-patch.png", "Nerdy patch" %>
+<%= fancyImage @item, "images/nerdy-patch.png", "images/nerdy-patch.png", "Nerdy patch" %>
 
 And for the nerds, the above screenshot is the Max patch I used to generate the following four commands for each and every tag of each of those repositories:
 

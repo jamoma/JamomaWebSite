@@ -13,7 +13,7 @@ categories:
 - packages
 ---
 
-p=. <%= fancyImage @item, "images/jamoma-package.png", "images/jamoma-package-thumb.png", "Jamoma for Max organised as a package" %>
+<%= fancyImage @item, "images/jamoma-package.png", "images/jamoma-package-thumb.png", "Jamoma for Max organised as a package" %>
 
 Over the past weeks, Tim and Theo have made some changes to Jamoma, its build scripts, etc., affecting developers and users that are checking out and building Jamoma from the GitHub repositories rather than using installers. These changes further improve the separation between generic C++ libraries and Max-specific implementations, simplifies future distribution of Jamoma, and makes it easier to switch between different versions of Jamoma.
 

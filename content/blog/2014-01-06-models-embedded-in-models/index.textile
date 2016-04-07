@@ -18,8 +18,8 @@ A filter or a limiter can come in handy in all sorts of audio processing models.
 
 In Jamoma 0.6 it is possible to embed models in models, and the output~ model is one example that makes extensive use of this. It offers saturation and limiter master effects as well as stereo balance, and in 0.6 these functions are impemented by embedding the pre-existing saturation~, limiter~ and balance~ models:
 
-p=. <%= fancyImage @item, "images/embedded-models.png", "images/embedded-models.png", "Models embedded in the output~ model", "embedded-models" %>
+<%= fancyImage @item, "images/embedded-models.png", "images/embedded-models.png", "Models embedded in the output~ model", "embedded-models" %>
 
 The @amenities attribute, when set to none, ensures that the embedded models do not introduce additional audio/foo, preset/foo or view/foo parameters and messages of their own in the model. The result is a nice and clean namespace of parameters and messages, as can be seen from the pop-up menu of the output~.view:
 
-p=. <%= fancyImage @item, "images/output-namespace.png", "images/output-namespace-thumb.png", "output~.model namespace", "embedded-models" %>
+<%= fancyImage @item, "images/output-namespace.png", "images/output-namespace-thumb.png", "output~.model namespace", "embedded-models" %>

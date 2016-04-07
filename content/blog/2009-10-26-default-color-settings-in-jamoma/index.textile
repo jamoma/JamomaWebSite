@@ -14,7 +14,7 @@ categories:
 ---
 If you have installed Jamoma for the first time and you were so excited that you were beginning to use Jamoma without reading the "getting started" section in the ReadMe.rtf, then you have probably seen this kind of dark color scheme. 
 
-p=. <%= fancyImage @item, "images/dark-module.png", "images/dark-module.png", "This is not the way Jamoma modules should look like", "wrong" %>
+<%= fancyImage @item, "images/dark-module.png", "images/dark-module.png", "This is not the way Jamoma modules should look like", "wrong" %>
 
 %{color:red}This is not the way Jamoma modules should look like.%
 
@@ -26,7 +26,7 @@ In order to let Max5 know about our custom made interface objects (e.g. jcom.ui)
 
 Then Jamoma will show up like this:
 
-p=. p=. <%= fancyImage @item, "images/good-looking-module.png", "images/good-looking-module.png", "This is what Jamoma modules should look like", "wrong" %>
+p=. <%= fancyImage @item, "images/good-looking-module.png", "images/good-looking-module.png", "This is what Jamoma modules should look like", "wrong" %>
 
 For everyday work with Jamoma, I personally like the JamomaGraphite color scheme. But for a performance situation, where you want a darker background, you should check out JamomaNoir or JamomaKulerQuietCry.
 

@@ -12,7 +12,7 @@ categories:
 - Jamoma-0.6
 ---
 
-p=. <%= fancyImage @item, "images/0.6.0-alpha-way-of-patching.png", "images/0.6.0-alpha-way-of-patching.png", "0.6 way of patching" %>
+<%= fancyImage @item, "images/0.6.0-alpha-way-of-patching.png", "images/0.6.0-alpha-way-of-patching.png", "0.6 way of patching" %>
 
 The Jamoma 0.6 alpha version development continues. The new way of patching is close to be finalized and many fixes have been made in "real life" situations to ensure Max patchers stability. The 0.6 version provides a clear separation between the *model* (where the core execution happens) and its *views* (where gui complexity are handled). Thus, the *module* now simply eases the creation of a standard view for a model in one shot.
 

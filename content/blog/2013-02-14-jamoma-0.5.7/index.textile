@@ -25,7 +25,7 @@ categories:
 ---
 
 
-p=. <%= fancyImage @item, "images/Jamoma-0.5.7.png", "images/Jamoma-0.5.7-thumb.png", "Jamoma 0.5.7" %>
+<%= fancyImage @item, "images/Jamoma-0.5.7.png", "images/Jamoma-0.5.7-thumb.png", "Jamoma 0.5.7" %>
 
 We are happy to announce the release of Jamoma 0.5.7 for Mac. Please visit the "Jamoma download page":http://jamoma.org/download/ to grab a copy of the installer.
 

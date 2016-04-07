@@ -15,7 +15,7 @@ categories:
 ---
 
 
-p=. <%= fancyImage @item, "images/Jamoma-0.5.7-rc4.png", "images/Jamoma-0.5.7-rc4-thumb.png", "Jamoma 0.5.7 release candidate 4" %>
+<%= fancyImage @item, "images/Jamoma-0.5.7-rc4.png", "images/Jamoma-0.5.7-rc4-thumb.png", "Jamoma 0.5.7 release candidate 4" %>
 
 It turned out that a few externals where missing in the rc3 installer (jcom.clip~, jamoma~ and jamoma≈), so we try again. We've added those files, but apart from that there are no changes.
 

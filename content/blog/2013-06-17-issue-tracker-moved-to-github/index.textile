@@ -13,7 +13,7 @@ categories:
 - Redmine
 ---
 
-p=. <%= fancyImage @item, "images/github-tracker.png", "images/github-tracker-thumb.png", "GitHub issue tracker" %>
+<%= fancyImage @item, "images/github-tracker.png", "images/github-tracker-thumb.png", "GitHub issue tracker" %>
 
 When all of the Jamoma developers were gathered in Albi the past two weeks, most of the time was spent discussing current and future development. But we also spent some time on various kinds of project management in order to simplify our workflow.
 

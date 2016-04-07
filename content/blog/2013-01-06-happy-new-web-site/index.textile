@@ -15,7 +15,7 @@ categories:
 
 First thing first, we wish all Jamoma users a happy new year! We hope 2013 will be full of exciting and successful projects!
 
-p=. <%= fancyImage @item, "images/cal.png", "images/cal-thumb.png", "2013 page" %>
+<%= fancyImage @item, "images/cal.png", "images/cal-thumb.png", "2013 page" %>
 
 In order to start 2013 in a good way, we thought it would be great to take the opportunity of the Christmas break to work on the Jamoma website. And "quite a lot of work has been done":https://github.com/jamoma/JamomaWebSite/graphs/commit-activity. The look might be more or less the same, but the website has moved to a new platform - the nice "nanoc web publishing system":http://nanoc.stoneship.org. It will now be much easier to create new content, and hopefully this will generate more activity here.
 

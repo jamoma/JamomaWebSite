@@ -101,7 +101,7 @@ In the months that followed, the Build &amp; Test solution provided some satisfy
 
 In Xcode, the error looks something like this:
 
-p=. <%= fancyImage @item, "images/TTBufferXcodeAssertionFail.png", "images/TTBufferXcodeAssertionFail.png", "Xcode says my userCount didn't match expectations", "test-and-build" %>
+<%= fancyImage @item, "images/TTBufferXcodeAssertionFail.png", "images/TTBufferXcodeAssertionFail.png", "Xcode says my userCount didn't match expectations", "test-and-build" %>
 
 
 h3(#benefits). Benefits

@@ -12,7 +12,7 @@ categories:
 - OpenMusic
 - spatialisation
 ---
-p=. <%= fancyImage @item, "images/multiplayer.png", "images/multiplayer.png", "Multiplayer" %>
+<%= fancyImage @item, "images/multiplayer.png", "images/multiplayer.png", "Multiplayer" %>
 
 The Multiplayer by Marlon Schumacher is a MaxMSP-based application for general purpose multichannel file playback and ambisonic decoding, developed as part of the OMprisma Library for IRCAM’s OpenMusic 6.1.
 

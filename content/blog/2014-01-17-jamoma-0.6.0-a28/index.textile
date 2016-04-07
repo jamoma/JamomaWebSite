@@ -18,7 +18,7 @@ However you may have a look at the j.map features : this external allow you to e
 
 The picture below illustrates what kind of module you'll be able to create to handle the j.map external. In this module we use the freehand function to manually edit any kind of mapping.
 
-p=. <%= fancyImage @item, "images/example-of-j.map-feature.png", "images/example-of-j.map-feature.png", "example of j.map feature" %>
+<%= fancyImage @item, "images/example-of-j.map-feature.png", "images/example-of-j.map-feature.png", "example of j.map feature" %>
 
 If you're interested in testing the new 0.6.0-a28 release you can get it "here":http://www.jamoma.org/download/0.6/.
 

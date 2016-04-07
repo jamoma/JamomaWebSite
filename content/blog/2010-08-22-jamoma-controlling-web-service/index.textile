@@ -16,7 +16,7 @@ categories:
 ---
 
 
-p=. <%= fancyImage @item, "images/webservice.png", "images/webservice-thumb.png", "Controlling Web Servive from Jamoma" %>
+<%= fancyImage @item, "images/webservice.png", "images/webservice-thumb.png", "Controlling Web Servive from Jamoma" %>
 
 Today saw a new functionality added to Jamoma. The *jcom.webservice* component enables controlling and monitoring Web Sharing, the service enabling the computer to function as a web server, from within Max and Jamoma.
 

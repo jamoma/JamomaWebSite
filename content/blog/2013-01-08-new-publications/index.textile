@@ -17,7 +17,7 @@ categories:
 ---
 
 
-p=. <%= fancyImage @item, "images/cmj-article.png", "images/cmj-article-thumb.png", "CMJ Article by Alexander Refsum Jensenius and Victoria Johnson" %>
+<%= fancyImage @item, "images/cmj-article.png", "images/cmj-article-thumb.png", "CMJ Article by Alexander Refsum Jensenius and Victoria Johnson" %>
 
 The most recent editions of Leonardo and Computer Music Journal (CMJ) features articles relating to Jamoma. Leonardo features an article by Alexander Refsum Jensenius on "some video abstraction techniques for displaying body movement in analysis and performance":http://www.mitpressjournals.org/doi/abs/10.1162/LEON_a_00485, while CMJ features an article on a collaboration between Alexander and Victoria Johnson: "Performing the electric violin in a sonic space":http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/computer_music_journal/v036/36.4.jensenius.html.
 

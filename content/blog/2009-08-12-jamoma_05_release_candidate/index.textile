@@ -15,7 +15,7 @@ categories:
 After more than a year of hard work and 17 previous beta versions, we
 are finally on the home stretch of releasing Jamoma 0.5 .
 
-p=. <%= fancyImage @item, "images/modular.png" %>
+<%= fancyImage @item, "images/modular.png" %>
 
 We're glad to announce Jamoma 0.5 Release Candidate 1, which is available "online":/download/.
 

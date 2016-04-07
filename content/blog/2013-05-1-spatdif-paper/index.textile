@@ -12,7 +12,7 @@ categories:
 - "Computer Music Journal"
 ---
 
-p=. <%= fancyImage @item, "images/2013-CMJ-Front.png", "images/2013-CMJ-Front-thumb.png", "SpatDIF article in CMJ" %>
+<%= fancyImage @item, "images/2013-CMJ-Front.png", "images/2013-CMJ-Front-thumb.png", "SpatDIF article in CMJ" %>
 
 The latest issue of  the Computer Music Journal (MIT Press) includes an article on the Spatial Sound Description Interchange Format (SpatDIF) by "Nils Peters":http://nilspeters.info/, "Trond Lossius":http://www.trondlossius.no, and "Jan Schacher":http://www.jasch.ch/focus.html, entitled “The Spatial Sound Description Interchange Format: Principles, Specification, and Examples”.
 

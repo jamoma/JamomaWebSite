@@ -22,14 +22,14 @@ With a window size of 4096 samples and a overlap factor of 4, our pfft~ object i
 
 Today I found a simple way of addressing this. Before looking into the details, we should recap how audio gain, mixing, bypassing and muting are handled in audio models. Here's a screenshot of the degrade~-model, our pet lab rat:
 
-p=. <%= fancyImage @item, "images/behind-the-scene.png", "images/behind-the-scene-thumb.png", "The degrade model", "synced" %>
+<%= fancyImage @item, "images/behind-the-scene.png", "images/behind-the-scene-thumb.png", "The degrade model", "synced" %>
 
 In terms of audio processing this is a pretty simple model. As you can see j.in~ and j-out~ objects have been added to the audio processing chain. In addition to audio signals passed along patch chords in the usual MSP way, the j.in~ and j.out~ objects also sets up a direct link, permitting j.in~ to pass audio directly to j.out~. This enables j.out~ to mix dry and wet signals, or bypass the wet signal altogether. j.out~ also controls model output gain level, as well as muting of the patch.
 
 
 The trick then is quite simple: We just need to put j.in~ on a separate branch of the audio graph, and delay the signal reaching j.in~ order to compensate for the delay introduced by pfft~. This way the signals reaching j.in~ and j.out~ have the same amount of delay:
 
-p=. <%= fancyImage @item, "images/spectralGate~.model.png", "images/spectralGate~.model-thumb.png", "Delaying the signal reaching j.in~~", "synced" %>
+<%= fancyImage @item, "images/spectralGate~.model.png", "images/spectralGate~.model-thumb.png", "Delaying the signal reaching j.in~~", "synced" %>
 
 
 And finally, here's a demo of what it sounds like. First we hear the dry signal, then the wet, and finally a mix of the two.

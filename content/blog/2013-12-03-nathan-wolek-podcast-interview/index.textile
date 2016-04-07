@@ -12,6 +12,6 @@ categories:
 - Nathan-Wolek
 ---
 
-p=. <%= fancyImage @item, "images/wolek.jpg", "images/wolek-thumb.jpg", "Nathan Wolek", "nathan" %>
+<%= fancyImage @item, "images/wolek.jpg", "images/wolek-thumb.jpg", "Nathan Wolek", "nathan" %>
 
 Darwin Gross has just released a "podcast interview with Nathan Wolek":http://artmusictech.libsyn.com/podcast-008-nathan-wolek, talking about his musical education and career, his work on the Granular Toolkit, and his contributions to Jamoma development.

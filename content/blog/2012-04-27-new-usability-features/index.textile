@@ -28,13 +28,13 @@ Sometimes it is really hard to remember all the Jamoma externals and its attribu
 
 For allowing faster development of Jamoma modules, we started to implement autocompletion. At the moment, it works for the most frequently used externals. We will add this features for all externals in the next updates.
 
-p=. <%= fancyImage @item, "images/autocompletion.png", "images/autocompletion-thumb.png", "Autocompletion", "autocomplete" %>
+<%= fancyImage @item, "images/autocompletion.png", "images/autocompletion-thumb.png", "Autocompletion", "autocomplete" %>
 
 h2. 2. Gain and Mix widget
 
 Have you ever been confused which of the dials in a jamoma module is a gain dial and which dial is for dry/wet mixing? When you now click on either one of them, the menu will display the name of the dial and it's current value:
 
-p=. <%= fancyImage @item, "images/widget.png", "images/widget.png", "Widget assistance", "widget-assistance" %>
+<%= fancyImage @item, "images/widget.png", "images/widget.png", "Widget assistance", "widget-assistance" %>
 
 h2. 3. Tooltips
 
@@ -44,10 +44,10 @@ Yes, you can take a look into the reference page, but that is not always conveni
 
 We now take advantage of Max6's toolbar. When you hover with the mouse over a GUI element, its description will be displayed at the bottom of the patcher:
 
-p=. <%= fancyImage @item, "images/tooltip.png", "images/tooltip-thumb.png", "Tooltip", "tooltip" %>
+<%= fancyImage @item, "images/tooltip.png", "images/tooltip-thumb.png", "Tooltip", "tooltip" %>
 
 The cool thing is that this also works for your existing private modules. Moreover, adding tooltips to existing modules doesn't requiere any extra work.
 
 How is that possible? We now added some code to jcom.parameter and jcom.message. When a module is initialized, the @description message of jcom.parameter or jcom.message will automatically be used to tag a connected GUI element. See the inside of *jmod.degrade\~*
 
-p=. <%= fancyImage @item, "images/documentation-attribute.png", "images/documentation-attribute-thumb.png", "@documentation attribute", "documentation-attribute" %>
+<%= fancyImage @item, "images/documentation-attribute.png", "images/documentation-attribute-thumb.png", "@documentation attribute", "documentation-attribute" %>

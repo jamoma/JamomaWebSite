@@ -13,7 +13,7 @@ categories:
 - motion
 ---
 
-p=. <%= fancyImage @item, "images/music-moves.jpg", "images/music-moves.jpg", "Music Moves", "music-moves" %>
+<%= fancyImage @item, "images/music-moves.jpg", "images/music-moves.jpg", "Music Moves", "music-moves" %>
 
 
 The fourMs lab at the University of Oslo is now offering the free online course "Music Moves: Why Does Music Make You Move?":https://www.futurelearn.com/courses/music-moves/. At the end of the promo video, some Jamoma modules can be spotted.

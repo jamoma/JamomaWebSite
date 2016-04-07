@@ -13,7 +13,7 @@ categories:
 - art-installation
 ---
 
-p=. <%= fancyImage @item, "images/moviestar.jpg", "images/moviestar.jpg", "Moviestar" %>
+<%= fancyImage @item, "images/moviestar.jpg", "images/moviestar.jpg", "Moviestar" %>
 
 The interactive installation Moviestar by Marieke Verbiesen & co was presented at the recent "Meteor festival":http://bit-teatergarasjen.no/meteor-2013/meteor-2013/ in Bergen. In the installation Max, Jitter and Jamoma is used for live interactive video processing, making use of chromakeying and blob tracking.
 

@@ -11,7 +11,7 @@ categories:
 - packages
 ---
 
-p=. <%= fancyImage @item, "images/swap-packages.png", "images/swap-packages-thumb.png", "SpatDIF article in CMJ" %>
+<%= fancyImage @item, "images/swap-packages.png", "images/swap-packages-thumb.png", "SpatDIF article in CMJ" %>
 
 Jamoma developers are currently lining up in Albi for a workshop (more on that later). Currently everyone are busy bringing their systems up to date for the workshop. One question that keeps popping up is how to be able to fast and efficiently swap back and forth between using Jamoma 0.5.7 and Jamoma 0.6-alpha. Here's my solution to this, using Max 6.1 on OSX:
 

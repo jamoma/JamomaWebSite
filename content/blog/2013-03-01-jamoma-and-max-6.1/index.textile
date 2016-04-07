@@ -14,7 +14,7 @@ categories:
 - crash
 ---
 
-p=. <%= fancyImage @item, "images/max6-1.png", "images/max6-1-thumb.png", "Jamoma isnnotbyet compatible with Max 6.1" %>
+<%= fancyImage @item, "images/max6-1.png", "images/max6-1-thumb.png", "Jamoma isnnotbyet compatible with Max 6.1" %>
 
 Recently Cycling'74 announced a "public beta of Max 6.1":http://cycling74.com/forums/topic.php?id=45448. This is a 64-bit version of Max accompanying the upcoming release of "Live 9":https://www.ableton.com/. Max 6.1 can be run as 32-bit or 64-bit, but unfortunately initial testing reveals that the current Jamoma (0.5.7) will not be able to be used with neither versions of Max 6.1.
 

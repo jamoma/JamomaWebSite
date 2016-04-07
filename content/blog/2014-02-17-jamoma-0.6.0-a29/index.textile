@@ -16,7 +16,7 @@ A new 29th alpha release of Jamoma 0.6.0 is online. This version contains many i
 
 But why should you try the 0.6 version ? because you'll get the benefit of a real Model-View-Controler architecture. Look at those 2 patchers :
 
-p=. <%= fancyImage @item, "images/example-of-MVC-benefit.png", "images/example-of-MVC-benefit.png", "example of MVC benefit" %>
+<%= fancyImage @item, "images/example-of-MVC-benefit.png", "images/example-of-MVC-benefit.png", "example of MVC benefit" %>
 
 One to patch some sharable and modular ressources and one to patch a specific behavior remotely.
 

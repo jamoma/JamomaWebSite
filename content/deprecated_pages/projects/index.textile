@@ -5,6 +5,6 @@ menu: whatIsJamoma
 
 Eventually this page will contain examples of artistic projects and research showcasing how Jamoma might be used "in the real world".
 
-p=. <%= fancyImage @item, "images/work-in-progress.png", "images/work-in-progress-thumb.png", "Work in progress" %>
+<%= fancyImage @item, "images/work-in-progress.png", "images/work-in-progress-thumb.png", "Work in progress" %>
 
 Please "contact us":mailto:jamoma@jamoma.org if you use Jamoma and would like us to showcase your projects.

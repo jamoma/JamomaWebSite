@@ -14,7 +14,7 @@ p(text-center). <a href="/download/" class="btn btn-success">Download</a> <a hre
 
 h2(page-header). Modularity <span class="small">With model-view-controller separation</span>
 
-p=. <%= fancyImage @item, "images/models-and-views.png", "images/models-and-views.png", "Model-View-Controller separation", "MVC" %>
+<%= fancyImage @item, "images/models-and-views.png", "images/models-and-views.png", "Model-View-Controller separation", "MVC" %>
 
 Each section of your patch is neatly turned into a model. The interfaces for the models are developed separately, and this gives a new sense of freedom with respect to how they can be designed and used.
 
@@ -24,7 +24,7 @@ You can change the interface without needing to change the model, you can swap b
 
 h2(page-header). Rapid prototyping
 
-p=. <%= fancyImage @item, "images/rapid-prototyping.png", "images/rapid-prototyping.png", "Rapid prototyping", "prototyping" %>
+<%= fancyImage @item, "images/rapid-prototyping.png", "images/rapid-prototyping.png", "Rapid prototyping", "prototyping" %>
 
 Jamoma for Max comes with a rich set of models for processing of data, audio and video. Whether it is for an art installation, audio production, VJ-ing or stage productions, developing a specific tool is just a matter of opening a blank Max patch and start having fun inserting and connecting models available right out of the box.
 
@@ -32,7 +32,7 @@ Jamoma for Max comes with a rich set of models for processing of data, audio and
 
 h2(page-header). Presets and cues
 
-p=. <%= fancyImage @item, "images/presets.png", "images/presets.png", "Model presets", "presets" %>
+<%= fancyImage @item, "images/presets.png", "images/presets.png", "Model presets", "presets" %>
 
 Jamoma makes it easier to control your Max patchers. The patch can be instantiated in a predictable and reliable way. At any moment you can ask your patch how it is currently configured, and use this to build presets and cues for future performances.
 
@@ -42,7 +42,7 @@ Jamoma offers powerful show control for your live performances. Use it to contro
 
 h2(page-header). Mapping and interaction
 
-p=. <%= fancyImage @item, "images/mappings.png", "images/mappings.png", "Mappings and preset interpolations", "mapping" %>
+<%= fancyImage @item, "images/mappings.png", "images/mappings.png", "Mappings and preset interpolations", "mapping" %>
 
 How do you want interactions to operate? Mapping between parameters is a breeze, and invites playful experimentation. Advanced mappings with interpolations recreate long missed sound effect processes from the discontinued Hipno plugin suite.
 
@@ -50,7 +50,7 @@ How do you want interactions to operate? Mapping between parameters is a breeze,
 
 h2(page-header). Going surround
 
-p=. <%= fancyImage @item, "images/surround.png", "images/surround.png", "Sound spatialisation in Jamoma using AudioGraph and Distance-based amplitude panning.", "surround" %>
+<%= fancyImage @item, "images/surround.png", "images/surround.png", "Sound spatialisation in Jamoma using AudioGraph and Distance-based amplitude panning.", "surround" %>
 
 Many models are available for spatial audio, and AudioGraph turns your patch cord into an audio snake cable, carrying many channels.
 
@@ -58,7 +58,7 @@ Many models are available for spatial audio, and AudioGraph turns your patch cor
 
 h2(page-header). Communicate with other applications
 
-p=. <%= fancyImage @item, "images/osc-example-with-touchosc.png", "images/osc-example-with-touchosc.png", "Jamoma and OSC communication", "osc" %>
+<%= fancyImage @item, "images/osc-example-with-touchosc.png", "images/osc-example-with-touchosc.png", "Jamoma and OSC communication", "osc" %>
 
 All model parameters are readily accessible for OSC communicaiton, making it easy to connect Max and Jamoma with other OSC-compatible applications such as TouchOSC, Pure Data, Reaktor or Isadora. Of course, controlling modules with MIDI devices is also possible using the dedicated conversion and mapping models.
 
@@ -66,7 +66,7 @@ All model parameters are readily accessible for OSC communicaiton, making it eas
 
 h2(page-header). i-score
 
-p=. <%= fancyImage @item, "images/jamoma-and-i-score.png", "images/jamoma-and-i-score.png", "Jamoma and i-score", "i-score" %>
+<%= fancyImage @item, "images/jamoma-and-i-score.png", "images/jamoma-and-i-score.png", "Jamoma and i-score", "i-score" %>
 
 <a href="http://i-score.org/" target="_blank">i-score</a> is an intermedia sequencer for flexible scripting of interactive scenarios. i-score communicates with Jamoma for Max using the <a href="https://github.com/Minuit/minuit" target="_blank">Minuit</a> protocol.
 

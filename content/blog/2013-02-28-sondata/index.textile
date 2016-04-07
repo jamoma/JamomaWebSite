@@ -14,14 +14,14 @@ categories:
 - João-Menezes
 ---
 
-p=. <%= fancyImage @item, "images/sonData1.png", "images/sonData1.png", "SonData" %>
+<%= fancyImage @item, "images/sonData1.png", "images/sonData1.png", "SonData" %>
 <%= fancyImage @item, "images/sonData2.png", "images/sonData2.png", "SonData" %>
 
 At the upcoming "Code Control":http://code-control.com/ Max meetup in Leicester 22-24th March "João Menezes":http://cargocollective.com/joaomenezes will be presenting the SonData Interactive Data Sonification toolkit as part of the Catalyst Science Fair. In addition he will conduct a workshop on "Automatic generation of parameter data":http://code-control.com/2013/02/25/joao-menezes_get-parametrical/.
 
 h2. SonData
 
-p=. <%= fancyImage @item, "images/sonData3.png", "images/sonData3.png", "SonData" %>
+<%= fancyImage @item, "images/sonData3.png", "images/sonData3.png", "SonData" %>
 <%= fancyImage @item, "images/sonData4.png", "images/sonData4.png", "SonData" %>
 
 "SonData":http://cargocollective.com/joaomenezes/sondata is an Interactive Data Sonification toolkit, targeted at all practitioners interested in sonifying data. However, it also provides a set of tools that are useful to the academic and scientific Data Sonification community.

@@ -16,7 +16,7 @@ Part of the Jamoma team will be in Athens for the 2014 "joined Sound and Music C
 
 If you want to see in action what we've been dealing with for the last years or if you just want to meet the team, you are more than welcome to come and join the audience.
 
-p=. <%= fancyImage @item, "images/ICMC-paper.png", "images/ICMC-paper.png", "ICMC paper header" %>
+<%= fancyImage @item, "images/ICMC-paper.png", "images/ICMC-paper.png", "ICMC paper header" %>
 
 While we're promoting Jamoma work, please note that some of them will also present some other works they're involved into. Pascal Baltazar and Théo De La Hogue will conduct a workshop on the "interactive intermedia sequencer i-score":http://www.i-score.org. Trond Lossius will also present the paper "The SpatDIF library – concepts and practical applications in audio software" written with Jan Schacher and Chikashi Miyama and the "ATK reaper: ambisonic toolkit as JSFX plugins" paper, written with Joseph Anderson.
 

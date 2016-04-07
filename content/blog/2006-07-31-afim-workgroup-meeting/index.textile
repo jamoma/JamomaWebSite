@@ -49,11 +49,11 @@ feedback.
 
 What we'll try to achieve this summer consists of:
 
-p=. <%= fancyImage @item, "images/diagram.png", "images/diagram.png", "Eve framework", "eve" %>
+<%= fancyImage @item, "images/diagram.png", "images/diagram.png", "Eve framework", "eve" %>
 
 * A wrapping system, to build automatically the setup with a menu/jit.cellblock system. We will use the "group" system designed by Mathieu, which is a way to hide/show bpatchers by groups, thus making a kind of Mozilla-like Tab system. There will be the possibility to have either a pattrstorage or a cuelist on top of everything, to manage cues and states. We'll also allow the possibility to have preset sub-spaces, for example in auxilliary windows (for example, for audio-matricing : to have matricing presets changing less often than other cues, but although commanded by the main preset management system... There will also be a vu-meter space, to monitor inputs and outputs, and a buffer management system, to dynamically build a bunch of buffers, connected to all the RAM modules. Here comes a little sketch of it, as a fullscreen patch:
 
-p=. <%= fancyImage @item, "images/matrix.png", "images/matrix.png", "Audio Matrix SeqCon", "matrix" %>
+<%= fancyImage @item, "images/matrix.png", "images/matrix.png", "Audio Matrix SeqCon", "matrix" %>
 
 * An audio-matricing system, with a multislider interface, to allow progressive sends, based on François's SeqCon Matrix : "http://hapax84.free.fr/telecharg.html":http://hapax84.free.fr/telecharg.htm or
 "http://www.macmusic.org/news/view.php/lang/en/id/3620/":http://www.macmusic.org/news/view.php/lang/en/id/3620/
