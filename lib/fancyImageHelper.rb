@@ -21,6 +21,6 @@ module FancyImageHelper
       effect = "fancybox"
     end
       
-    fancyString = fancyString = "<p class=\"text-center\"><a class=\"" + effect + "\" href=\"" + @item.identifier + image + "\"data-fancybox-group=\"" + context +"\" title=\"" + caption + "\"> <img alt=\"" + caption + "\" class=\"img-rounded\" src=\"" + @item.identifier + thumb + "\"/></a></p>"
+    fancyString = fancyString = "<p class=\"text-center fancy-paragraph\"><a class=\"" + effect + "\" href=\"" + @item.identifier + image + "\"data-fancybox-group=\"" + context +"\" title=\"" + caption + "\"> <img alt=\"" + caption + "\" class=\"img-rounded\" src=\"" + @item.identifier + thumb + "\"/></a></p>"
   end
 end

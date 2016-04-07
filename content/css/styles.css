@@ -21,8 +21,12 @@
 
 /* mouse over link for orange*/
 
+p.fancy-paragraph {
+    width: 100%;
+}
+
 a.image, a.fancybox{
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 a.image img, a.fancybox img{
