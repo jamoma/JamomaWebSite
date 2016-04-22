@@ -1,5 +1,5 @@
 --- 
-title: Jamoma <br/><span class="small">Modular Patching and Programming for Realtime Media</span>
+title: Modular Patching <br/><span class="small">and Programming for Realtime Media</span>
 menu: none
 ---
 
